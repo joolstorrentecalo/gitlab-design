@@ -2,4 +2,4 @@
 
 
 
-![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/uploads/a4042d55b5ba5029abaade6dc75e7998/gitlab-cover-image.jpg)
+![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/uploads/133c325320bf6e73c4564bfc2939541a/gitlab-cover-image.jpg)

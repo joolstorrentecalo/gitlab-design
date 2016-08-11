@@ -66,8 +66,12 @@ As design files are mostly binary files, merge conflicts can easily get stuck in
 
 - Try to adhere to [BEM naming convention](http://getbem.com/naming/) like so: block--element-modifier
 
-
 *[Issue for Layer/Group Naming Convention Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/13)*
+
+## Sketch Management
+
+- Please try to use the [Symbol Resizing](https://blog.sketchapp.com/sketch-39-brings-symbol-resizing-and-cloud-beta-a74d3aa0611a#.rcu9qt4er) feature, when creating symbols
+- Add hidden *full red* (#FF0000) blocks, for important paddings and margins.
 
 ## Delivery
 

@@ -29,7 +29,7 @@ do
     if [ -f ${array[$i]} ]; then
         y=${array[$i]%.sketch}
         export DIR=${array[$i]%/*}
-        sketchtool --overwriting="YES" --background="#FFFFFF" --output=${DIR}/${y##*/} export pages ${array[$i]// /\\ }
+        sketchtool --overwriting="YES" --output=${DIR}/${y##*/} export pages ${array[$i]// /\\ }
     else
         echo "file not found"
     fi

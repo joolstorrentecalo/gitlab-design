@@ -86,6 +86,12 @@ All designs mockups and details are delivered in the issue that describes the fe
 
 When additional detail is needed, developers will ask for this. Take inspiration out of the link above if needed.
 
+## Archive
+
+The archive directory contains all old design files and resources, including those made with [Antetype](http://www.antetype.com/).
+
+Old Antetype design files can still be valuable, if so see: [Converting antetype files for use with sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
+
 ## Links
 
 - [UX Designer Onboarding Page](https://about.gitlab.com/handbook/uxdesigner-onboarding/) - [Issue for Discussion](https://gitlab.com/gitlab-com/www-gitlab-com/issues/755)

@@ -67,7 +67,13 @@ As design files are mostly binary files, merge conflicts can easily get stuck in
 
 ### Layers & Groups (inside Sketch)
 
-- Try to adhere to [BEM naming convention](http://getbem.com/naming/) like so: block--element-modifier
+- Try to adhere to [BEM naming convention](http://getbem.com/naming/) like so: block-element__modifier
+
+Example:
+
+- `navigation-1__project`
+
+- if you need to add the modifier, you can: `navigation-1__project--issues`
 
 *[Issue for Layer/Group Naming Convention Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/13)*
 

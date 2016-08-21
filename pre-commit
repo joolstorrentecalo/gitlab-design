@@ -12,6 +12,8 @@ do
     (( i++ ))
 done < <( git diff --name-only --cached --pretty="format:" | sed 's/ /\\ /g' | sort | uniq | grep ".*\.sketch$")
 
+git diff --name-only --cached --pretty="format:" | sed 's/ /\\ /g' | sort | uniq | grep ".*\.sketch$"
+
 # For each sketch file, generate "overwriting" png exports and put them in their seperate like file named folder
 for ((i = 0; i < ${#array[@]}; i++))
 do

@@ -1,0 +1,42 @@
+#!/bin/bash
+
+echo "$(tput setaf 2)installing sketchtool$(tput sgr0)"
+/Applications/Sketch.app/Contents/Resources/sketchtool/install.sh
+echo "$(tput setaf 2)finished installing sketchtool$(tput sgr0)"
+echo "$(tput setaf 2)Looking for changed or added .sketch files, to generate previews$(tput sgr0)"
+# Get all sketch files you want to push
+i=0
+while read line
+do
+    array[ $i ]="$line"
+    (( i++ ))
+done < <( git diff --name-only --cached --pretty="format:" | sed 's/ /\\ /g' | sort | uniq | grep ".*\.sketch$")
+
+# For each sketch file, generate "overwriting" png exports and put them in their seperate like file named folder
+for ((i = 0; i < ${#array[@]}; i++))
+do
+    if [ -f ${array[$i]} ]; then
+        y=${array[$i]%.sketch}
+        export DIR=${array[$i]%/*}
+        echo "$(tput setaf 2)delete old previews$(tput sgr0)"
+        rm -r ${DIR}/${y##*/}
+        echo "$(tput setaf 2)generate new previews$(tput sgr0)"
+        sketchtool --overwriting="YES" --output=${DIR}/${y##*/} export pages ${array[$i]// /\\ }
+				git add ${DIR}/${y##*/}
+    else
+        echo "$(tput setaf 1)file(s) not found$(tput sgr0)"
+    fi
+done
+
+echo "$(tput setaf 1)   /\     /\   $(tput sgr0)"
+echo "$(tput setaf 1)  /  \___/  \  $(tput sgr0)"
+echo "$(tput setaf 3) /           \ $(tput sgr0)"
+echo "$(tput setaf 3) \ $(tput sgr0)$(tput setaf 1)\ \   / / $(tput sgr0)$(tput setaf 3)/ $(tput sgr0)"
+echo "$(tput setaf 3)  \ $(tput sgr0)$(tput setaf 1)\ \ / / $(tput sgr0)$(tput setaf 3)/  $(tput sgr0)"
+echo "$(tput setaf 3)   \ $(tput sgr0)$(tput setaf 1)\   / $(tput sgr0)$(tput setaf 3)/   $(tput sgr0)"
+echo "$(tput setaf 3)    \ $(tput sgr0)$(tput setaf 1)\ / $(tput sgr0)$(tput setaf 3)/    $(tput sgr0)"
+echo "$(tput setaf 3)     \   /     $(tput sgr0)"
+echo "$(tput setaf 3)      \ /      $(tput sgr0)"
+
+# End
+exit 0

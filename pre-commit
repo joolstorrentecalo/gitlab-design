@@ -19,7 +19,7 @@ do
         y=${array[$i]%.sketch}
         export DIR=${array[$i]%/*}
         echo "$(tput setaf 2)delete old previews$(tput sgr0)"
-        rm -r ${DIR}/${y##*/}
+        rm -rf ${DIR}/${y##*/}
         echo "$(tput setaf 2)generate new previews$(tput sgr0)"
         sketchtool --overwriting="YES" --output=${DIR}/${y##*/} export pages ${array[$i]// /\\ }
 				git add ${DIR}/${y##*/}

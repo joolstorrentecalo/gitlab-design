@@ -10,6 +10,9 @@ def main
   progress "Looking for changed or added .sketch files"
   diff_output = capture!(%W[git diff --name-only --cached --pretty=format:])
   sketch_files = diff_output.split("\n").grep(/\.sketch\z/)
+  if sketch_files.empty?
+    progress "No sketch files to create preview images for in this commit!"
+  end
   puts sketch_files
 
   sketch_files.each do |f|

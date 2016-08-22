@@ -1,44 +1,74 @@
-#!/bin/bash
+#!/usr/bin/env ruby
+require 'fileutils'
 
-echo "$(tput setaf 2)installing sketchtool$(tput sgr0)"
-/Applications/Sketch.app/Contents/Resources/sketchtool/install.sh
-echo "$(tput setaf 2)finished installing sketchtool$(tput sgr0)"
-echo "$(tput setaf 2)Looking for changed or added .sketch files, to generate previews$(tput sgr0)"
-# Get all sketch files you want to push
-i=0
-while read line
-do
-    array[ $i ]="$line"
-    (( i++ ))
-done < <( git diff --name-only --cached --pretty="format:" | sed 's/ /\\ /g' | sort | uniq | grep ".*\.sketch$")
+PROGNAME = 'pre-commit (auto-generate sketch previews)'
 
-git diff --name-only --cached --pretty="format:" | sed 's/ /\\ /g' | sort | uniq | grep ".*\.sketch$"
+def main
+  progress "Installing sketchtool"
+  system!(%W[/Applications/Sketch.app/Contents/Resources/sketchtool/install.sh])
 
-# For each sketch file, generate "overwriting" png exports and put them in their seperate like file named folder
-for ((i = 0; i < ${#array[@]}; i++))
-do
-    if [ -f ${array[$i]} ]; then
-        y=${array[$i]%.sketch}
-        export DIR=${array[$i]%/*}
-        echo "$(tput setaf 2)delete old previews$(tput sgr0)"
-        rm -rf ${DIR}/${y##*/}
-        echo "$(tput setaf 2)generate new previews$(tput sgr0)"
-        sketchtool --overwriting="YES" --output=${DIR}/${y##*/} export pages ${array[$i]// /\\ }
-				git add ${DIR}/${y##*/}
-    else
-        echo "$(tput setaf 1)file(s) not found$(tput sgr0)"
-    fi
-done
+  progress "Looking for changed or added .sketch files"
+  diff_output = capture!(%W[git diff --name-only --cached --pretty=format:])
+  sketch_files = diff_output.split("\n").grep(/\.sketch\z/)
+  puts sketch_files
 
-echo "$(tput setaf 1)   /\     /\   $(tput sgr0)"
-echo "$(tput setaf 1)  /  \___/  \  $(tput sgr0)"
-echo "$(tput setaf 3) /           \ $(tput sgr0)"
-echo "$(tput setaf 3) \ $(tput sgr0)$(tput setaf 1)\ \   / / $(tput sgr0)$(tput setaf 3)/ $(tput sgr0)"
-echo "$(tput setaf 3)  \ $(tput sgr0)$(tput setaf 1)\ \ / / $(tput sgr0)$(tput setaf 3)/  $(tput sgr0)"
-echo "$(tput setaf 3)   \ $(tput sgr0)$(tput setaf 1)\   / $(tput sgr0)$(tput setaf 3)/   $(tput sgr0)"
-echo "$(tput setaf 3)    \ $(tput sgr0)$(tput setaf 1)\ / $(tput sgr0)$(tput setaf 3)/    $(tput sgr0)"
-echo "$(tput setaf 3)     \   /     $(tput sgr0)"
-echo "$(tput setaf 3)      \ /      $(tput sgr0)"
+  sketch_files.each do |f|
+    unless File.exist?(f)
+      progress "#{f} does not exist (anymore?)"
+      next
+    end
 
-# End
-exit 0
+    png_output_dir = f.sub(/\.sketch\z/, '') + '-sketch-previews'
+    progress "deleting old previews"
+    FileUtils.rm_rf(png_output_dir)
+
+    progress "exporting pages"
+    cmd = %W[sketchtool --overwriting=YES --output=#{png_output_dir} export pages #{f}]
+    system!(cmd)
+
+    progress "adding to git"
+    system!(%W[git add #{png_output_dir}])
+  end
+    ascii1 = `echo "$(tput setaf 1)   /\\     /\\   $(tput sgr0)"`
+    ascii2 = `echo "$(tput setaf 1)  /  \\___/  \\  $(tput sgr0)"`
+    ascii3 = `echo "$(tput setaf 3) /           \\ $(tput sgr0)"`
+    ascii4 = `echo "$(tput setaf 3) \\ $(tput sgr0)$(tput setaf 1)\\ \\   / / $(tput sgr0)$(tput setaf 3)/ $(tput sgr0)"`
+    ascii5 = `echo "$(tput setaf 3)  \\ $(tput sgr0)$(tput setaf 1)\\ \\ / / $(tput sgr0)$(tput setaf 3)/  $(tput sgr0)"`
+    ascii6 = `echo "$(tput setaf 3)   \\ $(tput sgr0)$(tput setaf 1)\\   / $(tput sgr0)$(tput setaf 3)/   $(tput sgr0)"`
+    ascii7 = `echo "$(tput setaf 3)    \\ $(tput sgr0)$(tput setaf 1)\\ / $(tput sgr0)$(tput setaf 3)/    $(tput sgr0)"`
+    ascii8 = `echo "$(tput setaf 3)     \\   /     $(tput sgr0)"`
+    ascii9 = `echo "$(tput setaf 3)      \\ /      $(tput sgr0)"`
+    puts ascii1
+    puts ascii2
+    puts ascii3
+    puts ascii4
+    puts ascii5
+    puts ascii6
+    puts ascii7
+    puts ascii8
+    puts ascii9
+end
+
+def system!(cmd)
+  puts "running: #{cmd.join(' ')}"
+  abort failure_message(cmd) unless system(*cmd)
+end
+
+def capture!(cmd)
+  puts "capturing: #{cmd.join(' ')}"
+  result = IO.popen(cmd) { |io| io.read }
+  abort failure_message(cmd) unless $?.success?
+  result
+end
+
+def failure_message(cmd)
+  "#{PROGNAME}: command failed: #{cmd.join(' ')}"
+end
+
+def progress(msg)
+  system(*%W[tput setaf 2])
+  puts "#{PROGNAME}: #{msg}"
+  system(*%W[tput sgr0])
+end
+
+main

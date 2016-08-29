@@ -101,7 +101,7 @@ All designs mockups and details are delivered in the issue that describes the fe
 
 > Designers and developers often have different priorities, even though everyone is working toward one common goal: a fantastic, delightful, functional product. At Google, we're always working on ways to bridge this gap through unified spec formats and tools, so that intricate details are never lost in translation and things get done the way they're intended the first time - [Designer & Developer Communication Google IO 2016](https://www.youtube.com/watch?v=ZFyK1J5NrVk)
 
-Spec previews can be generated with the one of the [SUPERPOWERS](#GitLab-Design-Kit)!
+Spec previews can be generated with the one of the [SUPERPOWERS](#repository-superpowers-)!
 
 When additional detail is needed, developers will ask for this. Take inspiration out of the link above if needed.
 

@@ -1,0 +1,11 @@
+image: ruby:alpine
+
+pages:
+  stage: deploy
+  script:
+  - ruby specscript.rb
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

@@ -1,4 +1,4 @@
-# GitLab Design Kit
+# [GitLab Design Kit](https://gitlab-org.gitlab.io/gitlab-design)
 
 Contains all resources and information UX Designers need.
 

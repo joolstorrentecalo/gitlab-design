@@ -14,7 +14,7 @@ Contains all resources and information UX Designers need.
 
 - Semi automatic Sketch spec previews with Continuous Integration
 
-*Whenever you create a spec preview folder with the [Sketch Measure Plugin](https://github.com/utom/sketch-measure), append `spec-previews` to the name of the generated directory and it will be visible by an URL. Search in [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)
+*Whenever you create a spec preview folder with the [Sketch Measure Plugin](https://github.com/utom/sketch-measure), append `spec-previews` to the name of the generated directory and it will be visible by an URL. Search in [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*
 
 ### Activating them!
 

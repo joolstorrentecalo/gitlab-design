@@ -33,7 +33,7 @@ def main
     system!(%W[git add #{png_output_dir}])
   end
     ascii1 = `echo "$(tput setaf 1)   /\\     /\\   $(tput sgr0)"`
-    ascii2 = `echo "$(tput setaf 1)  /  \\___/  \\  $(tput sgr0)"`
+    ascii2 = `echo "$(tput setaf 1)  /__\\___/__\\  $(tput sgr0)"`
     ascii3 = `echo "$(tput setaf 3) /           \\ $(tput sgr0)"`
     ascii4 = `echo "$(tput setaf 3) \\ $(tput sgr0)$(tput setaf 1)\\ \\   / / $(tput sgr0)$(tput setaf 3)/ $(tput sgr0)"`
     ascii5 = `echo "$(tput setaf 3)  \\ $(tput sgr0)$(tput setaf 1)\\ \\ / / $(tput sgr0)$(tput setaf 3)/  $(tput sgr0)"`

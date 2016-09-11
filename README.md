@@ -32,32 +32,48 @@ Contains all resources and information UX Designers need.
 
 ## Repository Organization
 
-- archive
-    - oldfiles
-- production
-    - _assets
-        - images
+- archive/
+    - oldfiles/
+- production/
+    - _assets/
+        - images/
             - img1.jpg
-        - svg
+        - svg/
             - icn1.svg
     - projects/
         - project.sketch
-- progress
-    - designername/
+- progress/
+    - community-contribution/
+        - @gitlabusername
+          - projects/
+            - project.sketch
+    - GitLab-designername/
         - projects/
             - project.sketch
 
 *[Issue for Repository Organization Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/12)*
 
-## Commit Workflow
+## Commit Workflow (includes Community Contribution!)
 
 As design files are mostly binary files, merge conflicts can easily get stuck in conflicts. We will do the file merging manually instead of git.
 
-### Personal Folders
+### GitLab Designer Personal Folders
 
 1. In the `progress` directory, create your own folder
 2. In your own folder, create a subfolder for each issue/project you are working on
 3. Commit & Push changes
+
+### Community Contribution :strawberry:
+
+Every designer can contribute to GitLab. For GitLab community members we have a [special folder](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution) in the `progress` directory where you can create and commit your own designs. So you have a consistent backup, which can also be used by other designers to iterate upon! Follow the following steps to contribute.
+
+1. Fork this repository and `git clone` it locally.
+2. Create a new branch based off from the master with `git checkout -b branchname`
+3. In the `community-contribution` directory, create your own folder based on your GitLab username following [the example](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution/@gitlabusername).
+4. In your own folder, create a subfolder for each issue/project you are working on.
+6. Review the files you are about to commit (with `git status -sb`), as ONLY files in YOUR folder are allowed to be added or changed!! If you have a hard time with this read through our [small section on Git](#oh-my-git)
+5. Commit & Push changes
+6. Create a new Merge Request and mention any [designer who manages this project](#project-managers).
 
 ### Production Folders
 
@@ -108,6 +124,24 @@ All designs mockups and details are delivered in the issue that describes the fe
 Spec previews can be generated with the one of the [SUPERPOWERS](#repository-superpowers-)!
 
 When additional detail is needed, developers will ask for this. Take inspiration out of the link above if needed.
+
+## Oh My Git
+
+Git is hard: screwing up is easy, and figuring out how to fix your mistakes is sometimes almost impossible. Here are some links and tips to help you along!
+
+### Delete your changes on a file and make it as if you never touched it! (before commited anything)
+-
+
+- [Learn git interactively for free on codeschool](https://www.codeschool.com/learn/git)
+- [Oh shit, git!](http://ohshitgit.com/)
+
+## Project managers
+
+This project is managed by:
+- Taurie Davis @tauriedavis
+- Hazel Yang @hazelyang
+- Chris Peressini @cperessini
+- Dimitrie Hoekstra @dimitrieh
 
 ## Archive
 

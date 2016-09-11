@@ -44,7 +44,7 @@ Contains all resources and information UX Designers need.
         - project.sketch
 - progress/
     - community-contribution/
-        - @gitlabusername
+        - @gitlabusername/
           - projects/
             - project.sketch
     - GitLab-designername/
@@ -71,7 +71,7 @@ Every designer can contribute to GitLab. For GitLab community members we have a 
 2. Create a new branch based off from the master with `git checkout -b branchname`
 3. In the `community-contribution` directory, create your own folder based on your GitLab username following [the example](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution/@gitlabusername).
 4. In your own folder, create a subfolder for each issue/project you are working on.
-6. Review the files you are about to commit (with `git status -sb`), as ONLY files in YOUR folder are allowed to be added or changed!! If you have a hard time with this read through our [small section on Git](#oh-my-git)
+6. Review the files you are about to commit (with `git status -sb`), as __only files in your folder are allowed to be added or changed__!! If you have a hard time with this read through our [small section on Git](#oh-my-git)
 5. Commit & Push changes
 6. Create a new Merge Request and mention any [designer who manages this project](#project-managers).
 
@@ -129,8 +129,15 @@ When additional detail is needed, developers will ask for this. Take inspiration
 
 Git is hard: screwing up is easy, and figuring out how to fix your mistakes is sometimes almost impossible. Here are some links and tips to help you along!
 
-### Delete your changes on a file and make it as if you never touched it! (before commited anything)
--
+### Git Tips
+
+__Delete your changes on a file and make it as if you never touched it! (before commited anything)__
+- `git checkout FILEPATH/FILE`
+
+__If you did already 1 commit, but want to uncommit those changes__
+- `git reset HEAD^`
+
+### Git Links
 
 - [Learn git interactively for free on codeschool](https://www.codeschool.com/learn/git)
 - [Oh shit, git!](http://ohshitgit.com/)

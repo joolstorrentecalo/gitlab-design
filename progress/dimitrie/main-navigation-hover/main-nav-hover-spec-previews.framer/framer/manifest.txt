@@ -1,0 +1,71 @@
+app.coffee
+framer/backups/backup-2016-09-12 16.35.47.coffee
+framer/backups/backup-2016-09-12 16.37.47.coffee
+framer/backups/backup-2016-09-12 16.38.47.coffee
+framer/backups/backup-2016-09-12 16.40.47.coffee
+framer/backups/backup-2016-09-12 16.41.47.coffee
+framer/backups/backup-2016-09-12 16.42.47.coffee
+framer/backups/backup-2016-09-12 16.43.47.coffee
+framer/backups/backup-2016-09-12 16.44.47.coffee
+framer/backups/backup-2016-09-12 16.47.47.coffee
+framer/backups/backup-2016-09-12 16.48.47.coffee
+framer/backups/backup-2016-09-12 16.49.47.coffee
+framer/backups/backup-2016-09-12 16.50.47.coffee
+framer/backups/backup-2016-09-12 16.51.47.coffee
+framer/backups/backup-2016-09-12 16.52.47.coffee
+framer/backups/backup-2016-09-12 16.53.47.coffee
+framer/backups/backup-2016-09-12 16.55.47.coffee
+framer/backups/backup-2016-09-12 16.56.47.coffee
+framer/backups/backup-2016-09-12 16.57.47.coffee
+framer/backups/backup-2016-09-12 16.58.47.coffee
+framer/backups/backup-2016-09-12 16.59.47.coffee
+framer/backups/backup-2016-09-12 17.01.47.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+imported/main-nav-hover@1x/images/Layer-activity-n0rgm0m5.png
+imported/main-nav-hover@1x/images/Layer-Artboard-ndzcqzi4.jpg
+imported/main-nav-hover@1x/images/Layer-count_badge-njkxquvf.png
+imported/main-nav-hover@1x/images/Layer-count_badge-qjbbrdez.png
+imported/main-nav-hover@1x/images/Layer-graphs-rjnenuew.png
+imported/main-nav-hover@1x/images/Layer-issues-rdk3mefd.png
+imported/main-nav-hover@1x/images/Layer-merge_requests-mem5reu1.png
+imported/main-nav-hover@1x/images/Layer-navigation_1_project-otzeodlc.png
+imported/main-nav-hover@1x/images/Layer-navigation_2_issues-rejgqjk3.png
+imported/main-nav-hover@1x/images/Layer-pipelines-qzhbmdix.png
+imported/main-nav-hover@1x/images/Layer-Pipelines_hover-qtu5qumy.png
+imported/main-nav-hover@1x/images/Layer-project-qzu3ruff.png
+imported/main-nav-hover@1x/images/Layer-respository-ntzbrkq5.png
+imported/main-nav-hover@1x/images/Layer-top_bar_project-mtu5rdm5.png
+imported/main-nav-hover@1x/images/Layer-wiki-qzkzmje3.png
+imported/main-nav-hover@1x/layers.json
+imported/main-nav-hover@1x/layers.json.js
+index.html
+modules/myModule.coffee

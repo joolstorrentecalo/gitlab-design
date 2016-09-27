@@ -32,24 +32,6 @@ def main
     progress "adding to git"
     system!(%W[git add #{png_output_dir}])
   end
-    ascii1 = `echo "$(tput setaf 1)   /\\     /\\   $(tput sgr0)"`
-    ascii2 = `echo "$(tput setaf 1)  /__\\___/__\\  $(tput sgr0)"`
-    ascii3 = `echo "$(tput setaf 3) /           \\ $(tput sgr0)"`
-    ascii4 = `echo "$(tput setaf 3) \\ $(tput sgr0)$(tput setaf 1)\\ \\   / / $(tput sgr0)$(tput setaf 3)/ $(tput sgr0)"`
-    ascii5 = `echo "$(tput setaf 3)  \\ $(tput sgr0)$(tput setaf 1)\\ \\ / / $(tput sgr0)$(tput setaf 3)/  $(tput sgr0)"`
-    ascii6 = `echo "$(tput setaf 3)   \\ $(tput sgr0)$(tput setaf 1)\\   / $(tput sgr0)$(tput setaf 3)/   $(tput sgr0)"`
-    ascii7 = `echo "$(tput setaf 3)    \\ $(tput sgr0)$(tput setaf 1)\\ / $(tput sgr0)$(tput setaf 3)/    $(tput sgr0)"`
-    ascii8 = `echo "$(tput setaf 3)     \\   /     $(tput sgr0)"`
-    ascii9 = `echo "$(tput setaf 3)      \\ /      $(tput sgr0)"`
-    puts ascii1
-    puts ascii2
-    puts ascii3
-    puts ascii4
-    puts ascii5
-    puts ascii6
-    puts ascii7
-    puts ascii8
-    puts ascii9
 end
 
 def system!(cmd)
@@ -69,9 +51,7 @@ def failure_message(cmd)
 end
 
 def progress(msg)
-  system(*%W[tput setaf 2])
   puts "#{PROGNAME}: #{msg}"
-  system(*%W[tput sgr0])
 end
 
 main

@@ -16,6 +16,10 @@ Contains all resources and information UX Designers need.
 
 *Whenever you create a spec preview folder with the [Sketch Measure Plugin](https://github.com/utom/sketch-measure), append `spec-previews` to the name of the generated directory and it will be visible by an URL. Search in [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*
 
+- Automatic live Framer prototypes with Continuous Integration
+
+*Whenever you save a [Framer](https://framerjs.com) prototype in this repository and commit push it to GitLab, it will automatically be hosted in the same way as the spec previews superpower. See them live at [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*
+
 - Standalone Live Html Previews by abusing spec previews :smiling_imp:
 
 *By using the wget command: `wget -kN --html-extension URL` you can create a standalone working HTML page of the GitLab view you want. Just change the name of the file to index.html and append `spec-previews` to the name of the directory it will be inside of. Good luck! (No guarantees with this one!)

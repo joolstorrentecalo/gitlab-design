@@ -2,7 +2,7 @@ require 'fileutils'
 require 'uri'
   File.open('public/index.html', 'w') {|file|
     file.truncate(0)
-    file.puts "<html><body><ul>"
+    file.puts "<html><head><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"><style>li{font-family: 'Source Code Pro', monospace;list-style:none;}</style></head><body><ul>"
   }
 # Dir.glob('*').select {|f| File.directory?(f) }.each do |dir|
   Dir["**/*"].grep(/spec-previews$/).each do |specdir|
@@ -19,13 +19,13 @@ require 'uri'
   end
 
   Dir["**/*"].grep(/.framer$/).each do |framerdir|
-    next unless File.directory?(specdir)
+    next unless File.directory?(framerdir)
     dest = 'public/' + framerdir
     FileUtils.mkdir_p dest
-    src = specdir + '/.'
+    src = framerdir + '/.'
     FileUtils.cp_r src, dest, :verbose => true
     open('public/index.html', 'a+') { |f|
-      url = URI.escape(specdir)
+      url = URI.escape(framerdir)
       html = '<li><a href="' + url + '">' + framerdir + '</a></li>'
       f.puts html
     }

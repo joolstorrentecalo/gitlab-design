@@ -13,7 +13,7 @@ require 'uri'
     FileUtils.cp_r src, dest, :verbose => true
     open('public/index.html', 'a+') { |f|
       url = URI.escape(specdir)
-      html = '<li class="spec"><i class="fa fa-arrows" aria-hidden="true"></i><a href="' + url + '">' + specdir + '</a></li>'
+      html = '<li class="html"><i class="fa fa-arrows" aria-hidden="true"></i><a href="' + url + '">' + specdir + '</a></li>'
       f.puts html
     }
   end
@@ -27,6 +27,19 @@ require 'uri'
     open('public/index.html', 'a+') { |f|
       url = URI.escape(framerdir)
       html = '<li class="framer"><i class="fa fa-cogs" aria-hidden="true"></i><a href="' + url + '">' + framerdir + '</a></li>'
+      f.puts html
+    }
+  end
+
+  Dir["**/*"].grep(/html-previews$/).each do |htmldir|
+    next unless File.directory?(htmldir)
+    dest = 'public/' + htmldir
+    FileUtils.mkdir_p dest
+    src = htmldir + '/.'
+    FileUtils.cp_r src, dest, :verbose => true
+    open('public/index.html', 'a+') { |f|
+      url = URI.escape(htmldir)
+      html = '<li class="spec"><i class="fa fa-globe" aria-hidden="true"></i><a href="' + url + '">' + htmldir + '</a></li>'
       f.puts html
     }
   end

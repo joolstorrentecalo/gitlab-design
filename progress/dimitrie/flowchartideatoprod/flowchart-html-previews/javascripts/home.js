@@ -25,7 +25,7 @@ $(function() {
   $(".cycle-icon-row .step").on("click", function(t) {
     t.preventDefault();
     var $o = $(this);
-    var anchor = $o.attr("href").replace('index.html', '');
+    var anchor = $o.attr("href");
     $("html, body").animate({
       scrollTop: $(anchor).offset().top - 200
     }, 1e3)

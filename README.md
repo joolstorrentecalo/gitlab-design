@@ -8,17 +8,21 @@ Contains all resources and information UX Designers need.
 
 ## Repository SUPERPOWERS :stars:
 
-- Automatic Sketch previews based on a pre-commit hook
+- __Automatic Sketch previews based on a pre-commit hook__
 
 *The pre-commit hook will auto generate preview images out of your Sketch pages with sketchtool*
 
-- Semi automatic Sketch spec previews with Continuous Integration
+- __Semi automatic Sketch spec previews with Continuous Integration__
 
 *Whenever you create a spec preview folder with the [Sketch Measure Plugin](https://github.com/utom/sketch-measure), append `spec-previews` to the name of the generated directory and it will be visible by an URL. Search in [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*
 
-- Standalone Live Html Previews by abusing spec previews :smiling_imp:
+- __Automatic live Framer prototypes with Continuous Integration__
 
-*By using the wget command: `wget -kN --html-extension URL` you can create a standalone working HTML page of the GitLab view you want. Just change the name of the file to index.html and append `spec-previews` to the name of the directory it will be inside of. Good luck! (No guarantees with this one!)
+*Whenever you save a [Framer](https://framerjs.com) prototype in this repository and commit push it to GitLab, it will automatically be hosted in the same way as the spec previews superpower. See them live at [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*
+
+- __Standalone Live Html Previews__
+
+*By using the wget command: `wget -kN --html-extension URL` or `wget -E -p -k URL` you can create a standalone working HTML page of the GitLab view you want. Just change the name of the file to index.html and append `html-previews` to the name of the directory it will be inside of. Good luck! (No guarantees with this one!)
 
 ### Activating them!
 

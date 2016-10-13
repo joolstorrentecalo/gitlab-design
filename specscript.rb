@@ -2,7 +2,7 @@ require 'fileutils'
 require 'uri'
   File.open('public/index.html', 'w') {|file|
     file.truncate(0)
-    file.puts '<html><head><script src="https://use.fontawesome.com/1bb7ea2cce.js"></script><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"><style>body{margin:0;background: #EBEDF3;}ul{padding:0;margin:0;background: white;}li{font-family: "Source Code Pro", monospace;list-style:none;padding-right: 20px;white-space: nowrap;}li:hover{background: rgba(235, 237, 243, 0.5);}li a{color:#000;}li:hover a{color:#6299F8;}.fa{padding: 20px 0px 20px 20px;background: #2F313A;color: white;border-left: 2px solid #6299F8;width: 40px;margin-right:20px;}li:hover .fa{border-left: 2px solid #2F313A;}</style></head><body><ul>'
+    file.puts '<html><head><meta charset="utf-8"><title>GitLab Hosted Design Kit</title><meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://use.fontawesome.com/1bb7ea2cce.js"></script><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"><style>body{margin:0;background: #EBEDF3;}ul{padding:0;margin:0;background: white;overflow-x:scroll;}li{font-family: "Source Code Pro", monospace;list-style:none;padding-right: 20px;white-space: nowrap;}li:hover{background: rgba(235, 237, 243, 0.5);}li a{color:#000;}li:hover a{color:#6299F8;}.fa{padding: 20px 0px 20px 20px;background: #2F313A;color: white;border-left: 2px solid #6299F8;width: 40px;margin-right:20px;}li:hover .fa{border-left: 2px solid #2F313A;}</style></head><body><ul>'
   }
 # Dir.glob('*').select {|f| File.directory?(f) }.each do |dir|
   Dir["**/*"].grep(/spec-previews$/).each do |specdir|

@@ -210,11 +210,75 @@
     color: #fff
 }
 .dev-cycle.cycle-vertical .line-container {
-    margin: 10px 0
+    /*margin: 10px 0*/
+    margin: 10px 0 0 0;
+    margin-bottom: -6px;
 }
 .dev-cycle.cycle-vertical .line-container svg {
     height: 110px;
     width: auto
+}
+.dev-cycle.cycle-vertical .line-container-short svg {
+    height: 36px;
+    width: auto
+}
+.dev-cycle.cycle-vertical .line-container-long{
+  margin-bottom:10px;
+}
+.dev-cycle.cycle-vertical .line-container-long svg {
+    height: 74px;
+    width: auto;
+}
+.dev-cycle.cycle-vertical .line-container-circle svg {
+    /*height: 12px;*/
+    /*width: auto;*/
+    /*line-height: 0;
+    margin-bottom: -1px;*/
+}
+
+.substep{
+    margin-bottom: -6px;
+}
+
+.dev-cycle.cycle-vertical .line-container-circle{
+  display: inline-block;
+  width: 12px;
+}
+
+.dev-cycle.cycle-vertical .line-container-circle .circle{
+  height: 12px;
+  width: auto;
+  margin-bottom: -1px;
+  display: block;
+}
+.dev-cycle.cycle-vertical .line-container-circle .circleclosed{
+  position: relative;
+  top: -2px;
+}
+.dev-cycle.cycle-vertical .line-container-circle .shortline{
+  height: 36px;
+  width: auto;
+}
+.dev-cycle.cycle-vertical .line-container-circle .longline{
+  height: 109px;
+  width: auto;
+}
+
+a:not([href]) {
+  color: white;
+  text-decoration: none;
+}
+
+.buttonsubstep{
+  position: absolute !important;
+  margin-left: 8px;
+  border-radius: 10px;
+  border: none;
+  background: none;
+  color: white;
+  font-weight: 300;
+  margin-top: -16px;
+  margin-left: 16px;
 }
 .landing-community {
     position: absolute;

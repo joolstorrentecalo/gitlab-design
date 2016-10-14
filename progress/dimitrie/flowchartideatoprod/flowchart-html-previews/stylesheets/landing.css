@@ -277,7 +277,7 @@ a:not([href]) {
   background: none;
   color: white;
   font-weight: 300;
-  margin-top: -16px;
+  margin-top: -14px;
   margin-left: 16px;
 }
 .landing-community {

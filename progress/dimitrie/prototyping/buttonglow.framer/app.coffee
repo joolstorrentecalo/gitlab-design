@@ -12,6 +12,8 @@ Framer.Info =
 # Import file "buttonglow"
 sketch = Framer.Importer.load("imported/buttonglow@1x")
 
+document.body.style.cursor = "auto"
+
 sketch.orange_primary_button_default.x = 100
 sketch.orange_primary_button_default.y = 100
 

@@ -24,6 +24,17 @@ Contains all resources and information UX Designers need.
 
 *By using the wget command: `wget -kN --html-extension URL` or `wget -E -p -k URL` you can create a standalone working HTML page of the GitLab view you want. Just change the name of the file to index.html and append `html-previews` to the name of the directory it will be inside of. Good luck! (No guarantees with this one!)
 
+- __Sketch Diffs__
+
+*Add the following to your `.git/config` file to see if you are having merge conflicts with a shared .sketch design file*
+
+```
+[diff "sketchtool"]
+  textconv = "sketchtool dump"
+  cachetextconv = true
+  binary = true
+```
+
 ### Activating them!
 
 1. Have a Mac with [Sketch](https://www.sketchapp.com/) installed in the /Applications folder

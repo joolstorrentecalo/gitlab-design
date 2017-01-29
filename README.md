@@ -164,6 +164,9 @@ This project is managed by:
 - Hazel Yang @hazelyang
 - Chris Peressini @cperessini
 - Dimitrie Hoekstra @dimitrieh
+- Pedro Moreira da Silva @pedroms
+- Sarah O'Donnell @sarahod
+- Allison Whilden @awhildy
 
 ## Archive
 
@@ -172,15 +175,17 @@ The archive directory contains all old design files and resources, including tho
 Old Antetype design files can still be valuable, if so see: [Converting antetype files for use with sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
 
 ## Links
-
-- [UX Designer Onboarding Page](https://about.gitlab.com/handbook/uxdesigner-onboarding/) - [Issue for Discussion](https://gitlab.com/gitlab-com/www-gitlab-com/issues/755)
-- [Issue for Design Discussion on Guidelines for UX/UI](https://gitlab.com/gitlab-org/gitlab-ce/issues/18579)
+- [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/)
 - [UI Development Kit](https://gitlab.com/help/ui)
-- [UI Guide for building GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/ui_guide.md)
+- [UX Designer Onboarding Page](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
+- [GitLab Dribbble](https://dribbble.com/gitlab)
+
+## Ongoing discussions
+- [Issue for Onboarding/Toolkit Discussion](https://gitlab.com/gitlab-com/www-gitlab-com/issues/755)
+- [Issue for Design Discussion on Guidelines for UX/UI](https://gitlab.com/gitlab-org/gitlab-ce/issues/18579)
 - [Issue for Repository Organization Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/12)
 - [Issue for Layer/Group Naming Convention Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/13)
 - [Issue for GitLab Design Kit README Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/14)
-- [GitLab Dribbble](https://dribbble.com/gitlab)
 
 ## Design goals
 

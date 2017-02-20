@@ -1,0 +1,2273 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://gitlab.com/gitlab-org/gitlab-ce -->
+<html class="" lang="en"><head prefix="og: http://ogp.me/ns#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="GitLab.org / GitLab Community Edition" property="og:title">
+<meta content="Version Control on your Server. See https://gitlab.com/gitlab-org/gitlab-ce and the README for more information" property="og:description">
+<meta content="https://gitlab.com/uploads/project/avatar/13083/logo-extra-whitespace.png" property="og:image">
+<meta content="https://gitlab.com/gitlab-org/gitlab-ce" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="GitLab.org / GitLab Community Edition" property="twitter:title">
+<meta content="Version Control on your Server. See https://gitlab.com/gitlab-org/gitlab-ce and the README for more information" property="twitter:description">
+<meta content="https://gitlab.com/uploads/project/avatar/13083/logo-extra-whitespace.png" property="twitter:image">
+
+<title>GitLab.org / GitLab Community Edition · GitLab</title>
+<meta content="Version Control on your Server. See https://gitlab.com/gitlab-org/gitlab-ce and the README for more information" name="description">
+<link rel="shortcut icon" type="image/x-icon" href="https://gitlab.com/assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico">
+<link rel="stylesheet" media="all" href="./GitLab.org _ GitLab Community Edition · GitLab_files/application-fa980d49a253a51e83172337904b1978dbc69de43104a53d4133dbbc418a6494.css">
+<link rel="stylesheet" media="print" href="./GitLab.org _ GitLab Community Edition · GitLab_files/print-9c3a1eb4a2f45c9f3d7dd4de03f14c2e6b921e757168b595d7f161bbc320fc05.css">
+<script type="text/javascript" async="" defer="" src="./GitLab.org _ GitLab Community Edition · GitLab_files/piwik.js"></script><script src="./GitLab.org _ GitLab Community Edition · GitLab_files/application-2c0c3d8b44b19fbac38e.js"></script>
+<script>
+  window.project_uploads_path = "/gitlab-org/gitlab-ce/uploads";
+  window.preview_markdown_path = "/gitlab-org/gitlab-ce/preview_markdown";
+</script>
+
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="tj9gcwYCI5odO3bRXV149O5jXMRo94/ogdyfgXhy0kDraSpZpYlcHvlUW5bX/bQv+tno4LS4/DSl2rb8L8qIKg==">
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://gitlab.com/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://gitlab.com/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://gitlab.com/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://gitlab.com/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152">
+<link color="rgb(226, 67, 41)" href="https://gitlab.com/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+<link rel="alternate" type="application/atom+xml" title="GitLab Community Edition activity" href="https://gitlab.com/gitlab-org/gitlab-ce.atom?private_token=-Epfysp6S7Ct3612PGxH">
+
+
+<!-- Piwik -->
+<script>
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.gitlab.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>&lt;p&gt;&lt;img src="//piwik.gitlab.com/piwik.php?idsite=1" style="border:0;" alt="" /&gt;&lt;/p&gt;</noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="ui_charcoal" data-group="" data-page="projects:show" data-project="gitlab-ce">
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https:\/\/gitlab.com\/assets\/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.relative_url_root="";gon.shortcuts_path="\/help\/shortcuts";gon.user_color_scheme="white";gon.award_menu_url="\/emojis";gon.katex_css_url="\/assets\/katex-e46cafe9c3fa73920a7c2c063ee8bb0613e0cf85fd96a3aea25f8419c4bfcfba.css";gon.katex_js_url="\/assets\/katex-04bcf56379fcda0ee7c7a63f71d0fc15ffd2e014d017cd9d51fd6554dfccf40a.js";gon.current_user_id=489558;gon.current_username="dimitrieh";
+//]]>
+</script>
+<header class="navbar navbar-fixed-top navbar-gitlab with-horizontal-nav" style="opacity: 1;">
+<a class="sr-only gl-accessibility" href="https://gitlab.com/gitlab-org/gitlab-ce#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<button aria-label="Toggle global navigation" class="side-nav-toggle" type="button">
+<span class="sr-only">Toggle navigation</span>
+<i class="fa fa-bars"></i>
+</button>
+<button class="navbar-toggle" type="button">
+<span class="sr-only">Toggle navigation</span>
+<i class="fa fa-ellipsis-v"></i>
+</button>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="hidden-sm hidden-xs">
+<div class="has-location-badge search search-form">
+<form class="navbar-form" action="https://gitlab.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><div class="search-input-container">
+<div class="location-badge">This project</div>
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options disabled" spellcheck="false" tabindex="1" autocomplete="off" data-toggle="dropdown" data-issues-path="https://gitlab.com/dashboard/issues" data-mr-path="https://gitlab.com/dashboard/merge_requests" value="">
+<div class="dropdown-menu dropdown-select">
+<div class="dropdown-content"><ul>
+<li>
+<a class="is-focused dropdown-menu-empty-link">
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+<i class="search-icon"></i>
+<i class="clear-icon js-clear-input"></i>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options">
+<input type="hidden" name="project_id" id="search_project_id" value="13083" class="js-search-project-options" data-project-path="gitlab-ce" data-name="GitLab Community Edition" data-issues-path="/gitlab-org/gitlab-ce/issues" data-mr-path="/gitlab-org/gitlab-ce/merge_requests">
+<input type="hidden" name="search_code" id="search_code" value="true">
+<input type="hidden" name="repository_ref" id="repository_ref" value="master">
+
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="13083" data-autocomplete-project-ref="master"></div>
+</form></div>
+
+</li>
+<li class="visible-sm visible-xs">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="https://gitlab.com/search"><i class="fa fa-search"></i>
+</a></li>
+<li>
+<a title="" aria-label="Todos" data-toggle="tooltip" data-placement="bottom" data-container="body" href="https://gitlab.com/dashboard/todos" data-original-title="Todos"><i class="fa fa-bell fa-fw"></i>
+<span class="badge todos-pending-count">
+39
+</span>
+</a></li>
+<li class="header-user dropdown">
+<a class="header-user-dropdown-toggle" data-toggle="dropdown" href="https://gitlab.com/dimitrieh"><img width="26" height="26" class="header-user-avatar" src="./GitLab.org _ GitLab Community Edition · GitLab_files/avatar.png" alt="Avatar">
+<i class="fa fa-caret-down"></i>
+</a><div class="dropdown-menu-nav dropdown-menu-align-right">
+<ul>
+<li>
+<a class="profile-link" aria-label="Profile" data-user="dimitrieh" href="https://gitlab.com/dimitrieh">Profile</a>
+</li>
+<li>
+<a aria-label="Settings" href="https://gitlab.com/profile">Settings</a>
+</li>
+<li>
+<a aria-label="Help" href="https://gitlab.com/help">Help</a>
+</li>
+<li class="divider"></li>
+<li>
+<a class="sign-out-link" aria-label="Sign out" rel="nofollow" data-method="delete" href="https://gitlab.com/users/sign_out">Sign out</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<h1 class="title"><span><a href="https://gitlab.com/gitlab-org">GitLab.org</a></span> / <a class="project-item-select-holder" href="https://gitlab.com/gitlab-org/gitlab-ce">GitLab Community Edition</a><button name="button" type="button" class="dropdown-toggle-caret js-projects-dropdown-toggle" aria-label="Toggle switch project dropdown" data-target=".js-dropdown-menu-projects" data-toggle="dropdown" data-order-by="last_activity_at"><i class="fa fa-chevron-down"></i></button></h1>
+<div class="header-logo">
+<a class="home" title="Dashboard" id="logo" href="https://gitlab.com/"><svg width="36" height="36" class="tanuki-logo">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"></path>
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"></path>
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M18,34.38 3,14 33,14 Z"></path>
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"></path>
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"></path>
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"></path>
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"></path>
+</svg>
+
+</a></div>
+<div class="js-dropdown-menu-projects">
+<div class="dropdown-menu dropdown-select dropdown-menu-projects">
+<div class="dropdown-title"><span>Go to a project</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i class="fa fa-times dropdown-menu-close-icon"></i></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search your projects" autocomplete="off" value=""><i class="fa fa-search dropdown-input-search"></i><i role="button" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+</div>
+
+</div>
+</div>
+</header>
+
+<script>
+  var findFileURL = "/gitlab-org/gitlab-ce/find_file/master";
+</script>
+
+<div class="page-with-sidebar">
+<div class="sidebar-wrapper nicescroll" style="opacity: 1;">
+<div class="sidebar-action-buttons">
+<div class="nav-header-btn toggle-nav-collapse" title="Open/Close">
+<span class="sr-only">Toggle navigation</span>
+<i class="fa fa-bars"></i>
+</div>
+<div class="nav-header-btn pin-nav-btn has-tooltip  js-nav-pin" data-container="body" data-placement="right" title="" data-original-title="Pin navigation">
+<span class="sr-only">Toggle navigation pinning</span>
+<i class="fa fa-fw fa-thumb-tack"></i>
+</div>
+</div>
+<div class="nav-sidebar" style="overflow: hidden; outline: none;" tabindex="0">
+<ul class="nav">
+<li class="active home"><a title="Projects" class="dashboard-shortcuts-projects" href="https://gitlab.com/dashboard/projects"><span>
+Projects
+</span>
+</a></li><li class=""><a class="dashboard-shortcuts-activity" title="Activity" href="https://gitlab.com/dashboard/activity"><span>
+Activity
+</span>
+</a></li><li class=""><a title="Groups" href="https://gitlab.com/dashboard/groups"><span>
+Groups
+</span>
+</a></li><li class=""><a title="Milestones" href="https://gitlab.com/dashboard/milestones"><span>
+Milestones
+</span>
+</a></li><li class=""><a title="Issues" class="dashboard-shortcuts-issues" href="https://gitlab.com/dashboard/issues?assignee_id=489558"><span>
+Issues
+<span class="count">12</span>
+</span>
+</a></li><li class=""><a title="Merge Requests" class="dashboard-shortcuts-merge_requests" href="https://gitlab.com/dashboard/merge_requests?assignee_id=489558"><span>
+Merge Requests
+<span class="count">1</span>
+</span>
+</a></li><li class=""><a title="Snippets" href="https://gitlab.com/dashboard/snippets"><span>
+Snippets
+</span>
+</a></li><a title="About GitLab EE" class="about-gitlab" href="https://gitlab.com/help"><span>
+About GitLab EE
+</span>
+</a></ul>
+</div>
+
+<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 7px; z-index: 1000; cursor: default; position: absolute; top: 50px; left: 213px; height: 903px; touch-action: none; display: none;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px; touch-action: none;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 7px; z-index: 1000; top: 946px; left: 0px; position: absolute; cursor: default; display: none;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 5px; width: 0px; background-color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div></div>
+<div class="layout-nav" style="opacity: 1;">
+<div class="container-fluid">
+<div class="controls">
+<div class="dropdown project-settings-dropdown">
+<a class="dropdown-new btn btn-default" data-toggle="dropdown" href="https://gitlab.com/gitlab-org/gitlab-ce#" id="project-settings-button">
+<i class="fa fa-cog"></i>
+<i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu dropdown-menu-align-right">
+<li class=""><a title="Members" class="team-tab tab" href="https://gitlab.com/gitlab-org/gitlab-ce/settings/members"><span>
+Members
+</span>
+</a></li>
+</ul>
+</div>
+</div>
+<div class="nav-control scrolling-tabs-container">
+<div class="fade-left">
+<i class="fa fa-angle-left"></i>
+</div>
+<div class="fade-right">
+<i class="fa fa-angle-right"></i>
+</div>
+<ul class="nav-links scrolling-tabs">
+<li class="home active"><a title="Project" class="shortcuts-project" href="https://gitlab.com/gitlab-org/gitlab-ce"><span>
+Project
+</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" href="https://gitlab.com/gitlab-org/gitlab-ce/activity"><span>
+Activity
+</span>
+</a></li><li class=""><a title="Repository" class="shortcuts-tree" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master"><span>
+Repository
+</span>
+</a></li><li class=""><a title="Pipelines" class="shortcuts-pipelines" href="https://gitlab.com/gitlab-org/gitlab-ce/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Graphs" class="shortcuts-graphs" href="https://gitlab.com/gitlab-org/gitlab-ce/graphs/master"><span>
+Graphs
+</span>
+</a></li><li class=""><a title="Issues" class="shortcuts-issues" href="https://gitlab.com/gitlab-org/gitlab-ce/issues"><span>
+Issues
+<span class="badge count issue_counter">6,328</span>
+</span>
+</a></li><li class=""><a title="Merge Requests" class="shortcuts-merge_requests" href="https://gitlab.com/gitlab-org/gitlab-ce/merge_requests"><span>
+Merge Requests
+<span class="badge count merge_counter">438</span>
+</span>
+</a></li><li class=""><a title="Snippets" class="shortcuts-snippets" href="https://gitlab.com/gitlab-org/gitlab-ce/snippets"><span>
+Snippets
+</span>
+</a></li><li class="hidden">
+<a title="Network" class="shortcuts-network" href="https://gitlab.com/gitlab-org/gitlab-ce/network/master">Network
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="https://gitlab.com/gitlab-org/gitlab-ce/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="https://gitlab.com/gitlab-org/gitlab-ce/builds">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="https://gitlab.com/gitlab-org/gitlab-ce/commits/master">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="https://gitlab.com/gitlab-org/gitlab-ce/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+<div class="content-wrapper page-with-layout-nav">
+
+<div class="alert-wrapper">
+
+
+<div class="flash-container flash-container-page">
+</div>
+
+
+</div>
+<div class=" ">
+<div class="content" id="content-body">
+
+<div class="project-home-panel text-center">
+<div class="container-fluid container-limited">
+<div class="avatar-container s70 project-avatar">
+<img alt="GitLab Community Edition" class="avatar s70 avatar-tile" src="./GitLab.org _ GitLab Community Edition · GitLab_files/logo-extra-whitespace.png">
+</div>
+<h1 class="project-title">
+GitLab Community Edition
+<span class="visibility-icon has-tooltip" data-container="body" title="Public - The project can be cloned without any authentication.">
+<i class="fa fa-globe"></i>
+</span>
+</h1>
+<div class="project-home-desc">
+<p dir="auto">Version Control on your Server. See <a href="https://gitlab.com/gitlab-org/gitlab-ce">https://gitlab.com/gitlab-org/gitlab-ce</a> and the README for more information</p>
+</div>
+<div class="project-repo-buttons">
+<div class="count-buttons">
+<a class="btn star-btn toggle-star" data-remote="true" rel="nofollow" data-method="post" href="https://gitlab.com/gitlab-org/gitlab-ce/toggle_star"><i class="fa fa-star"></i>
+<span class="starred">Unstar</span>
+</a><div class="count-with-arrow">
+<span class="arrow"></span>
+<span class="count star-count">
+2768
+</span>
+</div>
+
+<a title="Fork project" class="btn" href="https://gitlab.com/gitlab-org/gitlab-ce/forks/new"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="5 0 30 40"><path fill="#7E7E7E" fill-rule="evenodd" d="M22 29.535V22.72c4.19-1.21 7.4-5.917 7.4-5.917.34-.446.6-1.247.6-1.795v-4.543C31.196 9.773 32 8.48 32 7c0-2.21-1.79-4-4-4s-4 1.79-4 4c0 1.48.804 2.773 2 3.465v4.243c0 .17-.094.39-.21.502 0 0-1.253 1.203-1.84 1.742C22.5 18.277 21.12 19 20.09 19c-1.042 0-2.473-.74-3.977-2.086-.61-.546-1.746-1.574-1.746-1.574-.2-.182-.367-.555-.367-.83v-4.045C15.196 9.773 16 8.48 16 7c0-2.21-1.79-4-4-4S8 4.79 8 7c0 1.48.804 2.773 2 3.465v4.543c0 .537.274 1.345.61 1.78 0 0 3.25 4.59 7.39 5.88v6.867c-1.196.692-2 1.984-2 3.465 0 2.21 1.79 4 4 4s4-1.79 4-4c0-1.48-.804-2.773-2-3.465zM14 7c0-1.105-.895-2-2-2s-2 .895-2 2 .895 2 2 2 2-.895 2-2zm16 0c0-1.105-.895-2-2-2s-2 .895-2 2 .895 2 2 2 2-.895 2-2zm-8 26c0-1.105-.895-2-2-2s-2 .895-2 2 .895 2 2 2 2-.895 2-2z"></path></svg>
+
+<span>Fork</span>
+</a><div class="count-with-arrow">
+<span class="arrow"></span>
+<a title="Forks" class="count" href="https://gitlab.com/gitlab-org/gitlab-ce/forks">2617
+</a></div>
+
+</div>
+<span class="hidden-xs">
+<div class="project-clone-holder">
+<div class="git-clone-holder input-group">
+<div class="input-group-btn">
+<a class="clone-dropdown-btn btn" data-toggle="dropdown" href="https://gitlab.com/gitlab-org/gitlab-ce#" id="clone-dropdown">
+<span>
+SSH
+</span>
+<i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu dropdown-menu-right clone-options-dropdown">
+<li>
+<a class="ssh-selector" href="https://gitlab.com/gitlab-org/git@gitlab.com:gitlab-org/gitlab-ce.git" data-html="true" data-placement="right" data-container="body" data-title="Add an SSH key to your profile&lt;br&gt;to pull or push via SSH.">SSH</a>
+</li>
+<li>
+<a class="http-selector" href="https://gitlab.com/gitlab-org/gitlab-ce.git" data-html="true" data-placement="right" data-container="body" data-title="Set a password on your account&lt;br&gt;to pull or push via HTTPS" data-primary-url="null">HTTPS</a>
+</li>
+</ul>
+</div>
+<input type="text" name="project_clone" id="project_clone" value="git@gitlab.com:gitlab-org/gitlab-ce.git" class="js-select-on-focus form-control" readonly="readonly">
+<div class="input-group-btn">
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-clipboard-target="#project_clone" data-title="Copy URL to clipboard" type="button" title="Copy URL to clipboard"><i class="fa fa-clipboard"></i></button>
+
+</div>
+</div>
+<script>
+  $('ul.clone-options-dropdown a').on('click',function(e){
+    e.preventDefault();
+    var $this = $(this);
+    $('a.clone-dropdown-btn span').text($this.text());
+    $('#project_clone').val($this.attr('href'));
+  });
+  
+  // Change URLs in Geo Clone Dialog information text
+  $('ul.clone-options-dropdown a').on('click',function(e){
+    e.preventDefault();
+    var $this = $(this);
+  
+    if (gl.GeoClone) {
+      gl.GeoClone.cloneUrlSecondary = $this.attr('href');
+      gl.GeoClone.cloneUrlPrimary = $this.data('primaryUrl');
+    }
+  });
+</script>
+
+
+</div>
+<div class="project-action-button dropdown inline">
+<button class="btn" data-toggle="dropdown" aria-expanded="false">
+<i class="fa fa-download"></i>
+<i class="fa fa-caret-down" style="
+    display: none;
+"></i>
+<span class="sr-only">
+Select Archive Format
+</span>
+</button>
+<ul class="dropdown-menu dropdown-menu-align-right" role="menu">
+<li class="dropdown-header">Source code</li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.zip?ref=master"><i class="fa fa-download"></i>
+<span>Download zip</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.tar.gz?ref=master"><i class="fa fa-download"></i>
+<span>Download tar.gz</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.tar.bz2?ref=master"><i class="fa fa-download"></i>
+<span>Download tar.bz2</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.tar?ref=master"><i class="fa fa-download"></i>
+<span>Download tar</span>
+</a></li>
+<li class="dropdown-header">Artifacts</li>
+<li>
+<div class="unclickable">Failed</div>
+</li>
+<li class="dropdown-header">Previous Artifacts</li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=pages"><i class="fa fa-download"></i>
+<span>Download 'pages'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=lint%3Ajavascript%3Areport"><i class="fa fa-download"></i>
+<span>Download 'lint:javascript:report'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=update-knapsack"><i class="fa fa-download"></i>
+<span>Download 'update-knapsack'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=coverage"><i class="fa fa-download"></i>
+<span>Download 'coverage'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+14+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 14 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+2+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 2 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+6+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 6 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+11+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 11 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+15+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 15 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+12+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 12 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+1+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 1 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+13+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 13 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+0+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 0 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+5+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 5 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+7+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 7 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+9+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 9 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+16+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 16 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+3+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 3 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+8+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 8 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+10+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 10 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+1+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 1 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+17+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 17 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+18+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 18 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+4+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 4 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+9+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 9 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+3+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 3 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+0+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 0 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=karma"><i class="fa fa-download"></i>
+<span>Download 'karma'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=cache+gems"><i class="fa fa-download"></i>
+<span>Download 'cache gems'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+7+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 7 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+8+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 8 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+6+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 6 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+5+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 5 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+4+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 4 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+2+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 2 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=setup-test-env"><i class="fa fa-download"></i>
+<span>Download 'setup-test-env'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=knapsack"><i class="fa fa-download"></i>
+<span>Download 'knapsack'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+19+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 19 20'</span>
+</a></li>
+</ul>
+</div>
+<div class="project-action-button dropdown inline">
+<a class="btn dropdown-toggle" data-toggle="dropdown" href="https://gitlab.com/gitlab-org/gitlab-ce#">
+<i class="fa fa-plus"></i>
+<i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu dropdown-menu-align-right project-home-dropdown">
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/issues/new"><i class="fa fa-exclamation-circle fa-fw"></i>
+New issue
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/new"><i class="fa fa-tasks fa-fw"></i>
+New merge request
+</a></li>
+<li class="divider"></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/new/master"><i class="fa fa-file fa-fw"></i>
+New file
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/branches/new"><i class="fa fa-code-fork fa-fw"></i>
+New branch
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/tags/new"><i class="fa fa-tags fa-fw"></i>
+New tag
+</a></li>
+</ul>
+</div>
+
+<div class="js-notification-dropdown notification-dropdown project-action-button dropdown inline">
+<form class="inline notification-form" id="new_notification_setting" action="https://gitlab.com/notification_settings" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="project_id" id="project_id" value="13083">
+<input class="notification_setting_level" type="hidden" value="global" name="notification_setting[level]" id="notification_setting_level">
+<div class="js-notification-toggle-btns">
+<div class="">
+<button class="dropdown-new btn btn-default notifications-btn" data-target="dropdown-489558-13083-Project" data-toggle="dropdown" id="notifications-button" type="button">
+<i class="fa fa-bell js-notification-loading"></i>
+Global
+<i class="fa fa-caret-down"></i>
+</button>
+<ul class="dropdown-489558-13083-Project dropdown-menu dropdown-menu-large dropdown-menu-no-wrap dropdown-menu-selectable" role="menu">
+<li role="menuitem"><a class="update-notification is-active" data-notification-level="global" data-notification-title="Global" href="https://gitlab.com/gitlab-org/gitlab-ce#"><strong class="dropdown-menu-inner-title">Global</strong><span class="dropdown-menu-inner-content">Use your global notification setting</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="watch" data-notification-title="Watch" href="https://gitlab.com/gitlab-org/gitlab-ce#"><strong class="dropdown-menu-inner-title">Watch</strong><span class="dropdown-menu-inner-content">You will receive notifications for any activity</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="mention" data-notification-title="On mention" href="https://gitlab.com/gitlab-org/gitlab-ce#"><strong class="dropdown-menu-inner-title">On mention</strong><span class="dropdown-menu-inner-content">You will receive notifications only for comments in which you were @mentioned</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="participating" data-notification-title="Participate" href="https://gitlab.com/gitlab-org/gitlab-ce#"><strong class="dropdown-menu-inner-title">Participate</strong><span class="dropdown-menu-inner-content">You will only receive notifications for threads you have participated in</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="disabled" data-notification-title="Disabled" href="https://gitlab.com/gitlab-org/gitlab-ce#"><strong class="dropdown-menu-inner-title">Disabled</strong><span class="dropdown-menu-inner-content">You will not get any notifications via email</span></a></li>
+<li class="divider"></li>
+<li>
+<a class="update-notification" data-notification-level="custom" data-notification-title="Custom" data-target="#modal-489558-13083-Project" data-toggle="modal" href="https://gitlab.com/gitlab-org/gitlab-ce#" role="button">
+<strong class="dropdown-menu-inner-title">Custom</strong>
+<span class="dropdown-menu-inner-content">You will only receive notifications for the events you choose</span>
+</a>
+</li>
+</ul>
+
+</div>
+</div>
+</form></div>
+
+
+<div class="project-action-button inline">
+</div>
+
+</span>
+</div>
+</div>
+</div>
+
+<nav class="container-fluid container-limited project-stats" style="
+    /* border-bottom: 0; */
+">
+<ul class="nav" style="
+    /* text-align: left; */
+">
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master">Files (986.3 MB)
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/commits/master">Commits (46,113)
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/branches">Branches (761)
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/tags">Tags (485)
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md">Changelog</a>
+</li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/LICENSE">MIT License</a>
+</li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">Contribution guide</a>
+</li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.gitlab-ci.yml">CI configuration</a>
+</li>
+</ul>
+</nav><div class="container-fluid container-limited" style="
+    max-height: 300px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    /* box-shadow: inset 0 -50px 10px 0 red; */
+    /* margin-bottom: 16px; */
+    padding: 0;
+    /* border-top: 0; */
+">
+<div class="tree-controls" style="
+    /* display: none; */
+">
+<a class="btn btn-grouped shortcuts-find-file" rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/find_file/master"><i class="fa fa-search"></i>
+<span>Find File</span>
+</a>
+<div class="project-action-button dropdown inline">
+<button class="btn" data-toggle="dropdown">
+<i class="fa fa-download"></i>
+<i class="fa fa-caret-down"></i>
+<span class="sr-only">
+Select Archive Format
+</span>
+</button>
+<ul class="dropdown-menu dropdown-menu-align-right" role="menu">
+<li class="dropdown-header">Source code</li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.zip?ref=master"><i class="fa fa-download"></i>
+<span>Download zip</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.tar.gz?ref=master"><i class="fa fa-download"></i>
+<span>Download tar.gz</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.tar.bz2?ref=master"><i class="fa fa-download"></i>
+<span>Download tar.bz2</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/repository/archive.tar?ref=master"><i class="fa fa-download"></i>
+<span>Download tar</span>
+</a></li>
+<li class="dropdown-header">Artifacts</li>
+<li>
+<div class="unclickable">Failed</div>
+</li>
+<li class="dropdown-header">Previous Artifacts</li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=pages"><i class="fa fa-download"></i>
+<span>Download 'pages'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=lint%3Ajavascript%3Areport"><i class="fa fa-download"></i>
+<span>Download 'lint:javascript:report'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=update-knapsack"><i class="fa fa-download"></i>
+<span>Download 'update-knapsack'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=coverage"><i class="fa fa-download"></i>
+<span>Download 'coverage'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+14+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 14 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+2+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 2 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+6+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 6 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+11+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 11 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+15+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 15 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+12+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 12 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+1+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 1 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+13+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 13 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+0+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 0 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+5+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 5 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+7+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 7 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+9+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 9 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+16+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 16 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+3+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 3 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+8+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 8 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+10+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 10 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+1+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 1 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+17+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 17 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+18+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 18 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+4+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 4 20'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+9+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 9 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+3+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 3 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+0+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 0 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=karma"><i class="fa fa-download"></i>
+<span>Download 'karma'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=cache+gems"><i class="fa fa-download"></i>
+<span>Download 'cache gems'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+7+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 7 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+8+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 8 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+6+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 6 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+5+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 5 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+4+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 4 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=spinach+2+10"><i class="fa fa-download"></i>
+<span>Download 'spinach 2 10'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=setup-test-env"><i class="fa fa-download"></i>
+<span>Download 'setup-test-env'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=knapsack"><i class="fa fa-download"></i>
+<span>Download 'knapsack'</span>
+</a></li>
+<li>
+<a rel="nofollow" href="https://gitlab.com/gitlab-org/gitlab-ce/builds/artifacts/master/download?job=rspec+19+20"><i class="fa fa-download"></i>
+<span>Download 'rspec 19 20'</span>
+</a></li>
+</ul>
+</div>
+</div>
+<div class="tree-holder clearfix" id="tree-holder">
+<div class="nav-block" style="
+    /* display: none; */
+">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="https://gitlab.com/gitlab-org/gitlab-ce/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="destination" id="destination" value="tree">
+<input type="hidden" name="path" id="path" value="">
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown" type="button" data-toggle="dropdown" data-selected="master" data-ref="master" data-refs-url="/gitlab-org/gitlab-ce/refs" data-field-name="ref" data-submit-form-on-click="true"><span class="dropdown-toggle-text ">master</span><i class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-selectable">
+<div class="dropdown-title"><span>Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i class="fa fa-times dropdown-menu-close-icon"></i></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" value=""><i class="fa fa-search dropdown-input-search"></i><i role="button" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master">gitlab-ce
+</a></li>
+<li>
+<span class="dropdown">
+<a class="dropdown-toggle btn add-to-tree" data-toggle="dropdown" href="https://gitlab.com/gitlab-org/gitlab-ce#">
+<i class="fa fa-plus"></i>
+</a>
+<ul class="dropdown-menu">
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/new/master"><i class="fa fa-pencil fa-fw"></i>
+New file
+</a></li>
+<li>
+<a data-target="#modal-upload-blob" data-toggle="modal" href="https://gitlab.com/gitlab-org/gitlab-ce#modal-upload-blob"><i class="fa fa-file fa-fw"></i>
+Upload file
+</a></li>
+<li>
+<a data-target="#modal-create-new-dir" data-toggle="modal" href="https://gitlab.com/gitlab-org/gitlab-ce#modal-create-new-dir"><i class="fa fa-folder fa-fw"></i>
+New directory
+</a></li>
+<li class="divider"></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/branches/new"><i class="fa fa-code-fork fa-fw"></i>
+New branch
+</a></li>
+<li>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/tags/new"><i class="fa fa-tags fa-fw"></i>
+New tag
+</a></li>
+</ul>
+</span>
+</li>
+</ul>
+
+</div>
+<div class="tree-content-holder">
+<div class="table-holder">
+<table class="table table_da39a3ee5e6b4b0d3255bfef95601890afd80709 tree-table" id="tree-slider">
+<thead>
+<tr>
+<th>Name</th>
+<th class="hidden-xs">
+<div class="pull-left">Last commit</div>
+<div class="last-commit hidden-sm pull-left" style="
+    display: none;
+">
+<i class="fa fa-angle-right"></i>
+<small class="light">
+<a class="monospace" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/12cd4c83604e43dc308ba13fa3d5a6571409c1f8">12cd4c83</a>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-clipboard-text="12cd4c83604e43dc308ba13fa3d5a6571409c1f8" data-title="Copy commit SHA to clipboard" type="button" title="Copy commit SHA to clipboard"><i class="fa fa-clipboard"></i></button>
+<time class="js-timeago js-timeago-render" title="" datetime="2017-02-18T18:52:43Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 7:52pm GMT+0100">a day ago</time>
+-
+Merge branch 'add-additional-checks-to-ca-data' into 'master'
+</small>
+</div>
+<small class="commit-history-link-spacer">|</small>
+
+<a class="commit-history-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commits/master">History</a>
+</th>
+<th class="text-right">Last Update</th>
+</tr>
+</thead>
+<tbody><tr class="tree-item file_4c40eab00f24304ca400313319c58d461788ff5e">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title=".github" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/.github"><span class="str-truncated">.github</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/7722caf9d5be1ca419d9c672187fb62c6d21caed">Address feedback about wording.</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="" datetime="2016-06-09T17:25:47Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jun 9, 2016 7:25pm GMT+0200">8 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_e1af9df8e281f953fa11d58254bdb6bee0fe5fec">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title=".gitlab" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/.gitlab"><span class="str-truncated">.gitlab</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/dc14737a86c4f9ddeb4a4ba9d9ec84982d722f4a">27605 Add research proposal to issue templates</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 16, 2017 9:07pm GMT+0100" datetime="2017-02-16T20:07:41Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 16, 2017 9:07pm GMT+0100">3 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_7d1043473d55bfa90e8530d35801d4e381bc69f0">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="app" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/app"><span class="str-truncated">app</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/12cd4c83604e43dc308ba13fa3d5a6571409c1f8">Merge branch 'add-additional-checks-to-ca-data' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="" datetime="2017-02-18T18:52:43Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 7:52pm GMT+0100">a day ago</time></td>
+</tr>
+
+<tr class="tree-item file_9a5d56716d566997fa290054d161af96305aff9a">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="bin" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/bin"><span class="str-truncated">bin</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/0e4aaa06d3a83f66a90a6f084efc8742a4221d5f">remove remaining vestiges of teaspoon test runner</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="" datetime="2017-01-10T18:30:41Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 10, 2017 7:30pm GMT+0100">a month ago</time></td>
+</tr>
+
+<tr class="tree-item file_3b6faa5c884bd3132d05d8ba18c63f6e6d348d71">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="builds" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/builds"><span class="str-truncated">builds</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/d3b62e683730df2d93a6c39f7c0da6bd24640ee3">Add missing builds/ folder to fix backup tests</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="" datetime="2015-09-15T20:19:31Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Sep 15, 2015 10:19pm GMT+0200">a year ago</time></td>
+</tr>
+
+<tr class="tree-item file_3a3f941b93bd10c042a0ef2903766a951ba45652">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="changelogs" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/changelogs"><span class="str-truncated">changelogs</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/6eb45df2fd62c85920c3ef025d7dacadcda05bf4">Merge branch '25465-todo-done-clicking-is-kind-of-unsafe' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 18, 2017 10:06am GMT+0100" datetime="2017-02-18T09:06:22Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 10:06am GMT+0100">a day ago</time></td>
+</tr>
+
+<tr class="tree-item file_dfba7aade0868074c2861c98e2a9a92f3178a51b">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="config" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/config"><span class="str-truncated">config</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/6eb45df2fd62c85920c3ef025d7dacadcda05bf4">Merge branch '25465-todo-done-clicking-is-kind-of-unsafe' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 18, 2017 10:06am GMT+0100" datetime="2017-02-18T09:06:22Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 10:06am GMT+0100">a day ago</time></td>
+</tr>
+
+<tr class="tree-item file_0352a8acc949c7df21fec16e566ba9a74e797a97">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="db" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/db"><span class="str-truncated">db</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/aa792b91bbddeeb61ce77f9525fcaf238a9ad331">Merge branch '26200-convert-sidebar-to-dropdown' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 17, 2017 12:34pm GMT+0100" datetime="2017-02-17T11:34:09Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 17, 2017 12:34pm GMT+0100">2 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_f7f029ecb98abe979074a3ab45b74dbd9af02d42">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="doc" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc"><span class="str-truncated">doc</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/f6ac952819bf5e96498c028a3594dd36d521c297">Merge branch 'global-dropdown-edits' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 18, 2017 12:37am GMT+0100" datetime="2017-02-17T23:37:46Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 12:37am GMT+0100">2 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_e982f17bcbe0f724063b708a4f76db211a999304">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="docker" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/docker"><span class="str-truncated">docker</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/17237e14466dd75e703b93daf56e511e13bdd28b">Update README.md</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Oct 13, 2016 4:43pm GMT+0200" datetime="2016-10-13T14:43:05Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Oct 13, 2016 4:43pm GMT+0200">4 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_4f944542e06cd6f28fa72685120ec1c9e2b84a27">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="features" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/features"><span class="str-truncated">features</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/6eb45df2fd62c85920c3ef025d7dacadcda05bf4">Merge branch '25465-todo-done-clicking-is-kind-of-unsafe' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 18, 2017 10:06am GMT+0100" datetime="2017-02-18T09:06:22Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 10:06am GMT+0100">a day ago</time></td>
+</tr>
+
+<tr class="tree-item file_17054545c5bc7d635be3e9f487732e8da5b7fcfc">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="fixtures/emojis" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/fixtures/emojis"><span class="str-truncated">fixtures/emojis</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/6a06c5cfb92d7d4e390e63104fd42d24a9159048">Upgrade Gemojione from 2.6.1 to 3.0.1.</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Jul 18, 2016 6:40pm GMT+0200" datetime="2016-07-18T16:40:16Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jul 18, 2016 6:40pm GMT+0200">7 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_6096dc2620fd7c0d6a0e54ca2820f1ce3fdd9b5e">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="generator_templates" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/generator_templates"><span class="str-truncated">generator_templates</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/83c8241160ed48ab066e2c5bd58d0914a745197c">Support for post deployment migrations</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Oct 31, 2016 12:54pm GMT+0100" datetime="2016-10-31T11:54:48Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Oct 31, 2016 12:54pm GMT+0100">3 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_9d062bafff17ba8b9a1215c4c51485134d509d91">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="lib" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/lib"><span class="str-truncated">lib</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/12cd4c83604e43dc308ba13fa3d5a6571409c1f8">Merge branch 'add-additional-checks-to-ca-data' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 18, 2017 7:52pm GMT+0100" datetime="2017-02-18T18:52:43Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 7:52pm GMT+0100">a day ago</time></td>
+</tr>
+
+<tr class="tree-item file_7babc233de26ab19ead1b9c278128d5c434910ee">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="log" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/log"><span class="str-truncated">log</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/9ba1224867665844b117fa037e1465bb706b3685">init commit</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Oct 8, 2011 11:36pm GMT+0200" datetime="2011-10-08T21:36:38Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Oct 8, 2011 11:36pm GMT+0200">5 years ago</time></td>
+</tr>
+
+<tr class="tree-item file_61c9b2b17db77a27841bbeeabff923448b0f6388">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="public" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/public"><span class="str-truncated">public</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/3ac6054bf9eeb86231ea0a6c390b8ac50e97cbcc">correct User_agent placement in robots.txt</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Jan 18, 2017 1:21pm GMT+0100" datetime="2017-01-18T12:21:16Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 18, 2017 1:21pm GMT+0100">a month ago</time></td>
+</tr>
+
+<tr class="tree-item file_1e7ec4a6f4c40d4f4fac001678629e296e4293d1">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="rubocop" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/rubocop"><span class="str-truncated">rubocop</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/766060bcdf3ff7c37f471b58e5d13721b263e37b">Enforce use of add_concurrent_foreign_key</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 10, 2017 9:51pm GMT+0100" datetime="2017-02-10T20:51:09Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 10, 2017 9:51pm GMT+0100">a week ago</time></td>
+</tr>
+
+<tr class="tree-item file_16728d18790deb58b3b8c1df74f06e536b532695">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="scripts" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/scripts"><span class="str-truncated">scripts</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/3125c14e805a22d1396edc65762f3820a86a953c">Merge branch 'patch-2' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Jan 15, 2017 8:12am GMT+0100" datetime="2017-01-15T07:12:54Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 15, 2017 8:12am GMT+0100">a month ago</time></td>
+</tr>
+
+<tr class="tree-item file_d18aac96b905b4b3c839891b7a91c9414149514c">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="shared" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/shared"><span class="str-truncated">shared</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/120f9abaa15ce0feec1dc457ad3dc3787e4fbfc6">Add GitLab Pages</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Jan 31, 2017 11:50pm GMT+0100" datetime="2017-01-31T22:50:39Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 31, 2017 11:50pm GMT+0100">2 weeks ago</time></td>
+</tr>
+
+<tr class="tree-item file_078772725d009dfa127dbc9e3ac5682a60a9b371">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="spec" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/spec"><span class="str-truncated">spec</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/6eb45df2fd62c85920c3ef025d7dacadcda05bf4">Merge branch '25465-todo-done-clicking-is-kind-of-unsafe' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 18, 2017 10:06am GMT+0100" datetime="2017-02-18T09:06:22Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 10:06am GMT+0100">a day ago</time></td>
+</tr>
+
+<tr class="tree-item file_c6ffdb358391388f25ac1ed547e1a08a28877da3">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="tmp" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/tmp"><span class="str-truncated">tmp</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/5e18a922e430de0d50344ce7f432ef9424e04de8">Remove tmp/.gitkeep</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Oct 4, 2015 3:49pm GMT+0200" datetime="2015-10-04T13:49:48Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Oct 4, 2015 3:49pm GMT+0200">a year ago</time></td>
+</tr>
+
+<tr class="tree-item file_9fdcb2f441fcdd2e24e21bf8d45413ae72c0443c">
+<td class="tree-item-file-name">
+<i class="fa fa-folder fa-fw"></i>
+<a title="vendor" href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master/vendor"><span class="str-truncated">vendor</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/947dcfba372278f1d6e9fe3437d3f4199a79a530">Use es6-promise package to avoid webpack warnings</a>
+</span>
+</td>
+<td class="tree-time-ago text-right"><time class="js-timeago js-timeago-render" title="Feb 14, 2017 6:25am GMT+0100" datetime="2017-02-14T05:25:34Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 14, 2017 6:25am GMT+0100">5 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_d802dcca92c3286b8b5d961abfa2132f5fec83df">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".csscomb.json" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.csscomb.json"><span class="str-truncated">.csscomb.json</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/d96a89f3b7221696c8964fbf777846b1c41ec239">Remove SCSS rules for short hex chars.</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Oct 4, 2016 2:40am GMT+0200" datetime="2016-10-04T00:40:22Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Oct 4, 2016 2:40am GMT+0200">4 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_88939cd7e826eac4f61dd9adac091b9d64277287">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".eslintignore" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.eslintignore"><span class="str-truncated">.eslintignore</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/ee6de1d34f27fa4e60ab8a493d1b2d6ca997e91e">ignore karma config in eslint</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jan 10, 2017 7:30pm GMT+0100" datetime="2017-01-10T18:30:40Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 10, 2017 7:30pm GMT+0100">a month ago</time></td>
+</tr>
+
+<tr class="tree-item file_4be5f5e3cea171c304090be92469b2f2cb51039a">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".eslintrc" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.eslintrc"><span class="str-truncated">.eslintrc</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/34b8cdf87ce8e36e5f442bf7068869833f35243b">enable eslint to resolve webpack modules according to webpack.config.js</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 14, 2017 8:35am GMT+0100" datetime="2017-02-14T07:35:27Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 14, 2017 8:35am GMT+0100">5 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_19ca024b71ceaaffba56d88f70478b957a6615a7">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".flayignore" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.flayignore"><span class="str-truncated">.flayignore</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/46dff6910d2f618222e4213dca55ba68b5b66984">More backport</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 7, 2017 12:19am GMT+0100" datetime="2017-02-06T23:19:37Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 7, 2017 12:19am GMT+0100">a week ago</time></td>
+</tr>
+
+<tr class="tree-item file_fdd0c00faade945f4a263f282fd160f698708d18">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".foreman" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.foreman"><span class="str-truncated">.foreman</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/473445c76fe6d99243a0e6b0247bc79cc47c3e44">complete hooks for post receive</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jan 8, 2012 12:20pm GMT+0100" datetime="2012-01-08T11:20:20Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 8, 2012 12:20pm GMT+0100">5 years ago</time></td>
+</tr>
+
+<tr class="tree-item file_24139dae656713ba861751fb2c2ac38839349a7a">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".gitattributes" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.gitattributes"><span class="str-truncated">.gitattributes</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/59189438388191c044c0697d5bfb571693d95978">Remove gitattribute entry for CHANGELOG.md</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Nov 15, 2016 4:04pm GMT+0100" datetime="2016-11-15T15:04:33Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Nov 15, 2016 4:04pm GMT+0100">3 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_a5cc2925ca8258af241be7e5b0381edf30266302">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".gitignore" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.gitignore"><span class="str-truncated">.gitignore</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/459cd939e7a31c833858c86db6003327524800de">Generate ESLint HTML report (</a><a href="https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/7374" data-original="!7374" data-link="false" data-project="13083" data-merge-request="1176419" data-reference-type="merge_request" title="Generate ESLint HTML report" class="gfm gfm-merge_request has-tooltip tree-commit-link">!7374</a><a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/459cd939e7a31c833858c86db6003327524800de">)</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Nov 22, 2016 8:25pm GMT+0100" datetime="2016-11-22T19:25:33Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Nov 22, 2016 8:25pm GMT+0100">2 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_587d266bb27a4dc3022bbed44dfa19849df3044c">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".gitlab-ci.yml" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.gitlab-ci.yml"><span class="str-truncated">.gitlab-ci.yml</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/9760fd7a95cb1dcdcee227817e41c924f5d39dc7">Merge branch 'cover-my-karma' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 14, 2017 8:40pm GMT+0100" datetime="2017-02-14T19:40:40Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 14, 2017 8:40pm GMT+0100">5 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_7476b5c647db6ebadbc172ed179068c770d34998">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".haml-lint.yml" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.haml-lint.yml"><span class="str-truncated">.haml-lint.yml</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/cd232bf7eee164810775bfbf5de3d830effdcff9">HAMLLint: Enable `MultilinePipe` rule</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jan 24, 2017 7:09pm GMT+0100" datetime="2017-01-24T18:09:28Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 24, 2017 7:09pm GMT+0100">3 weeks ago</time></td>
+</tr>
+
+<tr class="tree-item file_d0e9cb1fab10296d90ef8e144f981f659bbd59ad">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".mailmap" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.mailmap"><span class="str-truncated">.mailmap</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/7a6c88ddd9f6cc5869a03abf6278aa3eb5f7f33c">Add an initial .mailmap</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Aug 6, 2016 11:21pm GMT+0200" datetime="2016-08-06T21:21:11Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Aug 6, 2016 11:21pm GMT+0200">6 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_5032f3f027b1e7220e5e8c8af93fa0510dfa5fc9">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".pkgr.yml" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.pkgr.yml"><span class="str-truncated">.pkgr.yml</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/570b25c6038125146597aed338f5d78887563a9f">Update .pkgr.yml with Ubuntu 16.04 dependencies</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Sep 20, 2016 5:35pm GMT+0200" datetime="2016-09-20T15:35:49Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Sep 20, 2016 5:35pm GMT+0200">5 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_047fb137290441b8a2cabd007fd7e13a8ab75ec4">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".rspec" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.rspec"><span class="str-truncated">.rspec</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/8183260414aaadfa32173632cb03708911487ac6">Make Fuubar the default rspec formatter</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jun 26, 2015 7:01am GMT+0200" datetime="2015-06-26T05:01:13Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jun 26, 2015 7:01am GMT+0200">a year ago</time></td>
+</tr>
+
+<tr class="tree-item file_057477721d04f350346ebfb6554f5c0cd2d8aeaf">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".rubocop.yml" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.rubocop.yml"><span class="str-truncated">.rubocop.yml</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/122ffd9fc799ab9a99cc555e4a82b68bcffabb0f">Merge branch 'rs-rubocop-rspec' into 'master'</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 13, 2017 7:05pm GMT+0100" datetime="2017-02-13T18:05:14Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 13, 2017 7:05pm GMT+0100">6 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_c77fa4e671717bfa2a920ffed00535f301dd5a4f">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".rubocop_todo.yml" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.rubocop_todo.yml"><span class="str-truncated">.rubocop_todo.yml</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/17c8d15b14f6c3ecc98e1466e9148cf100cc12c6">Enable `Lint/EmptyWhen` cop and correct offense</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 13, 2017 5:00pm GMT+0100" datetime="2017-02-13T16:00:20Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 13, 2017 5:00pm GMT+0100">6 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_19ed2a9b83b226ba18e78966454862762d8fef02">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".ruby-version" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.ruby-version"><span class="str-truncated">.ruby-version</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/785a80132c2716446cfde57a196d495e1e97a4c0">Bump ruby version</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Dec 3, 2016 3:57pm GMT+0100" datetime="2016-12-03T14:57:20Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Dec 3, 2016 3:57pm GMT+0100">2 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_29d8c798213b174d9182352a341e1a62ebb6a330">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title=".scss-lint.yml" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/.scss-lint.yml"><span class="str-truncated">.scss-lint.yml</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/d6d22a5dbd2ee04b59b2a80b3b6228575c3ea3ec">Enable ColorVariable in scss-lint</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Dec 2, 2016 2:22am GMT+0100" datetime="2016-12-02T01:22:51Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Dec 2, 2016 2:22am GMT+0100">2 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_ab09011fa121d0a2bb9fa4ca76094f2482b902b7">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="CHANGELOG.md" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md"><span class="str-truncated">CHANGELOG.md</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/bb94c3bf74586b237481ac7b96503e5eac8b488d">Update CHANGELOG.md for 8.16.6</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 17, 2017 9:11pm GMT+0100" datetime="2017-02-17T20:11:21Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 17, 2017 9:11pm GMT+0100">2 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_3f454a98e586d1aa0d322e19afd5e67e08f2d3c8">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="CONTRIBUTING.md" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md"><span class="str-truncated">CONTRIBUTING.md</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/c6ab1e9d36e3791f5938078cb52f2b67ec4f977d">Document better the CE -&gt; EE merge</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 16, 2017 5:57pm GMT+0100" datetime="2017-02-16T16:57:03Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 16, 2017 5:57pm GMT+0100">3 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_973bb285c43c0a5c6f989baa5399e268a3913030">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="GITLAB_PAGES_VERSION" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/GITLAB_PAGES_VERSION"><span class="str-truncated">GITLAB_PAGES_VERSION</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/0925dd4d8b5bdf54288d288a979e17ff83d10967">Update GitLab pages to v0.3.0</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 7, 2017 8:08pm GMT+0100" datetime="2017-02-07T19:08:47Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 7, 2017 8:08pm GMT+0100">a week ago</time></td>
+</tr>
+
+<tr class="tree-item file_5f130f84dce7b11b6774578b0e6d3e0d6c5799d3">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="GITLAB_SHELL_VERSION" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/GITLAB_SHELL_VERSION"><span class="str-truncated">GITLAB_SHELL_VERSION</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/5dcd01aa96f26ff98311d0415d659d0b14e6c632">Bump gitlab-shell to 4.1.1</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Dec 16, 2016 2:31pm GMT+0100" datetime="2016-12-16T13:31:07Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Dec 16, 2016 2:31pm GMT+0100">2 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_264d7f3ed1358e2bc3bd296a8c7a18fe97fdc713">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="GITLAB_WORKHORSE_VERSION" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/GITLAB_WORKHORSE_VERSION"><span class="str-truncated">GITLAB_WORKHORSE_VERSION</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/c74f04013f0160739b6c4d254fae578c328f6dcf">Use Workhorse v1.3.0</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jan 20, 2017 12:51pm GMT+0100" datetime="2017-01-20T11:51:14Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 20, 2017 12:51pm GMT+0100">a month ago</time></td>
+</tr>
+
+<tr class="tree-item file_de3150c01c3a946a6168173c4116741379fe3579">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="Gemfile" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Gemfile"><span class="str-truncated">Gemfile</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/93d4234efa43dea4165a8b0b87c51eb7d6131f28">Add omniauth-oauth2-generic strategy</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 13, 2017 7:54pm GMT+0100" datetime="2017-02-13T18:54:57Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 13, 2017 7:54pm GMT+0100">6 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_21fb5836b499a2be648386aac055d2e069160d6c">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="Gemfile.lock" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Gemfile.lock"><span class="str-truncated">Gemfile.lock</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/93d4234efa43dea4165a8b0b87c51eb7d6131f28">Add omniauth-oauth2-generic strategy</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 13, 2017 7:54pm GMT+0100" datetime="2017-02-13T18:54:57Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 13, 2017 7:54pm GMT+0100">6 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_0398ccd0f49298b10a3d76a47800d2ebecd49859">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="LICENSE" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/LICENSE"><span class="str-truncated">LICENSE</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/a43709a34307bc6cb99f130ee0105131d7dc4ac2">Update LICENSE to 2017</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 8, 2017 11:58pm GMT+0100" datetime="2017-02-08T22:58:40Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 8, 2017 11:58pm GMT+0100">a week ago</time></td>
+</tr>
+
+<tr class="tree-item file_347b3993c230c683e039063cd3dafa3bdfc747f4">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="MAINTENANCE.md" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/MAINTENANCE.md"><span class="str-truncated">MAINTENANCE.md</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/f17679dbcddd72a03e96c718223bb40cf72bca36">Update MAINTENANCE.md with our latest policy</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jul 19, 2016 8:05am GMT+0200" datetime="2016-07-19T06:05:56Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jul 19, 2016 8:05am GMT+0200">7 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_acc5576b2ae9ec4bff2881fc42494ea5b76cdf8a">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="PROCESS.md" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md"><span class="str-truncated">PROCESS.md</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/fe04d920544c0234d22aa5a8c7c6793a99d3e267">Update PROCESS.md</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Feb 9, 2017 5:41pm GMT+0100" datetime="2017-02-09T16:41:41Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 9, 2017 5:41pm GMT+0100">a week ago</time></td>
+</tr>
+
+<tr class="tree-item file_bc3c68e880d1a01632bce79f69dd1387c7ba9c54">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="Procfile" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Procfile"><span class="str-truncated">Procfile</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/3fa8d5d09aca5d286d1139d01832f16becae9930">Remove duplication in Procfile</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jan 14, 2016 3:08pm GMT+0100" datetime="2016-01-14T14:08:22Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 14, 2016 3:08pm GMT+0100">a year ago</time></td>
+</tr>
+
+<tr class="tree-item file_8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="README.md" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md"><span class="str-truncated">README.md</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/03206a87c730b51ef8506badc510ab37ba36cf51">Fix the most important part of the readme</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="Jan 22, 2017 6:35pm GMT+0100" datetime="2017-01-22T17:35:11Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 22, 2017 6:35pm GMT+0100">4 weeks ago</time></td>
+</tr>
+
+<tr class="tree-item file_44b7fa1ba50397e71d88bd69389f1ec917165cfb">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="Rakefile" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Rakefile"><span class="str-truncated">Rakefile</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/88b0a9efc44a792a7fd9f2263a1c85b9ef552504">Load knapsack in Rakefile only when is bundled</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="" datetime="2016-06-07T18:02:03Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jun 7, 2016 8:02pm GMT+0200">8 months ago</time></td>
+</tr>
+
+<tr class="tree-item file_b33892fbddeffc3368077b4904ad0b3d562a7312">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="VERSION" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/VERSION"><span class="str-truncated">VERSION</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/084ac867773ff2bc8be9a196b356fa7116c66a75">Update VERSION to 8.17.0-pre</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="" datetime="2017-01-22T16:03:08Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 22, 2017 5:03pm GMT+0100">4 weeks ago</time></td>
+</tr>
+
+<tr class="tree-item file_f6641faeef24c6fc806380a86dd426ad55eacdca">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="config.ru" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/config.ru"><span class="str-truncated">config.ru</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/89c65a3789ab51d58633841120c33f570064f242">Increase Unicorn memory limits to 300-350</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="" datetime="2016-01-20T10:52:01Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 20, 2016 11:52am GMT+0100">a year ago</time></td>
+</tr>
+
+<tr class="tree-item file_80cbfd4aef2ff3b3030c56d1ae3156b0e6234156">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="doc_styleguide.md" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md"><span class="str-truncated">doc_styleguide.md</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/d0b2d278f4fc7c929bd19ce9f29eb689783f58ed">Move doc_styleguide in the development directory</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="" datetime="2016-01-12T10:57:42Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Jan 12, 2016 11:57am GMT+0100">a year ago</time></td>
+</tr>
+
+<tr class="tree-item file_35b8c13cf2eb2a194eada000eb310d65aed53b2a">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="docker-compose.yml" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/docker-compose.yml"><span class="str-truncated">docker-compose.yml</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/f9e5a30d039026616d12b74d9b1d96efed8f9468">Update docker guide and add docker-compose.yml</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="" datetime="2015-09-30T12:24:39Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Sep 30, 2015 2:24pm GMT+0200">a year ago</time></td>
+</tr>
+
+<tr class="tree-item file_7030d0b2f71b999ff89a343de08c414af32fc93a">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="package.json" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/package.json"><span class="str-truncated">package.json</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/fd504fa8836cea905d9bb7a7fe97594ac554cc5d">use less strict caret ranges now that yarn.lock will take care of locking our dependencies in place</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="" datetime="2017-02-17T17:04:12Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 17, 2017 6:04pm GMT+0100">2 days ago</time></td>
+</tr>
+
+<tr class="tree-item file_53585a096fe3a3b96321113856ae62602995a33b">
+<td class="tree-item-file-name">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a title="yarn.lock" href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/yarn.lock"><span class="str-truncated">yarn.lock</span>
+</a></td>
+<td class="hidden-xs tree-commit"><span class="str-truncated">
+<a class="tree-commit-link" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/fd504fa8836cea905d9bb7a7fe97594ac554cc5d">use less strict caret ranges now that yarn.lock will take care of locking our dependencies in place</a>
+</span>
+</td>
+<td class="tree-time-ago cgray text-right"><time class="js-timeago js-timeago-render" title="" datetime="2017-02-17T17:04:12Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 17, 2017 6:04pm GMT+0100">2 days ago</time></td>
+</tr>
+
+
+</tbody></table>
+</div>
+<article class="file-holder readme-holder">
+<div class="file-title">
+<i class="fa fa-file-text-o fa-fw"></i>
+<a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md"><strong>
+README.md
+</strong>
+</a></div>
+<div class="file-content wiki">
+<h1 dir="auto">
+<a id="user-content-gitlab" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#gitlab" aria-hidden="true"></a>GitLab</h1>
+
+<p dir="auto"><a href="https://gitlab.com/gitlab-org/gitlab-ce/commits/master"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/build.svg" alt="Build status"></a>
+<a href="https://gitlab-org.gitlab.io/gitlab-ce/coverage-ruby" rel="nofollow noreferrer" target="_blank"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/coverage.svg" alt="CE coverage report"></a>
+<a href="https://codeclimate.com/github/gitlabhq/gitlabhq" rel="nofollow noreferrer" target="_blank"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/gitlabhq.svg" alt="Code Climate"></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/42" rel="nofollow noreferrer" target="_blank"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/badge" alt="Core Infrastructure Initiative Best Practices"></a></p>
+
+<h2 dir="auto">
+<a id="user-content-canonical-source" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#canonical-source" aria-hidden="true"></a>Canonical source</h2>
+
+<p dir="auto">The canonical source of GitLab Community Edition is <a href="https://gitlab.com/gitlab-org/gitlab-ce/">hosted on GitLab.com</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-open-source-software-to-collaborate-on-code" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#open-source-software-to-collaborate-on-code" aria-hidden="true"></a>Open source software to collaborate on code</h2>
+
+<p dir="auto">To see how GitLab looks please see the <a href="https://about.gitlab.com/features/" rel="nofollow noreferrer" target="_blank">features page on our website</a>.</p>
+
+<ul dir="auto">
+<li>Manage Git repositories with fine grained access controls that keep your code secure</li>
+<li>Perform code reviews and enhance collaboration with merge requests</li>
+<li>Complete continuous integration (CI) and CD pipelines to builds, test, and deploy your applications</li>
+<li>Each project can also have an issue tracker, issue board, and a wiki</li>
+<li>Used by more than 100,000 organizations, GitLab is the most popular solution to manage Git repositories on-premises</li>
+<li>Completely free and open source (MIT Expat license)</li>
+</ul>
+
+<h2 dir="auto">
+<a id="user-content-hiring" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#hiring" aria-hidden="true"></a>Hiring</h2>
+
+<p dir="auto">We're hiring developers, support people, and production engineers all the time, please see our <a href="https://about.gitlab.com/jobs/" rel="nofollow noreferrer" target="_blank">jobs page</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-editions" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#editions" aria-hidden="true"></a>Editions</h2>
+
+<p dir="auto">There are two editions of GitLab:</p>
+
+<ul dir="auto">
+<li>GitLab Community Edition (CE) is available freely under the MIT Expat license.</li>
+<li>GitLab Enterprise Edition (EE) includes <a href="https://about.gitlab.com/features/#compare" rel="nofollow noreferrer" target="_blank">extra features</a> that are more useful for organizations with more than 100 users. To use EE and get official support please <a href="https://about.gitlab.com/pricing/" rel="nofollow noreferrer" target="_blank">become a subscriber</a>.</li>
+</ul>
+
+<h2 dir="auto">
+<a id="user-content-website" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#website" aria-hidden="true"></a>Website</h2>
+
+<p dir="auto">On <a href="https://about.gitlab.com/" rel="nofollow noreferrer" target="_blank">about.gitlab.com</a> you can find more information about:</p>
+
+<ul dir="auto">
+<li><a href="https://about.gitlab.com/pricing/" rel="nofollow noreferrer" target="_blank">Subscriptions</a></li>
+<li><a href="https://about.gitlab.com/consultancy/" rel="nofollow noreferrer" target="_blank">Consultancy</a></li>
+<li><a href="https://about.gitlab.com/community/" rel="nofollow noreferrer" target="_blank">Community</a></li>
+<li>
+<a href="https://about.gitlab.com/gitlab-com/" rel="nofollow noreferrer" target="_blank">Hosted GitLab.com</a> use GitLab as a free service</li>
+<li>
+<a href="https://about.gitlab.com/features/#enterprise" rel="nofollow noreferrer" target="_blank">GitLab Enterprise Edition</a> with additional features aimed at larger organizations.</li>
+<li>
+<a href="https://about.gitlab.com/gitlab-ci/" rel="nofollow noreferrer" target="_blank">GitLab CI</a> a continuous integration (CI) server that is easy to integrate with GitLab.</li>
+</ul>
+
+<h2 dir="auto">
+<a id="user-content-requirements" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#requirements" aria-hidden="true"></a>Requirements</h2>
+
+<p dir="auto">Please see the <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md">requirements documentation</a> for system requirements and more information about the supported operating systems.</p>
+
+<h2 dir="auto">
+<a id="user-content-installation" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#installation" aria-hidden="true"></a>Installation</h2>
+
+<p dir="auto">The recommended way to install GitLab is with the <a href="https://about.gitlab.com/downloads/" rel="nofollow noreferrer" target="_blank">Omnibus packages</a> on our package server.
+Compared to an installation from source, this is faster and less error prone.
+Just select your operating system, download the respective package (Debian or RPM) and install it using the system's package manager.</p>
+
+<p dir="auto">There are various other options to install GitLab, please refer to the <a href="https://about.gitlab.com/installation/" rel="nofollow noreferrer" target="_blank">installation page on the GitLab website</a> for more information.</p>
+
+<p dir="auto">You can access a new installation with the login <strong><code>root</code></strong> and password <strong><code>5iveL!fe</code></strong>, after login you are required to set a unique password.</p>
+
+<h2 dir="auto">
+<a id="user-content-contributing" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#contributing" aria-hidden="true"></a>Contributing</h2>
+
+<p dir="auto">GitLab is an open source project and we are very happy to accept community contributions. Please refer to <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> for details.</p>
+
+<h2 dir="auto">
+<a id="user-content-install-a-development-environment" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#install-a-development-environment" aria-hidden="true"></a>Install a development environment</h2>
+
+<p dir="auto">To work on GitLab itself, we recommend setting up your development environment with <a href="https://gitlab.com/gitlab-org/gitlab-development-kit">the GitLab Development Kit</a>.
+If you do not use the GitLab Development Kit you need to install and setup all the dependencies yourself, this is a lot of work and error prone.
+One small thing you also have to do when installing it yourself is to copy the example development unicorn configuration file:</p>
+
+<pre class="code highlight js-syntax-highlight plaintext white" lang="plaintext" v-pre="true"><code>cp config/unicorn.rb.example.development config/unicorn.rb
+</code></pre>
+
+<p dir="auto">Instructions on how to start GitLab and how to run the tests can be found in the <a href="https://gitlab.com/gitlab-org/gitlab-development-kit#development">development section of the GitLab Development Kit</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-software-stack" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#software-stack" aria-hidden="true"></a>Software stack</h2>
+
+<p dir="auto">GitLab is a Ruby on Rails application that runs on the following software:</p>
+
+<ul dir="auto">
+<li>Ubuntu/Debian/CentOS/RHEL/OpenSUSE</li>
+<li>Ruby (MRI) 2.3</li>
+<li>Git 2.8.4+</li>
+<li>Redis 2.8+</li>
+<li>PostgreSQL (preferred) or MySQL</li>
+</ul>
+
+<p dir="auto">For more information please see the <a href="https://docs.gitlab.com/ce/development/architecture.html" rel="nofollow noreferrer" target="_blank">architecture documentation</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-ux-design" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#ux-design" aria-hidden="true"></a>UX design</h2>
+
+<p dir="auto">Please adhere to the <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/ux_guide/index.md">UX Guide</a> when creating designs and implementing code.</p>
+
+<h2 dir="auto">
+<a id="user-content-third-party-applications" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#third-party-applications" aria-hidden="true"></a>Third-party applications</h2>
+
+<p dir="auto">There are a lot of <a href="https://about.gitlab.com/applications/" rel="nofollow noreferrer" target="_blank">third-party applications integrating with GitLab</a>. These include GUI Git clients, mobile applications and API wrappers for various languages.</p>
+
+<h2 dir="auto">
+<a id="user-content-gitlab-release-cycle" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#gitlab-release-cycle" aria-hidden="true"></a>GitLab release cycle</h2>
+
+<p dir="auto">For more information about the release process see the <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/README.md">release documentation</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-upgrading" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#upgrading" aria-hidden="true"></a>Upgrading</h2>
+
+<p dir="auto">For upgrading information please see our <a href="https://about.gitlab.com/update/" rel="nofollow noreferrer" target="_blank">update page</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-documentation" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#documentation" aria-hidden="true"></a>Documentation</h2>
+
+<p dir="auto">All documentation can be found on <a href="https://docs.gitlab.com/ce/" rel="nofollow noreferrer" target="_blank">docs.gitlab.com/ce/</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-getting-help" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#getting-help" aria-hidden="true"></a>Getting help</h2>
+
+<p dir="auto">Please see <a href="https://about.gitlab.com/getting-help/" rel="nofollow noreferrer" target="_blank">Getting help for GitLab</a> on our website for the many options to get help.</p>
+
+<h2 dir="auto">
+<a id="user-content-is-it-any-good" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#is-it-any-good" aria-hidden="true"></a>Is it any good?</h2>
+
+<p dir="auto"><a href="https://news.ycombinator.com/item?id=3067434" rel="nofollow noreferrer" target="_blank">Yes</a></p>
+
+<h2 dir="auto">
+<a id="user-content-is-it-awesome" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#is-it-awesome" aria-hidden="true"></a>Is it awesome?</h2>
+
+<p dir="auto">Thanks for <a href="https://twitter.com/supersloth/status/489462789384056832" rel="nofollow noreferrer" target="_blank">asking this question</a> Joshua.
+<a href="https://twitter.com/gitlab/likes" rel="nofollow noreferrer" target="_blank">These people</a> seem to like it.</p>
+</div>
+</article>
+
+</div>
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<a class="close" data-dismiss="modal" href="https://gitlab.com/gitlab-org/gitlab-ce#">×</a>
+<h3 class="page-title">Upload New File</h3>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form form-horizontal" action="https://gitlab.com/gitlab-org/gitlab-ce/create/master" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="aZba+nKbDvjWgUO4tFQh4h4Sx4A16KBF0MAOvhItzrk0wJDQ0RBxfDLubv8+9O05CqhzpOmn05n0xifDRZWU0w=="><div class="dropzone dz-clickable">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or
+<a class="markdown-selector" href="https://gitlab.com/gitlab-org/gitlab-ce#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="dropzone-alerts alert alert-danger data" style="display:none"></div>
+<div class="form-group commit_message-group">
+<label class="control-label" for="commit_message-327826a69e976c40071059b7ade46599">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-327826a69e976c40071059b7ade46599" class="form-control js-commit-message" placeholder="Upload new file" required="required" rows="3">Upload new file</textarea>
+</div>
+</div>
+</div>
+
+<div class="form-group branch">
+<label class="control-label" for="target_branch">Target branch</label>
+<div class="col-sm-10">
+<input type="text" name="target_branch" id="target_branch" value="patch-14" required="required" class="form-control js-target-branch">
+<div class="js-create-merge-request-container">
+<div class="checkbox">
+<label for="create_merge_request-306a7eba99cd22b2ba93ca77772f1917"><input type="checkbox" name="create_merge_request" id="create_merge_request-306a7eba99cd22b2ba93ca77772f1917" value="1" class="js-create-merge-request" checked="checked">
+Start a <strong>new merge request</strong> with these changes
+</label></div>
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch">
+
+<div class="form-actions">
+<button name="button" type="submit" class="btn btn-small btn-create btn-upload-file" id="submit-all">Upload file</button>
+<a class="btn btn-cancel" data-dismiss="modal" href="https://gitlab.com/gitlab-org/gitlab-ce#">Cancel</a>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+<script>
+  gl.utils.disableButtonIfEmptyField($('.js-upload-blob-form').find('.js-commit-message'), '.btn-upload-file');
+  new BlobFileDropzone($('.js-upload-blob-form'), 'post');
+  new NewCommitForm($('.js-upload-blob-form'))
+</script>
+
+<div class="modal" id="modal-create-new-dir">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<a class="close" data-dismiss="modal" href="https://gitlab.com/gitlab-org/gitlab-ce#">×</a>
+<h3 class="page-title">Create New Directory</h3>
+</div>
+<div class="modal-body">
+<form class="form-horizontal js-create-dir-form js-quick-submit js-requires-input" action="https://gitlab.com/gitlab-org/gitlab-ce/create_dir/master" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="aZba+nKbDvjWgUO4tFQh4h4Sx4A16KBF0MAOvhItzrk0wJDQ0RBxfDLubv8+9O05CqhzpOmn05n0xifDRZWU0w=="><div class="form-group">
+<label class="control-label" for="dir_name">Directory name</label>
+<div class="col-sm-10">
+<input type="text" name="dir_name" id="dir_name" required="required" class="form-control">
+</div>
+</div>
+<div class="form-group commit_message-group">
+<label class="control-label" for="commit_message-999a93b763852e2174717f188d4df396">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-999a93b763852e2174717f188d4df396" class="form-control js-commit-message" placeholder="Add new directory" required="required" rows="3">Add new directory</textarea>
+</div>
+</div>
+</div>
+
+<div class="form-group branch">
+<label class="control-label" for="target_branch">Target branch</label>
+<div class="col-sm-10">
+<input type="text" name="target_branch" id="target_branch" value="patch-14" required="required" class="form-control js-target-branch">
+<div class="js-create-merge-request-container">
+<div class="checkbox">
+<label for="create_merge_request-7d8c47cdff6745cff215870446dface3"><input type="checkbox" name="create_merge_request" id="create_merge_request-7d8c47cdff6745cff215870446dface3" value="1" class="js-create-merge-request" checked="checked">
+Start a <strong>new merge request</strong> with these changes
+</label></div>
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch">
+
+<div class="form-actions">
+<input type="submit" name="commit" value="Create directory" class="btn btn-create disabled" disabled="disabled">
+<a class="btn btn-cancel" data-dismiss="modal" href="https://gitlab.com/gitlab-org/gitlab-ce#">Cancel</a>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+<script>
+  new NewCommitForm($('.js-create-dir-form'))
+</script>
+
+<script>
+  PathLocks.init(
+    '/gitlab-org/gitlab-ce/path_locks/toggle',
+    ''
+  );
+</script>
+<script>
+  // Load last commit log for each file in tree
+  $('#tree-slider').waitForImages(function() {
+    gl.utils.ajaxGet("/gitlab-org/gitlab-ce/refs/master/logs_tree/");
+  });
+</script>
+
+</div>
+</div>
+<div class="container-fluid container-limited project-last-commit" style="
+    /* border: 0; */
+    /* background: none; */
+    /* text-align: center; */
+    /* margin-top: 0; */
+    /* margin-bottom: -8px; */
+    /* display: none; */
+    margin-top: 24px;
+">
+<a class="ci-status ci-failed" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/12cd4c83604e43dc308ba13fa3d5a6571409c1f8/pipelines"><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M0 7a7 7 0 1 1 14 0A7 7 0 0 1 0 7z"></path><path d="M13 7A6 6 0 1 0 1 7a6 6 0 0 0 12 0z" fill="#FFF"></path><path d="M7 5.969L5.599 4.568a.29.29 0 0 0-.413.004l-.614.614a.294.294 0 0 0-.004.413L5.968 7l-1.4 1.401a.29.29 0 0 0 .004.413l.614.614c.113.114.3.117.413.004L7 8.032l1.401 1.4a.29.29 0 0 0 .413-.004l.614-.614a.294.294 0 0 0 .004-.413L8.032 7l1.4-1.401a.29.29 0 0 0-.004-.413l-.614-.614a.294.294 0 0 0-.413-.004L7 5.968z"></path></g></svg>
+
+failed
+</a><a class="commit_short_id" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/12cd4c83604e43dc308ba13fa3d5a6571409c1f8">12cd4c83</a>
+<a class="commit-row-message" href="https://gitlab.com/gitlab-org/gitlab-ce/commit/12cd4c83604e43dc308ba13fa3d5a6571409c1f8">Merge branch 'add-additional-checks-to-ca-data' into 'master'</a>
+·
+<time class="js-timeago js-timeago-render" title="" datetime="2017-02-18T18:52:43Z" data-toggle="tooltip" data-placement="top" data-container="body" data-original-title="Feb 18, 2017 7:52pm GMT+0100">a day ago</time> by
+<a class="commit-author-link has-tooltip" title="" href="https://gitlab.com/jschatz1" data-original-title="jschatz@gitlab.com"><span class="commit-author-name">Jacob Schatz</span></a>
+
+</div>
+<div class="container-fluid container-limited">
+<div class="project-show-readme">
+<article class="readme-holder">
+<div class="pull-right">
+<a class="light edit-project-readme" href="https://gitlab.com/gitlab-org/gitlab-ce/edit/master/README.md"><i class="fa fa-pencil"></i></a>
+</div>
+<div class="file-content wiki">
+<h1 dir="auto">
+<a id="user-content-gitlab" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#gitlab" aria-hidden="true"></a>GitLab</h1>
+
+<p dir="auto"><a href="https://gitlab.com/gitlab-org/gitlab-ce/commits/master"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/build.svg" alt="Build status"></a>
+<a href="https://gitlab-org.gitlab.io/gitlab-ce/coverage-ruby" rel="nofollow noreferrer" target="_blank"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/coverage.svg" alt="CE coverage report"></a>
+<a href="https://codeclimate.com/github/gitlabhq/gitlabhq" rel="nofollow noreferrer" target="_blank"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/gitlabhq.svg" alt="Code Climate"></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/42" rel="nofollow noreferrer" target="_blank"><img src="./GitLab.org _ GitLab Community Edition · GitLab_files/badge" alt="Core Infrastructure Initiative Best Practices"></a></p>
+
+<h2 dir="auto">
+<a id="user-content-canonical-source" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#canonical-source" aria-hidden="true"></a>Canonical source</h2>
+
+<p dir="auto">The canonical source of GitLab Community Edition is <a href="https://gitlab.com/gitlab-org/gitlab-ce/">hosted on GitLab.com</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-open-source-software-to-collaborate-on-code" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#open-source-software-to-collaborate-on-code" aria-hidden="true"></a>Open source software to collaborate on code</h2>
+
+<p dir="auto">To see how GitLab looks please see the <a href="https://about.gitlab.com/features/" rel="nofollow noreferrer" target="_blank">features page on our website</a>.</p>
+
+<ul dir="auto">
+<li>Manage Git repositories with fine grained access controls that keep your code secure</li>
+<li>Perform code reviews and enhance collaboration with merge requests</li>
+<li>Complete continuous integration (CI) and CD pipelines to builds, test, and deploy your applications</li>
+<li>Each project can also have an issue tracker, issue board, and a wiki</li>
+<li>Used by more than 100,000 organizations, GitLab is the most popular solution to manage Git repositories on-premises</li>
+<li>Completely free and open source (MIT Expat license)</li>
+</ul>
+
+<h2 dir="auto">
+<a id="user-content-hiring" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#hiring" aria-hidden="true"></a>Hiring</h2>
+
+<p dir="auto">We're hiring developers, support people, and production engineers all the time, please see our <a href="https://about.gitlab.com/jobs/" rel="nofollow noreferrer" target="_blank">jobs page</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-editions" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#editions" aria-hidden="true"></a>Editions</h2>
+
+<p dir="auto">There are two editions of GitLab:</p>
+
+<ul dir="auto">
+<li>GitLab Community Edition (CE) is available freely under the MIT Expat license.</li>
+<li>GitLab Enterprise Edition (EE) includes <a href="https://about.gitlab.com/features/#compare" rel="nofollow noreferrer" target="_blank">extra features</a> that are more useful for organizations with more than 100 users. To use EE and get official support please <a href="https://about.gitlab.com/pricing/" rel="nofollow noreferrer" target="_blank">become a subscriber</a>.</li>
+</ul>
+
+<h2 dir="auto">
+<a id="user-content-website" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#website" aria-hidden="true"></a>Website</h2>
+
+<p dir="auto">On <a href="https://about.gitlab.com/" rel="nofollow noreferrer" target="_blank">about.gitlab.com</a> you can find more information about:</p>
+
+<ul dir="auto">
+<li><a href="https://about.gitlab.com/pricing/" rel="nofollow noreferrer" target="_blank">Subscriptions</a></li>
+<li><a href="https://about.gitlab.com/consultancy/" rel="nofollow noreferrer" target="_blank">Consultancy</a></li>
+<li><a href="https://about.gitlab.com/community/" rel="nofollow noreferrer" target="_blank">Community</a></li>
+<li>
+<a href="https://about.gitlab.com/gitlab-com/" rel="nofollow noreferrer" target="_blank">Hosted GitLab.com</a> use GitLab as a free service</li>
+<li>
+<a href="https://about.gitlab.com/features/#enterprise" rel="nofollow noreferrer" target="_blank">GitLab Enterprise Edition</a> with additional features aimed at larger organizations.</li>
+<li>
+<a href="https://about.gitlab.com/gitlab-ci/" rel="nofollow noreferrer" target="_blank">GitLab CI</a> a continuous integration (CI) server that is easy to integrate with GitLab.</li>
+</ul>
+
+<h2 dir="auto">
+<a id="user-content-requirements" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#requirements" aria-hidden="true"></a>Requirements</h2>
+
+<p dir="auto">Please see the <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md">requirements documentation</a> for system requirements and more information about the supported operating systems.</p>
+
+<h2 dir="auto">
+<a id="user-content-installation" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#installation" aria-hidden="true"></a>Installation</h2>
+
+<p dir="auto">The recommended way to install GitLab is with the <a href="https://about.gitlab.com/downloads/" rel="nofollow noreferrer" target="_blank">Omnibus packages</a> on our package server.
+Compared to an installation from source, this is faster and less error prone.
+Just select your operating system, download the respective package (Debian or RPM) and install it using the system's package manager.</p>
+
+<p dir="auto">There are various other options to install GitLab, please refer to the <a href="https://about.gitlab.com/installation/" rel="nofollow noreferrer" target="_blank">installation page on the GitLab website</a> for more information.</p>
+
+<p dir="auto">You can access a new installation with the login <strong><code>root</code></strong> and password <strong><code>5iveL!fe</code></strong>, after login you are required to set a unique password.</p>
+
+<h2 dir="auto">
+<a id="user-content-contributing" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#contributing" aria-hidden="true"></a>Contributing</h2>
+
+<p dir="auto">GitLab is an open source project and we are very happy to accept community contributions. Please refer to <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> for details.</p>
+
+<h2 dir="auto">
+<a id="user-content-install-a-development-environment" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#install-a-development-environment" aria-hidden="true"></a>Install a development environment</h2>
+
+<p dir="auto">To work on GitLab itself, we recommend setting up your development environment with <a href="https://gitlab.com/gitlab-org/gitlab-development-kit">the GitLab Development Kit</a>.
+If you do not use the GitLab Development Kit you need to install and setup all the dependencies yourself, this is a lot of work and error prone.
+One small thing you also have to do when installing it yourself is to copy the example development unicorn configuration file:</p>
+
+<pre class="code highlight js-syntax-highlight plaintext white" lang="plaintext" v-pre="true"><code>cp config/unicorn.rb.example.development config/unicorn.rb
+</code></pre>
+
+<p dir="auto">Instructions on how to start GitLab and how to run the tests can be found in the <a href="https://gitlab.com/gitlab-org/gitlab-development-kit#development">development section of the GitLab Development Kit</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-software-stack" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#software-stack" aria-hidden="true"></a>Software stack</h2>
+
+<p dir="auto">GitLab is a Ruby on Rails application that runs on the following software:</p>
+
+<ul dir="auto">
+<li>Ubuntu/Debian/CentOS/RHEL/OpenSUSE</li>
+<li>Ruby (MRI) 2.3</li>
+<li>Git 2.8.4+</li>
+<li>Redis 2.8+</li>
+<li>PostgreSQL (preferred) or MySQL</li>
+</ul>
+
+<p dir="auto">For more information please see the <a href="https://docs.gitlab.com/ce/development/architecture.html" rel="nofollow noreferrer" target="_blank">architecture documentation</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-ux-design" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#ux-design" aria-hidden="true"></a>UX design</h2>
+
+<p dir="auto">Please adhere to the <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/ux_guide/index.md">UX Guide</a> when creating designs and implementing code.</p>
+
+<h2 dir="auto">
+<a id="user-content-third-party-applications" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#third-party-applications" aria-hidden="true"></a>Third-party applications</h2>
+
+<p dir="auto">There are a lot of <a href="https://about.gitlab.com/applications/" rel="nofollow noreferrer" target="_blank">third-party applications integrating with GitLab</a>. These include GUI Git clients, mobile applications and API wrappers for various languages.</p>
+
+<h2 dir="auto">
+<a id="user-content-gitlab-release-cycle" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#gitlab-release-cycle" aria-hidden="true"></a>GitLab release cycle</h2>
+
+<p dir="auto">For more information about the release process see the <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/README.md">release documentation</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-upgrading" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#upgrading" aria-hidden="true"></a>Upgrading</h2>
+
+<p dir="auto">For upgrading information please see our <a href="https://about.gitlab.com/update/" rel="nofollow noreferrer" target="_blank">update page</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-documentation" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#documentation" aria-hidden="true"></a>Documentation</h2>
+
+<p dir="auto">All documentation can be found on <a href="https://docs.gitlab.com/ce/" rel="nofollow noreferrer" target="_blank">docs.gitlab.com/ce/</a>.</p>
+
+<h2 dir="auto">
+<a id="user-content-getting-help" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#getting-help" aria-hidden="true"></a>Getting help</h2>
+
+<p dir="auto">Please see <a href="https://about.gitlab.com/getting-help/" rel="nofollow noreferrer" target="_blank">Getting help for GitLab</a> on our website for the many options to get help.</p>
+
+<h2 dir="auto">
+<a id="user-content-is-it-any-good" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#is-it-any-good" aria-hidden="true"></a>Is it any good?</h2>
+
+<p dir="auto"><a href="https://news.ycombinator.com/item?id=3067434" rel="nofollow noreferrer" target="_blank">Yes</a></p>
+
+<h2 dir="auto">
+<a id="user-content-is-it-awesome" class="anchor" href="https://gitlab.com/gitlab-org/gitlab-ce#is-it-awesome" aria-hidden="true"></a>Is it awesome?</h2>
+
+<p dir="auto">Thanks for <a href="https://twitter.com/supersloth/status/489462789384056832" rel="nofollow noreferrer" target="_blank">asking this question</a> Joshua.
+<a href="https://twitter.com/gitlab/likes" rel="nofollow noreferrer" target="_blank">These people</a> seem to like it.</p>
+</div>
+</article>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div aria="{:labelledby=&gt;&quot;custom-notifications-title&quot;}" class="modal fade" id="modal-489558-13083-Project" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button aria="{:label=&gt;&quot;close&quot;}" class="close" data-dismiss="modal" type="button">
+<span aria="{:hidden=&gt;&quot;true&quot;}">×</span>
+</button>
+<h4 class="modal-title" id="custom-notifications-title">
+Custom notification events
+</h4>
+</div>
+<div class="modal-body">
+<div class="container-fluid">
+<form class="custom-notifications-form" id="new_notification_setting" action="https://gitlab.com/notification_settings" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="tj9gcwYCI5odO3bRXV149O5jXMRo94/ogdyfgXhy0kDraSpZpYlcHvlUW5bX/bQv+tno4LS4/DSl2rb8L8qIKg=="><input type="hidden" name="project_id" id="project_id" value="13083">
+<div class="row">
+<div class="col-lg-4">
+<h4 class="prepend-top-0">
+Notification events
+</h4>
+<p>
+Custom notification levels are the same as participating levels. With custom notification levels you will also receive notifications for select events. To find out more, check out
+<a href="https://gitlab.com/help/workflow/notifications" target="_blank">notification emails</a>.
+</p>
+</div>
+<div class="col-lg-8">
+<div class="form-group">
+<div class="checkbox prepend-top-0">
+<label for="modal-489558-13083-Project_notification_setting[new_note]">
+<input name="notification_setting[new_note]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[new_note]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[new_note]">
+<strong>
+New note
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[new_issue]">
+<input name="notification_setting[new_issue]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[new_issue]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[new_issue]">
+<strong>
+New issue
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[reopen_issue]">
+<input name="notification_setting[reopen_issue]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[reopen_issue]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[reopen_issue]">
+<strong>
+Reopen issue
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[close_issue]">
+<input name="notification_setting[close_issue]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[close_issue]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[close_issue]">
+<strong>
+Close issue
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[reassign_issue]">
+<input name="notification_setting[reassign_issue]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[reassign_issue]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[reassign_issue]">
+<strong>
+Reassign issue
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[new_merge_request]">
+<input name="notification_setting[new_merge_request]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[new_merge_request]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[new_merge_request]">
+<strong>
+New merge request
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[reopen_merge_request]">
+<input name="notification_setting[reopen_merge_request]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[reopen_merge_request]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[reopen_merge_request]">
+<strong>
+Reopen merge request
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[close_merge_request]">
+<input name="notification_setting[close_merge_request]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[close_merge_request]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[close_merge_request]">
+<strong>
+Close merge request
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[reassign_merge_request]">
+<input name="notification_setting[reassign_merge_request]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[reassign_merge_request]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[reassign_merge_request]">
+<strong>
+Reassign merge request
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[merge_merge_request]">
+<input name="notification_setting[merge_merge_request]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[merge_merge_request]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[merge_merge_request]">
+<strong>
+Merge merge request
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[failed_pipeline]">
+<input name="notification_setting[failed_pipeline]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[failed_pipeline]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[failed_pipeline]">
+<strong>
+Failed pipeline
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="checkbox">
+<label for="modal-489558-13083-Project_notification_setting[success_pipeline]">
+<input name="notification_setting[success_pipeline]" type="hidden" value="0"><input id="modal-489558-13083-Project_notification_setting[success_pipeline]" class="js-custom-notification-event" type="checkbox" value="1" name="notification_setting[success_pipeline]">
+<strong>
+Successful pipeline
+<i class="fa fa-spinner fa-spin custom-notification-event-loading"></i>
+</strong>
+</label>
+</div>
+</div>
+</div>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="device-xs visible-xs"></div><div class="device-sm visible-sm"></div><div class="device-md visible-md"></div><div class="device-lg visible-lg"></div><div id="b83edd14-d692-4775-a488-9bb3d146dc6d" style="position: fixed; z-index: 2147483647; top: 0px; right: 0px; width: auto; height: auto; margin: 0px; padding: 0px; border: none; outline: none; box-shadow: none; background-color: inherit; font-size: 14px; line-height: 1; text-decoration: none; vertical-align: baseline; user-select: none; pointer-events: none; border-radius: 0px; opacity: 1;"></div></body></html>

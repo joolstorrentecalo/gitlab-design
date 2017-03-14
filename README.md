@@ -8,6 +8,8 @@ Contains all resources and information UX Designers need.
 
 ## Repository SUPERPOWERS :stars:
 
+*Please put all exported folders in the `hosted` directory. That way you can shuffle the rest of your repository around without breaking links!*
+
 - __Automatic Sketch previews based on a pre-commit hook__
 
 *The pre-commit hook will auto generate preview images out of your Sketch pages with sketchtool*

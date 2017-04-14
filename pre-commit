@@ -26,7 +26,7 @@ def main
     FileUtils.rm_rf(png_output_dir)
 
     progress "exporting pages"
-    cmd = %W[sketchtool --overwriting=YES --output=#{png_output_dir} export pages #{f}]
+    cmd = %W[/usr/local/bin/sketchtool --overwriting=YES --output=#{png_output_dir} export pages #{f}]
     system!(cmd)
 
     progress "adding to git"

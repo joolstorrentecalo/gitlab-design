@@ -162,13 +162,13 @@ __If you did already 1 commit, but want to uncommit those changes__
 ## Project managers
 
 This project is managed by:
-- Taurie Davis @tauriedavis
-- Hazel Yang @hazelyang
 - Chris Peressini @cperessini
 - Dimitrie Hoekstra @dimitrieh
+- Hazel Yang @hazelyang
 - Pedro Moreira da Silva @pedroms
 - Sarah O'Donnell @sarahod
-- Allison Whilden @awhildy
+- Sarrah Vesselov @sarrahvesselov
+- Taurie Davis @tauriedavis
 
 ## Archive
 

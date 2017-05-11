@@ -159,16 +159,15 @@ __If you did already 1 commit, but want to uncommit those changes__
 - [Learn git interactively for free on codeschool](https://www.codeschool.com/learn/git)
 - [Oh shit, git!](http://ohshitgit.com/)
 
-## Project managers
+## Project maintainers
 
-This project is managed by:
-- Chris Peressini @cperessini
-- Dimitrie Hoekstra @dimitrieh
-- Hazel Yang @hazelyang
-- Pedro Moreira da Silva @pedroms
-- Sarah O'Donnell @sarahod
-- Sarrah Vesselov @sarrahvesselov
-- Taurie Davis @tauriedavis
+- @cperessini
+- @dimitrieh
+- @hazelyang
+- @pedroms
+- @sarahod
+- @sarrahvesselov
+- @tauriedavis
 
 ## Archive
 

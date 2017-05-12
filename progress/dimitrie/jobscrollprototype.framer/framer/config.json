@@ -1,0 +1,20 @@
+{
+  "orientation" : 0,
+  "updateDelay" : 0.3,
+  "cachedDeviceHeight" : 1440,
+  "contentScale" : 1,
+  "fullScreen" : false,
+  "cachedDeviceWidth" : 2304,
+  "sharedPrototype" : true,
+  "propertyPanelToggleStates" : {
+    "Filters" : false
+  },
+  "deviceType" : "apple-macbook",
+  "projectId" : "C8F7257B-0B82-4FB0-AD37-EB28BE68AF62",
+  "deviceOrientation" : 0,
+  "selectedHand" : "",
+  "foldedCodeRanges" : [
+
+  ],
+  "deviceScale" : "fit"
+}

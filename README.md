@@ -88,9 +88,9 @@ Every designer can contribute to GitLab. For GitLab community members we have a 
 1. Create a new branch based off from the master with `git checkout -b branchname`
 1. In the `community-contribution` directory, create your own folder based on your GitLab username following [the example](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution/@gitlabusername).
 1. In your own folder, create a subfolder for each issue/project you are working on.
-1. Review the files you are about to commit (with `git status -sb`), as __only files in your folder are allowed to be added or changed__!! If you have a hard time with this read through our [small section on Git](#oh-my-git)
-1. Commit and push your changes. Prefix your [good commit message](https://chris.beams.io/posts/git-commit/) with the project path and issue ID (e.g. `gitlab-ce#1337 Commit message`). This creates a commit note in the issue, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office).
-1. Create a merge request and mention any [designer who manages this project](#project-managers).
+1. Review the files you are about to commit (with `git status -sb`), as __only files in your folder are allowed to be added or changed__! If you have a hard time with this read through our [small section on Git](#oh-my-git)
+1. Commit your changes with a [good commit message](https://chris.beams.io/posts/git-commit/), including the project path and issue ID in the commit message body (e.g. `gitlab-ce#1337`). If the commit relates to multiple issues, put them on their own line. This creates a commit note in the issue, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office).
+1. Push your changes, create a merge request, and mention any [designer who manages this project](#project-managers).
 
 ### Production Folders
 

@@ -158,4 +158,4 @@ Old Antetype design files can still be valuable, if so see: [Converting antetype
 ## License
 
 The GitLab Design Kit is distributed under the MIT license,
-see the LICENSE file.
+see the [LICENSE](https://gitlab.com/gitlab-org/gitlab-design/blob/master/LICENSE) file.

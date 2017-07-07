@@ -10,10 +10,6 @@ Contains all resources and information UX Designers need.
 
 *Please put all exported folders in the `hosted` directory. That way you can shuffle the rest of your repository around without breaking links!*
 
-- __Automatic Sketch previews based on a pre-commit hook__
-
-*The pre-commit hook will auto generate preview images out of your Sketch pages with sketchtool*
-
 - __Semi automatic Sketch spec previews with Continuous Integration__
 
 *Whenever you create a spec preview folder with the [Sketch Measure Plugin](https://github.com/utom/sketch-measure), append `spec-previews` to the name of the generated directory and it will be visible by an URL. Search in [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*

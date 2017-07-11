@@ -2,7 +2,12 @@
 
 Contains all resources and information UX Designers need.
 
-*[Issue for GitLab Design Kit README Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/14)*  
+Git LFS is enabled for this repository. It tracks the following files: `.atype`, `.sketch`, `.psd`, `.zip`, `.jpg`, `.png`, `.pdf`.
+
+Please do the following before committing to this repository:
+- `git lfs install`
+
+__An archive of this repository, containing all original commit prior to the change to use git LFS at 08-07-2017 can be found [here](https://gitlab.com/gitlab-org/gitlab-design-archive)!__
 
 ![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-cover-image.jpg)
 
@@ -96,8 +101,6 @@ Example:
 - `navigation-1__project`
 
 - if you need to add the modifier, you can: `navigation-1__project--issues`
-
-*[Issue for Layer/Group Naming Convention Discussion](https://gitlab.com/gitlab-org/gitlab-design/issues/13)*
 
 ## Sketch Management
 

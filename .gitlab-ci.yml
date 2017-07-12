@@ -2,6 +2,8 @@ image: ruby:alpine
 
 pages:
   stage: deploy
+  cache:
+    untracked: true
   script:
   - ruby specscript.rb
   artifacts:

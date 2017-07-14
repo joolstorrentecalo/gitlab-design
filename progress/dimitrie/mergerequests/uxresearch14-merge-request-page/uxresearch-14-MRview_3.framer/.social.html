@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=6d40bc53861208d298f85019e08849ff">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=5354df4620043edc97b82b2ecadc45e4"></script>
+		<script src="framer/framer.generated.js?nocache=8e574688306d3c46df4ea3221ab14783"></script>
+		<script src="framer/framer.modules.js?nocache=e59f662fce45d6b1c530a8d1932df28f"></script>
+		<script src="framer/framer.vekter.js"></script>
+		<script>Framer.Device.hideBezel = false</script><script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 451;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};(function() {
+  var device_height, device_width, flowsidebar, flowtopbar, index, j, len, scrollcontent, sketch, tab, tabarray, tabcontentarray, tabswitcher;
+
+  sketch = Framer.Importer.load("imported/ce-32411-mr-view@1x", {
+    scale: 1
+  });
+
+  Framer.Extras.Hints.disable();
+
+  Framer.Extras.Preloader.setLogo("images/logo.png");
+
+  device_width = 1280;
+
+  device_height = 800;
+
+  Framer.Device.customize({
+    deviceImageWidth: device_width,
+    deviceImageHeight: device_height,
+    screenWidth: device_width,
+    screenHeight: device_height,
+    deviceType: "fullScreen",
+    backgroundColor: "white",
+    devicePixelRatio: 1
+  });
+
+  document.body.style.cursor = "auto";
+
+  flowsidebar = window.__framerNew("flowsidebar", "27:14-27:30", "#81770b80",new FlowComponent);
+
+  flowsidebar.width = 290;
+
+  flowsidebar.height = 698;
+
+  flowsidebar.y = device_height - flowsidebar.height;
+
+  flowsidebar.x = device_width - flowsidebar.width;
+
+  sketch.side.parent = flowsidebar;
+
+  flowtopbar = window.__framerNew("flowtopbar", "35:13-35:29", "#145eb0942",new FlowComponent);
+
+  flowtopbar.width = device_width;
+
+  flowtopbar.height = 102;
+
+  sketch.top.parent = flowtopbar;
+
+  sketch.MR.x = 0;
+
+  scrollcontent = window.__framerNew("scrollcontent", "43:20-50:0", "#ef6ea46e",new ScrollComponent({
+    wrap: sketch.mrviewcontent,
+    width: device_width - flowsidebar.width,
+    backgroundColor: "transparent",
+    scrollHorizontal: false,
+    mouseWheelEnabled: true,
+    directionLock: true
+  }));
+
+  scrollcontent.content.draggable.enabled = false;
+
+  sketch.tab_tabs.orgY = sketch.tab_tabs.y;
+
+  tabarray = [sketch.discussion, sketch.commits, sketch.pipelines, sketch.changes];
+
+  tabcontentarray = [sketch.discussion_tab, sketch.commits_tab, sketch.pipelines_tab, sketch.changes_tab];
+
+  tabswitcher = function(tab, index) {
+    tab.children[2].states = {
+      focus: {
+        visible: true,
+        saturate: 100,
+        opacity: 1
+      },
+      hover: {
+        visible: true,
+        saturate: 0,
+        opacity: .5
+      },
+      neutral: {
+        visible: true,
+        saturate: 50,
+        opacity: 0
+      }
+    };
+    tab.children[3].opacity = .5;
+    tab.onClick(function() {
+      var i, j, k, l, len, len1, len2, u;
+      for (u = j = 0, len = tabcontentarray.length; j < len; u = ++j) {
+        i = tabcontentarray[u];
+        if (u === index) {
+          i.visible = true;
+        } else {
+          i.visible = false;
+        }
+      }
+      scrollcontent.scrollToPoint({
+        y: sketch.tab_tabs.orgY + 4
+      });
+      if (tab.children[2].states.current.name !== "focus") {
+        for (u = k = 0, len1 = tabarray.length; k < len1; u = ++k) {
+          i = tabarray[u];
+          if (u !== index) {
+            i.children[2].stateSwitch("neutral");
+          }
+        }
+      }
+      tab.children[2].stateSwitch("focus");
+      if (tab.children[3].opacity !== 1) {
+        for (u = l = 0, len2 = tabarray.length; l < len2; u = ++l) {
+          i = tabarray[u];
+          if (u !== index) {
+            i.children[3].opacity = .5;
+          }
+        }
+      }
+      return tab.children[3].opacity = 1;
+    });
+    tab.onMouseOver(function() {
+      if (tab.children[2].states.current.name !== "focus") {
+        return tab.children[2].stateSwitch("hover");
+      }
+    });
+    return tab.onMouseOut(function() {
+      if (tab.children[2].states.current.name !== "focus") {
+        return tab.children[2].stateSwitch("neutral");
+      }
+    });
+  };
+
+  for (index = j = 0, len = tabarray.length; j < len; index = ++j) {
+    tab = tabarray[index];
+    tabswitcher(tab, index);
+  }
+
+  sketch.discussion.children[2].stateSwitch("focus");
+
+  sketch.discussion.children[3].opacity = 1;
+
+  sketch.tab_tabs.orgY = sketch.tab_tabs.y;
+
+  scrollcontent.onScroll(function() {
+    if (sketch.branches.states.current.name !== "expanded") {
+      if (scrollcontent.scrollY > sketch.tab_tabs.orgY) {
+        sketch.mrviewcontent.removeSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = 102;
+      } else {
+        sketch.mrviewcontent.addSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = sketch.tab_tabs.orgY;
+      }
+    } else {
+      scrollcontent.updateContent();
+      if (scrollcontent.scrollY > (sketch.tab_tabs.orgY + 310)) {
+        sketch.mrviewcontent.removeSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = 102;
+      } else {
+        sketch.mrviewcontent.addSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = sketch.tab_tabs.orgY + 310;
+      }
+    }
+  });
+
+  sketch.widget_build_stage.onMouseOver(function() {
+    return sketch.widget_build_tooltip.visible = true;
+  });
+
+  sketch.widget_build_stage.onMouseOut(function() {
+    return sketch.widget_build_tooltip.visible = false;
+  });
+
+  sketch.widget_prepare_stage.onMouseOver(function() {
+    return sketch.widget_prepare_tooltip.visible = true;
+  });
+
+  sketch.widget_prepare_stage.onMouseOut(function() {
+    return sketch.widget_prepare_tooltip.visible = false;
+  });
+
+  sketch.widget_test_stage.onMouseOver(function() {
+    return sketch.widget_test_tooltip.visible = true;
+  });
+
+  sketch.widget_test_stage.onMouseOut(function() {
+    return sketch.widget_test_tooltip.visible = false;
+  });
+
+  sketch.widget_posttest_stage.onMouseOver(function() {
+    return sketch.widget_posttest_tooltip.visible = true;
+  });
+
+  sketch.widget_posttest_stage.onMouseOut(function() {
+    return sketch.widget_posttest_tooltip.visible = false;
+  });
+
+  sketch.tab1_build_stage.onMouseOver(function() {
+    return sketch.tab1_build_tooltip.visible = true;
+  });
+
+  sketch.tab1_build_stage.onMouseOut(function() {
+    return sketch.tab1_build_tooltip.visible = false;
+  });
+
+  sketch.tab1_prepare_stage.onMouseOver(function() {
+    return sketch.tab1_prepare_tooltip.visible = true;
+  });
+
+  sketch.tab1_prepare_stage.onMouseOut(function() {
+    return sketch.tab1_prepare_tooltip.visible = false;
+  });
+
+  sketch.tab1_test_stage.onMouseOver(function() {
+    return sketch.tab1_test_tooltip.visible = true;
+  });
+
+  sketch.tab1_test_stage.onMouseOut(function() {
+    return sketch.tab1_test_tooltip.visible = false;
+  });
+
+  sketch.tab1_posttest_stage.onMouseOver(function() {
+    return sketch.tab1_posttest_tooltip.visible = true;
+  });
+
+  sketch.tab1_posttest_stage.onMouseOut(function() {
+    return sketch.tab1_posttest_tooltip.visible = false;
+  });
+
+  sketch.tab2_build_stage.onMouseOver(function() {
+    return sketch.tab2_build_tooltip.visible = true;
+  });
+
+  sketch.tab2_build_stage.onMouseOut(function() {
+    return sketch.tab2_build_tooltip.visible = false;
+  });
+
+  sketch.tab2_prepare_stage.onMouseOver(function() {
+    return sketch.tab2_prepare_tooltip.visible = true;
+  });
+
+  sketch.tab2_prepare_stage.onMouseOut(function() {
+    return sketch.tab2_prepare_tooltip.visible = false;
+  });
+
+  sketch.tab2_test_stage.onMouseOver(function() {
+    return sketch.tab2_test_tooltip.visible = true;
+  });
+
+  sketch.tab2_test_stage.onMouseOut(function() {
+    return sketch.tab2_test_tooltip.visible = false;
+  });
+
+  sketch.tab2_posttest_stage.onMouseOver(function() {
+    return sketch.tab2_posttest_tooltip.visible = true;
+  });
+
+  sketch.tab2_posttest_stage.onMouseOut(function() {
+    return sketch.tab2_posttest_tooltip.visible = false;
+  });
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>

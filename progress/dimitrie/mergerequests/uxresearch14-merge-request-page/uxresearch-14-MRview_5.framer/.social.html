@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=6d40bc53861208d298f85019e08849ff">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=5354df4620043edc97b82b2ecadc45e4"></script>
+		<script src="framer/framer.generated.js?nocache=624141f6dec308713ef21f5b164f352b"></script>
+		<script src="framer/framer.modules.js?nocache=c87808e17422e3ceff41cf2b54f57aa0"></script>
+		<script src="framer/framer.vekter.js"></script>
+		<script>Framer.Device.hideBezel = false</script><script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 962;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};window.__framerAnimation = function (th,a){if (a.isNoop === true) {return a;};var l = a.layer;if (l == null) { return a; };if (l.__framerAnimationInfo == null) {l.__framerAnimationInfo = {};};l.__framerAnimationInfo[th] = {originalState:a._originalState, destinationProperties: a.properties, destinationOptions: a.options};return a;};(function() {
+  var descext, descextender, device_height, device_width, flowsidebar, flowtopbar, index, j, len, scrollcontent, sketch, tab, tabarray, tabcontentarray, tabswitcher;
+
+  sketch = Framer.Importer.load("imported/ce-32411-mr-view@1x", {
+    scale: 1
+  });
+
+  Framer.Extras.Hints.disable();
+
+  Framer.Extras.Preloader.setLogo("images/logo.png");
+
+  device_width = 1280;
+
+  device_height = 800;
+
+  Framer.Device.customize({
+    deviceImageWidth: device_width,
+    deviceImageHeight: device_height,
+    screenWidth: device_width,
+    screenHeight: device_height,
+    deviceType: "fullScreen",
+    backgroundColor: "white",
+    devicePixelRatio: 1
+  });
+
+  document.body.style.cursor = "auto";
+
+  flowsidebar = window.__framerNew("flowsidebar", "27:14-27:30", "#81770b80",new FlowComponent);
+
+  flowsidebar.width = 290;
+
+  flowsidebar.height = 698;
+
+  flowsidebar.y = device_height - flowsidebar.height;
+
+  flowsidebar.x = device_width - flowsidebar.width;
+
+  sketch.side.parent = flowsidebar;
+
+  flowtopbar = window.__framerNew("flowtopbar", "35:13-35:29", "#145eb0942",new FlowComponent);
+
+  flowtopbar.width = device_width;
+
+  flowtopbar.height = 102;
+
+  sketch.top.parent = flowtopbar;
+
+  sketch.MR.x = 0;
+
+  scrollcontent = window.__framerNew("scrollcontent", "43:20-50:0", "#ef6ea46e",new ScrollComponent({
+    wrap: sketch.mrviewcontent,
+    width: device_width - flowsidebar.width,
+    backgroundColor: "transparent",
+    scrollHorizontal: false,
+    mouseWheelEnabled: true,
+    directionLock: true
+  }));
+
+  scrollcontent.content.draggable.enabled = false;
+
+  sketch.tab_tabs.orgY = sketch.tab_tabs.y;
+
+  sketch.mini_status_codequality.orgX = sketch.mini_status_codequality.x;
+
+  sketch.mini_status_mergability.orgX = sketch.mini_status_mergability.x;
+
+  sketch.mr_underline.orgWidth = sketch.mr_underline.width;
+
+  sketch.discussion.orgX = sketch.discussion.x;
+
+  sketch.commits.orgX = sketch.commits.x;
+
+  sketch.pipelines.orgX = sketch.pipelines.x;
+
+  sketch.changes.orgX = sketch.changes.x;
+
+  tabarray = [sketch.discussion, sketch.commits, sketch.pipelines, sketch.changes, sketch.merge_status];
+
+  tabcontentarray = [sketch.discussion_tab, sketch.commits_tab, sketch.pipelines_tab, sketch.changes_tab, sketch.mergestatus_tab];
+
+  tabswitcher = function(tab, index) {
+    tab.children[2].states = {
+      focus: {
+        visible: true,
+        saturate: 100,
+        opacity: 1
+      },
+      hover: {
+        visible: true,
+        saturate: 0,
+        opacity: .5
+      },
+      neutral: {
+        visible: true,
+        saturate: 50,
+        opacity: 0
+      }
+    };
+    tab.children[3].opacity = .5;
+    sketch.bg.orgWidth = sketch.bg.width;
+    tab.onClick(function() {
+      var i, j, k, l, len, len1, len2, u;
+      for (u = j = 0, len = tabcontentarray.length; j < len; u = ++j) {
+        i = tabcontentarray[u];
+        if (u === index) {
+          i.visible = true;
+        } else {
+          i.visible = false;
+        }
+      }
+      scrollcontent.scrollToPoint({
+        y: sketch.tab_tabs.orgY + 4
+      });
+      if (tab.children[2].states.current.name !== "focus") {
+        for (u = k = 0, len1 = tabarray.length; k < len1; u = ++k) {
+          i = tabarray[u];
+          if (u !== index) {
+            i.children[2].stateSwitch("neutral");
+          }
+          if (u === 4) {
+            sketch.mini_mrstatus.visible = true;
+            sketch.discussion.placeBehind(sketch.merge_status);
+            window.__framerAnimation("#13ade6f5a",sketch.mini_mrstatus.animate({
+              opacity: 1,
+              options: {
+                delay: .25
+              }
+            }));
+            window.__framerAnimation("#10e775c5e",sketch.bg.animate({
+              width: sketch.bg.orgWidth
+            }));
+            window.__framerAnimation("#17843d2e0",sketch.mr_underline.animate({
+              width: sketch.mr_underline.orgWidth
+            }));
+            window.__framerAnimation("#138f325b7",sketch.discussion.animate({
+              x: sketch.discussion.orgX
+            }));
+            window.__framerAnimation("#a2bf9c39",sketch.commits.animate({
+              x: sketch.commits.orgX
+            }));
+            window.__framerAnimation("#10c8c12bb",sketch.pipelines.animate({
+              x: sketch.pipelines.orgX
+            }));
+            window.__framerAnimation("#17658893d",sketch.changes.animate({
+              x: sketch.changes.orgX
+            }));
+          }
+        }
+      }
+      tab.children[2].stateSwitch("focus");
+      if (tab.children[3].opacity !== 1) {
+        for (u = l = 0, len2 = tabarray.length; l < len2; u = ++l) {
+          i = tabarray[u];
+          if (u !== index) {
+            i.children[3].opacity = .5;
+          }
+        }
+      }
+      tab.children[3].opacity = 1;
+      if (sketch.merge_status.children[2].states.current.name === "focus") {
+        sketch.mini_mrstatus.visible = false;
+        sketch.merge_status.placeBehind(sketch.discussion);
+        sketch.mini_mrstatus.opacity = 0;
+        window.__framerAnimation("#d3b31532",sketch.bg.animate({
+          width: sketch.bg.orgWidth - 50
+        }));
+        window.__framerAnimation("#13d7f8bb4",sketch.mr_underline.animate({
+          width: sketch.mr_underline.orgWidth - 50
+        }));
+        window.__framerAnimation("#a74c0236",sketch.discussion.animate({
+          x: sketch.discussion.orgX - 50
+        }));
+        window.__framerAnimation("#1111878b8",sketch.commits.animate({
+          x: sketch.commits.orgX - 50
+        }));
+        window.__framerAnimation("#17ae4ef3a",sketch.pipelines.animate({
+          x: sketch.pipelines.orgX - 50
+        }));
+        window.__framerAnimation("#13b944211",sketch.changes.animate({
+          x: sketch.changes.orgX - 50
+        }));
+        window.__framerAnimation("#a560b893",sketch.mini_status_codequality.animate({
+          x: sketch.mini_status_codequality.orgX,
+          options: {
+            delay: .5
+          }
+        }));
+        return window.__framerAnimation("#178f9a597",sketch.mini_status_mergability.animate({
+          x: sketch.mini_status_mergability.orgX,
+          options: {
+            delay: .5
+          }
+        }));
+      }
+    });
+    tab.onMouseOver(function() {
+      if (tab.children[2].states.current.name !== "focus") {
+        return tab.children[2].stateSwitch("hover");
+      }
+    });
+    return tab.onMouseOut(function() {
+      if (tab.children[2].states.current.name !== "focus") {
+        return tab.children[2].stateSwitch("neutral");
+      }
+    });
+  };
+
+  for (index = j = 0, len = tabarray.length; j < len; index = ++j) {
+    tab = tabarray[index];
+    tabswitcher(tab, index);
+  }
+
+  sketch.merge_status.children[2].stateSwitch("focus");
+
+  sketch.merge_status.children[3].opacity = 1;
+
+  sketch.merge_status.onMouseOver(function(event, layer) {
+    if (sketch.merge_status.children[2].states.current.name !== "focus") {
+      window.__framerAnimation("#17d942315",sketch.mini_status_codequality.animate({
+        x: sketch.mini_status_codequality.orgX + 12
+      }));
+      window.__framerAnimation("#e7609997",sketch.mini_status_mergability.animate({
+        x: sketch.mini_status_mergability.orgX + 23
+      }));
+      window.__framerAnimation("#a80fec6e",sketch.mr_underline.animate({
+        width: sketch.mr_underline.orgWidth + 23
+      }));
+      window.__framerAnimation("#111dc62f0",sketch.discussion.animate({
+        x: sketch.discussion.orgX + 23
+      }));
+      window.__framerAnimation("#17ba8d972",sketch.commits.animate({
+        x: sketch.commits.orgX + 23
+      }));
+      window.__framerAnimation("#e5754ff4",sketch.pipelines.animate({
+        x: sketch.pipelines.orgX + 23
+      }));
+      return window.__framerAnimation("#14f41c676",sketch.changes.animate({
+        x: sketch.changes.orgX + 23
+      }));
+    }
+  });
+
+  sketch.merge_status.onMouseOut(function(event, layer) {
+    if (sketch.merge_status.children[2].states.current.name !== "focus") {
+      window.__framerAnimation("#16902b49c",sketch.mini_status_codequality.animate({
+        x: sketch.mini_status_codequality.orgX
+      }));
+      window.__framerAnimation("#d2cf2b1e",sketch.mini_status_mergability.animate({
+        x: sketch.mini_status_mergability.orgX
+      }));
+      window.__framerAnimation("#13c9ba1a0",sketch.mr_underline.animate({
+        width: sketch.mr_underline.orgWidth
+      }));
+      window.__framerAnimation("#fd4af477",sketch.discussion.animate({
+        x: sketch.discussion.orgX
+      }));
+      window.__framerAnimation("#167176af9",sketch.commits.animate({
+        x: sketch.commits.orgX
+      }));
+      window.__framerAnimation("#d0e3e17b",sketch.pipelines.animate({
+        x: sketch.pipelines.orgX
+      }));
+      return window.__framerAnimation("#13ab057fd",sketch.changes.animate({
+        x: sketch.changes.orgX
+      }));
+    }
+  });
+
+  sketch.mini_status_pipeline.onMouseOver(function() {
+    return sketch.pipelinetooltip.visible = true;
+  });
+
+  sketch.mini_status_pipeline.onMouseOut(function() {
+    return sketch.pipelinetooltip.visible = false;
+  });
+
+  sketch.mini_status_codequality.onMouseOver(function() {
+    return sketch.codequalitytooltip.visible = true;
+  });
+
+  sketch.mini_status_codequality.onMouseOut(function() {
+    return sketch.codequalitytooltip.visible = false;
+  });
+
+  sketch.mini_status_mergability.onMouseOver(function() {
+    return sketch.mergabilitytooltip.visible = true;
+  });
+
+  sketch.mini_status_mergability.onMouseOut(function() {
+    return sketch.mergabilitytooltip.visible = false;
+  });
+
+  sketch.mini_mrstatus.visible = false;
+
+  sketch.merge_status.placeBehind(sketch.discussion);
+
+  sketch.mini_mrstatus.opacity = 0;
+
+  sketch.bg.width = sketch.bg.orgWidth - 50;
+
+  sketch.mr_underline.width = sketch.mr_underline.orgWidth - 50;
+
+  sketch.discussion.x = sketch.discussion.orgX - 50;
+
+  sketch.commits.x = sketch.commits.orgX - 50;
+
+  sketch.pipelines.x = sketch.pipelines.orgX - 50;
+
+  sketch.changes.x = sketch.changes.orgX - 50;
+
+  sketch.collapse_gradient.onMouseOver(function() {
+    sketch.collapse_icon_focus.visible = true;
+    return sketch.divider_focus.visible = true;
+  });
+
+  sketch.collapse_gradient.onMouseOut(function() {
+    sketch.collapse_icon_focus.visible = false;
+    return sketch.divider_focus.visible = false;
+  });
+
+  descext = 310;
+
+  descextender = function(group) {
+    var originalposorg;
+    originalposorg = group.y;
+    return group.states = {
+      collapsed: {
+        y: originalposorg
+      },
+      expanded: {
+        y: originalposorg + descext
+      }
+    };
+  };
+
+  descextender(sketch.branches);
+
+  descextender(sketch.award_emoji);
+
+  descextender(sketch.tab_tabs);
+
+  descextender(sketch.tab_content);
+
+  sketch.collapse_gradient.states = {
+    collapsed: {
+      opacity: 1
+    },
+    expanded: {
+      opacity: 0
+    }
+  };
+
+  sketch.collapse_icon.states = {
+    collapsed: {
+      scaleY: 1
+    },
+    expanded: {
+      scaleY: -1
+    }
+  };
+
+  sketch.collapse_icon_focus.states = {
+    collapsed: {
+      scaleY: 1
+    },
+    expanded: {
+      scaleY: -1
+    }
+  };
+
+  sketch.collapse_gradient.onClick(function() {
+    sketch.branches.stateCycle("expanded", "collapsed");
+    sketch.award_emoji.stateCycle("expanded", "collapsed");
+    sketch.tab_tabs.stateCycle("expanded", "collapsed");
+    sketch.tab_content.stateCycle("expanded", "collapsed");
+    sketch.collapse_gradient.stateCycle("expanded", "collapsed");
+    sketch.collapse_icon.stateCycle("expanded", "collapsed");
+    sketch.collapse_icon_focus.stateCycle("expanded", "collapsed");
+    return scrollcontent.updateContent();
+  });
+
+  sketch.tab_tabs.orgY = sketch.tab_tabs.y;
+
+  scrollcontent.onScroll(function() {
+    if (sketch.branches.states.current.name !== "expanded") {
+      if (scrollcontent.scrollY > sketch.tab_tabs.orgY) {
+        sketch.mrviewcontent.removeSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = 102;
+      } else {
+        sketch.mrviewcontent.addSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = sketch.tab_tabs.orgY;
+      }
+    } else {
+      scrollcontent.updateContent();
+      if (scrollcontent.scrollY > (sketch.tab_tabs.orgY + 310)) {
+        sketch.mrviewcontent.removeSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = 102;
+      } else {
+        sketch.mrviewcontent.addSubLayer(sketch.tab_tabs);
+        return sketch.tab_tabs.y = sketch.tab_tabs.orgY + 310;
+      }
+    }
+  });
+
+  sketch.widget_build_stage.onMouseOver(function() {
+    return sketch.widget_build_tooltip.visible = true;
+  });
+
+  sketch.widget_build_stage.onMouseOut(function() {
+    return sketch.widget_build_tooltip.visible = false;
+  });
+
+  sketch.widget_prepare_stage.onMouseOver(function() {
+    return sketch.widget_prepare_tooltip.visible = true;
+  });
+
+  sketch.widget_prepare_stage.onMouseOut(function() {
+    return sketch.widget_prepare_tooltip.visible = false;
+  });
+
+  sketch.widget_test_stage.onMouseOver(function() {
+    return sketch.widget_test_tooltip.visible = true;
+  });
+
+  sketch.widget_test_stage.onMouseOut(function() {
+    return sketch.widget_test_tooltip.visible = false;
+  });
+
+  sketch.widget_posttest_stage.onMouseOver(function() {
+    return sketch.widget_posttest_tooltip.visible = true;
+  });
+
+  sketch.widget_posttest_stage.onMouseOut(function() {
+    return sketch.widget_posttest_tooltip.visible = false;
+  });
+
+  sketch.tab1_build_stage.onMouseOver(function() {
+    return sketch.tab1_build_tooltip.visible = true;
+  });
+
+  sketch.tab1_build_stage.onMouseOut(function() {
+    return sketch.tab1_build_tooltip.visible = false;
+  });
+
+  sketch.tab1_prepare_stage.onMouseOver(function() {
+    return sketch.tab1_prepare_tooltip.visible = true;
+  });
+
+  sketch.tab1_prepare_stage.onMouseOut(function() {
+    return sketch.tab1_prepare_tooltip.visible = false;
+  });
+
+  sketch.tab1_test_stage.onMouseOver(function() {
+    return sketch.tab1_test_tooltip.visible = true;
+  });
+
+  sketch.tab1_test_stage.onMouseOut(function() {
+    return sketch.tab1_test_tooltip.visible = false;
+  });
+
+  sketch.tab1_posttest_stage.onMouseOver(function() {
+    return sketch.tab1_posttest_tooltip.visible = true;
+  });
+
+  sketch.tab1_posttest_stage.onMouseOut(function() {
+    return sketch.tab1_posttest_tooltip.visible = false;
+  });
+
+  sketch.tab2_build_stage.onMouseOver(function() {
+    return sketch.tab2_build_tooltip.visible = true;
+  });
+
+  sketch.tab2_build_stage.onMouseOut(function() {
+    return sketch.tab2_build_tooltip.visible = false;
+  });
+
+  sketch.tab2_prepare_stage.onMouseOver(function() {
+    return sketch.tab2_prepare_tooltip.visible = true;
+  });
+
+  sketch.tab2_prepare_stage.onMouseOut(function() {
+    return sketch.tab2_prepare_tooltip.visible = false;
+  });
+
+  sketch.tab2_test_stage.onMouseOver(function() {
+    return sketch.tab2_test_tooltip.visible = true;
+  });
+
+  sketch.tab2_test_stage.onMouseOut(function() {
+    return sketch.tab2_test_tooltip.visible = false;
+  });
+
+  sketch.tab2_posttest_stage.onMouseOver(function() {
+    return sketch.tab2_posttest_tooltip.visible = true;
+  });
+
+  sketch.tab2_posttest_stage.onMouseOut(function() {
+    return sketch.tab2_posttest_tooltip.visible = false;
+  });
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>

@@ -1202,6 +1202,1505 @@ window.__imported__["ce-32411-mr-view@1x/layers.json.js"] = [
 						]
 					},
 					{
+						"objectId": "A5E2F603-FEE5-4CA4-902B-BA072B31AEDC",
+						"kind": "group",
+						"name": "tab_content",
+						"originalName": "tab_content",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 16,
+							"y": 485,
+							"width": 959,
+							"height": 1057
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-tab_content-qtvfmky2.png",
+							"frame": {
+								"x": 16,
+								"y": 485,
+								"width": 959,
+								"height": 1057
+							}
+						},
+						"children": [
+							{
+								"objectId": "06822FFB-5814-4F2F-89EB-FC39CDC098D5",
+								"kind": "group",
+								"name": "discussion_tab",
+								"originalName": "discussion_tab",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 12,
+									"y": 486,
+									"width": 979,
+									"height": 1075
+								},
+								"visible": false,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-discussion_tab-mdy4mjjg.jpg",
+									"frame": {
+										"x": 12,
+										"y": 486,
+										"width": 979,
+										"height": 1075
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "3F4D8E29-2A7E-447D-A2E5-67C056EEE172",
+								"kind": "group",
+								"name": "commits_tab",
+								"originalName": "commits_tab",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 10,
+									"y": 484,
+									"width": 970,
+									"height": 91
+								},
+								"visible": false,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-commits_tab-m0y0rdhf.jpg",
+									"frame": {
+										"x": 10,
+										"y": 484,
+										"width": 970,
+										"height": 91
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "EE865497-1431-4EC7-8A57-F4DB1B48B7A8",
+								"kind": "group",
+								"name": "pipelines_tab",
+								"originalName": "pipelines_tab",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 5,
+									"y": 485,
+									"width": 977,
+									"height": 170
+								},
+								"visible": false,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-pipelines_tab-ruu4nju0.jpg",
+									"frame": {
+										"x": 5,
+										"y": 485,
+										"width": 977,
+										"height": 170
+									}
+								},
+								"children": [
+									{
+										"objectId": "9D60B7F5-94C5-4464-B825-01C2988E100F",
+										"kind": "group",
+										"name": "tab2_mpg",
+										"originalName": "tab2-mpg",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 501,
+											"y": 596,
+											"width": 113,
+											"height": 27
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "6F817934-60B0-481B-B894-51E8A9A54391",
+												"kind": "group",
+												"name": "tab2_build_tooltip",
+												"originalName": "tab2-build-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 485,
+													"y": 549,
+													"width": 61,
+													"height": 45
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_build_tooltip-nky4mtc5.png",
+													"frame": {
+														"x": 485,
+														"y": 549,
+														"width": 61,
+														"height": 45
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "8C54E820-5BCF-4146-B00E-C2076F8ED3AD",
+												"kind": "group",
+												"name": "tab2_build_stage",
+												"originalName": "tab2-build-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 501,
+													"y": 596,
+													"width": 29,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_build_stage-oem1neu4.jpg",
+													"frame": {
+														"x": 501,
+														"y": 596,
+														"width": 29,
+														"height": 27
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "A2776747-A445-446D-A903-7184EE0420A5",
+												"kind": "group",
+												"name": "tab2_prepare_tooltip",
+												"originalName": "tab2-prepare-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 514,
+													"y": 549,
+													"width": 61,
+													"height": 45
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_prepare_tooltip-qti3nzy3.png",
+													"frame": {
+														"x": 514,
+														"y": 549,
+														"width": 61,
+														"height": 45
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "239C31DB-58C0-4862-B329-5FF79059EEDE",
+												"kind": "group",
+												"name": "tab2_prepare_stage",
+												"originalName": "tab2-prepare-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 530,
+													"y": 596,
+													"width": 29,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_prepare_stage-mjm5qzmx.jpg",
+													"frame": {
+														"x": 530,
+														"y": 596,
+														"width": 29,
+														"height": 27
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "7F21C915-8731-428D-BC99-40164DB00DE1",
+												"kind": "group",
+												"name": "tab2_test_tooltip",
+												"originalName": "tab2-test-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 547,
+													"y": 549,
+													"width": 48,
+													"height": 45
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_test_tooltip-n0yymum5.png",
+													"frame": {
+														"x": 547,
+														"y": 549,
+														"width": 48,
+														"height": 45
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "3AD5E74C-595D-4F9C-95CB-C531F4DAD15E",
+												"kind": "group",
+												"name": "tab2_test_stage",
+												"originalName": "tab2-test-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 557,
+													"y": 596,
+													"width": 30,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_test_stage-m0fenuu3.jpg",
+													"frame": {
+														"x": 557,
+														"y": 596,
+														"width": 30,
+														"height": 27
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "4264A60E-F48F-4134-8B91-3F95F5ABB57C",
+												"kind": "group",
+												"name": "tab2_posttest_tooltip",
+												"originalName": "tab2-posttest-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 564,
+													"y": 549,
+													"width": 71,
+													"height": 45
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_posttest_tooltip-ndi2nee2.png",
+													"frame": {
+														"x": 564,
+														"y": 549,
+														"width": 71,
+														"height": 45
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "82FF9369-6334-4D40-AA67-38A5E722F223",
+												"kind": "group",
+												"name": "tab2_posttest_stage",
+												"originalName": "tab2-posttest-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 585,
+													"y": 596,
+													"width": 29,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab2_posttest_stage-odjgrjkz.jpg",
+													"frame": {
+														"x": 585,
+														"y": 596,
+														"width": 29,
+														"height": 27
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "F303E9DA-E208-4133-A999-37BF7F373F20",
+										"kind": "group",
+										"name": "tab1_mpg",
+										"originalName": "tab1-mpg",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 501,
+											"y": 510,
+											"width": 113,
+											"height": 27
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"children": [
+											{
+												"objectId": "51759122-C95E-4CCC-8042-AE3B216DE7E5",
+												"kind": "group",
+												"name": "tab1_build_tooltip",
+												"originalName": "tab1-build-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 485,
+													"y": 539,
+													"width": 61,
+													"height": 46
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_build_tooltip-nte3ntkx.png",
+													"frame": {
+														"x": 485,
+														"y": 539,
+														"width": 61,
+														"height": 46
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "927D7C25-965C-4FB7-876E-7C97071ACD01",
+												"kind": "group",
+												"name": "tab1_build_stage",
+												"originalName": "tab1-build-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 501,
+													"y": 510,
+													"width": 29,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_build_stage-oti3rddd.jpg",
+													"frame": {
+														"x": 501,
+														"y": 510,
+														"width": 29,
+														"height": 27
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "0430A3DB-A543-43D4-BF02-741D986DA4A8",
+												"kind": "group",
+												"name": "tab1_prepare_tooltip",
+												"originalName": "tab1-prepare-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 514,
+													"y": 539,
+													"width": 61,
+													"height": 46
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_prepare_tooltip-mdqzmeez.png",
+													"frame": {
+														"x": 514,
+														"y": 539,
+														"width": 61,
+														"height": 46
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "E5780B36-3675-4E09-9A9D-F46DBA0391EE",
+												"kind": "group",
+												"name": "tab1_prepare_stage",
+												"originalName": "tab1-prepare-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 530,
+													"y": 510,
+													"width": 29,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_prepare_stage-rtu3odbc.jpg",
+													"frame": {
+														"x": 530,
+														"y": 510,
+														"width": 29,
+														"height": 27
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "514707D0-6DFE-4F11-8988-394F2824905D",
+												"kind": "group",
+												"name": "tab1_test_tooltip",
+												"originalName": "tab1-test-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 547,
+													"y": 539,
+													"width": 48,
+													"height": 46
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_test_tooltip-nte0nza3.png",
+													"frame": {
+														"x": 547,
+														"y": 539,
+														"width": 48,
+														"height": 46
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "75A71B11-082E-43C8-99A9-D6AA0F4EAC59",
+												"kind": "group",
+												"name": "tab1_test_stage",
+												"originalName": "tab1-test-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 557,
+													"y": 510,
+													"width": 30,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_test_stage-nzvbnzfc.jpg",
+													"frame": {
+														"x": 557,
+														"y": 510,
+														"width": 30,
+														"height": 27
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "A8C01CEB-8150-40B7-A41C-50F44ED1F822",
+												"kind": "group",
+												"name": "tab1_posttest_tooltip",
+												"originalName": "tab1-posttest-tooltip",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 564,
+													"y": 539,
+													"width": 71,
+													"height": 46
+												},
+												"visible": false,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_posttest_tooltip-qthdmdfd.png",
+													"frame": {
+														"x": 564,
+														"y": 539,
+														"width": 71,
+														"height": 46
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "002A718D-C670-4D2B-B00B-5EC1B9680095",
+												"kind": "group",
+												"name": "tab1_posttest_stage",
+												"originalName": "tab1-posttest-stage",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 585,
+													"y": 510,
+													"width": 29,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-tab1_posttest_stage-mdayqtcx.jpg",
+													"frame": {
+														"x": 585,
+														"y": 510,
+														"width": 29,
+														"height": 27
+													}
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"objectId": "432D8566-686D-460F-8FDF-D7F691A58E85",
+								"kind": "group",
+								"name": "changes_tab",
+								"originalName": "changes_tab",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": -16,
+									"y": 483,
+									"width": 1027,
+									"height": 9120
+								},
+								"visible": false,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-changes_tab-ndmyrdg1.jpg",
+									"frame": {
+										"x": -16,
+										"y": 483,
+										"width": 1027,
+										"height": 9120
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "C31AB20B-B37E-4AB2-A62B-9D998C1CD1AE",
+								"kind": "group",
+								"name": "mergestatus_tab",
+								"originalName": "mergestatus_tab",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 16,
+									"y": 499,
+									"width": 958,
+									"height": 243
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-mergestatus_tab-qzmxquiy.png",
+									"frame": {
+										"x": 16,
+										"y": 499,
+										"width": 958,
+										"height": 243
+									}
+								},
+								"children": [
+									{
+										"objectId": "78E1E10F-97EC-44C2-8A67-53ADAE38152B",
+										"kind": "group",
+										"name": "stop_environment_button_copy_2",
+										"originalName": "stop-environment-button copy 2",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 574,
+											"y": 614,
+											"width": 99,
+											"height": 25
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-stop_environment_button_copy_2-nzhfmuux.png",
+											"frame": {
+												"x": 574,
+												"y": 614,
+												"width": 99,
+												"height": 25
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "70A6FE50-173B-407B-9E7E-399F6CCDA03A",
+										"kind": "group",
+										"name": "Group_23",
+										"originalName": "Group 23",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 509,
+											"y": 614,
+											"width": 55,
+											"height": 25
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 0.35
+										},
+										"image": {
+											"path": "images/Layer-Group_23-nzbbnkzf.png",
+											"frame": {
+												"x": 509,
+												"y": 614,
+												"width": 55,
+												"height": 25
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "EDDACCBB-49A2-4347-AD3F-9BF4664C9841",
+										"kind": "text",
+										"name": "command_line_instructions",
+										"originalName": "command-line-instructions",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 68,
+											"y": 727,
+											"width": 466,
+											"height": 15
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "You can also merge or inspect manually using the command line instructions",
+											"css": [
+												"/* You can also merge o: */",
+												"font-family: SourceSansPro-It;",
+												"font-size: 15px;",
+												"color: #333333;",
+												"letter-spacing: 0;",
+												"line-height: 20px;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-command_line_instructions-rureqund.png",
+											"frame": {
+												"x": 68,
+												"y": 727,
+												"width": 466,
+												"height": 15
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "2275CC7D-1F44-4E9F-97B3-97FF0DBE2ADF",
+										"kind": "group",
+										"name": "Group_9_Copy_5",
+										"originalName": "Group 9 Copy 5",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 31,
+											"y": 502,
+											"width": 22,
+											"height": 22
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_9_Copy_5-mji3nund.png",
+											"frame": {
+												"x": 31,
+												"y": 502,
+												"width": 22,
+												"height": 22
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "7B3556D4-AFE6-43BB-97B7-FA7CB51D7305",
+										"kind": "group",
+										"name": "Group_9",
+										"originalName": "Group 9",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 31,
+											"y": 615,
+											"width": 22,
+											"height": 22
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_9-n0izntu2.png",
+											"frame": {
+												"x": 31,
+												"y": 615,
+												"width": 22,
+												"height": 22
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "D0C98100-889F-452C-9363-74B46DEFA107",
+										"kind": "group",
+										"name": "Group_18",
+										"originalName": "Group 18",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 16,
+											"y": 499,
+											"width": 958,
+											"height": 214
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1
+										},
+										"image": {
+											"path": "images/Layer-Group_18-rdbdotgx.png",
+											"frame": {
+												"x": 16,
+												"y": 499,
+												"width": 958,
+												"height": 214
+											}
+										},
+										"children": [
+											{
+												"objectId": "644F10B8-1079-4573-9166-EA5A2B5AEE79",
+												"kind": "group",
+												"name": "Group_211",
+												"originalName": "Group 21",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 31,
+													"y": 499,
+													"width": 387,
+													"height": 27
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_21-njq0rjew.png",
+													"frame": {
+														"x": 31,
+														"y": 499,
+														"width": 387,
+														"height": 27
+													}
+												},
+												"children": [
+													{
+														"objectId": "C51D3729-97ED-4BD7-8F49-A09F1E873C35",
+														"kind": "group",
+														"name": "widget_mpg",
+														"originalName": "widget-mpg",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 181,
+															"y": 499,
+															"width": 113,
+															"height": 27
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"children": [
+															{
+																"objectId": "6E043686-4083-4211-8EB0-2722C55C1B65",
+																"kind": "group",
+																"name": "widget_build_tooltip",
+																"originalName": "widget-build-tooltip",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 165,
+																	"y": 530,
+																	"width": 61,
+																	"height": 46
+																},
+																"visible": false,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_build_tooltip-nkuwndm2.png",
+																	"frame": {
+																		"x": 165,
+																		"y": 530,
+																		"width": 61,
+																		"height": 46
+																	}
+																},
+																"children": []
+															},
+															{
+																"objectId": "55FAC68C-0CE3-40BD-B439-24216EB4CA1A",
+																"kind": "group",
+																"name": "widget_build_stage",
+																"originalName": "widget-build-stage",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 181,
+																	"y": 499,
+																	"width": 29,
+																	"height": 27
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_build_stage-ntvgqum2.jpg",
+																	"frame": {
+																		"x": 181,
+																		"y": 499,
+																		"width": 29,
+																		"height": 27
+																	}
+																},
+																"children": []
+															},
+															{
+																"objectId": "F485CEF7-0949-42EB-AEC1-BD40CEDDE762",
+																"kind": "group",
+																"name": "widget_prepare_tooltip",
+																"originalName": "widget-prepare-tooltip",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 194,
+																	"y": 530,
+																	"width": 61,
+																	"height": 46
+																},
+																"visible": false,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_prepare_tooltip-rjq4nunf.png",
+																	"frame": {
+																		"x": 194,
+																		"y": 530,
+																		"width": 61,
+																		"height": 46
+																	}
+																},
+																"children": []
+															},
+															{
+																"objectId": "009A7CA9-8591-4D00-818E-61021DDBD794",
+																"kind": "group",
+																"name": "widget_prepare_stage",
+																"originalName": "widget-prepare-stage",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 210,
+																	"y": 499,
+																	"width": 29,
+																	"height": 27
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_prepare_stage-mda5qtdd.jpg",
+																	"frame": {
+																		"x": 210,
+																		"y": 499,
+																		"width": 29,
+																		"height": 27
+																	}
+																},
+																"children": []
+															},
+															{
+																"objectId": "4109ECD6-8DD7-4AEB-A6F3-32A0BEE1B84E",
+																"kind": "group",
+																"name": "widget_test_tooltip",
+																"originalName": "widget-test-tooltip",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 227,
+																	"y": 530,
+																	"width": 48,
+																	"height": 46
+																},
+																"visible": false,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_test_tooltip-ndewouvd.png",
+																	"frame": {
+																		"x": 227,
+																		"y": 530,
+																		"width": 48,
+																		"height": 46
+																	}
+																},
+																"children": []
+															},
+															{
+																"objectId": "4188F7CD-94D9-4E51-AEC4-4E9733EEF326",
+																"kind": "group",
+																"name": "widget_test_stage",
+																"originalName": "widget-test-stage",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 237,
+																	"y": 499,
+																	"width": 30,
+																	"height": 27
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_test_stage-nde4oey3.jpg",
+																	"frame": {
+																		"x": 237,
+																		"y": 499,
+																		"width": 30,
+																		"height": 27
+																	}
+																},
+																"children": []
+															},
+															{
+																"objectId": "6E4F760F-A7C9-4147-BD12-222CB8402205",
+																"kind": "group",
+																"name": "widget_posttest_tooltip",
+																"originalName": "widget-posttest-tooltip",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 244,
+																	"y": 530,
+																	"width": 71,
+																	"height": 46
+																},
+																"visible": false,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_posttest_tooltip-nku0rjc2.png",
+																	"frame": {
+																		"x": 244,
+																		"y": 530,
+																		"width": 71,
+																		"height": 46
+																	}
+																},
+																"children": []
+															},
+															{
+																"objectId": "447B068F-1F1B-46BD-8A20-24256A85FBFF",
+																"kind": "group",
+																"name": "widget_posttest_stage",
+																"originalName": "widget-posttest-stage",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 265,
+																	"y": 499,
+																	"width": 29,
+																	"height": 27
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-widget_posttest_stage-ndq3qja2.jpg",
+																	"frame": {
+																		"x": 265,
+																		"y": 499,
+																		"width": 29,
+																		"height": 27
+																	}
+																},
+																"children": []
+															}
+														]
+													},
+													{
+														"objectId": "B47363B7-FAE5-4C99-875F-02DE344CE69D",
+														"kind": "group",
+														"name": "Group_9_Copy_3",
+														"originalName": "Group 9 Copy 3",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 31,
+															"y": 502,
+															"width": 22,
+															"height": 22
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-Group_9_Copy_3-qjq3mzyz.png",
+															"frame": {
+																"x": 31,
+																"y": 502,
+																"width": 22,
+																"height": 22
+															}
+														},
+														"children": []
+													}
+												]
+											},
+											{
+												"objectId": "82699F9A-7121-4F27-AF33-F6E19DD7F254",
+												"kind": "group",
+												"name": "Group_20",
+												"originalName": "Group 20",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 17,
+													"y": 532,
+													"width": 956,
+													"height": 38
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_20-odi2otlg.png",
+													"frame": {
+														"x": 17,
+														"y": 532,
+														"width": 956,
+														"height": 38
+													}
+												},
+												"children": [
+													{
+														"objectId": "15EE24CD-5644-4F90-BA07-38ADB37D7583",
+														"kind": "group",
+														"name": "Group_22",
+														"originalName": "Group 22",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 58,
+															"y": 541,
+															"width": 62,
+															"height": 22
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-Group_22-mtvfrti0.png",
+															"frame": {
+																"x": 58,
+																"y": 541,
+																"width": 62,
+																"height": 22
+															}
+														},
+														"children": []
+													}
+												]
+											},
+											{
+												"objectId": "21B7A3EA-02EE-4C7F-BE9E-882A844F6E7F",
+												"kind": "group",
+												"name": "MR_body_text",
+												"originalName": "MR-body-text",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 67,
+													"y": 564,
+													"width": 206,
+													"height": 15
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-MR_body_text-mjfcn0ez.png",
+													"frame": {
+														"x": 67,
+														"y": 564,
+														"width": 206,
+														"height": 15
+													}
+												},
+												"children": [
+													{
+														"objectId": "181C1B40-FF18-44B1-BD2A-537B03AE46CB",
+														"kind": "group",
+														"name": "stop_environment_button_copy",
+														"originalName": "stop-environment-button copy",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 448,
+															"y": 553,
+															"width": 130,
+															"height": 24
+														},
+														"visible": false,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-stop_environment_button_copy-mtgxqzfc.png",
+															"frame": {
+																"x": 448,
+																"y": 553,
+																"width": 130,
+																"height": 24
+															}
+														},
+														"children": []
+													},
+													{
+														"objectId": "8BC0C062-883F-4386-85F1-AA4238DCEBE7",
+														"kind": "group",
+														"name": "environment_buttons",
+														"originalName": "environment buttons",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 62,
+															"y": 585,
+															"width": 475,
+															"height": 127
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"children": [
+															{
+																"objectId": "86DE8F6F-7E50-49DB-8D2F-83950B57BEBD",
+																"kind": "group",
+																"name": "Group_14",
+																"originalName": "Group 14",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 481,
+																	"y": 585,
+																	"width": 56,
+																	"height": 26
+																},
+																"visible": false,
+																"metadata": {
+																	"opacity": 1
+																},
+																"children": [
+																	{
+																		"objectId": "B462A713-B976-495B-B558-4EBAAADD966E",
+																		"kind": "group",
+																		"name": "stop_environment_button_copy_3",
+																		"originalName": "stop-environment-button copy 3",
+																		"maskFrame": null,
+																		"layerFrame": {
+																			"x": 511,
+																			"y": 586,
+																			"width": 26,
+																			"height": 25
+																		},
+																		"visible": true,
+																		"metadata": {
+																			"opacity": 1
+																		},
+																		"image": {
+																			"path": "images/Layer-stop_environment_button_copy_3-qjq2mke3.png",
+																			"frame": {
+																				"x": 511,
+																				"y": 586,
+																				"width": 26,
+																				"height": 25
+																			}
+																		},
+																		"children": []
+																	},
+																	{
+																		"objectId": "11EAFAD2-7600-4FD3-B8CC-B11994B1B294",
+																		"kind": "group",
+																		"name": "stop_environment_button_copy_4",
+																		"originalName": "stop-environment-button copy 4",
+																		"maskFrame": null,
+																		"layerFrame": {
+																			"x": 481,
+																			"y": 586,
+																			"width": 31,
+																			"height": 25
+																		},
+																		"visible": true,
+																		"metadata": {
+																			"opacity": 1
+																		},
+																		"image": {
+																			"path": "images/Layer-stop_environment_button_copy_4-mtffquzb.png",
+																			"frame": {
+																				"x": 481,
+																				"y": 586,
+																				"width": 31,
+																				"height": 25
+																			}
+																		},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"objectId": "8F44467B-1701-4284-8613-1C2874314CB2",
+																"kind": "group",
+																"name": "Group_13_Copy",
+																"originalName": "Group 13 Copy",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 62,
+																	"y": 687,
+																	"width": 399,
+																	"height": 25
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"children": [
+																	{
+																		"objectId": "66D0C1CF-15C2-42D1-B5AC-5E03786A9F34",
+																		"kind": "group",
+																		"name": "stop_environment_button_copy_5",
+																		"originalName": "stop-environment-button copy 5",
+																		"maskFrame": null,
+																		"layerFrame": {
+																			"x": 62,
+																			"y": 687,
+																			"width": 159,
+																			"height": 25
+																		},
+																		"visible": false,
+																		"metadata": {
+																			"opacity": 1
+																		},
+																		"image": {
+																			"path": "images/Layer-stop_environment_button_copy_5-njzememx.png",
+																			"frame": {
+																				"x": 62,
+																				"y": 687,
+																				"width": 159,
+																				"height": 25
+																			}
+																		},
+																		"children": []
+																	},
+																	{
+																		"objectId": "8D23F683-523E-40EC-ACEC-25F90D497213",
+																		"kind": "group",
+																		"name": "stop_environment_button_copy_21",
+																		"originalName": "stop-environment-button copy 2",
+																		"maskFrame": null,
+																		"layerFrame": {
+																			"x": 302,
+																			"y": 687,
+																			"width": 159,
+																			"height": 25
+																		},
+																		"visible": false,
+																		"metadata": {
+																			"opacity": 1
+																		},
+																		"image": {
+																			"path": "images/Layer-stop_environment_button_copy_2-oeqym0y2.png",
+																			"frame": {
+																				"x": 302,
+																				"y": 687,
+																				"width": 159,
+																				"height": 25
+																			}
+																		},
+																		"children": []
+																	}
+																]
+															}
+														]
+													},
+													{
+														"objectId": "294EA39D-B586-4EB5-9033-C60849A22788",
+														"kind": "group",
+														"name": "Group_13",
+														"originalName": "Group 13",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 721,
+															"y": 499,
+															"width": 243,
+															"height": 30
+														},
+														"visible": true,
+														"metadata": {
+															"opacity": 1
+														},
+														"children": [
+															{
+																"objectId": "415C476F-0D45-44F4-BBC4-5EC80468EE62",
+																"kind": "group",
+																"name": "Group_6",
+																"originalName": "Group 6",
+																"maskFrame": null,
+																"layerFrame": {
+																	"x": 721,
+																	"y": 499,
+																	"width": 243,
+																	"height": 30
+																},
+																"visible": true,
+																"metadata": {
+																	"opacity": 1
+																},
+																"image": {
+																	"path": "images/Layer-Group_6-nde1qzq3.png",
+																	"frame": {
+																		"x": 721,
+																		"y": 499,
+																		"width": 243,
+																		"height": 30
+																	}
+																},
+																"children": []
+															}
+														]
+													},
+													{
+														"objectId": "7E5DBC5F-AB22-41E0-8D87-5BC7B8514B94",
+														"kind": "group",
+														"name": "Group_4",
+														"originalName": "Group 4",
+														"maskFrame": null,
+														"layerFrame": {
+															"x": 477,
+															"y": 584,
+															"width": 30,
+															"height": 30
+														},
+														"visible": false,
+														"metadata": {
+															"opacity": 1
+														},
+														"image": {
+															"path": "images/Layer-Group_4-n0u1rejd.png",
+															"frame": {
+																"x": 477,
+																"y": 584,
+																"width": 30,
+																"height": 30
+															}
+														},
+														"children": []
+													}
+												]
+											},
+											{
+												"objectId": "ED73A3FD-1CD2-451D-BDCA-6AEB41CA6455",
+												"kind": "group",
+												"name": "Group_9_Copy_2",
+												"originalName": "Group 9 Copy 2",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 37,
+													"y": 623,
+													"width": 10,
+													"height": 11
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_9_Copy_2-ruq3m0ez.png",
+													"frame": {
+														"x": 37,
+														"y": 623,
+														"width": 10,
+														"height": 11
+													}
+												},
+												"children": []
+											},
+											{
+												"objectId": "19DCF43F-39CE-4351-A7FA-A40DE2ECDE45",
+												"kind": "group",
+												"name": "Group_9_Copy",
+												"originalName": "Group 9 Copy",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 31,
+													"y": 558,
+													"width": 22,
+													"height": 22
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_9_Copy-mtleq0y0.png",
+													"frame": {
+														"x": 31,
+														"y": 558,
+														"width": 22,
+														"height": 22
+													}
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
 						"objectId": "A9657117-DC83-4A12-A852-FD5638D1009C",
 						"kind": "group",
 						"name": "tab_tabs",
@@ -2134,799 +3633,6 @@ window.__imported__["ce-32411-mr-view@1x/layers.json.js"] = [
 											}
 										},
 										"children": []
-									}
-								]
-							}
-						]
-					},
-					{
-						"objectId": "A5E2F603-FEE5-4CA4-902B-BA072B31AEDC",
-						"kind": "group",
-						"name": "tab_content",
-						"originalName": "tab_content",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 16,
-							"y": 485,
-							"width": 959,
-							"height": 1057
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-tab_content-qtvfmky2.png",
-							"frame": {
-								"x": 16,
-								"y": 485,
-								"width": 959,
-								"height": 1057
-							}
-						},
-						"children": [
-							{
-								"objectId": "06822FFB-5814-4F2F-89EB-FC39CDC098D5",
-								"kind": "group",
-								"name": "discussion_tab",
-								"originalName": "discussion_tab",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 12,
-									"y": 486,
-									"width": 979,
-									"height": 1075
-								},
-								"visible": false,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-discussion_tab-mdy4mjjg.jpg",
-									"frame": {
-										"x": 12,
-										"y": 486,
-										"width": 979,
-										"height": 1075
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "3F4D8E29-2A7E-447D-A2E5-67C056EEE172",
-								"kind": "group",
-								"name": "commits_tab",
-								"originalName": "commits_tab",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 10,
-									"y": 484,
-									"width": 970,
-									"height": 91
-								},
-								"visible": false,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-commits_tab-m0y0rdhf.jpg",
-									"frame": {
-										"x": 10,
-										"y": 484,
-										"width": 970,
-										"height": 91
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "E6D94B02-2571-474D-BC60-EB8E30E289D6",
-								"kind": "group",
-								"name": "pipelines_tab",
-								"originalName": "pipelines_tab",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 5,
-									"y": 486,
-									"width": 977,
-									"height": 170
-								},
-								"visible": false,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-pipelines_tab-rtzeotrc.jpg",
-									"frame": {
-										"x": 5,
-										"y": 486,
-										"width": 977,
-										"height": 170
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "432D8566-686D-460F-8FDF-D7F691A58E85",
-								"kind": "group",
-								"name": "changes_tab",
-								"originalName": "changes_tab",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": -16,
-									"y": 483,
-									"width": 1027,
-									"height": 9120
-								},
-								"visible": false,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-changes_tab-ndmyrdg1.jpg",
-									"frame": {
-										"x": -16,
-										"y": 483,
-										"width": 1027,
-										"height": 9120
-									}
-								},
-								"children": []
-							},
-							{
-								"objectId": "C31AB20B-B37E-4AB2-A62B-9D998C1CD1AE",
-								"kind": "group",
-								"name": "mergestatus_tab",
-								"originalName": "mergestatus_tab",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 16,
-									"y": 500,
-									"width": 958,
-									"height": 242
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-mergestatus_tab-qzmxquiy.png",
-									"frame": {
-										"x": 16,
-										"y": 500,
-										"width": 958,
-										"height": 242
-									}
-								},
-								"children": [
-									{
-										"objectId": "78E1E10F-97EC-44C2-8A67-53ADAE38152B",
-										"kind": "group",
-										"name": "stop_environment_button_copy_2",
-										"originalName": "stop-environment-button copy 2",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 574,
-											"y": 614,
-											"width": 99,
-											"height": 25
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-stop_environment_button_copy_2-nzhfmuux.png",
-											"frame": {
-												"x": 574,
-												"y": 614,
-												"width": 99,
-												"height": 25
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "70A6FE50-173B-407B-9E7E-399F6CCDA03A",
-										"kind": "group",
-										"name": "Group_23",
-										"originalName": "Group 23",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 509,
-											"y": 614,
-											"width": 55,
-											"height": 25
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 0.35
-										},
-										"image": {
-											"path": "images/Layer-Group_23-nzbbnkzf.png",
-											"frame": {
-												"x": 509,
-												"y": 614,
-												"width": 55,
-												"height": 25
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "EDDACCBB-49A2-4347-AD3F-9BF4664C9841",
-										"kind": "text",
-										"name": "command_line_instructions",
-										"originalName": "command-line-instructions",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 68,
-											"y": 727,
-											"width": 466,
-											"height": 15
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1,
-											"string": "You can also merge or inspect manually using the command line instructions",
-											"css": [
-												"/* You can also merge o: */",
-												"font-family: SourceSansPro-It;",
-												"font-size: 15px;",
-												"color: #333333;",
-												"letter-spacing: 0;",
-												"line-height: 20px;"
-											]
-										},
-										"image": {
-											"path": "images/Layer-command_line_instructions-rureqund.png",
-											"frame": {
-												"x": 68,
-												"y": 727,
-												"width": 466,
-												"height": 15
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "2275CC7D-1F44-4E9F-97B3-97FF0DBE2ADF",
-										"kind": "group",
-										"name": "Group_9_Copy_5",
-										"originalName": "Group 9 Copy 5",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 31,
-											"y": 502,
-											"width": 22,
-											"height": 22
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Group_9_Copy_5-mji3nund.png",
-											"frame": {
-												"x": 31,
-												"y": 502,
-												"width": 22,
-												"height": 22
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "7B3556D4-AFE6-43BB-97B7-FA7CB51D7305",
-										"kind": "group",
-										"name": "Group_9",
-										"originalName": "Group 9",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 31,
-											"y": 615,
-											"width": 22,
-											"height": 22
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Group_9-n0izntu2.png",
-											"frame": {
-												"x": 31,
-												"y": 615,
-												"width": 22,
-												"height": 22
-											}
-										},
-										"children": []
-									},
-									{
-										"objectId": "D0C98100-889F-452C-9363-74B46DEFA107",
-										"kind": "group",
-										"name": "Group_18",
-										"originalName": "Group 18",
-										"maskFrame": null,
-										"layerFrame": {
-											"x": 16,
-											"y": 500,
-											"width": 958,
-											"height": 213
-										},
-										"visible": true,
-										"metadata": {
-											"opacity": 1
-										},
-										"image": {
-											"path": "images/Layer-Group_18-rdbdotgx.png",
-											"frame": {
-												"x": 16,
-												"y": 500,
-												"width": 958,
-												"height": 213
-											}
-										},
-										"children": [
-											{
-												"objectId": "644F10B8-1079-4573-9166-EA5A2B5AEE79",
-												"kind": "group",
-												"name": "Group_211",
-												"originalName": "Group 21",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 31,
-													"y": 500,
-													"width": 387,
-													"height": 27
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Group_21-njq0rjew.png",
-													"frame": {
-														"x": 31,
-														"y": 500,
-														"width": 387,
-														"height": 27
-													}
-												},
-												"children": [
-													{
-														"objectId": "B47363B7-FAE5-4C99-875F-02DE344CE69D",
-														"kind": "group",
-														"name": "Group_9_Copy_3",
-														"originalName": "Group 9 Copy 3",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 31,
-															"y": 502,
-															"width": 22,
-															"height": 22
-														},
-														"visible": true,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-Group_9_Copy_3-qjq3mzyz.png",
-															"frame": {
-																"x": 31,
-																"y": 502,
-																"width": 22,
-																"height": 22
-															}
-														},
-														"children": []
-													}
-												]
-											},
-											{
-												"objectId": "82699F9A-7121-4F27-AF33-F6E19DD7F254",
-												"kind": "group",
-												"name": "Group_20",
-												"originalName": "Group 20",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 17,
-													"y": 532,
-													"width": 956,
-													"height": 38
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Group_20-odi2otlg.png",
-													"frame": {
-														"x": 17,
-														"y": 532,
-														"width": 956,
-														"height": 38
-													}
-												},
-												"children": [
-													{
-														"objectId": "15EE24CD-5644-4F90-BA07-38ADB37D7583",
-														"kind": "group",
-														"name": "Group_22",
-														"originalName": "Group 22",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 58,
-															"y": 541,
-															"width": 62,
-															"height": 22
-														},
-														"visible": true,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-Group_22-mtvfrti0.png",
-															"frame": {
-																"x": 58,
-																"y": 541,
-																"width": 62,
-																"height": 22
-															}
-														},
-														"children": []
-													}
-												]
-											},
-											{
-												"objectId": "21B7A3EA-02EE-4C7F-BE9E-882A844F6E7F",
-												"kind": "group",
-												"name": "MR_body_text",
-												"originalName": "MR-body-text",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 67,
-													"y": 564,
-													"width": 206,
-													"height": 15
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-MR_body_text-mjfcn0ez.png",
-													"frame": {
-														"x": 67,
-														"y": 564,
-														"width": 206,
-														"height": 15
-													}
-												},
-												"children": [
-													{
-														"objectId": "181C1B40-FF18-44B1-BD2A-537B03AE46CB",
-														"kind": "group",
-														"name": "stop_environment_button_copy",
-														"originalName": "stop-environment-button copy",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 448,
-															"y": 553,
-															"width": 130,
-															"height": 24
-														},
-														"visible": false,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-stop_environment_button_copy-mtgxqzfc.png",
-															"frame": {
-																"x": 448,
-																"y": 553,
-																"width": 130,
-																"height": 24
-															}
-														},
-														"children": []
-													},
-													{
-														"objectId": "8BC0C062-883F-4386-85F1-AA4238DCEBE7",
-														"kind": "group",
-														"name": "environment_buttons",
-														"originalName": "environment buttons",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 62,
-															"y": 585,
-															"width": 475,
-															"height": 127
-														},
-														"visible": true,
-														"metadata": {
-															"opacity": 1
-														},
-														"children": [
-															{
-																"objectId": "86DE8F6F-7E50-49DB-8D2F-83950B57BEBD",
-																"kind": "group",
-																"name": "Group_14",
-																"originalName": "Group 14",
-																"maskFrame": null,
-																"layerFrame": {
-																	"x": 481,
-																	"y": 585,
-																	"width": 56,
-																	"height": 26
-																},
-																"visible": false,
-																"metadata": {
-																	"opacity": 1
-																},
-																"children": [
-																	{
-																		"objectId": "B462A713-B976-495B-B558-4EBAAADD966E",
-																		"kind": "group",
-																		"name": "stop_environment_button_copy_3",
-																		"originalName": "stop-environment-button copy 3",
-																		"maskFrame": null,
-																		"layerFrame": {
-																			"x": 511,
-																			"y": 586,
-																			"width": 26,
-																			"height": 25
-																		},
-																		"visible": true,
-																		"metadata": {
-																			"opacity": 1
-																		},
-																		"image": {
-																			"path": "images/Layer-stop_environment_button_copy_3-qjq2mke3.png",
-																			"frame": {
-																				"x": 511,
-																				"y": 586,
-																				"width": 26,
-																				"height": 25
-																			}
-																		},
-																		"children": []
-																	},
-																	{
-																		"objectId": "11EAFAD2-7600-4FD3-B8CC-B11994B1B294",
-																		"kind": "group",
-																		"name": "stop_environment_button_copy_4",
-																		"originalName": "stop-environment-button copy 4",
-																		"maskFrame": null,
-																		"layerFrame": {
-																			"x": 481,
-																			"y": 586,
-																			"width": 31,
-																			"height": 25
-																		},
-																		"visible": true,
-																		"metadata": {
-																			"opacity": 1
-																		},
-																		"image": {
-																			"path": "images/Layer-stop_environment_button_copy_4-mtffquzb.png",
-																			"frame": {
-																				"x": 481,
-																				"y": 586,
-																				"width": 31,
-																				"height": 25
-																			}
-																		},
-																		"children": []
-																	}
-																]
-															},
-															{
-																"objectId": "8F44467B-1701-4284-8613-1C2874314CB2",
-																"kind": "group",
-																"name": "Group_13_Copy",
-																"originalName": "Group 13 Copy",
-																"maskFrame": null,
-																"layerFrame": {
-																	"x": 62,
-																	"y": 687,
-																	"width": 399,
-																	"height": 25
-																},
-																"visible": true,
-																"metadata": {
-																	"opacity": 1
-																},
-																"children": [
-																	{
-																		"objectId": "66D0C1CF-15C2-42D1-B5AC-5E03786A9F34",
-																		"kind": "group",
-																		"name": "stop_environment_button_copy_5",
-																		"originalName": "stop-environment-button copy 5",
-																		"maskFrame": null,
-																		"layerFrame": {
-																			"x": 62,
-																			"y": 687,
-																			"width": 159,
-																			"height": 25
-																		},
-																		"visible": false,
-																		"metadata": {
-																			"opacity": 1
-																		},
-																		"image": {
-																			"path": "images/Layer-stop_environment_button_copy_5-njzememx.png",
-																			"frame": {
-																				"x": 62,
-																				"y": 687,
-																				"width": 159,
-																				"height": 25
-																			}
-																		},
-																		"children": []
-																	},
-																	{
-																		"objectId": "8D23F683-523E-40EC-ACEC-25F90D497213",
-																		"kind": "group",
-																		"name": "stop_environment_button_copy_21",
-																		"originalName": "stop-environment-button copy 2",
-																		"maskFrame": null,
-																		"layerFrame": {
-																			"x": 302,
-																			"y": 687,
-																			"width": 159,
-																			"height": 25
-																		},
-																		"visible": false,
-																		"metadata": {
-																			"opacity": 1
-																		},
-																		"image": {
-																			"path": "images/Layer-stop_environment_button_copy_2-oeqym0y2.png",
-																			"frame": {
-																				"x": 302,
-																				"y": 687,
-																				"width": 159,
-																				"height": 25
-																			}
-																		},
-																		"children": []
-																	}
-																]
-															}
-														]
-													},
-													{
-														"objectId": "294EA39D-B586-4EB5-9033-C60849A22788",
-														"kind": "group",
-														"name": "Group_13",
-														"originalName": "Group 13",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 721,
-															"y": 499,
-															"width": 243,
-															"height": 30
-														},
-														"visible": true,
-														"metadata": {
-															"opacity": 1
-														},
-														"children": [
-															{
-																"objectId": "415C476F-0D45-44F4-BBC4-5EC80468EE62",
-																"kind": "group",
-																"name": "Group_6",
-																"originalName": "Group 6",
-																"maskFrame": null,
-																"layerFrame": {
-																	"x": 721,
-																	"y": 499,
-																	"width": 243,
-																	"height": 30
-																},
-																"visible": true,
-																"metadata": {
-																	"opacity": 1
-																},
-																"image": {
-																	"path": "images/Layer-Group_6-nde1qzq3.png",
-																	"frame": {
-																		"x": 721,
-																		"y": 499,
-																		"width": 243,
-																		"height": 30
-																	}
-																},
-																"children": []
-															}
-														]
-													},
-													{
-														"objectId": "7E5DBC5F-AB22-41E0-8D87-5BC7B8514B94",
-														"kind": "group",
-														"name": "Group_4",
-														"originalName": "Group 4",
-														"maskFrame": null,
-														"layerFrame": {
-															"x": 477,
-															"y": 584,
-															"width": 30,
-															"height": 30
-														},
-														"visible": false,
-														"metadata": {
-															"opacity": 1
-														},
-														"image": {
-															"path": "images/Layer-Group_4-n0u1rejd.png",
-															"frame": {
-																"x": 477,
-																"y": 584,
-																"width": 30,
-																"height": 30
-															}
-														},
-														"children": []
-													}
-												]
-											},
-											{
-												"objectId": "ED73A3FD-1CD2-451D-BDCA-6AEB41CA6455",
-												"kind": "group",
-												"name": "Group_9_Copy_2",
-												"originalName": "Group 9 Copy 2",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 37,
-													"y": 623,
-													"width": 10,
-													"height": 11
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Group_9_Copy_2-ruq3m0ez.png",
-													"frame": {
-														"x": 37,
-														"y": 623,
-														"width": 10,
-														"height": 11
-													}
-												},
-												"children": []
-											},
-											{
-												"objectId": "19DCF43F-39CE-4351-A7FA-A40DE2ECDE45",
-												"kind": "group",
-												"name": "Group_9_Copy",
-												"originalName": "Group 9 Copy",
-												"maskFrame": null,
-												"layerFrame": {
-													"x": 31,
-													"y": 558,
-													"width": 22,
-													"height": 22
-												},
-												"visible": true,
-												"metadata": {
-													"opacity": 1
-												},
-												"image": {
-													"path": "images/Layer-Group_9_Copy-mtleq0y0.png",
-													"frame": {
-														"x": 31,
-														"y": 558,
-														"width": 22,
-														"height": 22
-													}
-												},
-												"children": []
-											}
-										]
 									}
 								]
 							}

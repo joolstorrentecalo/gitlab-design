@@ -1,13 +1,18 @@
 image: ruby:alpine
 
+variables:
+  GIT_DEPTH: "1"
+
+cache:
+  key: "public"
+  paths:
+    - public
+
 pages:
-  stage: deploy
-  cache:
-    untracked: true
   script:
-  - ruby specscript.rb
+    - ruby specscript.rb
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master

@@ -1,12 +1,9 @@
 # GitLab Design
 
 :information_source: **This project is primarily used by [GitLab’s UX team][ux-handbook]
-to host design files and hand them off for implementation. To get help or
-raise a bug/feature proposal for GitLab, please create an issue on the
-[GitLab Community Edition issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)
-or [GitLab Enterprise Edition issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues),
-or see [Getting help for GitLab](https://about.gitlab.com/getting-help/) on our
-website for the many options to get help.**
+to host design files and hand them off for implementation. Before raising an
+issue to any of GitLab’s issue trackers, please see [Getting help for GitLab](https://about.gitlab.com/getting-help/) on our
+website to determine the best place to post. Thank you for helping to make GitLab a better product.**
 
 ![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-cover-image.jpg)
 

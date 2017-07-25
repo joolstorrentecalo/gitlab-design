@@ -1,23 +1,16 @@
 # Contribution guidelines
 
-<!-- Table of contents generated with DocToc: https://github.com/thlorenz/doctoc -->
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
 - [Contribute to GitLab](#contribute-to-gitlab)
-- [For wider community contributors :strawberry:](#for-wider-community-contributors-strawberry)
-- [For GitLabbers :fox:](#for-gitlabbers-fox)
+- [For wider community contributors :strawberry:](#for-wider-community-contributors-)
+- [For GitLabbers :fox:](#for-gitlabbers-)
 - [Organization](#organization)
   - [Naming](#naming)
   - [Files and folders](#files-and-folders)
-- [Sketch :large_orange_diamond:](#sketch-large_orange_diamond)
+- [Sketch :large_orange_diamond:](#sketch-)
 - [Commits](#commits)
-- [Superpowers :stars:](#superpowers-stars)
+- [Superpowers :stars:](#superpowers-)
 - [Git](#git)
 - [Code of conduct](#code-of-conduct)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Contribute to GitLab
 
@@ -51,7 +44,7 @@ If you’re working on your personal files:
 
 1. In the [`progress`][progress-folder] folder, create your personal folder named after your first name in lowercase (e.g. `pedro`)
 1. In your personal folder, create folders and files according to our [organization guidelines](#organization)
-1. If you’re working with Sketch specs created with the [Sketch Measure Plugin][sketch-measure], [Framer prototypes][framer], or static HTML pages, please refer to the [Superpowers](#superpowers-stars) section
+1. If you’re working with Sketch specs created with the [Sketch Measure Plugin][sketch-measure], [Framer prototypes][framer], or static HTML pages, please refer to the [Superpowers](#superpowers-) section
 1. Review the files you are about to commit (with `git status -sb`)
    - If you’re having a hard time with this whole Git thing, read our [small help section](#git)
 1. Commit and push your changes, following our [commit guidelines](#commits)
@@ -106,16 +99,16 @@ layers and styles inside of Sketch files.
 ```
 
 1. [`archive/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/archive): Contains all old design files and resources, including those made with [Antetype](http://www.antetype.com/). Old Antetype design files can still be valuable if so see: [Converting Antetype files for use with Sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
-1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-stars) section.
+1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-) section.
 1. [`progress/`][progress-folder]: Contains personal work-in-progress files. It’s assumed that [everything has a related issue][everything-starts-with-an-issue].
    - Personal folders are organized around our [workflow labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#workflow-labels)
       - The 1st-level folders are named after the [Team label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#team-labels-ci-discussion-edge-platform-etc) assigned to the issue/merge request (the green one; except [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=UX))
       - The 2nd-level folders are named after [subject labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#subject-labels-wiki-container-registry-ldap-api-etc) assigned to the issue/merge request (the blue ones). If there are multiple Subject labels assigned, the folder is named after all labels, in alphabetical order, separated by a dash (e.g. `settings-wiki`).
    - Sketch files are prefixed with the project handle (`ce` for Community Edition and `ee` for Enterprise Edition) and issue ID, separated by `#`. The rest of the name should be a “compact” version of the issue title. For example, the Sketch file for the issue [#28481 Display time tracking totals on milestone page](https://gitlab.com/gitlab-org/gitlab-ce/issues/28481) on the GitLab Community Edition (CE) issue tracker could be named `ce#28481-time-tracking-totals.sketch`.
-      - If the work is related to multiple issues, just duplicate the prefix and separate with a dash (e.g. `ce#1234-ee#5678-awesome-design.sketch`). In the Sketch file, each page can be named after an issue (see the [Sketch](#sketch-large_orange_diamond) section).
+      - If the work is related to multiple issues, just duplicate the prefix and separate with a dash (e.g. `ce#1234-ee#5678-awesome-design.sketch`). In the Sketch file, each page can be named after an issue (see the [Sketch](#sketch-) section).
       - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
-      - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-large_orange_diamond) section).
-   - For more information, refer to the [wider community contributors](#for-wider-community-contributors-strawberry) section or [GitLabbers](#for-gitlabbers-fox) section
+      - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
+   - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
 
 ## Sketch :large_orange_diamond:
 

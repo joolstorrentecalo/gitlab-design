@@ -188,6 +188,7 @@ reported by emailing `contact@gitlab.com`.
 This Code of Conduct is adapted from the [Contributor Covenant][contributor-covenant],
 version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](http://contributor-covenant.org/version/1/1/0/).
 
+[contributor-covenant]: http://contributor-covenant.org
 [community-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution
 [hosted-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/hosted
 [production-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/production

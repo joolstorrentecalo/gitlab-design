@@ -12,31 +12,72 @@
 - [Git](#git)
 - [Code of conduct](#code-of-conduct)
 
+
 ## Contribute to GitLab
 
 Thank you for your interest in contributing to GitLab. This guide details how
 to contribute to GitLab in a way that is efficient for everyone.
 
-Before contributing, get started by following the steps in the [README](/README.md#getting-started)
+Before contributing, get started by following the steps in the [README](/gitlab-org/gitlab-design/blob/master/README.md#getting-started)
+
 
 ## For wider community contributors :strawberry:
 
 Everyone can contribute to GitLab. For the wider community members we have a
-[special `community-contribution` folder][community-folder] inside of the
-[`progress`][progress-folder] directory. This is where you can create and commit your own designs.
+[special `community-contribution` folder](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution) inside the
+[`progress`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress) directory. This is where you can create and commit your own designs.
 This gives you a consistent backup location, which can also be used by other
-people to iterate upon your designs. To start, please follow these steps:
+people to iterate upon your designs.
+
+
+### Software
+The design team uses Sketch, but you can create your designs with any software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+
+If you do not have Sketch, here are some software suggestions:
+
+
+#### Viewing Sketch files
+
+- GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) (current functionality only displays the first page from each file)
+- [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL
+- [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files
+
+
+#### Editing Sketch files
+
+- [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It is free for individuals
+- [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. Only editable export format is PSD, which may not be fully compatible for Sketch import
+
+
+### Contributing through GitLab.com
+
+If you want to make occasional contributions, the best option for you will be to upload your files using GitLab.com. Please, follow these steps:
+
+1. Create a new branch for your changes in the [GitLab Design repository](https://gitlab.com/gitlab-org/gitlab-design/tree/master) by clicking on the <kbd>+</kbd> button above the file explorer
+1. In the [`community-contribution`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution) folder, create your personal folder named after your GitLab.com username (e.g. `@janedoe`)
+1. In your personal folder, create folders and add files according to our [organization guidelines](#organization)
+1. Commit your changes, following our [commit guidelines](#commits)
+1. Create a Merge Request for your branch by clicking on the blue button located in the top-right corner of the page
+1. In that new merge request, mention any of the [designers who manage this project](/gitlab-org/gitlab-design/blob/master/README.md#contacts)
+
+
+### Frequent contributions
+
+If you frequently contribute to the GitLab Design project you may want to clone the repository to your computer. Please, follow these steps:
 
 1. Fork this repository and `git clone` it locally
 1. Create a new branch based off from the master with `git checkout -b your-branch-name`
-1. In the [`community-contribution`][community-folder] folder, create your personal folder named after your GitLab.com username (e.g. `@john`)
+1. In the [`community-contribution`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution) folder, create your personal folder named after your GitLab.com username (e.g. `@janedoe`)
 1. In your personal folder, create folders and files according to our [organization guidelines](#organization)
 1. Review the files you are about to commit (with `git status -sb`)
-   - Remember, you’re only allowed to add or change files in your folder
-   - If you’re having a hard time with this whole Git thing, read our [small help section](#git)
+
+    - Remember, you’re only allowed to add or change files in your folder
+
+    - If you’re having a hard time with this whole Git thing, read our [small help section](#git)
 1. Commit your changes, following our [commit guidelines](#commits)
 1. Push your changes and [create a merge request](https://gitlab.com/gitlab-org/gitlab-design/merge_requests/new) to merge your branch to `master`
-1. In that new merge request, mention any of the [designers who manage this project](/README.md#contacts)
+1. In that new merge request, mention any of the [designers who manage this project](/gitlab-org/gitlab-design/blob/master/README.md#contacts)
+
 
 ## For GitLabbers :fox:
 
@@ -50,6 +91,7 @@ If you’re working on your personal files:
 1. Commit and push your changes, following our [commit guidelines](#commits)
 
 If you’re working on files inside of the [`production`][production-folder] folder:
+
 1. [Lock file(s)](http://docs.gitlab.com/ee/user/project/file_lock.html)
 1. Pull latest changes from the repository
 1. Add your changes

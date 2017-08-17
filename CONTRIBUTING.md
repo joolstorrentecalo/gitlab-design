@@ -12,6 +12,7 @@
 - [Git](#git)
 - [Code of conduct](#code-of-conduct)
 
+
 ## Contribute to GitLab
 
 Thank you for your interest in contributing to GitLab. This guide details how
@@ -19,17 +20,56 @@ to contribute to GitLab in a way that is efficient for everyone.
 
 Before contributing, get started by following the steps in the [README](/README.md#getting-started)
 
+
 ## For wider community contributors :strawberry:
 
 Everyone can contribute to GitLab. For the wider community members we have a
 [special `community-contribution` folder][community-folder] inside of the
 [`progress`][progress-folder] directory. This is where you can create and commit your own designs.
 This gives you a consistent backup location, which can also be used by other
-people to iterate upon your designs. To start, please follow these steps:
+people to iterate upon your designs.
 
-1. Fork this repository and `git clone` it locally
+
+### Software
+
+The design team uses [Sketch](https://sketchapp.com/), but you can create your designs with any software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+
+If you do not have Sketch, here are some software suggestions:
+
+
+#### Viewing Sketch files
+
+- GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
+- [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL
+- [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files
+
+
+#### Editing Sketch files
+
+- [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It is free for individuals
+- [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. Only editable export format is PSD, which may not be fully compatible for Sketch import
+
+
+### Occasional contributions
+
+If you want to make occasional contributions, the best option for you will be to upload your files using GitLab.com. Please, follow these steps:
+
+1. [Fork][fork-link] this project to your personal namespace
+1. Navigate to the Repository section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer
+1. In the `community-contribution` folder, create your personal folder named after your GitLab.com username (e.g. `@janedoe`)
+1. In your personal folder, create folders and add files according to our [organization guidelines](#organization)
+1. Commit your changes, following our [commit guidelines](#commits)
+1. Create a Merge Request for your branch by clicking on the blue button located in the top-right corner of the page
+1. In that new merge request, mention any of the [designers who manage this project](/README.md#contacts)
+
+
+### Frequent contributions
+
+If you frequently contribute to the GitLab Design project you may want to clone the repository to your computer. Please, follow these steps:
+
+1. [Fork][fork-link] this project and `git clone` its repository locally
 1. Create a new branch based off from the master with `git checkout -b your-branch-name`
-1. In the [`community-contribution`][community-folder] folder, create your personal folder named after your GitLab.com username (e.g. `@john`)
+1. In the [`community-contribution`][community-folder] folder, create your personal folder named after your GitLab.com username (e.g. `@janedoe`)
 1. In your personal folder, create folders and files according to our [organization guidelines](#organization)
 1. Review the files you are about to commit (with `git status -sb`)
    - Remember, you’re only allowed to add or change files in your folder
@@ -37,6 +77,7 @@ people to iterate upon your designs. To start, please follow these steps:
 1. Commit your changes, following our [commit guidelines](#commits)
 1. Push your changes and [create a merge request](https://gitlab.com/gitlab-org/gitlab-design/merge_requests/new) to merge your branch to `master`
 1. In that new merge request, mention any of the [designers who manage this project](/README.md#contacts)
+
 
 ## For GitLabbers :fox:
 
@@ -50,6 +91,7 @@ If you’re working on your personal files:
 1. Commit and push your changes, following our [commit guidelines](#commits)
 
 If you’re working on files inside of the [`production`][production-folder] folder:
+
 1. [Lock file(s)](http://docs.gitlab.com/ee/user/project/file_lock.html)
 1. Pull latest changes from the repository
 1. Add your changes
@@ -78,7 +120,7 @@ layers and styles inside of Sketch files.
 - production/
 - progress/
     - community-contribution/
-        - [@gitlab.com-username]/ (e.g. @john)
+        - [@gitlab.com-username]/ (e.g. @janedoe)
           - [team-label]/ (e.g. platform)
             - [subject-labels]/ (e.g. settings)
               - projecthandle#issueID-title.sketch (e.g. ce#1337-awesome-design.sketch)
@@ -133,7 +175,7 @@ easy design handoffs. You can [thank us later](https://about.gitlab.com/handbook
 
 To use these awesome _superpowers_:
 
-1. Create a folder with your first name in the [`hosted` directory][hosted-folder] in lowercase (e.g. `john`). This way we can re-organize the repository without breaking any external links
+1. Create a folder with your first name in the [`hosted` directory][hosted-folder] in lowercase (e.g. `jane`). This way we can re-organize the repository without breaking any external links
 1. Place your deliverable folder inside of your personal `hosted` directory
    - Sketch specs created with the [Sketch Measure Plugin][sketch-measure]: append `-spec-previews` to the name of the export folder
    - Framer prototypes: if you intend to share them, just move the `*.framer` folder to your personal `hosted` directory
@@ -189,6 +231,7 @@ This Code of Conduct is adapted from the [Contributor Covenant][contributor-cove
 version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](http://contributor-covenant.org/version/1/1/0/).
 
 [contributor-covenant]: http://contributor-covenant.org
+[fork-link]: https://gitlab.com/gitlab-org/gitlab-design/forks/new
 [community-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution
 [hosted-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/hosted
 [production-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/production

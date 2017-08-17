@@ -48,7 +48,7 @@ ever. Instead, ask the UX designer for the specs of the designs you’re working
 
 **If you want to browse and contribute**:
 
-1. Have a Mac with [Sketch](https://www.sketchapp.com/) installed, as most of the repository is made of Sketch files
+1. The design team primarily uses [Sketch](https://www.sketchapp.com/), but feel free to use any design software that's available to you
 1. Install and enable [Git Large File System (LFS)](https://about.gitlab.com/2017/01/30/getting-started-with-git-lfs-tutorial/):
    1. Install with [Homebrew](https://github.com/Homebrew/brew) via `brew install git-lfs` or [MacPorts](https://www.macports.org/) via `port install git-lfs`
    1. Enable with `git lfs install`

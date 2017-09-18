@@ -114,6 +114,7 @@ layers and styles inside of Sketch files.
 
 ```
 - archive/
+- hooks/
 - hosted/
   - [first-name]/
     - [folders]/
@@ -141,14 +142,16 @@ layers and styles inside of Sketch files.
 ```
 
 1. [`archive/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/archive): Contains all old design files and resources, including those made with [Antetype](http://www.antetype.com/). Old Antetype design files can still be valuable if so see: [Converting Antetype files for use with Sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
+1. [`hooks/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/hooks): Contains custom [Git hooks][git-hooks] to trigger actions at certain points in git’s execution. Currently, the only one there automates adding issue/merge request IDs to commit messages ([how to set it up]((#commits)).
 1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-) section.
 1. [`progress/`][progress-folder]: Contains personal work-in-progress files. It’s assumed that [everything has a related issue][everything-starts-with-an-issue].
    - Personal folders are organized around our [workflow labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#workflow-labels)
       - The 1st-level folders are named after the [Team label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#team-labels-ci-discussion-edge-platform-etc) assigned to the issue/merge request (the green one; except [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=UX))
       - The 2nd-level folders are named after [subject labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#subject-labels-wiki-container-registry-ldap-api-etc) assigned to the issue/merge request (the blue ones). If there are multiple Subject labels assigned, the folder is named after all labels, in alphabetical order, separated by a dash (e.g. `settings-wiki`).
-   - Sketch files are prefixed with the project handle (`ce` for Community Edition and `ee` for Enterprise Edition) and issue ID, separated by `#`. The rest of the name should be a “compact” version of the issue title. For example, the Sketch file for the issue [#28481 Display time tracking totals on milestone page](https://gitlab.com/gitlab-org/gitlab-ce/issues/28481) on the GitLab Community Edition (CE) issue tracker could be named `ce#28481-time-tracking-totals.sketch`.
-      - If the work is related to multiple issues, just duplicate the prefix and separate with a dash (e.g. `ce#1234-ee#5678-awesome-design.sketch`). In the Sketch file, each page can be named after an issue (see the [Sketch](#sketch-) section).
-      - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
+   - Sketch files are prefixed with the project handle (`ce` for Community Edition and `ee` for Enterprise Edition), and `#<ID>` for issues or `!<ID>` for merge requests. The rest of the name should be a “compact” version of the issue/merge request title. For example, the Sketch file for the issue [#28481 Display time tracking totals on milestone page](https://gitlab.com/gitlab-org/gitlab-ce/issues/28481) on the GitLab Community Edition (CE) issue tracker could be named `ce#28481-time-tracking-totals.sketch`.
+      - The [Git hook][git-hooks] that automates adding issue/merge request numbers to commit messages depends on using this naming pattern, so please follow it so that everything is nicely referenced (see [how to set up that Git hook]((#commits))
+      - If the work is related to multiple issues and/or merge requests, just duplicate the prefix and separate with a dash (e.g. `ce#1234-ee#5678-awesome-design.sketch`). In the Sketch file, each page can be named after an issue/merge request (see the [Sketch](#sketch-) section).
+      - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue/merge request, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
       - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
    - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
 
@@ -161,10 +164,10 @@ layers and styles inside of Sketch files.
 ## Commits
 
 - Be a good contributor and write a [good commit message](https://chris.beams.io/posts/git-commit/)
-- If the changes you’re committing are related to an issue or merge request ([which they should be][everything-starts-with-an-issue]):
-   - In the commit message body, reference the project handle (`ce` for Community Edition and `ee` for Enterprise Edition) and issue/merge request ID (e.g. `gitlab-ce#1337` or `ux-research!1337`)
-   - If related to multiple issues or merge requests, put each reference on their own line
-   - These references create a commit note in the issue/merge request, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office)
+- Install the [Git hook][git-hooks] that automates adding issue/merge request IDs to commit messages:
+   - At the root of the repository, run `ln -s ../../hooks/prepare-commit-msg .git/hooks/prepare-commit-msg`. This will keep your local Git hook up-to-date.
+   - Once installed, every time you commit, the hook will add the issues and merge requests IDs found on the staged files (and their folders) to the commit message body (e.g. `gitlab-ce#1337` or `ux-research!1337`)
+   - These references automatically create a commit note in the corresponding issue/merge request, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office)
 
 ## Superpowers :stars:
 
@@ -240,6 +243,7 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
 [framer]: https://framer.com
 [everything-starts-with-an-issue]: https://about.gitlab.com/handbook/communication/#everything-starts-with-an-issue
+[git-hooks]: https://git-scm.com/docs/githooks
 
 ## Contributor license agreement
 

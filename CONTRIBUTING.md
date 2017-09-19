@@ -148,7 +148,12 @@ layers and styles inside of Sketch files.
    - Personal folders are organized around our [workflow labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#workflow-labels)
       - The 1st-level folders are named after the [Team label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#team-labels-ci-discussion-edge-platform-etc) assigned to the issue/merge request (the green one; except [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=UX))
       - The 2nd-level folders are named after [subject labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#subject-labels-wiki-container-registry-ldap-api-etc) assigned to the issue/merge request (the blue ones). If there are multiple Subject labels assigned, the folder is named after all labels, in alphabetical order, separated by a dash (e.g. `settings-wiki`).
-   - Sketch files are prefixed with the project handle (`ce` for Community Edition and `ee` for Enterprise Edition), and `#<ID>` for issues or `!<ID>` for merge requests. The rest of the name should be a “compact” version of the issue/merge request title. For example, the Sketch file for the issue [#28481 Display time tracking totals on milestone page](https://gitlab.com/gitlab-org/gitlab-ce/issues/28481) on the GitLab Community Edition (CE) issue tracker could be named `ce#28481-time-tracking-totals.sketch`.
+   - Sketch files are named after their related issue/merge request:
+      - The basic naming pattern is: `projecthandle#issueID-title.sketch`:
+         - Starts with the project handle (found in the project URL). Use the compact versions `ce` or `ee` for the Community Edition and Enterprise Edition, respectively. All other projects should have their full project handle (e.g. `ux-research` for the [UX Research project](https://gitlab.com/gitlab-org/ux-research))
+         - The project handle is followed by `#<ID>` for issues or `!<ID>` for merge requests (e.g. `#1337` or `!1337`)
+         - The rest of the name should be a “compact” version of the issue/merge request title
+         - For example, the Sketch file for the issue [#28481 Display time tracking totals on milestone page](https://gitlab.com/gitlab-org/gitlab-ce/issues/28481) on the Community Edition (CE) issue tracker could be named `ce#28481-time-tracking-totals.sketch`
       - The Git hook that automates adding issue/merge request numbers to commit messages depends on using this naming pattern, so please follow it so that everything is nicely referenced (see [how to install it](#commits))
       - If the work is related to multiple issues and/or merge requests, just duplicate the prefix and separate with a dash (e.g. `ce#1234-ee#5678-awesome-design.sketch`). In the Sketch file, each page can be named after an issue/merge request (see the [Sketch](#sketch-) section).
       - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue/merge request, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
@@ -167,6 +172,7 @@ layers and styles inside of Sketch files.
 - Install the [Git hook][git-hooks] that automates adding issue/merge request IDs to commit messages:
    - At the root of the repository, run `ln -s ../../hooks/prepare-commit-msg .git/hooks/prepare-commit-msg`. This will keep your local Git hook up-to-date.
    - Once installed, every time you commit, the hook will add the issues and merge requests IDs found on the staged files (and their folders) to the commit message body (e.g. `gitlab-ce#1337` or `ux-research!1337`)
+   - It only works if you follow the naming pattern described in the [Files and folders](#files-and-folders) section
    - These references automatically create a commit note in the corresponding issue/merge request, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office)
 
 ## Superpowers :stars:

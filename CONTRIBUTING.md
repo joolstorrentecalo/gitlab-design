@@ -1,5 +1,6 @@
 # Contribution guidelines
 
+- [Contributor license agreement](#contributor-license-agreement)
 - [Contribute to GitLab](#contribute-to-gitlab)
 - [For wider community contributors :strawberry:](#for-wider-community-contributors-)
 - [For GitLabbers :fox:](#for-gitlabbers-)
@@ -11,6 +12,18 @@
 - [Superpowers :stars:](#superpowers-)
 - [Git](#git)
 - [Code of conduct](#code-of-conduct)
+
+
+## Contributor license agreement
+
+By submitting code as an individual you agree to the [individual contributor
+license agreement][individual-agreement].
+
+By submitting code as an entity you agree to the [corporate contributor license
+agreement][corporate-agreement].
+
+[individual-agreement]: https://docs.gitlab.com/ee/legal/individual_contributor_license_agreement.html
+[corporate-agreement]: https://docs.gitlab.com/ee/legal/corporate_contributor_license_agreement.html
 
 
 ## Contribute to GitLab
@@ -250,14 +263,3 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [framer]: https://framer.com
 [everything-starts-with-an-issue]: https://about.gitlab.com/handbook/communication/#everything-starts-with-an-issue
 [git-hooks]: https://git-scm.com/docs/githooks
-
-## Contributor license agreement
-
-By submitting code as an individual you agree to the [individual contributor
-license agreement][individual-agreement].
-
-By submitting code as an entity you agree to the [corporate contributor license
-agreement][corporate-agreement].
-
-[individual-agreement]: https://docs.gitlab.com/ee/legal/individual_contributor_license_agreement.html
-[corporate-agreement]: https://docs.gitlab.com/ee/legal/corporate_contributor_license_agreement.html

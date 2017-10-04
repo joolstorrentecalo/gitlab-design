@@ -1,0 +1,79 @@
+{
+  "_class": "group",
+  "do_objectID": "2920E6DF-E9D7-4122-AC59-F6BE64B3299D",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 24,
+    "width": 456,
+    "x": 607,
+    "y": 456
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "2E131EBF-E247-4E50-B358-249433CE039E"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "AC8A2B44-F939-4CA0-8FE7-CE04F8B38E86"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "8DB6E28B-B2AE-471F-BA02-2059AB459176"
+    },
+    {
+      "class": "text",
+      "id": "9944B577-A05E-451C-8965-64FF777EE266"
+    }
+  ],
+  "name": "new_epic copy 26",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "shadows": [
+      {
+        "_class": "shadow",
+        "blurRadius": 2,
+        "color": {
+          "_class": "color",
+          "alpha": 0.5,
+          "blue": 0.7294117647058823,
+          "green": 0.7294117647058823,
+          "red": 0.7294117647058823
+        },
+        "contextSettings": {
+          "_class": "graphicsContextSettings",
+          "blendMode": 0,
+          "opacity": 1
+        },
+        "isEnabled": true,
+        "offsetX": 0,
+        "offsetY": 1,
+        "spread": 0
+      }
+    ],
+    "startDecorationType": 0
+  }
+}

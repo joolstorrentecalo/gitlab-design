@@ -1,0 +1,53 @@
+{
+  "_class": "group",
+  "do_objectID": "90FA6D6E-EAC1-40B8-858A-171785DA388F",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 625,
+    "width": 1448,
+    "x": 11,
+    "y": 0
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 2,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "BB26D449-2400-4391-B927-8929DCC0E2D6"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "841A9274-1FEB-439B-97D9-48699C5260C9"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "53351C43-50DA-4442-9447-AAAF3D774C78"
+    }
+  ],
+  "name": "timeline-unit-weekendday-bg",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

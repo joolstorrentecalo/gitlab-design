@@ -1,0 +1,72 @@
+{
+  "_class": "symbolInstance",
+  "do_objectID": "4B742C0F-5EA5-4727-858A-88E5FCA95C2B",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 40,
+    "width": 220,
+    "x": 0,
+    "y": 280
+  },
+  "horizontalSpacing": 0,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "masterInfluenceEdgeMaxXPadding": 1,
+  "masterInfluenceEdgeMaxYPadding": 1,
+  "masterInfluenceEdgeMinXPadding": 0,
+  "masterInfluenceEdgeMinYPadding": 0,
+  "name": "sidebar/molecules/menu-item/",
+  "nameIsFixed": true,
+  "overrides": {
+    "15654E37-957C-42B5-8981-C4F1B5B12658": {
+      "1E61B201-EFEB-475B-B4F7-8911F120411B": {
+        "symbolID": "5A49560B-8379-495D-95CB-DDEB53CA71BE"
+      },
+      "45849486-D130-4094-BB73-39D697D8CB49": {
+        "symbolID": "82060AFB-5C5F-4178-A8BD-C12F1F115034"
+      },
+      "45D85E86-3F15-4530-AB33-7A4216134B7A": {
+        "symbolID": "5A49560B-8379-495D-95CB-DDEB53CA71BE"
+      },
+      "A73F97EA-BD27-4290-888C-4419449DB580": {
+        "symbolID": "EAB165A5-6100-4D37-9D0B-ED03DA773770"
+      },
+      "symbolID": "EB23FDCE-C07D-45B0-8334-115CDF37E32B"
+    },
+    "69B9D507-A5EB-45D9-81F5-4C6E1AAB425A": {
+      "7B3078E7-F805-4EE8-8848-5FA084C6A7B7": "Merge Requests",
+      "9505DB84-2594-410F-BAC6-F8A173ACEADD": {
+        "706F70A0-5B98-462A-8C2A-076C43F4CB5F": "341"
+      },
+      "A2A022FF-7C80-411C-8C24-E06CA8249433": "Issues",
+      "FB150F4B-17F2-4F09-96C6-AEDDAD8D8DFC": {
+        "4D7E95D8-9FC0-42A3-ADA6-BD5123A83141": "441"
+      }
+    }
+  },
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "symbolID": "42FC1E5F-60CA-4B2C-8A9E-AC9131844DB4",
+  "verticalSpacing": 0
+}

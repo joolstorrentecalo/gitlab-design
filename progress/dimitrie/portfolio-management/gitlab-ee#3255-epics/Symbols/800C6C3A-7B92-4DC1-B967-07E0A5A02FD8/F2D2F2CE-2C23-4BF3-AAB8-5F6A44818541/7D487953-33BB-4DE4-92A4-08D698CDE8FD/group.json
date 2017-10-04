@@ -1,0 +1,57 @@
+{
+  "_class": "group",
+  "do_objectID": "7D487953-33BB-4DE4-92A4-08D698CDE8FD",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 50,
+    "width": 101,
+    "x": 210,
+    "y": 0
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "E876A9C0-AA2D-4CD8-AB87-349451F66F96"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "CACDDB29-8079-495B-A683-4872ED51ECC8"
+    },
+    {
+      "class": "group",
+      "id": "89BD9FC4-8092-4B22-A871-A50036C6090E"
+    },
+    {
+      "class": "text",
+      "id": "04FEC62B-D49F-452B-9006-CFF11D323CC4"
+    }
+  ],
+  "name": "tab-pipelines",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

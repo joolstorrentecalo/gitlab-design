@@ -1,0 +1,49 @@
+{
+  "_class": "group",
+  "do_objectID": "718007AB-1C14-4D95-9A56-E76CF31AA35D",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 2064,
+    "width": 9,
+    "x": 1130,
+    "y": 149
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "5483B319-6991-4E5B-8791-A0A08965BE7A"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "1124949C-E56D-469D-AF9E-D58F063EA0E0"
+    }
+  ],
+  "name": "Today",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

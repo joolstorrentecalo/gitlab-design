@@ -1,0 +1,61 @@
+{
+  "_class": "group",
+  "do_objectID": "42FC0D47-C3EF-4ECB-BC9A-3DB1237C6444",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 588,
+    "width": 97,
+    "x": 1206,
+    "y": 120
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "667DB52A-FA89-49A0-BA84-3AF1D91D3FAB"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "1D8AA3FB-28B1-4682-94FE-12BBFCCE79EB"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "BA1C0D21-EC8B-469F-AF9F-BDE59477C23B"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "A2F6620E-9612-4B73-8FFC-E9BA2037C365"
+    },
+    {
+      "class": "group",
+      "id": "D0360706-2C8C-46B0-A563-F5606AA46EA8"
+    }
+  ],
+  "name": "milestone",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_class": "group",
+  "do_objectID": "5112E845-57AF-438C-BCE0-7915AA7004B6",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 53,
+    "width": 81,
+    "x": 88.85328836424958,
+    "y": 0
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "3FB5D85B-E0B6-4AC3-98CD-17AD197438E1"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "44B720DD-7F8B-4DC0-AEC3-B6C8AE088782"
+    },
+    {
+      "class": "group",
+      "id": "17E1B7C6-C2E4-4DA3-A96E-A91BEA5FAE4A"
+    },
+    {
+      "class": "text",
+      "id": "90C4AE63-8DAC-4322-8C47-76C15D29E5DF"
+    }
+  ],
+  "name": "tab-commits",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

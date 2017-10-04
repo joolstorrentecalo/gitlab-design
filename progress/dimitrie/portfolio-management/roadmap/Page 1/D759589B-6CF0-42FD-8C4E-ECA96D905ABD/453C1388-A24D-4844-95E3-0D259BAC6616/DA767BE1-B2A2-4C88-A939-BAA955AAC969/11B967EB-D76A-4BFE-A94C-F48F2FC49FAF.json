@@ -1,0 +1,56 @@
+{
+  "_class": "symbolInstance",
+  "do_objectID": "11B967EB-D76A-4BFE-A94C-F48F2FC49FAF",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 32,
+    "width": 47,
+    "x": 324,
+    "y": 0
+  },
+  "horizontalSpacing": 0,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "masterInfluenceEdgeMaxXPadding": 65,
+  "masterInfluenceEdgeMaxYPadding": 520,
+  "masterInfluenceEdgeMinXPadding": 674,
+  "masterInfluenceEdgeMinYPadding": 256,
+  "name": "topbar/molecules/badge",
+  "nameIsFixed": true,
+  "overrides": {
+    "39A06CA2-25FE-4779-AFCE-444708E7914D": {
+      "symbolID": "61466718-A107-4B26-901D-FFAB5A9459E1"
+    },
+    "DCC27D08-1795-4A83-8654-E1B9EEF67636": {
+      "24B2D9F4-B2D3-475A-BEAB-A508BB82D7B4": "9",
+      "E4B3B66A-8773-408F-9D46-4CA7C03FD1AC": {
+        "symbolID": "407FEAB5-585D-4F6A-A2C9-3E2FE5A11646"
+      }
+    }
+  },
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "symbolID": "320BC548-BB25-40F7-B16A-7018EA46B9E9",
+  "verticalSpacing": 0
+}

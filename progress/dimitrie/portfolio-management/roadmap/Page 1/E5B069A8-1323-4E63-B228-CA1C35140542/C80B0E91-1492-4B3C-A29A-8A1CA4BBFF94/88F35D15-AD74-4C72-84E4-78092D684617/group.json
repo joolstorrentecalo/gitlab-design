@@ -1,0 +1,57 @@
+{
+  "_class": "group",
+  "do_objectID": "88F35D15-AD74-4C72-84E4-78092D684617",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 28,
+    "width": 527,
+    "x": 607,
+    "y": 1112
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 2,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "ECE28363-3FBD-4E62-BD33-0C66C5BDD86D"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "0F2181AA-2D56-434A-92FA-E1628F183A0B"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "6638946D-4DE3-4133-B395-F008BA3DF0C6"
+    },
+    {
+      "class": "text",
+      "id": "BBD7EDF8-6CA3-4604-96A3-9FDD3E03208A"
+    }
+  ],
+  "name": "new_epic copy 14",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

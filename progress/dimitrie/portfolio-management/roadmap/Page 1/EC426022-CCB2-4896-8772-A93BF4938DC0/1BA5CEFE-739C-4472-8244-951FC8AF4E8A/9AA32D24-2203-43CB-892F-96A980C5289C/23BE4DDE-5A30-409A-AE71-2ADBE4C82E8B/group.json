@@ -1,0 +1,49 @@
+{
+  "_class": "group",
+  "do_objectID": "23BE4DDE-5A30-409A-AE71-2ADBE4C82E8B",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 24,
+    "width": 825,
+    "x": 83,
+    "y": 32
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "F0D2060D-A4DC-4525-8595-464B68E8DE14"
+    },
+    {
+      "class": "text",
+      "id": "24360929-9708-403D-A068-FF07630DCE83"
+    }
+  ],
+  "name": "gitlab-org$03 · Setu Copy 3",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

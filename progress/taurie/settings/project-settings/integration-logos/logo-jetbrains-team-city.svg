@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128px" height="129px" viewBox="0 0 128 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>teamcity-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.6789573%" y1="86.1722223%" x2="34.2540741%" y2="31.0050356%" id="linearGradient-1">
+            <stop stop-color="#0CB0F2" offset="6%"></stop>
+            <stop stop-color="#10ADF2" offset="21%"></stop>
+            <stop stop-color="#1EA5F3" offset="37%"></stop>
+            <stop stop-color="#3497F5" offset="54%"></stop>
+            <stop stop-color="#5283F7" offset="71%"></stop>
+            <stop stop-color="#796AF9" offset="88%"></stop>
+            <stop stop-color="#905CFB" offset="97%"></stop>
+        </linearGradient>
+        <linearGradient x1="25.8823579%" y1="92.5635298%" x2="50.9144025%" y2="40.6755545%" id="linearGradient-2">
+            <stop stop-color="#0CB0F2" offset="6%"></stop>
+            <stop stop-color="#0DB2EE" offset="20%"></stop>
+            <stop stop-color="#12B7E0" offset="35%"></stop>
+            <stop stop-color="#19C0CA" offset="51%"></stop>
+            <stop stop-color="#23CCAC" offset="68%"></stop>
+            <stop stop-color="#30DC85" offset="85%"></stop>
+            <stop stop-color="#3BEA62" offset="97%"></stop>
+        </linearGradient>
+        <linearGradient x1="4862%" y1="-58597.4487%" x2="8812%" y2="-53993.141%" id="linearGradient-3">
+            <stop stop-color="#0CB0F2" offset="6%"></stop>
+            <stop stop-color="#0DB2EE" offset="20%"></stop>
+            <stop stop-color="#12B7E0" offset="35%"></stop>
+            <stop stop-color="#19C0CA" offset="51%"></stop>
+            <stop stop-color="#23CCAC" offset="68%"></stop>
+            <stop stop-color="#30DC85" offset="85%"></stop>
+            <stop stop-color="#3BEA62" offset="97%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="teamcity-icon" transform="translate(0.000000, -1.000000)" fill-rule="nonzero">
+            <path d="M45.92,3.92 C44.161766,3.0381035 42.3055948,2.36679388 40.39,1.92 C14.69,-4.18 -4.41,21.02 6.09,43.92 C6.19,44.02 24.79,84.82 27.79,91.32 C27.79,91.32 61.99,75.62 68.99,59.52 C75.47,44.52 64.54,17.14 62.54,13.03 L45.92,3.92 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M123.19,49.43 C121.018759,46.1017959 118.066272,43.3552962 114.59,41.43 C114.49,41.43 90.49,28.23 90.49,28.23 C90.49,28.23 8.09,76 8,76.13 C-1.3,86.73 -3.4,103.53 7.3,118.13 C10.5258925,122.520304 15.0867174,125.747965 20.3,127.33 C30,130.33 38.6,129.13 45.8,125.33 C46,125.23 113.5,89.43 113.7,89.23 C126.89,82.33 133,64.73 123.19,49.43 L123.19,49.43 Z" id="Shape" fill="#0CB0F2"></path>
+            <path d="M38.42,38.94 L16.42,65.94 L7.89,76.13 C-1.41,86.73 -3.51,103.53 7.19,118.13 C10.4158925,122.520304 14.9767174,125.747965 20.19,127.33 C29.89,130.33 38.59,129.13 45.79,125.33 C45.79,125.33 47.49,124.43 50.39,122.83 C59.53,117.89 72.14,84.68 80.74,59 L38.42,38.94 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+            <path d="M73,64.93 L90.49,28 C90.49,27.9447715 90.5347715,27.9 90.59,27.9 C90.69,27.6 92.09,24 92.19,23.8 C94.2778016,18.5312901 93.602785,12.5686435 90.39,7.9 C88.372656,4.70618328 85.172759,2.44108762 81.49,1.6 C75.1632293,-0.0835015272 68.4413157,2.15713635 64.39,7.3 C64.29,7.4 60.49,11.8 60.49,11.8 L32.49,46.3 L73,64.93 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+            <g id="Group" transform="translate(23.000000, 24.000000)">
+                <polygon id="Shape" fill="#000000" points="0.99 0.93 80.99 0.93 80.99 80.93 0.99 80.93"></polygon>
+                <path d="M19.79,18.63 L8.99,18.63 L8.99,11.63 L38.29,11.63 L38.29,18.63 L27.59,18.63 L27.59,46.22 L19.79,46.22 L19.79,18.63 L19.79,18.63 Z M38.29,29 C38.29,19 45.69,10.9 56.39,10.9 C62.89,10.9 66.89,13.1 70.09,16.3 L65.19,21.9 C62.49,19.5 59.79,18 56.29,18 C50.49,18 46.19,22.9 46.19,28.8 L46.19,28.9 C46.19,34.9 50.29,39.8 56.29,39.8 C60.29,39.8 62.69,38.2 65.39,35.7 L70.29,40.6 C66.69,44.4 62.79,46.8 56.09,46.8 C51.3369417,46.9077207 46.7465843,45.0669813 43.3848015,41.7051985 C40.0230187,38.3434157 38.1822793,33.7530583 38.29,29 L38.29,29 Z M8.99,64.93 L38.29,64.93 L38.29,70.23 L8.99,70.23 L8.99,64.93 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

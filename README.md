@@ -1,166 +1,85 @@
-# [GitLab Design Kit](https://gitlab-org.gitlab.io/gitlab-design)
+# GitLab Design
 
-Contains all resources and information UX Designers need.
-
-Git LFS is enabled for this repository. It tracks the following files: `.atype`, `.sketch`, `.psd`, `.zip`, `.jpg`, `.png`, `.pdf`.
-
-Please do the following before committing to this repository:
-- `git lfs install`
-
-If you use an application git client instead of the command-line please look in the docs/manual of your app how to activate git LFS!
-
-__An archive of this repository, containing all original commit prior to the change to use git LFS at 08-07-2017 can be found [here](https://gitlab.com/gitlab-org/gitlab-design-archive)!__
+:information_source: **This project is primarily used by [GitLab’s UX team][ux-handbook]
+to host design files and hand them off for implementation. Before raising an
+issue to any of GitLab’s issue trackers, please see [Getting help for GitLab](https://about.gitlab.com/getting-help/) on our
+website to determine the best place to post. Thank you for helping to make GitLab a better product.**
 
 ![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-cover-image.jpg)
 
-## Repository SUPERPOWERS :stars:
+- **[Browse prototypes and specs :arrow_upper_right:][design-pages]**
 
-*Please put all exported folders in the `hosted` directory. That way you can shuffle the rest of your repository around without breaking links!*
+<!-- Table of contents generated with DocToc: https://github.com/thlorenz/doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- __Semi automatic Sketch spec previews with Continuous Integration__
 
-*Whenever you create a spec preview folder with the [Sketch Measure Plugin](https://github.com/utom/sketch-measure), append `spec-previews` to the name of the generated directory and it will be visible by an URL. Search in [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*
+- [About](#about)
+  - [Goals](#goals)
+- [Getting started](#getting-started)
+- [Contributing](#contributing)
+- [Contacts](#contacts)
+- [Links](#links)
+- [License](#license)
 
-- __Automatic live Framer prototypes with Continuous Integration__
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-*Whenever you save a [Framer](https://framerjs.com) prototype in this repository and commit push it to GitLab, it will automatically be hosted in the same way as the spec previews superpower. See them live at [https://gitlab-org.gitlab.io/gitlab-design](https://gitlab-org.gitlab.io/gitlab-design)*
+## About
 
-- __Standalone Live Html Previews__
+**GitLab’s open source design library, prototypes and work-in-progress files.**
 
-*By using the wget command: `wget -kN --html-extension URL` or `wget -E -p -k URL` you can create a standalone working HTML page of the GitLab view you want. Just change the name of the file to index.html and append `html-previews` to the name of the directory it will be inside of. Good luck! (No guarantees with this one!)*
+This project is primarily used by [GitLab’s UX team][ux-handbook] to host design
+files and hand them off for implementation. To learn about the best
+practices to manage this project, including the repository’s organization,
+check out the [contribution guidelines](/CONTRIBUTING.md). For more information
+about the UX team, check out the [Links](#links) section.
 
-### Activating them!
+### Goals
 
-1. Have a Mac with [Sketch](https://www.sketchapp.com/) installed in the /Applications folder
-1. Install [Sketch Measure Plugin](https://github.com/utom/sketch-measure) with the Sketch Toolbox
-1. Read on :)
+- Jumpstart design work by using the design library and previous work
+- Enable frequent, stable, and consistent contributions
+- Make GitLab’s design open, transparent, and open source
+- Facilitate design handoffs and design–development communication design handoffs.
 
-## Repository Organization
+## Getting started
 
-- archive/
-    - oldfiles/
-- production/
-    - svg/
-    - resources/
-- progress/
-    - community-contribution/
-        - @gitlabusername/
-          - projects/
-            - project.sketch
-    - GitLab-designername/
-        - application-section/
-            - project.sketch
+**If you’re a GitLab Inc. engineer**: you shouldn’t have to clone this project,
+ever. Instead, ask the UX designer for the specs of the designs you’re working with.
 
-## Commit Workflow (includes Community Contribution!)
+**If you want to browse and contribute**:
 
-As design files are mostly binary files, merge conflicts can easily get stuck in conflicts. We will do the file merging manually instead of git.
+1. The design team primarily uses [Sketch](https://www.sketchapp.com/), but feel free to use any design software that's available to you
+1. Install and enable [Git Large File System (LFS)](https://about.gitlab.com/2017/01/30/getting-started-with-git-lfs-tutorial/):
+   1. Install with [Homebrew](https://github.com/Homebrew/brew) via `brew install git-lfs` or [MacPorts](https://www.macports.org/) via `port install git-lfs`
+   1. Enable with `git lfs install`
+   - If you use a [Git GUI client](https://git-scm.com/download/gui/mac) (e.g. Tower) instead of the command line, look in the docs/manual of your app to see how you can install/enable Git LFS
+1. Refer to the [contribution guidelines](/CONTRIBUTING.md) before contributing
 
-### GitLab Designer Personal Folders
+Git LFS currently tracks the following file extensions on the repository:
+`.atype`, `.sketch`, `.psd`, `.zip`, `.jpg`, `.png`, and `.pdf`.
+An [archive of the repository before using Git LFS](https://gitlab.com/gitlab-org/gitlab-design-archive)
+was created on July 8, 2017.
 
-1. In the `progress` directory, create your own folder
-1. In your own folder, create a subfolder for each issue/project you are working on
-1. Commit & Push changes
+## Contributing
 
-### Community Contribution :strawberry:
+GitLab is an open source project and we are very happy to accept community
+contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
-Every designer can contribute to GitLab. For GitLab community members we have a [special folder](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution) in the `progress` directory where you can create and commit your own designs. So you have a consistent backup, which can also be used by other designers to iterate upon! Follow the following steps to contribute.
+## Contacts
 
-1. Fork this repository and `git clone` it locally.
-1. Create a new branch based off from the master with `git checkout -b branchname`
-1. In the `community-contribution` directory, create your own folder based on your GitLab username following [the example](https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution/@gitlabusername).
-1. In your own folder, create a subfolder for each issue/project you are working on.
-1. Review the files you are about to commit (with `git status -sb`), as __only files in your folder are allowed to be added or changed__! If you have a hard time with this read through our [small section on Git](#oh-my-git)
-1. Commit your changes with a [good commit message](https://chris.beams.io/posts/git-commit/), including the project path and issue ID in the commit message body (e.g. `gitlab-ce#1337`). If the commit relates to multiple issues, put them on their own line. This creates a commit note in the issue, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office).
-1. Push your changes, create a merge request, and mention any [designer who manages this project](#project-managers).
-
-### Production Folders
-
-1. [Lock file](http://docs.gitlab.com/ee/user/project/file_lock.html)
-1. Pull changes
-1. Add our changes to the file
-1. Commit & Push changes
-1. [Unlock](http://docs.gitlab.com/ee/user/project/file_lock.html) file
-
-## Naming Convention
-Please see this [issue #19](https://gitlab.com/gitlab-org/gitlab-design/issues/19) for conversation on this topic
-
-### Everywhere
-
-- Readability above truncation, so: `background` instead of `bg`
-- `lowercase` __everywhere__
-- separate words with hyphens, _no-spaces-everywhere__
-
-### Files & Folders
-
-- for each issue create subfolders for issues
-
-### Layers & Groups (inside Sketch)
-
-- Try to adhere to [BEM naming convention](http://getbem.com/naming/) like so: block-element__modifier
-
-Example:
-
-- `navigation-1__project`
-
-- if you need to add the modifier, you can: `navigation-1__project--issues`
-
-## Sketch Management
-
-- Please try to use the [Symbol Resizing](https://blog.sketchapp.com/sketch-39-brings-symbol-resizing-and-cloud-beta-a74d3aa0611a#.rcu9qt4er) feature, when creating symbols
-- Add hidden *full red* (#FF0000) blocks, for important paddings and margins.
-
-## Delivery
-
-All designs mockups and details are delivered in the issue that describes the feature/problem/etc. So there is one place to look for everything related to it.
-
-## Designer & Developer Communication
-
-> Designers and developers often have different priorities, even though everyone is working toward one common goal: a fantastic, delightful, functional product. At Google, we're always working on ways to bridge this gap through unified spec formats and tools, so that intricate details are never lost in translation and things get done the way they're intended the first time - [Designer & Developer Communication Google IO 2016](https://www.youtube.com/watch?v=ZFyK1J5NrVk)
-
-Spec previews can be generated with the one of the [SUPERPOWERS](#repository-superpowers-)!
-
-When additional detail is needed, developers will ask for this. Take inspiration out of the link above if needed.
-
-## Oh My Git
-
-Git is hard: screwing up is easy, and figuring out how to fix your mistakes is sometimes almost impossible. Here are some links and tips to help you along!
-
-### Git Tips
-
-__Delete your changes on a file and make it as if you never touched it! (before commited anything)__
-- `git checkout FILEPATH/FILE`
-
-__If you did already 1 commit, but want to uncommit those changes__
-- `git reset HEAD^`
-
-### Git Links
-
-- [Learn git interactively for free on codeschool](https://www.codeschool.com/learn/git)
-- [Oh shit, git!](http://ohshitgit.com/)
-
-## Project maintainers
-
-See the [members section](https://gitlab.com/gitlab-org/gitlab-design/settings/members?sort=access_level_desc) of this project and search for "UX" on the [team section](https://about.gitlab.com/team) on our website.
-
-## Archive
-
-The archive directory contains all old design files and resources, including those made with [Antetype](http://www.antetype.com/).
-
-Old Antetype design files can still be valuable, if so see: [Converting antetype files for use with sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
+Search for `UX` on the [team page](https://about.gitlab.com/team) on our website.
 
 ## Links
+
 - [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/)
-- [UI Development Kit](https://gitlab.com/help/ui)
-- [UX Designer Onboarding Page](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
+- [UX Handbook][ux-handbook]
+- [UX Designer Onboarding](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
 - [GitLab Dribbble](https://dribbble.com/gitlab)
-
-## Design goals
-
-- Get the user started with all already existing materials
-- Try to kickstart design work while avoiding time lost on creating the duplicate content
-- Let designers contribute in a stable and consistent manner
 
 ## License
 
-The GitLab Design Kit is distributed under the MIT license,
-see the [LICENSE](https://gitlab.com/gitlab-org/gitlab-design/blob/master/LICENSE) file.
+The GitLab Design Kit is distributed under the MIT license, see the [LICENSE](/LICENSE)
+for details.
+
+[design-pages]: https://gitlab-org.gitlab.io/gitlab-design
+[ux-handbook]: https://about.gitlab.com/handbook/ux/

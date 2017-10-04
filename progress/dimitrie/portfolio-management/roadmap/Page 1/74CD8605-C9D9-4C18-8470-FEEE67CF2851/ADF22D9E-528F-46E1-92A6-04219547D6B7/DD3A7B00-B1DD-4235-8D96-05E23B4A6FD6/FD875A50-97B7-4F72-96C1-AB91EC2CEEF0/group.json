@@ -1,0 +1,49 @@
+{
+  "_class": "group",
+  "do_objectID": "FD875A50-97B7-4F72-96C1-AB91EC2CEEF0",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 40,
+    "width": 220,
+    "x": 0,
+    "y": 104
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "group",
+      "id": "87DF88A4-5E5B-456B-BFE8-AB1FDE5E0793"
+    },
+    {
+      "class": "symbolInstance",
+      "id": "A485BBDF-41D4-4B85-A72E-2BB5CCF7CED9"
+    }
+  ],
+  "name": "sidebar/molecules/menu-item/",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGVFVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFQcIDxAcHR4fJSsyNjpCQ0RFRkpOUFUkbnVsbNMJCgsMDQ5YTlNTdHJpbmdWJGNsYXNzXE5TQXR0cmlidXRlc4ACgBSAA1RXZWVr0xESChMXG1dOUy5rZXlzWk5TLm9iamVjdHOjFBUWgASABYAGoxgZGoAHgAmAC4ATV05TQ29sb3JfEBBOU1BhcmFncmFwaFN0eWxlXxAfTVNBdHRyaWJ1dGVkU3RyaW5nRm9udEF0dHJpYnV0ZdMgIQoiIyRVTlNSR0JcTlNDb2xvclNwYWNlTxAnMC4xODAzOTIxNTY5IDAuMTgwMzkyMTU2OSAwLjE4MDM5MjE1NjkAEAGACNImJygpWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqIoKlhOU09iamVjdNQsLS4KLzAjMVpOU1RhYlN0b3BzW05TQWxpZ25tZW50XxAfTlNBbGxvd3NUaWdodGVuaW5nRm9yVHJ1bmNhdGlvboAAEASACtImJzM0XxAXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGWjMzUqXxAQTlNQYXJhZ3JhcGhTdHlsZdIKNzg5XxAaTlNGb250RGVzY3JpcHRvckF0dHJpYnV0ZXOAEoAM0xESCjs+QaI8PYANgA6iP0CAD4AQgBFfEBNOU0ZvbnRTaXplQXR0cmlidXRlXxATTlNGb250TmFtZUF0dHJpYnV0ZSNALAAAAAAAAF1IZWx2ZXRpY2FOZXVl0iYnR0hfEBNOU011dGFibGVEaWN0aW9uYXJ5o0dJKlxOU0RpY3Rpb25hcnnSJidLTF8QEE5TRm9udERlc2NyaXB0b3KiTSpfEBBOU0ZvbnREZXNjcmlwdG9y0iYnSU+iSSrSJidRUl8QEk5TQXR0cmlidXRlZFN0cmluZ6JTKl8QEk5TQXR0cmlidXRlZFN0cmluZ18QD05TS2V5ZWRBcmNoaXZlctFWV1Ryb290gAEACAARABoAIwAtADIANwBPAFUAXABlAGwAeQB7AH0AfwCEAIsAkwCeAKIApACmAKgArACuALAAsgC0ALwAzwDxAPgA/gELATUBNwE5AT4BSQFSAVoBXQFmAW8BegGGAagBqgGsAa4BswHNAdEB5AHpAgYCCAIKAhECFAIWAhgCGwIdAh8CIQI3Ak0CVgJkAmkCfwKDApAClQKoAqsCvgLDAsYCywLgAuMC+AMKAw0DEgAAAAAAAAIBAAAAAAAAAFgAAAAAAAAAAAAAAAAAAAMU"
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "9FF14DB9-82B7-428A-974C-BA30D9E7A9B3",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 16,
+    "width": 35,
+    "x": 12,
+    "y": 8
+  },
+  "glyphBounds": "{{0, 3}, {35, 11}}",
+  "heightIsClipped": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "Button",
+  "nameIsFixed": false,
+  "resizingConstraint": 9,
+  "resizingType": 3,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "sharedObjectID": "08FDFEF2-BF36-46FF-A8B7-C2B5507F7E71"
+  },
+  "textBehaviour": 0,
+  "userInfo": {
+    "com.animaapp.stc-sketch-plugin": {
+      "kModelPropertiesKey": {
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+#!/bin/sh
+# Adds issue and merge request IDs of staged files to the commit message body
+# Prefixes compact CE and EE project IDs (e.g 'ce#1337-…') with 'gitlab-' for proper references (e.g. 'gitlab-ce#1337-…')
+# Does not prefix IDs that reference issues/merge requests on other projects (e.g. ux-research#1337)
+
+if [ x = x${2} ] || [ $2 = "message" ]; then
+  STAGED_FILES=$(git diff --name-only --staged)
+  ISSUES=$(echo "$STAGED_FILES" | sed -En 's/.*\/([a-z-]+[#|!][0-9]+).*/\1/p' | uniq | sed -E 's/(^ce[#|!].*|^ee[#|!].*)/gitlab-\1/')
+    echo "\n\n$ISSUES" >> $1
+fi

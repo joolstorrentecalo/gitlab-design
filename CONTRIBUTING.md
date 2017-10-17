@@ -126,7 +126,6 @@ layers and styles inside of Sketch files.
 ### Files and folders
 
 ```
-- archive/
 - hooks/
 - hosted/
   - [first-name]/
@@ -154,7 +153,6 @@ layers and styles inside of Sketch files.
                   - asset.svg
 ```
 
-1. [`archive/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/archive): Contains all old design files and resources, including those made with [Antetype](http://www.antetype.com/). Old Antetype design files can still be valuable if so see: [Converting Antetype files for use with Sketch](https://gitlab.com/gitlab-org/gitlab-ce/issues/19864)
 1. [`hooks/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/hooks): Contains custom [Git hooks][git-hooks] to trigger actions at certain points in git’s execution. Currently, the only one there automates adding issue/merge request IDs to commit messages ([how to install it](#commits)).
 1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-) section.
 1. [`progress/`][progress-folder]: Contains personal work-in-progress files. It’s assumed that [everything has a related issue][everything-starts-with-an-issue].

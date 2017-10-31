@@ -103,13 +103,19 @@ If you’re working on your personal files:
    - If you’re having a hard time with this whole Git thing, read our [small help section](#git)
 1. Commit and push your changes, following our [commit guidelines](#commits)
 
-If you’re working on files inside of the [`production`][production-folder] folder:
+If you’re updating an existing file in the [`production`][production-folder] folder:
 
-1. [Lock file(s)](http://docs.gitlab.com/ee/user/project/file_lock.html)
+1. Pull latest changes from the repository
+1. If the changes are not quick to perform (15 mins or more):
+   1. Duplicate the file and append your first name in lowercase to its name as a modifier (e.g. `gitlab-elements--pedro.sketch`)
+   1. Add your changes
+   1. If the changes are considerable, commit and push your changes frequently, following our [commit guidelines](#commits)
+   1. When you’re done, make sure the original file is [unlocked][file-lock] and manually merge your changes by following the next steps
+1. [Lock file(s)][file-lock]
 1. Pull latest changes from the repository
 1. Add your changes
 1. Commit and push your changes, following our [commit guidelines](#commits)
-1. [Unlock file(s)](http://docs.gitlab.com/ee/user/project/file_lock.html)
+1. [Unlock file(s)][file-lock]
 
 ## Organization
 
@@ -261,3 +267,4 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [framer]: https://framer.com
 [everything-starts-with-an-issue]: https://about.gitlab.com/handbook/communication/#everything-starts-with-an-issue
 [git-hooks]: https://git-scm.com/docs/githooks
+[file-lock]: http://docs.gitlab.com/ee/user/project/file_lock.html

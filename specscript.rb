@@ -5,7 +5,7 @@ require 'uri'
     file.puts '<html><head><meta charset="utf-8"><title>GitLab Hosted Design Kit</title><meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://use.fontawesome.com/1bb7ea2cce.js"></script><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"><style>body{margin:0;background: #EBEDF3;}ul{padding:0;margin:0;background: white;overflow-x:scroll;}li{font-family: "Source Code Pro", monospace;list-style:none;padding-right: 20px;white-space: nowrap;}li:hover{background: rgba(235, 237, 243, 0.5);}li a{color:#000;}li:hover a{color:#6299F8;}.fa{padding: 20px 0px 20px 20px;background: #2F313A;color: white;border-left: 2px solid #6299F8;width: 40px;margin-right:20px;}li:hover .fa{border-left: 2px solid #2F313A;}</style></head><body><ul>'
   }
 
-Dir["{progress,hosted}/**/*"].grep(/spec-previews$/).each do |specdir|
+Dir["{hosted}/**/*"].grep(/spec-previews$/).each do |specdir|
   next unless File.directory?(specdir)
 
   dest = 'public/' + specdir
@@ -19,7 +19,7 @@ Dir["{progress,hosted}/**/*"].grep(/spec-previews$/).each do |specdir|
   }
 end
 
-Dir["{progress,hosted}/**/*"].grep(/\.framer$/).each do |framerdir|
+Dir["{hosted}/**/*"].grep(/\.framer$/).each do |framerdir|
   next unless File.directory?(framerdir)
 
   dest = 'public/' + framerdir
@@ -33,7 +33,7 @@ Dir["{progress,hosted}/**/*"].grep(/\.framer$/).each do |framerdir|
   }
 end
 
-Dir["{progress,hosted}/**/*"].grep(/html-previews$/).each do |htmldir|
+Dir["{hosted}/**/*"].grep(/html-previews$/).each do |htmldir|
   next unless File.directory?(htmldir)
 
   dest = 'public/' + htmldir

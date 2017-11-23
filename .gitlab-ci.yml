@@ -10,7 +10,8 @@ cache:
 
 pages:
   script:
-    - ruby specscript.rb
+    - git diff --name-only master | grep '^hosted/'
+      - [[ $? -eq 1 ]] || ruby specscript.rb
   artifacts:
     paths:
       - public

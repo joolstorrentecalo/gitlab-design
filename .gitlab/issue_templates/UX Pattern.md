@@ -35,6 +35,7 @@ with a link to the relevant commit, if applicable.
 
 1. [ ] Add to the [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/)
 1. [ ] Add to the Design Library
+1. [ ] QA check by another UX'r (create and reference a file in this issue which includes the changes as you would like to add them to the gitlab-elements file)
 1. [ ] Add an agenda item to the next UX weekly call to inform everyone
 
 /label ~"UX"

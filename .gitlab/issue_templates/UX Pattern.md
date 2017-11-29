@@ -33,9 +33,14 @@
 Make sure these are completed before closing the issue,
 with a link to the relevant commit, if applicable.
 
-1. [ ] Add to the [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/)
-1. [ ] Add to the Design Library
-1. [ ] Add an agenda item to the next UX weekly call to inform everyone
+1. [ ] Ensure that you have broken things down into atoms, molecules, and organisms.
+1. [ ] Check that you have not created a duplicate of an existing pattern.
+1. [ ] Ensure that you have used the proper method for creating the pattern depending on the complexity. Atoms and molecules are symbols, organisms are groups.
+1. [ ] Make sure that text is created using text styles. When applicable used shared styles for colors.
+1. [ ] QA check by another UX'r (create and reference a file in this issue which includes the changes as you would like to add them to the gitlab-elements file)
+1. [ ] Added to gitlab-elements.sketch
+1. [ ] Add to the [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/) and/or add to the GitLab Design Library
+1. [ ] Add an agenda item to the next UX weekly call to inform everyone (if new pattern, not yet used in the application)
 
 /label ~"UX"
 /cc @cperessini @dimitrieh @hazelyang @pedroms @sarrahvesselov @sarahod @tauriedavis

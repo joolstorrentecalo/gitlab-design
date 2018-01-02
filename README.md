@@ -7,7 +7,8 @@ website to determine the best place to post. Thank you for helping to make GitLa
 
 ![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-cover-image.jpg)
 
-- **[Browse prototypes and specs :arrow_upper_right:][design-pages]**
+- **[👀 View the GitLab Elements Sketch file](/production/resources/gitlab-elements.sketch)**
+- **[:arrow_upper_right: Browse specs and prototypes][design-pages]**
 
 <!-- Table of contents generated with DocToc: https://github.com/thlorenz/doctoc -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -67,7 +68,7 @@ contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
 ## Contacts
 
-Search for `UX` on the [team page](https://about.gitlab.com/team) on our website.
+Filter by the **UX** department on our [team page](https://about.gitlab.com/team).
 
 ## Links
 

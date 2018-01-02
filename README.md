@@ -49,7 +49,7 @@ ever. Instead, ask the UX designer for the specs of the designs you’re working
 
 **If you want to browse and contribute**:
 
-1. The UX Design department primarily uses [Sketch](https://www.sketchapp.com/), but feel free to use any design software that's available to you
+1. The UX Design department primarily uses [Sketch](https://www.sketchapp.com/). See [Software](/CONTRIBUTING.md#software) for information on using alternatives.
 1. Install and enable [Git Large File System (LFS)](https://about.gitlab.com/2017/01/30/getting-started-with-git-lfs-tutorial/):
    1. Install with [Homebrew](https://github.com/Homebrew/brew) via `brew install git-lfs` or [MacPorts](https://www.macports.org/) via `port install git-lfs`
    1. Enable with `git lfs install`

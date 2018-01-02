@@ -15,17 +15,28 @@ _This notice should stay as the first item in the CONTRIBUTING.md file._
 
 # Contribution guidelines
 
+<!-- Table of contents generated with DocToc: https://github.com/thlorenz/doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
 - [Contribute to GitLab](#contribute-to-gitlab)
-- [For wider community contributors :strawberry:](#for-wider-community-contributors-)
-- [For GitLabbers :fox:](#for-gitlabbers-)
+- [For wider community contributors 🍓](#for-wider-community-contributors-)
+  - [Software](#software)
+    - [Viewing Sketch files](#viewing-sketch-files)
+    - [Editing Sketch files](#editing-sketch-files)
+- [For GitLabbers 🦊](#for-gitlabbers-)
 - [Organization](#organization)
   - [Naming](#naming)
   - [Files and folders](#files-and-folders)
-- [Sketch :large_orange_diamond:](#sketch-)
+- [Sketch 🔶](#sketch-)
 - [Commits](#commits)
-- [Superpowers :stars:](#superpowers-)
+- [Superpowers 🌠](#superpowers-)
 - [Git](#git)
 - [Code of conduct](#code-of-conduct)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## Contribute to GitLab
 
@@ -35,18 +46,38 @@ to contribute to GitLab in a way that is efficient for everyone.
 Before contributing, get started by following the steps in the [README](/README.md#getting-started)
 
 
-## For wider community contributors :strawberry:
+## For wider community contributors 🍓
 
-Everyone can contribute to GitLab. For the wider community members we have a
-[special `community-contribution` folder][community-folder] inside of the
-[`progress`][progress-folder] directory. This is where you can create and commit your own designs.
-This gives you a consistent backup location, which can also be used by other
-people to iterate upon your designs.
+Everyone can contribute to GitLab. In this project, we only accept contributions
+from wider community members to our [GitLab Elements Sketch file][elements-sketch]
+because merging binary files (such as Sketch files) is a manual process that can
+be very time-consuming. However, we do encourage design contributions/improvements
+to the [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce) and
+[Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee) projects. Feel
+free to create an issue on those project's issue trackers with your ideas.
+
+If you want to contribute text changes to the [GitLab Elements Sketch file][elements-sketch],
+please [create an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new)
+with your changes and mention _only one_ of the [designers who manage this project][contacts].
+
+For all other kinds of changes to the [GitLab Elements Sketch file][elements-sketch]:
+
+1. [Fork this project][fork-link] to your personal namespace.
+1. Navigate to the _Repository_ section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer.
+1. Go to `production/resources` and download `gitlab-elements.sketch`.
+1. Make your changes to that file while following the [Sketch](#sketch-) and [naming](#naming) guidelines.
+1. Replace `gitlab-elements.sketch` in your fork with the changed version. Make sure you select the branch you created before.
+1. Create a merge request from your fork, selecting the appropriate source branch and this project's `master` branch as the target.
+   - Be very descriptive of the changes you've made. The reviewer will have to manually merge them, which means they have to be aware of even the smallest changes as they could be easy to miss.
+   - Mention _only one_ of the [designers who manage this project][contacts] to review.
+   - It's normal to have merge conflicts because we're dealing with binary files, please ignore.
+   - The merge request will ultimately be closed as the changes need to be merged manually, instead of using Git.
+1. High-five yourself and go brew some coffee while you wait for the review. Thanks! 🙌
 
 
 ### Software
 
-The UX Design department uses [Sketch](https://sketchapp.com/), but you can create your designs with any software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+The UX Design department uses [Sketch](https://sketchapp.com/), but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
 
 If you do not have Sketch, here are some software suggestions:
 
@@ -54,55 +85,26 @@ If you do not have Sketch, here are some software suggestions:
 #### Viewing Sketch files
 
 - GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
-- [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL
-- [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files
+- [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL.
+- [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files.
 
 
 #### Editing Sketch files
 
-- [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It is free for individuals
-- [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. Only editable export format is PSD, which may not be fully compatible for Sketch import
+- [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It’s free for individuals.
+- [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. The only editable export format is PSD, which may not be fully compatible for Sketch import.
 
 
-### Occasional contributions
-
-If you want to make occasional contributions, the best option for you will be to upload your files using GitLab.com. Please, follow these steps:
-
-1. [Fork][fork-link] this project to your personal namespace
-1. Navigate to the Repository section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer
-1. In the `community-contribution` folder, create your personal folder named after your GitLab.com username (e.g. `@janedoe`)
-1. In your personal folder, create folders and add files according to our [organization guidelines](#organization)
-1. Commit your changes, following our [commit guidelines](#commits)
-1. Create a Merge Request for your branch by clicking on the blue button located in the top-right corner of the page
-1. In that new merge request, mention any of the [designers who manage this project](/README.md#contacts)
-
-
-### Frequent contributions
-
-If you frequently contribute to the GitLab Design project you may want to clone the repository to your computer. Please, follow these steps:
-
-1. [Fork][fork-link] this project and `git clone` its repository locally
-1. Create a new branch based off from the master with `git checkout -b your-branch-name`
-1. In the [`community-contribution`][community-folder] folder, create your personal folder named after your GitLab.com username (e.g. `@janedoe`)
-1. In your personal folder, create folders and files according to our [organization guidelines](#organization)
-1. Review the files you are about to commit (with `git status -sb`)
-   - Remember, you’re only allowed to add or change files in your folder
-   - If you’re having a hard time with this whole Git thing, read our [small help section](#git)
-1. Commit your changes, following our [commit guidelines](#commits)
-1. Push your changes and [create a merge request](https://gitlab.com/gitlab-org/gitlab-design/merge_requests/new) to merge your branch to `master`
-1. In that new merge request, mention any of the [designers who manage this project](/README.md#contacts)
-
-
-## For GitLabbers :fox:
+## For GitLabbers 🦊
 
 If you’re working on your personal files:
 
-1. In the [`progress`][progress-folder] folder, create your personal folder named after your first name in lowercase (e.g. `pedro`)
-1. In your personal folder, create folders and files according to our [organization guidelines](#organization)
-1. If you’re working with Sketch specs created with the [Sketch Measure Plugin][sketch-measure], [Framer prototypes][framer], or static HTML pages, please refer to the [Superpowers](#superpowers-) section
-1. Review the files you are about to commit (with `git status -sb`)
-   - If you’re having a hard time with this whole Git thing, read our [small help section](#git)
-1. Commit and push your changes, following our [commit guidelines](#commits)
+1. In the [`progress`][progress-folder] folder, create your personal folder named after your first name in lowercase (e.g. `pedro`).
+1. In your personal folder, create folders and files according to our [organization guidelines](#organization).
+1. Make changes while following the [Sketch](#sketch-) and [naming](#naming) guidelines. If you’re working with Sketch specs created with the [Sketch Measure Plugin][sketch-measure], [Framer prototypes][framer], or static HTML pages, please refer to the [Superpowers](#superpowers-) section.
+1. Review the files you are about to commit (with `git status -sb`).
+   - If you’re having a hard time with this whole Git thing, read our [small help section](#git).
+1. Commit and push your changes, following our [commit guidelines](#commits).
 
 If you’re updating an existing file in the [`production`][production-folder] folder:
 
@@ -139,16 +141,6 @@ layers and styles inside of Sketch files.
     - [folders]/
 - production/
 - progress/
-    - community-contribution/
-        - [@gitlab.com-username]/ (e.g. @janedoe)
-          - [group-label]/ (e.g. platform)
-            - [subject-labels]/ (e.g. settings)
-              - projecthandle#issueID-title.sketch (e.g. ce#1337-awesome-design.sketch)
-              - [projecthandle#issue-ID-title]/
-                - projecthandle#issueID-title--state-one.sketch
-                - projecthandle#issueID-title--state-two.sketch
-                  - assets/
-                    - asset.svg
     - [gitlabber-first-name]/ (e.g. pedro)
         - [group-label]/ (e.g. platform)
           - [subject-labels]/ (e.g. settings)
@@ -178,7 +170,7 @@ layers and styles inside of Sketch files.
       - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
    - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
 
-## Sketch :large_orange_diamond:
+## Sketch 🔶
 
 - Use the [Symbol Resizing](https://blog.sketchapp.com/sketch-39-brings-symbol-resizing-and-cloud-beta-a74d3aa0611a#.rcu9qt4er) feature when creating symbols
 - Add hidden *full red* (`#FF0000`) blocks for important paddings and margins.
@@ -193,7 +185,7 @@ layers and styles inside of Sketch files.
    - It only works if you follow the naming pattern described in the [Files and folders](#files-and-folders) section
    - These references automatically create a commit note in the corresponding issue/merge request, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office)
 
-## Superpowers :stars:
+## Superpowers 🌠
 
 Some deliverables (Sketch specs created with the [Sketch Measure Plugin][sketch-measure],
 [Framer prototypes][framer], and static HTML pages) can be
@@ -259,7 +251,6 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 
 [contributor-covenant]: http://contributor-covenant.org
 [fork-link]: https://gitlab.com/gitlab-org/gitlab-design/forks/new
-[community-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress/community-contribution
 [hosted-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/hosted
 [production-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/production
 [progress-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress
@@ -269,3 +260,5 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [everything-starts-with-an-issue]: https://about.gitlab.com/handbook/communication/#everything-starts-with-an-issue
 [git-hooks]: https://git-scm.com/docs/githooks
 [file-lock]: http://docs.gitlab.com/ee/user/project/file_lock.html
+[contacts]: /README.md#contacts
+[elements-sketch]: /production/resources/gitlab-elements.sketch

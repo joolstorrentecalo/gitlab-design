@@ -46,7 +46,7 @@ people to iterate upon your designs.
 
 ### Software
 
-The design team uses [Sketch](https://sketchapp.com/), but you can create your designs with any software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+The UX Design department uses [Sketch](https://sketchapp.com/), but you can create your designs with any software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
 
 If you do not have Sketch, here are some software suggestions:
 
@@ -141,7 +141,7 @@ layers and styles inside of Sketch files.
 - progress/
     - community-contribution/
         - [@gitlab.com-username]/ (e.g. @janedoe)
-          - [team-label]/ (e.g. platform)
+          - [group-label]/ (e.g. platform)
             - [subject-labels]/ (e.g. settings)
               - projecthandle#issueID-title.sketch (e.g. ce#1337-awesome-design.sketch)
               - [projecthandle#issue-ID-title]/
@@ -150,7 +150,7 @@ layers and styles inside of Sketch files.
                   - assets/
                     - asset.svg
     - [gitlabber-first-name]/ (e.g. pedro)
-        - [team-label]/ (e.g. platform)
+        - [group-label]/ (e.g. platform)
           - [subject-labels]/ (e.g. settings)
             - projecthandle#issueID-title.sketch (e.g. ce#1337-awesome-design.sketch)
             - [projecthandle#issue-ID-title]/
@@ -164,7 +164,7 @@ layers and styles inside of Sketch files.
 1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-) section.
 1. [`progress/`][progress-folder]: Contains personal work-in-progress files. It’s assumed that [everything has a related issue][everything-starts-with-an-issue].
    - Personal folders are organized around our [workflow labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#workflow-labels)
-      - The 1st-level folders are named after the [Team label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#team-labels-ci-discussion-edge-platform-etc) assigned to the issue/merge request (the green one; except [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=UX))
+      - The 1st-level folders are named after the [Group label)](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#team-labels-cicd-discussion-edge-platform-etc) (also called team label) assigned to the issue/merge request (the green one; except [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=UX))
       - The 2nd-level folders are named after [subject labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#subject-labels-wiki-container-registry-ldap-api-etc) assigned to the issue/merge request (the blue ones). If there are multiple Subject labels assigned, the folder is named after all labels, in alphabetical order, separated by a dash (e.g. `settings-wiki`).
    - Sketch files are named after their related issue/merge request:
       - The basic naming pattern is: `projecthandle#issueID-title.sketch`:

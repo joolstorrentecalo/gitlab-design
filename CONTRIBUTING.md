@@ -108,6 +108,7 @@ If you’re working on your personal files:
 
 If you’re updating an existing file in the [`production`][production-folder] folder:
 
+1. Close any open files that you intend to update (or else the next step won't have any effect while you have them open)
 1. Pull latest changes from the repository
 1. If the changes are not quick to perform (15 mins or more):
    1. Duplicate the file and append your first name in lowercase to its name as a modifier (e.g. `gitlab-elements--pedro.sketch`)

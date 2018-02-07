@@ -136,6 +136,7 @@ layers and styles inside of Sketch files.
 ### Files and folders
 
 ```
+- doc/
 - hooks/
 - hosted/
   - [first-name]/
@@ -153,6 +154,7 @@ layers and styles inside of Sketch files.
                   - asset.svg
 ```
 
+1. [`doc/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/doc): Contains documentation files related to the build out of our [GitLab Elements](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) pattern library file.
 1. [`hooks/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/hooks): Contains custom [Git hooks][git-hooks] to trigger actions at certain points in git’s execution. Currently, the only one there automates adding issue/merge request IDs to commit messages ([how to install it](#commits)).
 1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-) section.
 1. [`progress/`][progress-folder]: Contains personal work-in-progress files. It’s assumed that [everything has a related issue][everything-starts-with-an-issue].

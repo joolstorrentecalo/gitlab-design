@@ -30,6 +30,9 @@ _This notice should stay as the first item in the CONTRIBUTING.md file._
   - [Naming](#naming)
   - [Files and folders](#files-and-folders)
 - [Sketch 🔶](#sketch-)
+  - [Plugins](#plugins)
+  - [Pattern library](#pattern-library)
+  - [Pages and artboards](#pages-and-artboards)
 - [Commits](#commits)
 - [Superpowers 🌠](#superpowers-)
 - [Git](#git)
@@ -49,18 +52,18 @@ Before contributing, get started by following the steps in the [README](/README.
 ## For wider community contributors 🍓
 
 Everyone can contribute to GitLab. In this project, we only accept contributions
-from wider community members to our [GitLab Elements Sketch file][elements-sketch]
+from wider community members to our [pattern library][pattern-library-file]
 because merging binary files (such as Sketch files) is a manual process that can
 be very time-consuming. However, we do encourage design contributions/improvements
 to the [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce) and
 [Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee) projects. Feel
 free to create an issue on those project's issue trackers with your ideas.
 
-If you want to contribute text changes to the [GitLab Elements Sketch file][elements-sketch],
+If you want to contribute text changes to the [pattern library][pattern-library-file],
 please [create an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new)
 with your changes and mention _only one_ of the [designers who manage this project][contacts].
 
-For all other kinds of changes to the [GitLab Elements Sketch file][elements-sketch]:
+For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 1. [Fork this project][fork-link] to your personal namespace.
 1. Navigate to the _Repository_ section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer.
@@ -74,20 +77,17 @@ For all other kinds of changes to the [GitLab Elements Sketch file][elements-ske
    - The merge request will ultimately be closed as the changes need to be merged manually, instead of using Git.
 1. High-five yourself and go brew some coffee while you wait for the review. Thanks! 🙌
 
-
 ### Software
 
 The UX Design department uses [Sketch](https://sketchapp.com/), but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
 
 If you do not have Sketch, here are some software suggestions:
 
-
 #### Viewing Sketch files
 
 - GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
 - [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL.
 - [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files.
-
 
 #### Editing Sketch files
 
@@ -106,8 +106,9 @@ If you’re working on your personal files:
    - If you’re having a hard time with this whole Git thing, read our [small help section](#git).
 1. Commit and push your changes, following our [commit guidelines](#commits).
 
-If you’re updating an existing file in the [`production`][production-folder] folder:
+If you’re updating the [pattern library][pattern-library-file]:
 
+1. Read the [pattern library documentation][pattern-library-doc]
 1. Close any open files that you intend to update (or else the next step won't have any effect while you have them open)
 1. Pull latest changes from the repository
 1. If the changes are not quick to perform (15 mins or more):
@@ -121,13 +122,13 @@ If you’re updating an existing file in the [`production`][production-folder] f
 1. Commit and push your changes, following our [commit guidelines](#commits)
 1. [Unlock file(s)][file-lock]
 
+
 ## Organization
 
 ### Naming
 
-These naming guidelines should be applied to folder and file names, as well as
-layers and styles inside of Sketch files.
-
+Follow these guidelines when naming files and folders, as well as
+layers and styles in Sketch:
 - Adhere to [BEM naming convention](http://getbem.com/naming/): `block-name__element-name--modifier-name`
 - Readability above truncation: `background` instead of `bg`
 - `lowercase` everywhere
@@ -154,8 +155,8 @@ layers and styles inside of Sketch files.
                   - asset.svg
 ```
 
-1. [`doc/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/doc): Contains documentation files related to the build out of our [GitLab Elements](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) pattern library file.
-1. [`hooks/`](https://gitlab.com/gitlab-org/gitlab-design/tree/master/hooks): Contains custom [Git hooks][git-hooks] to trigger actions at certain points in git’s execution. Currently, the only one there automates adding issue/merge request IDs to commit messages ([how to install it](#commits)).
+1. [`doc/`](/doc): Contains documentation files related to the build out of our [pattern library file][pattern-library-file].
+1. [`hooks/`](/hooks): Contains custom [Git hooks][git-hooks] to trigger actions at certain points in git’s execution. Currently, the only one there automates adding issue/merge request IDs to commit messages ([how to install it](#commits)).
 1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-) section.
 1. [`progress/`][progress-folder]: Contains personal work-in-progress files. It’s assumed that [everything has a related issue][everything-starts-with-an-issue].
    - Personal folders are organized around our [workflow labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#workflow-labels)
@@ -173,11 +174,31 @@ layers and styles inside of Sketch files.
       - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
    - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
 
+
 ## Sketch 🔶
 
-- Use the [Symbol Resizing](https://blog.sketchapp.com/sketch-39-brings-symbol-resizing-and-cloud-beta-a74d3aa0611a#.rcu9qt4er) feature when creating symbols
-- Add hidden *full red* (`#FF0000`) blocks for important paddings and margins.
-- If you think the file is becoming too complex, consider organizing it with different pages and/or artboards. Use the organization method that best suits you. Pages can be different issues and artboards can be different states, for example. Remember to follow the [naming guidelines](#naming).
+### Plugins
+
+We recommend installing the following Sketch plugins to improve your design
+workflow. Don’t forget to read the documentation of each plugin to use them
+properly. If you’d like to recommend a plugin, please [create an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new).
+
+- [Relabel Button](https://github.com/kenmoore/sketch-relabel-button): Prompts for a button’s new label, applies the text, resizes the button background, and repositions any other interior elements while maintaining the existing padding. It’s essentially awesome voodoo magic.
+
+### Pattern library
+
+Read the [pattern library documentation][pattern-library-doc] before contributing to it.
+
+### Pages and artboards
+
+In terms of organization method, use the one that best suits you. However, if
+you think the file is becoming too complex, consider organizing it with different
+pages and/or artboards. For example, pages can be different issues and artboards can be
+different states. Remember to follow the [naming guidelines](#naming).
+
+See the [Files and folders](#files-and-folders) section for naming and
+organizing Sketch files.
+
 
 ## Commits
 
@@ -187,6 +208,7 @@ layers and styles inside of Sketch files.
    - Once installed, every time you commit, the hook will add the issues and merge requests IDs found on the staged files (and their folders) to the commit message body (e.g. `gitlab-ce#1337` or `ux-research!1337`)
    - It only works if you follow the naming pattern described in the [Files and folders](#files-and-folders) section
    - These references automatically create a commit note in the corresponding issue/merge request, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office)
+
 
 ## Superpowers 🌠
 
@@ -208,6 +230,7 @@ To use these awesome _superpowers_:
    - Search by the name of your folder using <kbd>CMD/CTRL + F</kbd>
 1. Share and rejoice! :open_hands:
 
+
 ## Git
 
 As design files are usually binary files, merge conflicts can easily happen.
@@ -221,6 +244,7 @@ along! :hugging:
 - If you already did a commit but want to uncommit those changes (before pushing): `git reset HEAD^`
 - [Learn git interactively for free on codeschool](https://www.codeschool.com/learn/git)
 - [Oh shit, git!](http://ohshitgit.com/)
+
 
 ## Code of conduct
 
@@ -254,9 +278,9 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 
 [contributor-covenant]: http://contributor-covenant.org
 [fork-link]: https://gitlab.com/gitlab-org/gitlab-design/forks/new
-[hosted-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/hosted
-[production-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/production
-[progress-folder]: https://gitlab.com/gitlab-org/gitlab-design/tree/master/progress
+[hosted-folder]: /hosted
+[production-folder]: /production
+[progress-folder]: /progress
 [sketch-measure]: https://github.com/utom/sketch-measure
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
 [framer]: https://framer.com
@@ -264,4 +288,5 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [git-hooks]: https://git-scm.com/docs/githooks
 [file-lock]: http://docs.gitlab.com/ee/user/project/file_lock.html
 [contacts]: /README.md#contacts
-[elements-sketch]: /production/resources/gitlab-elements.sketch
+[pattern-library-file]: /production/resources/gitlab-elements.sketch
+[pattern-library-doc]: /doc/pattern-library.md

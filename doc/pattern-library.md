@@ -83,14 +83,20 @@ To make applying overrides clear, follow these guidelines:
 
 ↪
 
-When an override is nested under another override, preface the layer name with  ↪. This will make it easy to see that the override will apply to the override above it. A common example of this is text within an input or the color of an icon.
+When an override is nested under another override, preface the layer name with
+↪. This will make it easy to see that the override will apply to the override
+above it. A common example of this is text within an input or the color of an icon.
 
 💡
 
-When an override changes the state of the component, preface the layer name with 💡. This will make it easy to see that the override will apply a state change. A common example of this is when applying a hover or active state to a component.
+When an override changes the state of the component, preface the layer name with
+💡. This will make it easy to see that the override will apply a state change.
+A common example of this is when applying a hover or active state to a component.
 
 🎨
 
-When an override changes the color of the component, preface the layer name with 🎨. This will make it easy to see that the override will apply a color change. A common example of this is changing the color of a background or icon.
+When an override changes the color of the component, preface the layer name with
+🎨. This will make it easy to see that the override will apply a color change.
+A common example of this is changing the color of a background or icon.
 
 [pattern-library-file]: /production/resources/gitlab-elements.sketch

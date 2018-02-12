@@ -1,197 +1,151 @@
 app.coffee
-framer/backups/backup-2017-07-14 02.38.08.coffee
-framer/backups/backup-2017-07-14 02.39.08.coffee
-framer/backups/backup-2017-07-14 02.40.08.coffee
-framer/backups/backup-2017-07-14 02.44.08.coffee
-framer/backups/backup-2017-07-14 02.45.08.coffee
-framer/backups/backup-2017-07-14 02.47.08.coffee
-framer/backups/backup-2017-07-14 02.48.08.coffee
-framer/backups/backup-2017-07-14 02.49.08.coffee
-framer/backups/backup-2017-07-14 02.50.08.coffee
-framer/backups/backup-2017-07-14 02.51.08.coffee
-framer/backups/backup-2017-07-14 02.52.08.coffee
-framer/backups/backup-2017-07-14 02.53.08.coffee
-framer/backups/backup-2017-07-14 02.54.08.coffee
-framer/backups/backup-2017-07-14 02.55.08.coffee
-framer/backups/backup-2017-07-14 02.56.08.coffee
-framer/backups/backup-2017-07-14 02.57.08.coffee
-framer/backups/backup-2017-07-14 03.00.08.coffee
-framer/backups/backup-2017-07-14 03.01.08.coffee
-framer/backups/backup-2017-07-14 03.02.08.coffee
-framer/backups/backup-2017-07-14 03.04.08.coffee
-framer/backups/backup-2017-07-14 03.05.08.coffee
-framer/backups/backup-2017-07-14 03.06.08.coffee
-framer/backups/backup-2017-07-14 03.09.08.coffee
-framer/backups/backup-2017-07-14 03.10.08.coffee
-framer/backups/backup-2017-07-14 03.12.08.coffee
-framer/backups/backup-2017-07-14 03.13.08.coffee
-framer/backups/backup-2017-07-14 03.15.08.coffee
-framer/backups/backup-2017-07-14 03.16.08.coffee
-framer/backups/backup-2017-07-14 03.17.08.coffee
-framer/backups/backup-2017-07-14 03.18.08.coffee
-framer/backups/backup-2017-07-14 03.19.08.coffee
-framer/backups/backup-2017-07-14 03.20.08.coffee
-framer/backups/backup-2017-07-14 03.21.08.coffee
-framer/backups/backup-2017-07-14 03.22.08.coffee
-framer/backups/backup-2017-07-14 03.24.08.coffee
-framer/backups/backup-2017-07-14 03.25.08.coffee
-framer/backups/backup-2017-07-14 03.26.08.coffee
-framer/backups/backup-2017-07-14 03.27.08.coffee
-framer/backups/backup-2017-07-14 03.28.08.coffee
-framer/backups/backup-2017-07-14 03.30.08.coffee
-framer/coffee-script.js
-framer/config.json
-framer/design.vekter
-framer/framer.generated.js
-framer/framer.init.js
-framer/framer.js
-framer/framer.js.map
-framer/framer.modules.js
-framer/framer.vekter.js
-framer/images/cursor-active.png
-framer/images/cursor-active@2x.png
+index.html
+images/logo.png
+images/bg.png
+framer/preview.png
+framer/manifest.txt
 framer/images/cursor.png
-framer/images/cursor@2x.png
+framer/images/cursor-active@2x.png
 framer/images/icon-120.png
-framer/images/icon-152.png
-framer/images/icon-180.png
+framer/images/cursor@2x.png
 framer/images/icon-192.png
 framer/images/icon-76.png
-framer/manifest.txt
-framer/preview.png
-framer/social-1200x630.png
-framer/social-800x600.png
-framer/social-80x80.png
-framer/social-880x460.png
-framer/style.css
+framer/images/cursor-active.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/config.json
+framer/framer.vekter.js
+framer/framer.modules.js
 framer/version
-images/bg.png
-images/logo.png
-imported/ce-32411-mr-view@1x/images/Layer-add_emoji_button-rtbeqzk3.png
-imported/ce-32411-mr-view@1x/images/Layer-assignee-oduymzey.png
-imported/ce-32411-mr-view@1x/images/Layer-award_emoji-qtjemze1.png
-imported/ce-32411-mr-view@1x/images/Layer-bg-mtcyrei5.png
-imported/ce-32411-mr-view@1x/images/Layer-bg-mty3q0mz.png
-imported/ce-32411-mr-view@1x/images/Layer-bg-oefcq0y5.png
-imported/ce-32411-mr-view@1x/images/Layer-bg-qumyotmy.png
-imported/ce-32411-mr-view@1x/images/Layer-bg-qzjgrei5.png
-imported/ce-32411-mr-view@1x/images/Layer-branches-otldrduw.png
-imported/ce-32411-mr-view@1x/images/Layer-button-odezotew.png
-imported/ce-32411-mr-view@1x/images/Layer-button_edit-nzg0mke0.png
-imported/ce-32411-mr-view@1x/images/Layer-changes_tab-ndmyrdg1.jpg
-imported/ce-32411-mr-view@1x/images/Layer-codequalitytooltip-mkuznzuy.png
-imported/ce-32411-mr-view@1x/images/Layer-collapse_gradient-otjbouq0.png
-imported/ce-32411-mr-view@1x/images/Layer-collapse_gradient_focus-qzixmuyx.png
-imported/ce-32411-mr-view@1x/images/Layer-collapse_icon-rkncmeze.png
-imported/ce-32411-mr-view@1x/images/Layer-collapse_icon_focus-rjg3nkez.png
-imported/ce-32411-mr-view@1x/images/Layer-command_line_instructions-rureqund.png
-imported/ce-32411-mr-view@1x/images/Layer-commits_tab-m0y0rdhf.jpg
-imported/ce-32411-mr-view@1x/images/Layer-count_badge-muu5ouzf.png
-imported/ce-32411-mr-view@1x/images/Layer-count_badge-mzuxntbf.png
-imported/ce-32411-mr-view@1x/images/Layer-count_badge-neffn0y5.png
-imported/ce-32411-mr-view@1x/images/Layer-count_badge-qzeynjlg.png
-imported/ce-32411-mr-view@1x/images/Layer-description-rue1mzhb.jpg
-imported/ce-32411-mr-view@1x/images/Layer-discussion_tab-mdy4mjjg.jpg
-imported/ce-32411-mr-view@1x/images/Layer-divider-qzi3mdgy.png
-imported/ce-32411-mr-view@1x/images/Layer-divider_focus-qkezrtjb.png
-imported/ce-32411-mr-view@1x/images/Layer-grey_button_default-rdk2ruu1.png
-imported/ce-32411-mr-view@1x/images/Layer-Group-meqwrjmz.png
-imported/ce-32411-mr-view@1x/images/Layer-Group-mjkxrkew.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_10-ntk0neng.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_10-rde0n0vg.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_18-rdbdotgx.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_19-mjrerdk3.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_19_Copy-n0m5rtc4.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_2-njc3mkmx.png
+framer/style.css
+framer/framer.generated.js
+framer/coffee-script.js
+framer/framer.init.js
+framer/framer.js
+imported/ce-32411-mr-view@1x/layers.json.js
 imported/ce-32411-mr-view@1x/images/Layer-Group_2-oejdqtbc.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_20-odi2otlg.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_20_Copy-ndrbrtgx.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_20_Copy_2-rkzbqzcy.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_21-njq0rjew.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_22-mtvfrti0.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_23-nzbbnkzf.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_27-n0q1mdgw.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_27_Copy-qtqwnuzf.png
+imported/ce-32411-mr-view@1x/images/Layer-bg-qumyotmy.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_18-rdbdotgx.png
 imported/ce-32411-mr-view@1x/images/Layer-Group_28-nky2quy3.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_4-n0u1rejd.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_6-nde1qzq3.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_7_Copy-mtqwmjc3.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_7_Copy_2-njngrdcz.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_9-n0izntu2.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy-mtleq0y0.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_2-ruq3m0ez.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_3-qjq3mzyz.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_5-mji3nund.png
-imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_8-qzg1qujc.png
-imported/ce-32411-mr-view@1x/images/Layer-ID-otk5qjex.png
-imported/ce-32411-mr-view@1x/images/Layer-label_frontend-qzg3qti3.png
+imported/ce-32411-mr-view@1x/images/Layer-tab2_test_tooltip-n0yymum5.png
+imported/ce-32411-mr-view@1x/images/Layer-tab1_build_tooltip-nte3ntkx.png
+imported/ce-32411-mr-view@1x/images/Layer-notifications-rtvcnuq5.png
+imported/ce-32411-mr-view@1x/images/Layer-mini_status_pipeline-mtq1mtg4.png
+imported/ce-32411-mr-view@1x/images/Layer-tab2_posttest_stage-odjgrjkz.jpg
+imported/ce-32411-mr-view@1x/images/Layer-labels-reneoui2.png
+imported/ce-32411-mr-view@1x/images/Layer-tab1_prepare_tooltip-mdqzmeez.png
+imported/ce-32411-mr-view@1x/images/Layer-tab2_build_tooltip-nky4mtc5.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_20_Copy-ndrbrtgx.png
+imported/ce-32411-mr-view@1x/images/Layer-tab1_build_stage-oti3rddd.jpg
 imported/ce-32411-mr-view@1x/images/Layer-label_merge-qzfbrjey.png
 imported/ce-32411-mr-view@1x/images/Layer-label_pick_into_stable-mjkymtcx.png
-imported/ce-32411-mr-view@1x/images/Layer-labels-reneoui2.png
-imported/ce-32411-mr-view@1x/images/Layer-mergabilitytooltip-mji0qjex.png
-imported/ce-32411-mr-view@1x/images/Layer-mergestatus_tab-qzmxquiy.png
-imported/ce-32411-mr-view@1x/images/Layer-meta-neqynkfb.png
-imported/ce-32411-mr-view@1x/images/Layer-milestone-oey4njnc.png
-imported/ce-32411-mr-view@1x/images/Layer-mini_status_codequality-m0vbotm5.png
-imported/ce-32411-mr-view@1x/images/Layer-mini_status_mergability-oue0qjhb.png
-imported/ce-32411-mr-view@1x/images/Layer-mini_status_pipeline-mtq1mtg4.png
-imported/ce-32411-mr-view@1x/images/Layer-MR_body_text-mjfcn0ez.png
-imported/ce-32411-mr-view@1x/images/Layer-mr_underline-mefgndu4.png
-imported/ce-32411-mr-view@1x/images/Layer-notifications-rtvcnuq5.png
-imported/ce-32411-mr-view@1x/images/Layer-participants-nzixnjlb.png
-imported/ce-32411-mr-view@1x/images/Layer-pipelines_tab-ruu4nju0.jpg
-imported/ce-32411-mr-view@1x/images/Layer-pipelinetooltip-oddcntmw.png
-imported/ce-32411-mr-view@1x/images/Layer-side-nuzbqtm4.png
-imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy-mtgxqzfc.png
-imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_2-nzhfmuux.png
-imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_2-oeqym0y2.png
-imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_3-qjq2mke3.png
-imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_4-mtffquzb.png
-imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_5-njzememx.png
-imported/ce-32411-mr-view@1x/images/Layer-tab1_build_stage-oti3rddd.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab1_build_tooltip-nte3ntkx.png
-imported/ce-32411-mr-view@1x/images/Layer-tab1_posttest_stage-mdayqtcx.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab1_posttest_tooltip-qthdmdfd.png
-imported/ce-32411-mr-view@1x/images/Layer-tab1_prepare_stage-rtu3odbc.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab1_prepare_tooltip-mdqzmeez.png
-imported/ce-32411-mr-view@1x/images/Layer-tab1_test_stage-nzvbnzfc.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab1_test_tooltip-nte0nza3.png
-imported/ce-32411-mr-view@1x/images/Layer-tab2_build_stage-oem1neu4.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab2_build_tooltip-nky4mtc5.png
-imported/ce-32411-mr-view@1x/images/Layer-tab2_posttest_stage-odjgrjkz.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab2_posttest_tooltip-ndi2nee2.png
-imported/ce-32411-mr-view@1x/images/Layer-tab2_prepare_stage-mjm5qzmx.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab2_prepare_tooltip-qti3nzy3.png
-imported/ce-32411-mr-view@1x/images/Layer-tab2_test_stage-m0fenuu3.jpg
-imported/ce-32411-mr-view@1x/images/Layer-tab2_test_tooltip-n0yymum5.png
-imported/ce-32411-mr-view@1x/images/Layer-tab_content-qtvfmky2.png
-imported/ce-32411-mr-view@1x/images/Layer-tab_tabs-qtk2ntcx.png
-imported/ce-32411-mr-view@1x/images/Layer-thumbs_down_button-mjgzotrc.png
-imported/ce-32411-mr-view@1x/images/Layer-thumbs_up_button-rty3nzg5.png
-imported/ce-32411-mr-view@1x/images/Layer-title-meu5qtax.png
-imported/ce-32411-mr-view@1x/images/Layer-title-ntq5quzb.png
-imported/ce-32411-mr-view@1x/images/Layer-title-nzzbmjzg.png
-imported/ce-32411-mr-view@1x/images/Layer-title-otczrti3.png
-imported/ce-32411-mr-view@1x/images/Layer-title-rtmzoevf.png
-imported/ce-32411-mr-view@1x/images/Layer-titlebar-mtuznjg5.png
-imported/ce-32411-mr-view@1x/images/Layer-todo-ndu0odiz.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_19-mjrerdk3.png
 imported/ce-32411-mr-view@1x/images/Layer-top-rkmynthb.png
-imported/ce-32411-mr-view@1x/images/Layer-Type-otzcmuu5.png
-imported/ce-32411-mr-view@1x/images/Layer-underline-mzy5ouqw.png
-imported/ce-32411-mr-view@1x/images/Layer-underline-nkrgruve.png
-imported/ce-32411-mr-view@1x/images/Layer-underline-odrenda4.png
-imported/ce-32411-mr-view@1x/images/Layer-underline-rjnfmkuy.png
-imported/ce-32411-mr-view@1x/images/Layer-unresolved_discussions-qjuymdqw.jpg
-imported/ce-32411-mr-view@1x/images/Layer-user_picture-reu0mza0.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_4-n0u1rejd.png
+imported/ce-32411-mr-view@1x/images/Layer-tab2_prepare_stage-mjm5qzmx.jpg
+imported/ce-32411-mr-view@1x/images/Layer-Group_21-njq0rjew.png
+imported/ce-32411-mr-view@1x/images/Layer-count_badge-muu5ouzf.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_7_Copy-mtqwmjc3.png
+imported/ce-32411-mr-view@1x/images/Layer-tab1_test_stage-nzvbnzfc.jpg
+imported/ce-32411-mr-view@1x/images/Layer-count_badge-neffn0y5.png
 imported/ce-32411-mr-view@1x/images/Layer-widget_build_stage-ntvgqum2.jpg
-imported/ce-32411-mr-view@1x/images/Layer-widget_build_tooltip-nkuwndm2.png
-imported/ce-32411-mr-view@1x/images/Layer-widget_posttest_stage-ndq3qja2.jpg
+imported/ce-32411-mr-view@1x/images/Layer-mergabilitytooltip-mji0qjex.png
+imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_2-nzhfmuux.png
+imported/ce-32411-mr-view@1x/images/Layer-underline-mzy5ouqw.png
+imported/ce-32411-mr-view@1x/images/Layer-tab2_build_stage-oem1neu4.jpg
+imported/ce-32411-mr-view@1x/images/Layer-branches-otldrduw.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_2-ruq3m0ez.png
+imported/ce-32411-mr-view@1x/images/Layer-divider_focus-qkezrtjb.png
+imported/ce-32411-mr-view@1x/images/Layer-meta-neqynkfb.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_2-njc3mkmx.png
+imported/ce-32411-mr-view@1x/images/Layer-count_badge-qzeynjlg.png
 imported/ce-32411-mr-view@1x/images/Layer-widget_posttest_tooltip-nku0rjc2.png
-imported/ce-32411-mr-view@1x/images/Layer-widget_prepare_stage-mda5qtdd.jpg
-imported/ce-32411-mr-view@1x/images/Layer-widget_prepare_tooltip-rjq4nunf.png
+imported/ce-32411-mr-view@1x/images/Layer-divider-qzi3mdgy.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_20-odi2otlg.png
+imported/ce-32411-mr-view@1x/images/Layer-thumbs_up_button-rty3nzg5.png
+imported/ce-32411-mr-view@1x/images/Layer-titlebar-mtuznjg5.png
+imported/ce-32411-mr-view@1x/images/Layer-Group-meqwrjmz.png
+imported/ce-32411-mr-view@1x/images/Layer-tab2_posttest_tooltip-ndi2nee2.png
+imported/ce-32411-mr-view@1x/images/Layer-side-nuzbqtm4.png
+imported/ce-32411-mr-view@1x/images/Layer-command_line_instructions-rureqund.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_23-nzbbnkzf.png
+imported/ce-32411-mr-view@1x/images/Layer-tab1_posttest_tooltip-qthdmdfd.png
+imported/ce-32411-mr-view@1x/images/Layer-pipelinetooltip-oddcntmw.png
+imported/ce-32411-mr-view@1x/images/Layer-pipelines_tab-ruu4nju0.jpg
+imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_2-oeqym0y2.png
+imported/ce-32411-mr-view@1x/images/Layer-commits_tab-m0y0rdhf.jpg
+imported/ce-32411-mr-view@1x/images/Layer-mini_status_mergability-oue0qjhb.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_10-ntk0neng.png
+imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_5-njzememx.png
+imported/ce-32411-mr-view@1x/images/Layer-participants-nzixnjlb.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy-mtleq0y0.png
 imported/ce-32411-mr-view@1x/images/Layer-widget_test_stage-nde4oey3.jpg
+imported/ce-32411-mr-view@1x/images/Layer-title-meu5qtax.png
+imported/ce-32411-mr-view@1x/images/Layer-count_badge-mzuxntbf.png
 imported/ce-32411-mr-view@1x/images/Layer-widget_test_tooltip-ndewouvd.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_6-nde1qzq3.png
+imported/ce-32411-mr-view@1x/images/Layer-tab_tabs-qtk2ntcx.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_7_Copy_2-njngrdcz.png
+imported/ce-32411-mr-view@1x/images/Layer-tab1_posttest_stage-mdayqtcx.jpg
+imported/ce-32411-mr-view@1x/images/Layer-mergestatus_tab-qzmxquiy.png
+imported/ce-32411-mr-view@1x/images/Layer-bg-mtcyrei5.png
+imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_4-mtffquzb.png
+imported/ce-32411-mr-view@1x/images/Layer-todo-ndu0odiz.png
+imported/ce-32411-mr-view@1x/images/Layer-label_frontend-qzg3qti3.png
+imported/ce-32411-mr-view@1x/images/Layer-tab_content-qtvfmky2.png
+imported/ce-32411-mr-view@1x/images/Layer-title-ntq5quzb.png
+imported/ce-32411-mr-view@1x/images/Layer-underline-rjnfmkuy.png
+imported/ce-32411-mr-view@1x/images/Layer-collapse_icon_focus-rjg3nkez.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_22-mtvfrti0.png
+imported/ce-32411-mr-view@1x/images/Layer-underline-odrenda4.png
+imported/ce-32411-mr-view@1x/images/Layer-title-nzzbmjzg.png
+imported/ce-32411-mr-view@1x/images/Layer-underline-nkrgruve.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_9-n0izntu2.png
+imported/ce-32411-mr-view@1x/images/Layer-grey_button_default-rdk2ruu1.png
+imported/ce-32411-mr-view@1x/images/Layer-assignee-oduymzey.png
+imported/ce-32411-mr-view@1x/images/Layer-user_picture-reu0mza0.png
+imported/ce-32411-mr-view@1x/images/Layer-title-otczrti3.png
+imported/ce-32411-mr-view@1x/images/Layer-description-rue1mzhb.jpg
+imported/ce-32411-mr-view@1x/images/Layer-Group-mjkxrkew.png
+imported/ce-32411-mr-view@1x/images/Layer-button_edit-nzg0mke0.png
+imported/ce-32411-mr-view@1x/images/Layer-MR_body_text-mjfcn0ez.png
+imported/ce-32411-mr-view@1x/images/Layer-codequalitytooltip-mkuznzuy.png
+imported/ce-32411-mr-view@1x/images/Layer-mr_underline-mefgndu4.png
+imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy-mtgxqzfc.png
+imported/ce-32411-mr-view@1x/images/Layer-tab1_prepare_stage-rtu3odbc.jpg
+imported/ce-32411-mr-view@1x/images/Layer-Group_20_Copy_2-rkzbqzcy.png
+imported/ce-32411-mr-view@1x/images/Layer-button-odezotew.png
+imported/ce-32411-mr-view@1x/images/Layer-milestone-oey4njnc.png
+imported/ce-32411-mr-view@1x/images/Layer-add_emoji_button-rtbeqzk3.png
+imported/ce-32411-mr-view@1x/images/Layer-bg-qzjgrei5.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_27_Copy-qtqwnuzf.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_3-qjq3mzyz.png
+imported/ce-32411-mr-view@1x/images/Layer-stop_environment_button_copy_3-qjq2mke3.png
+imported/ce-32411-mr-view@1x/images/Layer-tab2_test_stage-m0fenuu3.jpg
+imported/ce-32411-mr-view@1x/images/Layer-award_emoji-qtjemze1.png
+imported/ce-32411-mr-view@1x/images/Layer-ID-otk5qjex.png
+imported/ce-32411-mr-view@1x/images/Layer-unresolved_discussions-qjuymdqw.jpg
+imported/ce-32411-mr-view@1x/images/Layer-tab2_prepare_tooltip-qti3nzy3.png
+imported/ce-32411-mr-view@1x/images/Layer-bg-oefcq0y5.png
+imported/ce-32411-mr-view@1x/images/Layer-bg-mty3q0mz.png
+imported/ce-32411-mr-view@1x/images/Layer-widget_posttest_stage-ndq3qja2.jpg
+imported/ce-32411-mr-view@1x/images/Layer-mini_status_codequality-m0vbotm5.png
+imported/ce-32411-mr-view@1x/images/Layer-thumbs_down_button-mjgzotrc.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_19_Copy-n0m5rtc4.png
+imported/ce-32411-mr-view@1x/images/Layer-title-rtmzoevf.png
+imported/ce-32411-mr-view@1x/images/Layer-widget_prepare_stage-mda5qtdd.jpg
+imported/ce-32411-mr-view@1x/images/Layer-tab1_test_tooltip-nte0nza3.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_27-n0q1mdgw.png
+imported/ce-32411-mr-view@1x/images/Layer-collapse_gradient-otjbouq0.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_8-qzg1qujc.png
+imported/ce-32411-mr-view@1x/images/Layer-collapse_icon-rkncmeze.png
+imported/ce-32411-mr-view@1x/images/Layer-changes_tab-ndmyrdg1.jpg
+imported/ce-32411-mr-view@1x/images/Layer-Type-otzcmuu5.png
+imported/ce-32411-mr-view@1x/images/Layer-discussion_tab-mdy4mjjg.jpg
+imported/ce-32411-mr-view@1x/images/Layer-collapse_gradient_focus-qzixmuyx.png
+imported/ce-32411-mr-view@1x/images/Layer-widget_prepare_tooltip-rjq4nunf.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_10-rde0n0vg.png
+imported/ce-32411-mr-view@1x/images/Layer-widget_build_tooltip-nkuwndm2.png
+imported/ce-32411-mr-view@1x/images/Layer-Group_9_Copy_5-mji3nund.png
 imported/ce-32411-mr-view@1x/layers.json
-imported/ce-32411-mr-view@1x/layers.json.js
-index.html
 modules/myModule.coffee

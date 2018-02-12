@@ -18,13 +18,13 @@
 ## Plugins
 
 Before getting started with the pattern library, install [Brand.ai](https://brand.ai/sketch)
-and the [other recommended plugins]. Brand.ai is a hosted design library that syncs
+and the [other recommended plugins]. Brand.ai is a hosted library that syncs
 symbols and styles across files. Within the plugin you will find colors, text
 styles, shared styles, icons, components, and artboards to help quickly create
 mockups. If an element changes, simply push the change to the library and watch
-it sync across files. [Browse GitLab’s design library on Brand.ai](https://brand.ai/git-lab/primary-brand)
+it sync across files. [Browse our pattern library on Brand.ai](https://brand.ai/git-lab/primary-brand)
 
-![Brand.ai's plugin window in Sketch](images/brandai.png)
+![Brand.ai’s plugin window in Sketch](images/brandai.png)
 
 
 ## Structure
@@ -38,29 +38,30 @@ to all the layers in symbols and groups.
 
 ### Atoms
 
-Atoms are the smallest [_symbols_](#symbols), the building blocks that cannot be broken down
-further. They consist of what would be HTML tags, including forms, labels,
-inputs, icons, and buttons. Generally, atoms should live as global components to
-be reused elsewhere.
+Atoms are the smallest [_symbols_](#symbols), the building blocks that cannot
+be broken down further. They consist of what would be HTML tags, including forms,
+labels, inputs, icons, and buttons. Generally, atoms should live as global
+components to be reused elsewhere.
 
 ### Molecules
 
-Molecules are made of [_atom symbols_](#symbols) and other layers. They form practical
-components and are the basis of the design system.
+Molecules are [_symbols_](#symbols) containing atoms. Besides atoms, they can
+also have regular layers. They form functional components and are the basis of
+the design system.
 
 ### Organisms
 
-Organisms are kept as _groups_ containing symbols (atoms and/or molecules) and
-other layers. These help shape the final design of the interface. By building
-organisms from atoms and molecules, we encourage assembling reusable components.
-This allows designers to manipulate organisms for their designs, as well as find
-and use [symbol overrides](#overrides).
+Organisms are _groups_ containing atoms and molecules. Besides these symbols,
+they can also have regular layers. These help shape the final design of the
+interface. By building organisms from atoms and molecules, we encourage
+assembling reusable components. This allows designers to manipulate organisms
+for their designs, as well as find and use [symbol overrides](#overrides).
 
 #### Atomic design example
 
 The issuable sidebar breaks down components using the atomic methodology. The
 collapsed sidebar uses labels and icons as atoms. When put together, we create
-two types of molecules that make up the organism: _icon tabs_ and _icon + label tabs_.
+the organism from two types of molecules: _icon tabs_ and _icon + label tabs_.
 
 ![Atomic design example with atoms, molecules, and organism](images/atomic-design.png)
 
@@ -70,16 +71,16 @@ two types of molecules that make up the organism: _icon tabs_ and _icon + label 
 Our [pattern library][pattern-library-file] takes advantage of [symbols](https://www.sketchapp.com/docs/symbols/),
 [nested symbols](https://www.sketchapp.com/docs/symbols/nested-symbols/), and
 [overrides](https://www.sketchapp.com/docs/symbols/editing-symbols/#overrides)
-to make updating components as easy as possible. We’ve built out symbols using
-visual cues that show when and where a component can be overridden. Symbols can
-use overrides to switch between states, colors, text, and more. For an example
-of a symbol that uses various types of overrides, look at our _Label + Input_ symbol:
+to make updating components as easy as possible. Symbols can use overrides to
+switch between states, colors, text, and more. For an example of a symbol that
+uses various types of overrides, look at our _Label + Input_ symbol:
 
 ![Label + Input symbol with its overrides panel in Sketch](images/symbol-overrides.png)
 
 ### Overrides
 
-To make applying overrides clear, follow these guidelines:
+We’ve built out symbols using visual cues that show when and where a component
+can be overridden. To make overrides visually distinctive, follow these guidelines:
 
 ↪
 

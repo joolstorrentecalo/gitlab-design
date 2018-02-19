@@ -1,7 +1,7 @@
 image: ruby:alpine
 
 variables:
-  GIT_DEPTH: "1"
+  GIT_DEPTH: "2"
 
 cache:
   key: "public"
@@ -10,10 +10,11 @@ cache:
 
 pages:
   script:
-    - git diff --name-only master | grep '^hosted/'
-      - [[ $? -eq 1 ]] || ruby specscript.rb
+    - "apk add --no-cache git"
+    - "if [[ $(git log --name-only -1 --format= | grep '^hosted/') ]]; then ruby specscript.rb; else echo 'Nothing to deploy as no files were changed in the hosted folder' && exit 1; fi"
   artifacts:
     paths:
       - public
+    expire_in: 1 week
   only:
     - master

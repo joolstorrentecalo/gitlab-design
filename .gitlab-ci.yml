@@ -8,7 +8,15 @@ cache:
   paths:
     - public
 
+.lfs_pull: &lfs_pull
+  variables:
+    GIT_LFS_SKIP_SMUDGE: "1"
+  before_script:
+    - apk add -U --no-cache git-lfs
+    - git lfs pull -I 'hosted/'
+
 pages:
+  <<: *lfs_pull
   script:
     - "apk add --no-cache git"
     - "if [[ $(git log --name-only -1 --format= | grep '^hosted/') ]]; then ruby specscript.rb; else echo 'Nothing to deploy as no files were changed in the hosted folder' && exit 1; fi"

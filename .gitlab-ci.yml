@@ -3,11 +3,6 @@ image: ruby:alpine
 variables:
   GIT_DEPTH: "2"
 
-cache:
-  key: "public"
-  paths:
-    - public
-
 .lfs_pull: &lfs_pull
   variables:
     GIT_LFS_SKIP_SMUDGE: "1"

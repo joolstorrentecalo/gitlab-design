@@ -2,19 +2,13 @@ image: ruby:alpine
 
 variables:
   GIT_DEPTH: "2"
-
-.lfs_pull: &lfs_pull
-  variables:
-    GIT_LFS_SKIP_SMUDGE: "1"
-  before_script:
-    - apk add -U --no-cache git-lfs
-    - git lfs pull -I 'hosted/'
+  GIT_LFS_SKIP_SMUDGE: "1"
 
 pages:
-  <<: *lfs_pull
+  before_script:
+    - "apk add -U --no-cache git git-lfs"
   script:
-    - "apk add --no-cache git"
-    - "if [[ $(git log --name-only -1 --format= | grep '^hosted/') ]]; then ruby specscript.rb; else echo 'Nothing to deploy as no files were changed in the hosted folder' && exit 1; fi"
+    - "if [[ $(git log --name-only -1 --format= | grep '^hosted/') ]]; then git lfs pull -I 'hosted/' && ruby specscript.rb; else echo 'Nothing to deploy as no files were changed in the hosted folder' && exit 1; fi"
   artifacts:
     paths:
       - public

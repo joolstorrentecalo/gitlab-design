@@ -1,17 +1,20 @@
 image: ruby:alpine
 
 variables:
-  GIT_DEPTH: "2"
-
-cache:
-  key: "public"
-  paths:
-    - public
+  GIT_STRATEGY: none
+  GIT_DEPTH: "1"
+  GIT_LFS_SKIP_SMUDGE: "1"
 
 pages:
+  before_script:
+    - "apk add -U --no-cache git git-lfs"
+    - "git init"
+    - "git remote add origin $CI_REPOSITORY_URL"
+    - "git fetch --depth $GIT_DEPTH origin $CI_COMMIT_SHA"
+    - "git checkout FETCH_HEAD"
   script:
-    - "apk add --no-cache git"
-    - "if [[ $(git log --name-only -1 --format= | grep '^hosted/') ]]; then ruby specscript.rb; else echo 'Nothing to deploy as no files were changed in the hosted folder' && exit 1; fi"
+    - "git lfs pull -I 'hosted/'"
+    - "ruby specscript.rb"
   artifacts:
     paths:
       - public

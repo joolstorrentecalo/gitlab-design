@@ -2,7 +2,7 @@ image: ruby:alpine
 
 variables:
   GIT_STRATEGY: none
-  GIT_DEPTH: "2"
+  GIT_DEPTH: "1"
   GIT_LFS_SKIP_SMUDGE: "1"
 
 pages:
@@ -13,7 +13,8 @@ pages:
     - "git fetch --depth $GIT_DEPTH origin $CI_COMMIT_SHA"
     - "git checkout FETCH_HEAD"
   script:
-    - "if [[ $(git log --name-only -1 --format= | grep '^hosted/') ]]; then git lfs pull -I 'hosted/' && ruby specscript.rb; else echo 'Nothing to deploy as no files were changed in the hosted folder' && exit 1; fi"
+    - "git lfs pull -I 'hosted/'"
+    - "ruby specscript.rb"
   artifacts:
     paths:
       - public

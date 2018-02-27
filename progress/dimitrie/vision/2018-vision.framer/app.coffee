@@ -265,7 +265,6 @@ view1scroll.updateContent()
 ## Code coverage functionality
 
 sketch.code_coverage_tooltip_1.opacity = 0
-sketch.code_coverage_tooltip_2.opacity = 0
 
 sketch.code_coverage_1.onMouseOver ->
 	sketch.code_coverage_tooltip_1.animate
@@ -276,20 +275,6 @@ sketch.code_coverage_1.onMouseOver ->
 
 sketch.code_coverage_1.onMouseOut ->
 	sketch.code_coverage_tooltip_1.animate
-		opacity: 0
-		options:
-			curve: "Bezier.easeInOut"
-			time: .5
-
-sketch.code_coverage_2.onMouseOver ->
-	sketch.code_coverage_tooltip_2.animate
-		opacity: 1
-		options:
-			curve: "Bezier.easeInOut"
-			time: .5
-
-sketch.code_coverage_2.onMouseOut ->
-	sketch.code_coverage_tooltip_2.animate
 		opacity: 0
 		options:
 			curve: "Bezier.easeInOut"

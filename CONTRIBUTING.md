@@ -200,6 +200,13 @@ different states. Remember to follow the [naming guidelines](#naming).
 See the [Files and folders](#files-and-folders) section for naming and
 organizing Sketch files.
 
+### Updating
+
+New versions of Sketch are released frequently with useful new features, but
+they might be unstable or break integration with certain plugins at first. Wait 
+two weeks before updating to give the Sketch team and plugin developers time to 
+fix any possible bugs.
+
 
 ## Commits
 

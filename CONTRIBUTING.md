@@ -93,6 +93,7 @@ If you do not have Sketch, here are some software suggestions:
 
 - [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It’s free for individuals.
 - [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. The only editable export format is PSD, which may not be fully compatible for Sketch import.
+- [Gravit Designer](https://www.designer.io/): Free vector design app that runs on macOS, Windows, Linux, Chrome OS, or in the browser.
 
 
 ## For GitLabbers 🦊

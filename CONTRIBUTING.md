@@ -203,9 +203,11 @@ organizing Sketch files.
 ### Updating
 
 New versions of Sketch are released frequently with useful new features, but
-they might be unstable or break integration with certain plugins at first. Wait 
-two weeks after the version release before updating to give the Sketch team and
-plugin developers time to fix any possible bugs.
+they might be unstable or break integration with certain plugins at first. The
+most [boring solution](https://about.gitlab.com/handbook/values/#efficiency) 
+to this problem is to wait two weeks after the version release before updating 
+in order to give the Sketch team and plugin developers time to fix any possible 
+bugs.
 
 
 ## Commits

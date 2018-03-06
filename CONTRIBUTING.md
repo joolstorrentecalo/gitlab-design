@@ -33,6 +33,7 @@ _This notice should stay as the first item in the CONTRIBUTING.md file._
   - [Plugins](#plugins)
   - [Pattern library](#pattern-library)
   - [Pages and artboards](#pages-and-artboards)
+- [Framer 🦋](#framer-)
 - [Commits](#commits)
 - [Superpowers 🌠](#superpowers-)
 - [Git](#git)
@@ -154,6 +155,8 @@ layers and styles in Sketch:
               - projecthandle#issueID-title--state-two.sketch
                 - assets/
                   - asset.svg
+- templates/
+  - framer-templates/
 ```
 
 
@@ -205,11 +208,18 @@ organizing Sketch files.
 
 New versions of Sketch are released frequently with useful new features, but
 they might be unstable or break integration with certain plugins at first. The
-most [boring solution](https://about.gitlab.com/handbook/values/#efficiency) 
-to this problem is to wait two weeks after the version release before updating 
-in order to give the Sketch team and plugin developers time to fix any possible 
+most [boring solution](https://about.gitlab.com/handbook/values/#efficiency)
+to this problem is to wait two weeks after the version release before updating
+in order to give the Sketch team and plugin developers time to fix any possible
 bugs.
 
+## Framer 🦋
+
+Framer is an excellent tool to help you explain/visualise more complicated designs. You can easily create either a flow and/or detail prototype with it.
+
+### Templates
+
+We recommend making use of the framer templates provided in the templates directory to improve your design workflow when working with Framer.
 
 ## Commits
 

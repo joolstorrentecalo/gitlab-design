@@ -82,7 +82,7 @@ For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 #### Sketch
 
-The UX Design department uses [Sketch](https://sketchapp.com/), but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+We use [Sketch](https://sketchapp.com/), but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
 
 If you do not have Sketch, here are some software suggestions:
 
@@ -98,9 +98,9 @@ If you do not have Sketch, here are some software suggestions:
 - [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. The only editable export format is PSD, which may not be fully compatible for Sketch import.
 - [Gravit Designer](https://www.designer.io/): Free vector design app that runs on macOS, Windows, Linux, Chrome OS, or in the browser.
 
-#### Framer
+#### Prototyping software
 
-The UX Design department uses [Framer](https://framer.com/) for more more complicated designs, but you can use any prototyping software that's available to you. Just make sure that the end result is generally available in some form or another along with your source files. An example would be an online hosted version of the prototype or a gif.
+We use [Framer](https://framer.com/) for more complicated designs that require a prototype, but you can use any prototyping software that's available to you. Just make sure that the end result is generally available along with your source files. An example would be an online hosted version of the prototype or a gif.
 
 ## For GitLabbers 🦊
 
@@ -220,7 +220,7 @@ bugs.
 
 ## Framer 🦋
 
-[Framer](https://framer.com/) is an excellent tool to help you explain/visualise more complicated designs. You can easily create either a flow and/or detail prototype with it.
+[Framer](https://framer.com/) is an excellent tool to help you explain/visualize more complicated designs. You can easily create either a flow and/or interaction prototype with it.
 
 ### Templates
 

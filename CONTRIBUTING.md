@@ -80,22 +80,27 @@ For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 ### Software
 
+#### Sketch
+
 The UX Design department uses [Sketch](https://sketchapp.com/), but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
 
 If you do not have Sketch, here are some software suggestions:
 
-#### Viewing Sketch files
+##### Viewing Sketch files
 
 - GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
 - [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL.
 - [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files.
 
-#### Editing Sketch files
+##### Editing Sketch files
 
 - [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It’s free for individuals.
 - [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. The only editable export format is PSD, which may not be fully compatible for Sketch import.
 - [Gravit Designer](https://www.designer.io/): Free vector design app that runs on macOS, Windows, Linux, Chrome OS, or in the browser.
 
+#### Framer
+
+The UX Design department uses [Framer](https://framer.com/) for more more complicated designs, but you can use any prototyping software that's available to you. Just make sure that the end result is generally available in some form or another along with your source files. An example would be an online hosted version of the prototype or a gif.
 
 ## For GitLabbers 🦊
 
@@ -215,7 +220,7 @@ bugs.
 
 ## Framer 🦋
 
-Framer is an excellent tool to help you explain/visualise more complicated designs. You can easily create either a flow and/or detail prototype with it.
+[Framer](https://framer.com/) is an excellent tool to help you explain/visualise more complicated designs. You can easily create either a flow and/or detail prototype with it.
 
 ### Templates
 

@@ -82,7 +82,7 @@ For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 #### Sketch
 
-We use [Sketch](https://sketchapp.com/), but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+We use [Sketch](https://sketchapp.com/) for user interface design, but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
 
 If you do not have Sketch, here are some software suggestions:
 
@@ -183,7 +183,8 @@ layers and styles in Sketch:
       - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue/merge request, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
       - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
    - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
-
+1. ['templates/'][templates-folder]: Contains ready-made templates for tools other than Sketch, meant to kickstart anyone's designs. It's assumed that some form of documentation is provided along with or inside of the template.
+   - Each tool should have it's own sub folder named after that tool.
 
 ## Sketch 🔶
 
@@ -220,11 +221,11 @@ bugs.
 
 ## Framer 🦋
 
-[Framer](https://framer.com/) is an excellent tool to help you explain/visualize more complicated designs. You can easily create either a flow and/or interaction prototype with it.
+[Framer](https://framer.com/) is an excellent tool to help you explain/visualize more complicated designs that require a prototype. You can easily create either a flow and/or interaction prototype with it.
 
 ### Templates
 
-We recommend making use of the framer templates provided in the templates directory to improve your design workflow when working with Framer.
+We recommend making use of the Framer templates provided in the [templates directory][templates-folder] to improve your design workflow when working with Framer.
 
 ## Commits
 
@@ -307,6 +308,7 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [hosted-folder]: /hosted
 [production-folder]: /production
 [progress-folder]: /progress
+[templates-folder] /templates
 [sketch-measure]: https://github.com/utom/sketch-measure
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
 [framer]: https://framer.com

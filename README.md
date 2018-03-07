@@ -7,7 +7,7 @@ website to determine the best place to post. Thank you for helping to make GitLa
 
 ![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-cover-image.jpg)
 
-- **[👀 View the design pattern library Sketch file](/production/resources/gitlab-elements.sketch)**
+- **[👀 View the design pattern library Sketch file](/gitlab-elements.sketch)**
 - **[:arrow_upper_right: Browse specs and prototypes][design-pages]**
 
 <!-- Table of contents generated with DocToc: https://github.com/thlorenz/doctoc -->

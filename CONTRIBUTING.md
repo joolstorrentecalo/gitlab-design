@@ -67,7 +67,7 @@ For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 1. [Fork this project][fork-link] to your personal namespace.
 1. Navigate to the _Repository_ section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer.
-1. Go to `production/resources` and download `gitlab-elements.sketch`.
+1. Download `gitlab-elements.sketch`.
 1. Make your changes to that file while following the [Sketch](#sketch-) and [naming](#naming) guidelines.
 1. Replace `gitlab-elements.sketch` in your fork with the changed version. Make sure you select the branch you created before.
 1. Create a merge request from your fork, selecting the appropriate source branch and this project's `master` branch as the target.
@@ -85,7 +85,7 @@ If you do not have Sketch, here are some software suggestions:
 
 #### Viewing Sketch files
 
-- GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/production/resources/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
+- GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
 - [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL.
 - [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files.
 
@@ -143,7 +143,6 @@ layers and styles in Sketch:
 - hosted/
   - [first-name]/
     - [folders]/
-- production/
 - progress/
     - [gitlabber-first-name]/ (e.g. pedro)
         - [group-label]/ (e.g. platform)
@@ -205,9 +204,9 @@ organizing Sketch files.
 
 New versions of Sketch are released frequently with useful new features, but
 they might be unstable or break integration with certain plugins at first. The
-most [boring solution](https://about.gitlab.com/handbook/values/#efficiency) 
-to this problem is to wait two weeks after the version release before updating 
-in order to give the Sketch team and plugin developers time to fix any possible 
+most [boring solution](https://about.gitlab.com/handbook/values/#efficiency)
+to this problem is to wait two weeks after the version release before updating
+in order to give the Sketch team and plugin developers time to fix any possible
 bugs.
 
 
@@ -290,7 +289,6 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [contributor-covenant]: http://contributor-covenant.org
 [fork-link]: https://gitlab.com/gitlab-org/gitlab-design/forks/new
 [hosted-folder]: /hosted
-[production-folder]: /production
 [progress-folder]: /progress
 [sketch-measure]: https://github.com/utom/sketch-measure
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
@@ -299,5 +297,5 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [git-hooks]: https://git-scm.com/docs/githooks
 [file-lock]: http://docs.gitlab.com/ee/user/project/file_lock.html
 [contacts]: /README.md#contacts
-[pattern-library-file]: /production/resources/gitlab-elements.sketch
+[pattern-library-file]: /gitlab-elements.sketch
 [pattern-library-doc]: /doc/pattern-library.md

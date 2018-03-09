@@ -161,7 +161,7 @@ layers and styles in Sketch:
                 - assets/
                   - asset.svg
 - templates/
-  - framer-templates/
+  - framer/
 ```
 
 

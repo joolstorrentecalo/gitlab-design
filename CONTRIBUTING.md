@@ -100,7 +100,7 @@ If you do not have Sketch, here are some software suggestions:
 
 #### Prototyping software
 
-We use [Framer](https://framer.com/) for more complicated designs that require a prototype, but you can use any prototyping software that's available to you. Just make sure that the end result is generally available along with your source files. An example would be an online hosted version of the prototype or a gif.
+We use [Framer](https://framer.com/) for more complicated designs that require a prototype, but you can use any prototyping software that's available to you. Just make sure that the end result is generally available along with your source files. An example would be an [online hosted version](#superpowers-) of the prototype or a GIF.
 
 ## For GitLabbers 🦊
 

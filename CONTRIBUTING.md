@@ -183,7 +183,7 @@ layers and styles in Sketch:
       - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue/merge request, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
       - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
    - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
-1. ['templates/'][templates-folder]: Contains ready-made templates for tools other than Sketch, meant to kickstart anyone's designs. It's assumed that some form of documentation is provided along with or inside of the template.
+1. [`templates/`][templates-folder]: Contains ready-made templates for tools other than Sketch, meant to kickstart anyone's designs. It's assumed that some form of documentation is provided along with or inside of the template.
    - Each tool should have it's own sub folder named after that tool.
 
 ## Sketch 🔶

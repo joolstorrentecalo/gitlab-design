@@ -33,6 +33,7 @@ _This notice should stay as the first item in the CONTRIBUTING.md file._
   - [Plugins](#plugins)
   - [Pattern library](#pattern-library)
   - [Pages and artboards](#pages-and-artboards)
+- [Framer 🦋](#framer-)
 - [Commits](#commits)
 - [Superpowers 🌠](#superpowers-)
 - [Git](#git)
@@ -79,22 +80,27 @@ For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 ### Software
 
-The UX Design department uses [Sketch](https://sketchapp.com/), but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+#### Sketch
+
+We use [Sketch](https://sketchapp.com/) for user interface design, but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
 
 If you do not have Sketch, here are some software suggestions:
 
-#### Viewing Sketch files
+##### Viewing Sketch files
 
 - GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
 - [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL.
 - [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files.
 
-#### Editing Sketch files
+##### Editing Sketch files
 
 - [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It’s free for individuals.
 - [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. The only editable export format is PSD, which may not be fully compatible for Sketch import.
 - [Gravit Designer](https://www.designer.io/): Free vector design app that runs on macOS, Windows, Linux, Chrome OS, or in the browser.
 
+#### Prototyping software
+
+We use [Framer](https://framer.com/) for more complicated designs that require a prototype, but you can use any prototyping software that's available to you. Just make sure that the end result is generally available along with your source files. An example would be an [online hosted version](#superpowers-) of the prototype or a GIF.
 
 ## For GitLabbers 🦊
 
@@ -153,6 +159,8 @@ layers and styles in Sketch:
               - projecthandle#issueID-title--state-two.sketch
                 - assets/
                   - asset.svg
+- templates/
+  - framer/
 ```
 
 
@@ -174,7 +182,8 @@ layers and styles in Sketch:
       - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue/merge request, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
       - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
    - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
-
+1. [`templates/`][templates-folder]: Contains ready-made templates for tools other than Sketch, meant to kickstart anyone's designs. It's assumed that some form of documentation is provided along with or inside of the template.
+   - Each tool should have it's own sub folder named after that tool.
 
 ## Sketch 🔶
 
@@ -209,6 +218,13 @@ to this problem is to wait two weeks after the version release before updating
 in order to give the Sketch team and plugin developers time to fix any possible
 bugs.
 
+## Framer 🦋
+
+[Framer](https://framer.com/) is an excellent tool to help you explain/visualize more complicated designs that require a prototype. You can easily create either a flow and/or interaction prototype with it.
+
+### Templates
+
+We recommend making use of the Framer templates provided in the [templates directory][templates-folder] to improve your design workflow when working with Framer.
 
 ## Commits
 
@@ -290,6 +306,7 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [fork-link]: https://gitlab.com/gitlab-org/gitlab-design/forks/new
 [hosted-folder]: /hosted
 [progress-folder]: /progress
+[templates-folder] /templates
 [sketch-measure]: https://github.com/utom/sketch-measure
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
 [framer]: https://framer.com

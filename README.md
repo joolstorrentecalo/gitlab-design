@@ -27,7 +27,7 @@ website to determine the best place to post. Thank you for helping to make GitLa
 
 ## About
 
-**GitLab’s open source design pattern library, prototypes and work-in-progress files.**
+**GitLab’s open source design pattern library, prototypes, and work-in-progress files.**
 
 This project is primarily used by [GitLab’s UX Design department][ux-handbook] to host design
 files and hand them off for implementation. To learn about the best

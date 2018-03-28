@@ -9,7 +9,8 @@ sketch = Framer.Importer.load("imported/starting-template@2x", scale: 1)
 # This template includes the material modules https://github.com/k-vyn/framer-material-kit
 
 # Module import
-m = require "material-kit"
+
+# Place here your module imports
 
 # Some default desktop specific configuration options
 
@@ -38,6 +39,54 @@ pageview = new PageComponent
 
 # Disable page component drag ability
 pageview.content.draggable.enabled = false
+
+# Global variables to be used in functions and one time definitions
+
+### Variables ###
+
+timing = .3
+
+# Functions to use, includes vertical constraint and hide/show functions
+
+### Functions ###
+
+# Vertical constraint function
+constraint = (firstLayer, secondLayer, offset = 0) ->
+	secondLayer.onChange "height", ->
+		firstLayer.y = secondLayer.y + secondLayer.height
+	secondLayer.onChange "y", ->
+		firstLayer.y = secondLayer.y + secondLayer.height + offset
+
+# Hide and Show section function
+hideshow = (layer, visible = true, transition = true) ->
+	layer.clip = true
+	originallayerheight = layer.height
+	if transition is true
+		layer.states =
+			state_show:
+				height: originallayerheight
+				opacity: 1
+				animationOptions:
+					time: timing
+			state_hide:
+				height: 0
+				opacity: 0
+				animationOptions:
+					time: timing
+	else
+		layer.states =
+			state_show:
+				height: originallayerheight
+				animationOptions:
+					time: 0
+			state_hide:
+				height: 0
+				animationOptions:
+					time: 0
+	if visible is true
+		layer.stateSwitch("state_show")
+	else
+		layer.stateSwitch("state_hide")
 
 ### PROTOTYPE SPECIFIC CONFIGURATION ###
 

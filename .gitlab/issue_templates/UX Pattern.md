@@ -43,4 +43,4 @@ with a link to the relevant commit, if applicable.
 1. [ ] Add an agenda item to the next UX weekly call to inform everyone (if new pattern, not yet used in the application)
 
 /label ~"UX"
-/cc @cperessini @dimitrieh @hazelyang @jkarthik @pedroms @sarrahvesselov @sarahod @tauriedavis
+/cc @cperessini @dimitrieh @hazelyang @jkarthik @pedroms @sarrahvesselov @sarahod @tauriedavis @katokpara @mlatin

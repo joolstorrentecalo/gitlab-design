@@ -215,12 +215,13 @@ organizing Sketch files.
 
 ### Updating
 
-New versions of Sketch are released frequently with useful new features, but
-they might be unstable or break integration with certain plugins at first. The
-most [boring solution](https://about.gitlab.com/handbook/values/#efficiency)
-to this problem is to wait two weeks after the [version release](https://www.sketchapp.com/updates/)
-before updating in order to give the Sketch team and plugin developers time to
-fix any possible bugs.
+Sketch frequently releases major versions (e.g. **49**.0) with useful new
+features, but they might be unstable or break certain plugins at first. The most
+[boring solution](https://about.gitlab.com/handbook/values/#efficiency) is to
+only update **two weeks** after the [major version release](https://www.sketchapp.com/updates/).
+This allows time for the Sketch and plugin developers to fix any bugs. After the
+waiting period is over, updating to minor versions (e.g. 49.**2**) on release is
+ok and encouraged, as they are usually intended to fix bugs.
 
 ## Framer 🦋
 

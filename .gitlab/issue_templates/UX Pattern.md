@@ -38,8 +38,8 @@ with a link to the relevant commit, if applicable.
 1. [ ] Ensure that you have used the proper method for creating the pattern depending on the complexity. Atoms and molecules are symbols, organisms are groups.
 1. [ ] Make sure that typography is using text styles. When applicable used shared styles for colors.
 1. [ ] QA check by another UXer
-1. [ ] Add changes to gitlab-elements.sketch
-1. [ ] Add a merge request that includes any new or updated guidelines to the [GitLab Design System](https://gitlab.com/gitlab-org/design.gitlab.com)
+1. [ ] Add changes to the [pattern library](/gitlab-pattern-library.sketch)
+1. [ ] Add a merge request that includes any new or updated guidelines to the [Design System](https://gitlab.com/gitlab-org/design.gitlab.com)
 1. [ ] Add an agenda item to the next UX weekly call to inform everyone (if new pattern, not yet used in the application)
 
 /label ~"UX"

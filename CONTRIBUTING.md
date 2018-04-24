@@ -72,9 +72,9 @@ For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 1. [Fork this project][fork-link] to your personal namespace.
 1. Navigate to the _Repository_ section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer.
-1. Download `gitlab-elements.sketch`.
-1. Make your changes to that file while following the [Sketch](#sketch-) and [naming](#naming) guidelines.
-1. Replace `gitlab-elements.sketch` in your fork with the changed version. Make sure you select the branch you created before.
+1. Download the [pattern library file][pattern-library-file].
+1. Locally, make your changes to that file while following the [Sketch](#sketch-) and [naming](#naming) guidelines.
+1. Back in GitLab, replace the pattern library file in your fork with the changed version from your computer. Make sure you select the branch you created before.
 1. Create a merge request from your fork, selecting the appropriate source branch and this project's `master` branch as the target.
    - Be very descriptive of the changes you've made. The reviewer will have to manually merge them, which means they have to be aware of even the smallest changes as they could be easy to miss.
    - Mention _only one_ of the [designers who manage this project][contacts] to review.
@@ -92,7 +92,7 @@ If you do not have Sketch, here are some software suggestions:
 
 ##### Viewing Sketch files
 
-- GitLab: You can view Sketch files [right from GitLab](https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-elements.sketch) (current functionality only displays the last edited page from each file)
+- GitLab: You can view Sketch files [right from GitLab][pattern-library-file] (current functionality only displays the last edited page from each file)
 - [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL.
 - [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files.
 
@@ -124,7 +124,7 @@ If you’re updating the [pattern library][pattern-library-file]:
 1. Close any open files that you intend to update (or else the next step won't have any effect while you have them open)
 1. Pull latest changes from the repository
 1. If the changes are not quick to perform (15 mins or more):
-   1. Duplicate the file and append your first name in lowercase to its name as a modifier (e.g. `gitlab-elements--pedro.sketch`)
+   1. Duplicate the file and append your first name in lowercase to its name as a modifier (e.g. `gitlab-pattern-library--pedro.sketch`)
    1. Add your changes
    1. If the changes are considerable, commit and push your changes frequently, following our [commit guidelines](#commits)
    1. When you’re done, make sure the original file is [unlocked][file-lock] and manually merge your changes by following the next steps
@@ -320,5 +320,5 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [git-hooks]: https://git-scm.com/docs/githooks
 [file-lock]: http://docs.gitlab.com/ee/user/project/file_lock.html
 [contacts]: /README.md#contacts
-[pattern-library-file]: /gitlab-elements.sketch
+[pattern-library-file]: /gitlab-pattern-library.sketch
 [pattern-library-doc]: /doc/pattern-library.md

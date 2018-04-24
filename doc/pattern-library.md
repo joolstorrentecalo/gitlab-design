@@ -100,4 +100,4 @@ When an override changes the color of the component, preface the layer name with
 🎨. This will make it easy to see that the override will apply a color change.
 A common example of this is changing the color of a background or icon.
 
-[pattern-library-file]: /gitlab-elements.sketch
+[pattern-library-file]: /gitlab-pattern-library.sketch

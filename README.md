@@ -7,7 +7,7 @@ website to determine the best place to post. Thank you for helping to make GitLa
 
 ![gitlab-cover-image](https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-cover-image.jpg)
 
-- **[👀 View the design pattern library Sketch file](/gitlab-elements.sketch)**
+- **[👀 View the pattern library Sketch file](/gitlab-pattern-library.sketch)**
 - **[:arrow_upper_right: Browse specs and prototypes][design-pages]**
 
 <!-- Table of contents generated with DocToc: https://github.com/thlorenz/doctoc -->
@@ -27,7 +27,7 @@ website to determine the best place to post. Thank you for helping to make GitLa
 
 ## About
 
-**GitLab’s open source design pattern library, prototypes, and work-in-progress files.**
+**GitLab’s open source pattern library, prototypes, and work-in-progress files.**
 
 This project is primarily used by [GitLab’s UX Design department][ux-handbook] to host design
 files and hand them off for implementation. To learn about the best
@@ -37,7 +37,7 @@ about the UX Design department, check out the [Links](#links) section.
 
 ### Goals
 
-- Jumpstart design work by using the design pattern library and previous work
+- Jumpstart design work by using the pattern library and previous work
 - Enable frequent, stable, and consistent contributions
 - Make GitLab’s design open, transparent, and open source
 - Facilitate design handoffs and design–development communication design handoffs.
@@ -79,7 +79,7 @@ Filter by the **UX** department on our [team page](https://about.gitlab.com/team
 
 ## License
 
-The GitLab Design Pattern Library is distributed under the MIT license, see the
+The GitLab Pattern Library is distributed under the MIT license, see the
 [LICENSE](/LICENSE) for details.
 
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design

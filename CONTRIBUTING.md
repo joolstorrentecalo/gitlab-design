@@ -128,8 +128,7 @@ If you’re updating the [pattern library][pattern-library-file]:
    1. Add your changes
    1. If the changes are considerable, commit and push your changes frequently, following our [commit guidelines](#commits)
    1. When you’re done, make sure the original file is [unlocked][file-lock] and manually merge your changes by following the next steps
-1. [Lock file(s)][file-lock]
-1. Pull latest changes from the repository
+1. [Lock file(s)][file-lock] to prevent others from overwriting it while you add your changes.
 1. Add your changes
 1. Commit and push your changes, following our [commit guidelines](#commits)
 1. [Unlock file(s)][file-lock]

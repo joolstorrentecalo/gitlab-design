@@ -159,7 +159,7 @@ layers and styles in Sketch:
         - [group-label]/ (e.g. platform)
           - [subject-labels]/ (e.g. settings)
             - projecthandle#issueID-title.sketch (e.g. ce#1337-awesome-design.sketch)
-            - [projecthandle#issue-ID-title]/
+            - [projecthandle#issueID-title]/
               - projecthandle#issueID-title--state-one.sketch
               - projecthandle#issueID-title--state-two.sketch
                 - assets/

@@ -75,6 +75,8 @@ Filter by the **UX** department on our [team page](https://about.gitlab.com/team
 - [UX Guide](https://docs.gitlab.com/ce/development/ux_guide/)
 - [UX Handbook][ux-handbook]
 - [UX Designer Onboarding](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
+- [GitLab Design System](https://design.gitlab.com)
+- [GitLab Design System Project](https://gitlab.com/gitlab-org/design.gitlab.com)
 - [GitLab Dribbble](https://dribbble.com/gitlab)
 
 ## License

@@ -68,12 +68,12 @@ contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
 ## Contacts
 
-Filter by the **UX** department on our [team page](https://about.gitlab.com/team).
+Filter by the **UX** department on our [team page](https://about.gitlab.com/team/).
 
 ## Links
 
 - [UX Handbook][ux-handbook]
-- [UX Designer Onboarding](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
+- [UX Designer Onboarding](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/)
 - [GitLab Design System](https://design.gitlab.com)
 - [GitLab Design System Project](https://gitlab.com/gitlab-org/design.gitlab.com)
 - [GitLab Dribbble](https://dribbble.com/gitlab)
@@ -85,4 +85,4 @@ The GitLab Pattern Library is distributed under the MIT license, see the
 [LICENSE](/LICENSE) for details.
 
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
-[ux-handbook]: https://about.gitlab.com/handbook/ux/
+[ux-handbook]: https://about.gitlab.com/handbook/engineering/ux/

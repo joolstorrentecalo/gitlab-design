@@ -1,6 +1,6 @@
 # GitLab Design
 
-:information_source: **This project is primarily used by [GitLab’s UX Design department][ux-handbook]
+:information_source: **This project is primarily used by [GitLab’s UX Design team][ux-handbook]
 to host design files and hand them off for implementation. Before raising an
 issue to any of GitLab’s issue trackers, please see [Getting help for GitLab](https://about.gitlab.com/getting-help/) on our
 website to determine the best place to post. Thank you for helping to make GitLab a better product.**
@@ -29,11 +29,11 @@ website to determine the best place to post. Thank you for helping to make GitLa
 
 **GitLab’s open source pattern library, prototypes, and work-in-progress files.**
 
-This project is primarily used by [GitLab’s UX Design department][ux-handbook] to host design
+This project is primarily used by [GitLab’s UX Design team][ux-handbook] to host design
 files and hand them off for implementation. To learn about the best
 practices to manage this project, including the repository’s organization,
 check out the [contribution guidelines](/CONTRIBUTING.md). For more information
-about the UX Design department, check out the [Links](#links) section.
+about the UX Design team, check out the [Links](#links) section.
 
 ### Goals
 
@@ -49,7 +49,7 @@ ever. Instead, ask the UX designer for the specs of the designs you’re working
 
 **If you want to browse and contribute**:
 
-1. The UX Design department primarily uses [Sketch](https://www.sketchapp.com/). See [Software](/CONTRIBUTING.md#software) for information on using alternatives.
+1. The UX Design team primarily uses [Sketch](https://www.sketchapp.com/). See [Software](/CONTRIBUTING.md#software) for information on using alternatives.
 1. Install and enable [Git Large File System (LFS)](https://about.gitlab.com/2017/01/30/getting-started-with-git-lfs-tutorial/):
    1. Install with [Homebrew](https://github.com/Homebrew/brew) via `brew install git-lfs` or [MacPorts](https://www.macports.org/) via `port install git-lfs`
    1. Enable with `git lfs install`
@@ -68,12 +68,12 @@ contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
 ## Contacts
 
-Filter by the **UX** department on our [team page](https://about.gitlab.com/team).
+Filter by the **UX** department on our [team page](https://about.gitlab.com/team/).
 
 ## Links
 
 - [UX Handbook][ux-handbook]
-- [UX Designer Onboarding](https://about.gitlab.com/handbook/uxdesigner-onboarding/)
+- [UX Designer Onboarding](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/)
 - [GitLab Design System](https://design.gitlab.com)
 - [GitLab Design System Project](https://gitlab.com/gitlab-org/design.gitlab.com)
 - [GitLab Dribbble](https://dribbble.com/gitlab)
@@ -85,4 +85,4 @@ The GitLab Pattern Library is distributed under the MIT license, see the
 [LICENSE](/LICENSE) for details.
 
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
-[ux-handbook]: https://about.gitlab.com/handbook/ux/
+[ux-handbook]: https://about.gitlab.com/handbook/engineering/ux/

@@ -14,7 +14,7 @@ Dir["{hosted}/**/*"].grep(/spec-previews$/).each do |specdir|
   FileUtils.cp_r src, dest, :verbose => true
   open('public/index.html', 'a+') { |f|
     url = URI.escape(specdir)
-    html = '<li class="html"><i class="fa fa-arrows" aria-hidden="true"></i><a href="' + url + '">' + specdir + '</a></li>'
+    html = '<li class="html"><i class="fa fa-arrows" aria-hidden="true"></i><a href="' + url + '/">' + specdir + '</a></li>'
     f.puts html
   }
 end

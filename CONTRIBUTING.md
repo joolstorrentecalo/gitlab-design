@@ -311,7 +311,7 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [fork-link]: https://gitlab.com/gitlab-org/gitlab-design/forks/new
 [hosted-folder]: /hosted
 [progress-folder]: /progress
-[templates-folder] /templates
+[templates-folder]: /templates
 [sketch-measure]: https://github.com/utom/sketch-measure
 [design-pages]: https://gitlab-org.gitlab.io/gitlab-design
 [framer]: https://framer.com

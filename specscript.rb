@@ -28,7 +28,7 @@ Dir["{hosted}/**/*"].grep(/\.framer$/).each do |framerdir|
   FileUtils.cp_r src, dest, :verbose => true
   open('public/index.html', 'a+') { |f|
     url = URI.escape(framerdir)
-    html = '<li class="framer"><i class="fa fa-cogs" aria-hidden="true"></i><a href="' + url + '">' + framerdir + '</a></li>'
+    html = '<li class="framer"><i class="fa fa-cogs" aria-hidden="true"></i><a href="' + url + '/">' + framerdir + '</a></li>'
     f.puts html
   }
 end
@@ -42,7 +42,7 @@ Dir["{hosted}/**/*"].grep(/html-previews$/).each do |htmldir|
   FileUtils.cp_r src, dest, :verbose => true
   open('public/index.html', 'a+') { |f|
     url = URI.escape(htmldir)
-    html = '<li class="spec"><i class="fa fa-globe" aria-hidden="true"></i><a href="' + url + '">' + htmldir + '</a></li>'
+    html = '<li class="spec"><i class="fa fa-globe" aria-hidden="true"></i><a href="' + url + '/">' + htmldir + '</a></li>'
     f.puts html
   }
 end

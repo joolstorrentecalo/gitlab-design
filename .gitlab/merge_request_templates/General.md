@@ -10,4 +10,4 @@
 
 1. [ ] QA check by another UX'r
 
-/cc @cperessini @dimitrieh @hazelyang @jkarthik @pedroms @sarrahvesselov @sarahod @tauriedavis
+/cc @gitlab-com/gitlab-ux

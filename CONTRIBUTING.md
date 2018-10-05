@@ -197,7 +197,33 @@ We recommend installing the following Sketch plugins to improve your design
 workflow. Don’t forget to read the documentation of each plugin to use them
 properly. If you’d like to recommend a plugin, please [create an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new).
 
+- [Runner](https://sketchrunner.com/): **Install before any other plugin, as all plugins listed here are easily installable through it.** If you can only install one plugin, this is it. Runner helps you to get around Sketch quicker with a keyboard interface similar to Spotlight or Alfred. You can open Runner with <kbd>⌘ + '</kbd>, cycle through categories with your <kbd>⇥</kbd> (tab) key and select search results with your up and down arrow keys. Hit <kbd>↩</kbd> to fire a command.
+   - _run​_ to search through all available plugins and Sketch menu commands.
+   - ​​_goto​_ to jump to any page, artboard, group or layer in your document.
+   - _​​insert_ or replace select layers with symbols (local or from a library).
+   - _​create​_ to define symbols and shared styles from your current selection.
+   - _apply_ text or layer styles to your current selection.
+   - _install_ to browse, install, update, and uninstall plugins without leaving Sketch. Just search for a plugin name or GitHub username.
+- [AlignTo](https://github.com/LucienLee/AlignTo): Align objects relative to a key object (like Adobe Illustrator's key object align).
+- [Auto Layout](https://github.com/animaapp/auto-layout) ([docs](https://animaapp.github.io/docs/v1/auto-layout/)): Add fluid resizing capabilities to your layers, groups, symbols, or artboards, using two powerful features:
+   - Set constraints on objects to control their behavior on resize: [pins](https://animaapp.github.io/docs/v1/auto-layout/03-pins.html) for positioning based on their parent object, [size](https://animaapp.github.io/docs/v1/auto-layout/04-size.html) using percentages/pixels/min/max, or [center](https://animaapp.github.io/docs/v1/auto-layout/05-center.html) horizontally/vertically to its parent.
+   - Create a [Stack](https://animaapp.github.io/docs/v1/auto-layout/12-stacks-flexbox.html) group or convert an existing group into a Stack to define the layout of its child objects (spacing and alignment). This is like having [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) inside Sketch.
+- [Batch Create Symbols](https://github.com/demersdesigns/sketch-batch-create-symbols): Create individual symbols from multiple selected objects, using the existing names, custom names, or place them within a folder structure. Useful to convert a bunch of objects to symbols on one go instead of selecting them one by one and using the 'Convert to Symbol' function.
+- [Disconnect](https://github.com/einancunlu/Disconnect-for-Sketch): Detach symbols, layer styles, or text styles from multiple selected objects.
+- [Distributor](https://github.com/pez/sketchdistributor): Distribute selected objects vertically or horizontally with a given spacing.
+- [Export More](https://github.com/nathco/export-more): Export to Apple Icon Image (.icns) and Animated GIF (.gif) file formats. [How to export an animated GIF?](https://github.com/nathco/export-more#animated-gif)
+- [Find and Replace](https://github.com/thierryc/Sketch-Find-And-Replace): Find and replace text in the selected object(s) or the complete document.
+- [Group It](https://github.com/brockdonaldson/groupit): Name groups before you make them. This helps you become more disciplined in naming objects and adopt a structured approach to your designs. It also cleans up the layers panel. To make this even better, set a [keyboard shortcut override](https://github.com/brockdonaldson/groupit#keyboard-shortcut-override) that replaces the regular Group action shortcut <kbd>cmd + G</kbd> with this plugin's action.
+- [Sketch Measure][sketch-measure]: Export automatic design specs for developers and teammates. You can also add notes that will be visible in the exported specs. Please refer to the [Superpowers](#superpowers-) section to see how to these specs are supported in this project's repository.
+- [Override It](https://github.com/ahmedmigo/overrideit-sketchplugin): A better approach to changing symbol (and nested symbol) overrides. Select one or more symbols and filter their overrides, change overrides, and search within the override dropdowns. No more scrolling or navigating through huge dropdowns.
+- [Rename It](http://renameit.design/): Batch rename layers and artboards, or replace any word(s) or character(s) from selected layers.
 - [Relabel Button](https://github.com/kenmoore/sketch-relabel-button): Prompts for a button’s new label, applies the text, resizes the button background, and repositions any other interior elements while maintaining the existing padding. It’s essentially awesome voodoo magic.
+- [Stark](http://www.getstark.co/): Check designs against the 8 different types of colorblindness and color pair contrast against WCAG 2.0 standards.
+- [SVGO Compressor](https://github.com/bohemiancoding/svgo-compressor): Compresses SVG assets using SVGO, right when you export them as usual from Sketch. Useful when exporting icons and illustrations for [GitLab SVG's](https://gitlab.com/gitlab-org/gitlab-svgs).
+- [Shared Style Finder](https://github.com/sonburn/shared-style-finder): Find instances of a shared layer or text style. Useful to find deprecated styles that should be removed from the [pattern library][pattern-library-doc].
+- [Symbol Instance Locator](https://github.com/sonburn/symbol-instance-locator): Find instances of a selected symbol or symbol instance, even when it's being used as an override. Useful to find duplicated or deprecated symbols that should be removed from the [pattern library][pattern-library-doc].
+- [Symbol Swapper](https://github.com/sonburn/symbol-swapper): Swap the selected symbols and/or symbol instances to a master of the same name in a library. Useful when removing duplicated symbols from the [pattern library][pattern-library-doc].
+- [Unused Style Remover](https://github.com/sonburn/unused-style-remover): Lists unused layer or text styles and allows you to remove all of them or just the ones you want. Useful when removing duplicated or deprecated styles from the [pattern library][pattern-library-doc].
 
 ### Pattern library
 

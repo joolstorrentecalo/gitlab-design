@@ -17,15 +17,8 @@
 
 ## Plugins
 
-Before getting started with the pattern library, install [Brand.ai](https://brand.ai/sketch)
-and the [other recommended plugins](/CONTRIBUTING.md#plugins). Brand.ai is a hosted library that syncs
-symbols and styles across files. Within the plugin you will find colors, text
-styles, shared styles, icons, components, and artboards to help quickly create
-mockups. If an element changes, simply push the change to the library and watch
-it sync across files. [Browse our pattern library on Brand.ai](https://brand.ai/git-lab/primary-brand)
-
-![Brand.ai’s plugin window in Sketch](images/brandai.png)
-
+Before getting started with the pattern library, install the
+[recommended plugins](/CONTRIBUTING.md#plugins).
 
 ## Structure
 

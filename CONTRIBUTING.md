@@ -302,6 +302,13 @@ along! :hugging:
 - [Learn git interactively for free on codeschool](https://www.codeschool.com/learn/git)
 - [Oh shit, git!](http://ohshitgit.com/)
 
+###  Git LFS
+
+Sometimes repositories can get into a broken state when files that should have been committed with Git LFS aren’t. If that is the case, make sure all contributors have [Git LFS enabled](/README.md#getting-started) and use the following command to fix the repository:
+
+`git lfs migrate import --no-rewrite -m'Commit message...' path/to/files/*.png`
+
+See [this documentation](https://blog.github.com/2018-07-30-git-lfs-2.5.0-now-available/#new-migration-modes) for more information.
 
 ## Code of conduct
 

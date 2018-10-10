@@ -92,14 +92,14 @@ If you do not have Sketch, here are some software suggestions:
 ##### Viewing Sketch files
 
 - GitLab: You can view Sketch files [right from GitLab][pattern-library-file] (current functionality only displays the last edited page from each file)
-| [Sketch-react](https://zjuasmn.github.io/sketch-react/) | Web app that supports multiple pages. Admits uploading files and referencing by URL. |
+- [Sketch-react](https://zjuasmn.github.io/sketch-react/): Web app that supports multiple pages. Admits uploading files and referencing by URL.
 - [Sketch Web Viewer](https://animaapp.github.io/sketch-web-viewer/): Web app that supports uploaded files.
 
 ##### Editing Sketch files
 
-| [Lunacy](https://icons8.com/lunacy) | Free native Windows app that works offline |
+- [Lunacy](https://icons8.com/lunacy): Free native Windows app that works offline.
 - [Figma](https://www.figma.com/): Powerful tool for UX and UI design. It has a web interface as well as desktop apps (internet connection required). It’s free for individuals.
-| [Gravit Designer](https://www.designer.io/) | Free vector design app that runs on macOS, Windows, Linux, Chrome OS, or in the browser. |
+- [Gravit Designer](https://www.designer.io/): Free vector design app that runs on macOS, Windows, Linux, Chrome OS, or in the browser.
 - [Photopea](https://www.photopea.com/): Free web editor for Sketch, Photoshop and Gimp files. The only editable export format is PSD, which may not be fully compatible for Sketch import.
 
 #### Prototyping software
@@ -196,8 +196,8 @@ We recommend installing the following Sketch plugins to improve your design
 workflow. Don’t forget to read the documentation of each plugin to use them
 properly. If you’d like to recommend a plugin, please [create an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new).
 
-| Plugin | Description |
-| ------ | ----------- |
+| Name | Description |
+| ---- | ----------- |
 | [Runner](https://sketchrunner.com/) | **Install before any other plugin, as all plugins listed here are easily installable through it.** If you can only install one plugin, this is it. Runner helps you to get around Sketch quicker with a keyboard interface similar to Spotlight or Alfred. You can open Runner with <kbd>⌘ + '</kbd>, cycle through categories with your <kbd>⇥</kbd> (tab) key and select search results with your up and down arrow keys. Hit <kbd>↩</kbd> to fire a command.<ul><li>_run​_ to search through all available plugins and Sketch menu commands.</li><li>_goto​_ to jump to any page, artboard, group or layer in your document.</li><li>_​​insert_ or replace select layers with symbols (local or from a library).</li><li>_​create​_ to define symbols and shared styles from your current selection.</li><li>_apply_ text or layer styles to your current selection.</li><li>_install_ to browse, install, update, and uninstall plugins without leaving Sketch. Just search for a plugin name or GitHub username.</li> |
 | [AlignTo](https://github.com/LucienLee/AlignTo) | Align objects relative to a key object (like Adobe Illustrator's key object align). |
 | [Auto Layout](https://github.com/animaapp/auto-layout) ([docs](https://animaapp.github.io/docs/v1/auto-layout/)) | Add fluid resizing capabilities to your layers, groups, symbols, or artboards, using two powerful features:<ul><li>Set constraints on objects to control their behavior on resize: [pins](https://animaapp.github.io/docs/v1/auto-layout/03-pins.html) for positioning based on their parent object, [size](https://animaapp.github.io/docs/v1/auto-layout/04-size.html) using percentages/pixels/min/max, or [center](https://animaapp.github.io/docs/v1/auto-layout/05-center.html) horizontally/vertically to its parent.</li><li>Create a [Stack](https://animaapp.github.io/docs/v1/auto-layout/12-stacks-flexbox.html) group or convert an existing group into a Stack to define the layout of its child objects (spacing and alignment). This is like having [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) inside Sketch.</li></ul> |

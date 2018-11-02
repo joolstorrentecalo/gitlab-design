@@ -232,6 +232,12 @@ different states. Remember to follow the [naming guidelines](#naming).
 See the [Files and folders](#files-and-folders) section for naming and
 organizing Sketch files.
 
+### Exporting
+
+Mockups with transparent backgrounds can cause many problems when viewing them on 
+dark application themes. To prevent these issues, add a `Background color` to 
+your artboards and enable the option to `Include in export`.
+
 ### Updating
 
 Sketch frequently releases major versions (e.g. **49**.0) with useful new

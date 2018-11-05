@@ -42,5 +42,5 @@ with a link to the relevant commit, if applicable.
 1. [ ] Create an issue to add the pattern documentation to the [Design System](https://gitlab.com/gitlab-org/design.gitlab.com). Mark it as related to this issue.
 1. [ ] Add an agenda item to the next UX weekly call to inform everyone (if new pattern, not yet used in the application)
 
-/label ~"UX"
+/label ~"UX" ~"pattern library"
 /cc @gitlab-com/gitlab-ux

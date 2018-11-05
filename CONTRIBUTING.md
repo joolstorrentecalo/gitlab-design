@@ -273,6 +273,7 @@ Some deliverables (Sketch specs created with the [Sketch Measure Plugin][sketch-
 automatically hosted online for you and are publicly accessible for quick and
 easy design handoffs. You can [thank us later](https://about.gitlab.com/handbook/communication/#say-thanks).
 
+
 To use these awesome _superpowers_:
 
 1. Create a folder with your first name in the [`hosted` directory][hosted-folder] in lowercase (e.g. `jane`). This way we can re-organize the repository without breaking any external links
@@ -282,7 +283,7 @@ To use these awesome _superpowers_:
    - Static HTML pages: append `-html-previews` to the name of the folder and name the main page `index.html`
 1. Commit and push your changes to GitLab
 1. View your [commit’s pipeline on GitLab](https://gitlab.com/gitlab-org/gitlab-design/pipelines) and wait for it to pass
-1. [Browse our index of hosted prototypes and specs][design-pages]
+1. [Browse our index of hosted prototypes and spec-previews][design-pages]
    - Search by the name of your folder using <kbd>CMD/CTRL + F</kbd>
 1. Share and rejoice! :open_hands:
 

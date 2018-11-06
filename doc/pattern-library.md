@@ -12,6 +12,7 @@
     - [Atomic design example](#atomic-design-example)
 - [Symbols](#symbols)
   - [Overrides](#overrides)
+- [Font family](#font-family)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -94,3 +95,13 @@ When an override changes the color of the component, preface the layer name with
 A common example of this is changing the color of a background or icon.
 
 [pattern-library-file]: /gitlab-pattern-library.sketch
+
+## Font family
+
+While GitLab uses system fonts, our pattern library makes use of the Helvetica 
+Neue font family. Helvetica Neue is one our fall back fonts within our font stack
+and is readily available on all Mac systems.
+
+San Francisco is often recommended as an alternative because it is the macOS 
+font and it is available for download. However, due to [license restrictions](https://en.wikipedia.org/wiki/San_Francisco_(sans-serif_typeface)#cite_ref-Apple_Developer_Fonts_3-2),
+we are unable to use it within our pattern library.

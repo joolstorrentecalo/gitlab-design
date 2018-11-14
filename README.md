@@ -76,6 +76,8 @@ Filter by the **UX** department on our [team page](https://about.gitlab.com/team
 - [UX Designer Onboarding](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/)
 - [GitLab Design System](https://design.gitlab.com)
 - [GitLab Design System Project](https://gitlab.com/gitlab-org/design.gitlab.com)
+- [Gitlab Research Project](https://gitlab.com/gitlab-org/ux-research)
+- [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/index.html)
 - [GitLab Dribbble](https://dribbble.com/gitlab)
 - [UX Guide **(deprecated)**](https://docs.gitlab.com/ce/development/ux_guide/)
 

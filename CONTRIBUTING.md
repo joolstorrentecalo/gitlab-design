@@ -71,6 +71,7 @@ For all other kinds of changes to the [pattern library][pattern-library-file]:
 
 1. [Fork this project][fork-link] to your personal namespace.
 1. Navigate to the _Repository_ section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer.
+1. Read the [pattern library documentation][pattern-library-doc] for information on fonts, file structure, and how to use symbols.
 1. Download the [pattern library file][pattern-library-file].
 1. Locally, make your changes to that file while following the [Sketch](#sketch-) and [naming](#naming) guidelines.
 1. Back in GitLab, replace the pattern library file in your fork with the changed version from your computer. Make sure you select the branch you created before.
@@ -119,7 +120,7 @@ If you’re working on your personal files:
 
 If you’re updating the [pattern library][pattern-library-file]:
 
-1. Read the [pattern library documentation][pattern-library-doc]
+1. Read the [pattern library documentation][pattern-library-doc] for information on fonts, file structure, and how to use symbols.
 1. Close any open files that you intend to update (or else the next step won't have any effect while you have them open)
 1. Pull latest changes from the repository
 1. If the changes are not quick to perform (15 mins or more):

@@ -121,18 +121,14 @@ If you’re working on your personal files:
 If you’re updating the [pattern library][pattern-library-file]:
 
 1. Read the [pattern library documentation][pattern-library-doc] for information on fonts, file structure, and how to use symbols.
-1. Close any open files that you intend to update (or else the next step won't have any effect while you have them open)
-1. Pull latest changes from the repository
-1. If the changes are not quick to perform (15 mins or more):
-   1. Duplicate the file and append your first name in lowercase to its name as a modifier (e.g. `gitlab-pattern-library--pedro.sketch`)
-   1. Add your changes
-   1. If the changes are considerable, commit and push your changes frequently, following our [commit guidelines](#commits)
-   1. When you’re done, make sure the original file is [unlocked][file-lock] and manually merge your changes by following the next steps
-1. [Lock file(s)][file-lock] to prevent others from overwriting it while you add your changes.
-1. Add your changes
-1. Commit and push your changes, following our [commit guidelines](#commits)
-1. [Unlock file(s)][file-lock]
-
+1. Before pulling or making any changes, check if the [pattern library file][pattern-library-file] is unlocked (in the top right corner, the button should read “Lock”). If it is locked by someone else (button reads “Unlock”), you must wait until they push their changes and unlock it. Reach out to them if it's taking too long (hover over the button to find out who locked it).
+1. [Lock the file](https://docs.gitlab.com/ee/user/project/file_lock.html#locking-a-file-or-a-directory) to prevent others from overwriting it while you add your changes.
+1. Close the pattern library file if you have it open in Sketch (or else the next step won't have any effect while you have it open).
+1. Pull the latest changes from the repository.
+1. Open the pattern library file in Sketch and add your changes.
+1. Commit and push your changes, following our [commit guidelines](#commits). Do this often so you have a backup of your work.
+1. [Unlock the file](https://docs.gitlab.com/ee/user/project/file_lock.html#unlocking-a-file-or-a-directory) so others can work on it.
+1. Kick off your shoes and lean back, you did great! 💪
 
 ## Organization
 
@@ -351,7 +347,6 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [framer]: https://framer.com
 [everything-starts-with-an-issue]: https://about.gitlab.com/handbook/communication/#everything-starts-with-an-issue
 [git-hooks]: https://git-scm.com/docs/githooks
-[file-lock]: http://docs.gitlab.com/ee/user/project/file_lock.html
 [contacts]: /README.md#contacts
 [pattern-library-file]: /gitlab-pattern-library.sketch
 [pattern-library-doc]: /doc/pattern-library.md

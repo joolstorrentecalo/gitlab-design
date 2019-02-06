@@ -102,7 +102,7 @@ A common example of this is changing the color of a background or icon.
 
 1. Make sure your icon is no larger than `14px x 14px` and is centered on a `16px x 16px` artboard that has no background.
 1. Create a symbol of your icon and name it following the naming convention: `icn/[icon-name]` 
-1. Ensure your icon was designed using `#000000` as the only  fill color.
+1. Ensure your icon was designed using `#000000` as the only fill color.
 1. Remove any layer styles that might be applied to your icons.
 
 ### 2. Add your icon to the pattern-library
@@ -127,7 +127,7 @@ A common example of this is changing the color of a background or icon.
 
 ### 3. Add your icon to the instance-sheet
 
-1. Your icon should now be a symbol and ready to add to the instance sheet. Open the `gitlab-instance-sheet.sketch`file and find alphabetically where your symbol belongs. Add it to the end of the row or start a new row if there is no space.
+1. Your icon should now be a symbol and ready to add to the instance sheet. Open the `gitlab-instance-sheet.sketch` file and find alphabetically where your symbol belongs. Add it to the end of the row or start a new row if there is no space.
 1. Align your icon with the other icons in the sheet both vertically and horizontally.
 1. Save the changes you made to the file. 👍
 

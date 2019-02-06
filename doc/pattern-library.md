@@ -96,12 +96,50 @@ A common example of this is changing the color of a background or icon.
 
 [pattern-library-file]: /gitlab-pattern-library.sketch
 
+## Icons
+
+### 1. Prepare your icon
+
+1. Make sure your icon is no larger than `14px x 14px` and is centered on a `16px x 16px` artboard that has no background.
+1. Create a symbol of your icon and name it following the naming convention: `icn/[icon-name]` 
+1. Ensure your icon was designed using `#000000` as the only fill color.
+1. Remove any layer styles that might be applied to your icons.
+
+### 2. Add your icon to the pattern-library
+
+1. Paste icon into `gitlab-pattern-library.sketch` in the icons page. You can place it in the last row, or if the row is complete, start a new row. It should look like this at this point:
+
+![import-icon](images/import-icon.png)
+
+2. Copy and paste the masked override layer from another icon in the page into your icon group.
+
+![paste-layer-mask](images/copy-paste-layer-mask.png)
+
+3. Mask your shape with the override layer. This will create a group and rename your shape layer to mask.
+
+![result-with-mask](images/result-with-mask.png)
+
+4. Move both the shape and the masked override outside the group folder and delete the now empty group folder. Rename the layer to `Shape` from `Mask`.
+
+![adjust-mask](images/layer-management-icon.gif)
+
+5. Save the file with your new icon added. 👍
+
+### 3. Add your icon to the instance-sheet
+
+1. Your icon should now be a symbol and ready to add to the instance sheet. Open the `gitlab-instance-sheet.sketch` file and find alphabetically where your symbol belongs. Add it to the end of the row or start a new row if there is no space.
+1. Align your icon with the other icons in the sheet both vertically and horizontally.
+1. Save the changes you made to the file. 👍
+
+### 4. Commit and push your changes
+And now your icon is ready to use! 🎉 💪
+
 ## Font family
 
-While GitLab uses system fonts, our pattern library makes use of the Helvetica 
+While GitLab uses system fonts, our pattern library makes use of the Helvetica
 Neue font family. Helvetica Neue is one our fall back fonts within our font stack
 and is readily available on all Mac systems.
 
-San Francisco is often recommended as an alternative because it is the macOS 
+San Francisco is often recommended as an alternative because it is the macOS
 font and it is available for download. However, due to [license restrictions](https://en.wikipedia.org/wiki/San_Francisco_(sans-serif_typeface)#cite_ref-Apple_Developer_Fonts_3-2),
 we are unable to use it within our pattern library.

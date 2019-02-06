@@ -100,8 +100,8 @@ A common example of this is changing the color of a background or icon.
 
 ### 1. Prepare your icon
 
-1. Make sure you create a symbol for your icon and that it's centered on a 16x16 Artboard with no background.  
-1. Name your icon using the naming convention: `icn/icon-name`
+1. Make sure your icon is no larger than `14px x 14px` and is centered on a `16px x 16px` artboard that has no background.
+1. Create a symbol of your icon and name it following the naming convention: `icn/[icon-name]` 
 1. Ensure your icon was designed using `#000000` as the only  fill color.
 1. Remove any layer styles that might be applied to your icons.
 

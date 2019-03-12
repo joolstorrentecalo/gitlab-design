@@ -124,11 +124,12 @@ Make sure you take breaks if you feel overwhelmed or tired, specially if this is
 ---
 
 # UX Buddy tasks
-- [ ] Invite new team member to the product stage Slack channel. Check with your PM or ping Peopple Ops.
+- [ ] Invite new team member to the product stage Slack channel. Check with your PM or ping People Ops.
 - [ ] Add new team member to the product stage daily stand-up bot (your team uses this to post daily updates including what you are working on and if you have any blockers, much like a regular stand-up but much easier than doing one in real life). `*`
+- [ ] Add new team member to product stage [async retrospective](https://gitlab.com/gitlab-org/async-retrospectives).
 - [ ] Add new team member to the product stage weekly and monthly meetings. `*`
 - [ ] Invite new team member to a 1:1 repeating every Friday. `*`
 - [ ] Create a Google Doc for 1:1 agenda items, share it with the new team member, and attach it to the 1:1 event.
 
 `*` These are team meetings calendars for which everyone should be invited and allowed to edit. Check with `peopleops` if you need persmission to add the new joiner.
-                           
+

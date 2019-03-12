@@ -12,6 +12,11 @@
     - [Atomic design example](#atomic-design-example)
 - [Symbols](#symbols)
   - [Overrides](#overrides)
+- [Icons](#icons)
+  - [1. Prepare your icon](#1-prepare-your-icon)
+  - [2. Add your icon to the pattern-library](#2-add-your-icon-to-the-pattern-library)
+  - [3. Add your icon to the instance-sheet](#3-add-your-icon-to-the-instance-sheet)
+  - [4. Commit and push your changes](#4-commit-and-push-your-changes)
 - [Font family](#font-family)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

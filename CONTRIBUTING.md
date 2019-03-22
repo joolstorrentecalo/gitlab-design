@@ -261,7 +261,9 @@ We recommend making use of the Framer templates provided in the [templates direc
    - Once installed, every time you commit, the hook will add the issues, merge requests, and epic IDs found on the staged files (and their folders) to the commit message body (e.g. `gitlab-ce#1337` or `ux-research!1337` or `&123`)
    - It only works if you follow the naming pattern described in the [Files and folders](#files-and-folders) section
    - These references automatically create a commit note in the corresponding issue/merge request, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office)
-
+- Enforce fast forward as merge strategy locally by running `git config --local merge.ff only` in your local copy of this repository. This makes it so that we don't create uninformative merge commits.
+  - This means when you have local commits you'll get an error while doing a `git pull`. In those cases use `git pull --rebase`. If you now have conflicts it means a file you edited locally was also edited by someone else. Conflicts with binary files (like Sketch files) are difficult, if not impossible to resolve — reach out to the other person to see how you can fix it together. Conflicts with non-binary files are resolvable by following the instructions in the command line or in [this article](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line).
+  - If you use a [Git GUI client](https://git-scm.com/download/gui/mac) (e.g. Tower) instead of the command line, look in its docs/manual to see how you can follow this rule.
 
 ## Superpowers 🌠
 

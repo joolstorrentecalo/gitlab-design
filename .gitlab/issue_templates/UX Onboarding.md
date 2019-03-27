@@ -17,9 +17,9 @@ To get you up to speed so you can start contributing to the team efforts and imp
 
 First, you are likely to want to know where your place is in the company structure. For this, you would want to check out the [team chart](https://about.gitlab.com/team/chart/).
 
-If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/#ux-design-buddy)), (FILL IN WITH @ UX MANAGER HANDLE) (your UX Manager), or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless its something important). You can also reach out to people in the `#ux` [Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
+If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/#ux-design-buddy)), (FILL IN WITH @ UX MANAGER HANDLE) (your UX Manager), or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
 
-You'll have a weekly 1:1 call with your UX buddy until your onboarding is complete! Fridays are great for these to talk through questions and set expectations for the next week. You onboarding doesn't have a scheduled end date, just focus on learning and getting comfortable with GitLab and the UX departmen.
+You'll have a weekly 1:1 call with your UX buddy until your onboarding is complete! Fridays are great for these to talk through questions and set expectations for the next week. You onboarding doesn't have a scheduled end date, just focus on learning and getting comfortable with GitLab and the UX department.
 
 ## Company :earth\_africa:
 
@@ -45,27 +45,27 @@ To highlight some other important places:
 - [ ] Check out the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md). Verify that you have access to the tools listed (for now mainly Sketch). And ask about any other tools you might need.
 - [ ] Become familiar with our [design system](http://design.gitlab.com) which is the place where we document all product design decisions and things to help us make those decisions, like [personas](https://design.gitlab.com/research/personas).
 
-You can [open up an issue at the design repository](https://gitlab.com/gitlab-org/gitlab-design/issues) to start a discussion for any design related matters. For more product related matters the [GitLab-ce issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) would be the correct place!
+You can [open up an issue at the design repository](https://gitlab.com/gitlab-org/gitlab-design/issues) to start a discussion for any design related matters. For more product related matters the [GitLab Community Edition issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) would be the correct place!
 
 ## Staying informed :mega:
 
 There is a lot of information flowing around, but to stay on top of the most important things you should be a part of [#general](https://gitlab.slack.com/messages/C0259241C), [#handbook](https://gitlab.slack.com/messages/C81PT2ALD), [#ux](https://gitlab.slack.com/messages/C03MSG8B7), and [#design-system](https://gitlab.slack.com/messages/CDNNDD1T3) channels in Slack. You are likely to have received an invite for the `Company call` (every day but Friday), but don't feel bad if you can't attend it. Just checking the [Company call agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) should be enough to keep you on top of the most important events.
 
-As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please make sure you are invited. Note, that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh and did I mention there are [recordings available](https://drive.google.com/drive/folders/1pvtIfMFOj8Bf1pM3Ac-gYuG6pqtnNu7O?usp=sharing)? :slight\_smile: 
+As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please make sure you are invited. Note, that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh, and did I mention there are [recordings available](https://drive.google.com/drive/folders/1pvtIfMFOj8Bf1pM3Ac-gYuG6pqtnNu7O?usp=sharing)? :slight\_smile: 
 
 Once you are added to the UX Calendar on Google, attend to one of our `UX Hangouts` calls. We meet twice a week to hang out with other UX members and talk about anything we want.
 
-Lastly, every department and stage group host so-called [group coversations](https://about.gitlab.com/handbook/people-operations/group-conversations/) to keep everyone informed about their efforts. Please make sure you have access to the `GitLab Team Meetings` calendar to be able to join any one of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
+Lastly, every department and stage group host so-called [group conversations](https://about.gitlab.com/handbook/people-operations/group-conversations/) to keep everyone informed about their efforts. Please make sure you have access to the `GitLab Team Meetings` calendar to be able to join any one of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
 
 ## Your product stage :fox:
 
-**(FILL WITH PRODUCT STAGE NAME)** has been designated your product stage, to be your focus and responsibility. Any issues related to this stage will be labeled `(FILL WITH PRODUCT STAGE ~ LABEL)`. Please make sure you:
+**(FILL WITH PRODUCT STAGE NAME)** has been designated your product stage, to be your focus and responsibility. Any issues related to this stage will be labeled (FILL WITH PRODUCT STAGE ~ LABEL). Please make sure you:
 
 - [ ] Understand our [product hierarchy](https://about.gitlab.com/handbook/product/categories/#hierarchy).
-- [ ] Get to know your [stage's team mates](https://about.gitlab.com/handbook/product/categories/#devops-stages).
+- [ ] Get to know your [stage's teammates](https://about.gitlab.com/handbook/product/categories/#devops-stages).
 - [ ] Read its [vision](FILL WITH PRODUCT STAGE VISION PAGE URL).
 - [ ] See where it stands in terms of [category maturity](https://about.gitlab.com/handbook/product/categories/maturity/).
-- [ ] Start collaborating with your assigned UX Buddy. You both should arrange a day to have regular 1:1 calls (at lease once a week). We have prepared a Google Doc to guide your sessions, feel free to add discussion points to the agenda. [**ADD LINK TO GOOGLE DOC**]()
+- [ ] Start collaborating with your assigned UX Buddy. You should both arrange a day to have a regular 1:1 call (at least once a week). They have prepared a [Google Doc](FILL WITH GOOGLE DOC URL) to guide your sessions, feel free to add discussion points to the agenda.
 
 <!--
 
@@ -108,7 +108,7 @@ To share some new found knowledge, the rest of the UX department would love to h
 1. Some topics will be questions, others statements, and others will be an opportunity to improve. Try to think about what could be improved and, if possible, how. In the end, each possible improvement should either:
    - start a separate issue for a broader discussion,
    - or start a merge request to change something, anything!
-1. How can we improve the UX onboarding experience? Please keep notes on what went well, what did not go well, or could be improved. With that information we'll iteratively improve our onboarding experience.
+1. How can we improve the UX onboarding experience? Please keep notes on what went well, what did not go well, or could be improved. With that information, we'll iteratively improve our onboarding experience.
 1. Before closing this issue, please add yourself to the next [UX weekly meeting agenda](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
 
 ## Closing thoughts :pray:
@@ -119,17 +119,16 @@ Working remotely comes with great power and great responsibility. [Here are a fe
 
 ### Remember to practice self-care
 
-Make sure you take breaks if you feel overwhelmed or tired, specially if this is your first remote job. Remember stretch your legs, drink some water, and disconnect when necessary. Try to establish a healthy routine that will empower you to work in a way that enables you to deliver the best results.
+Make sure you take breaks if you feel overwhelmed or tired, especially if this is your first remote job. Remember stretch your legs, drink some water, and disconnect when necessary. Try to establish a healthy routine that will empower you to work in a way that enables you to deliver the best results.
 
 ---
 
 # UX Buddy tasks
-- [ ] Invite new team member to the product stage Slack channel. Check with your PM or ping People Ops.
+- [ ] Invite new team member to the product stage Slack channel.
 - [ ] Add new team member to the product stage daily stand-up bot (your team uses this to post daily updates including what you are working on and if you have any blockers, much like a regular stand-up but much easier than doing one in real life). `*`
-- [ ] Add new team member to product stage [async retrospective](https://gitlab.com/gitlab-org/async-retrospectives).
+- [ ] Add new team member to the product stage [async retrospective](https://gitlab.com/gitlab-org/async-retrospectives). `*`
 - [ ] Add new team member to the product stage weekly and monthly meetings. `*`
-- [ ] Invite new team member to a 1:1 repeating every Friday. `*`
-- [ ] Create a Google Doc for 1:1 agenda items, share it with the new team member, and attach it to the 1:1 event.
+- [ ] Invite new team member to a 1:1 on their second week and repeating every Friday.
+- [ ] Create a Google Doc for 1:1 agenda items ([template](https://docs.google.com/document/d/1sg4EtHBGTugxu-u2NSoH9LfE4zXT1ru1-Z3EiIXlohY)), share it with the new team member, attach it to the 1:1 event, and update the link
 
-`*` These are team meetings calendars for which everyone should be invited and allowed to edit. Check with `peopleops` if you need persmission to add the new joiner.
-
+`*` Check with your Product Manager or PeopleOps if you need permission to add the new team member.

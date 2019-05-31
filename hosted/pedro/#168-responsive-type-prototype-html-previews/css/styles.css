@@ -11,7 +11,7 @@ body, html {
   color: #2e2e2e;
 }
 
-h1, h2, h3, h4, h5, h6, p, small {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
@@ -136,7 +136,7 @@ p + p {
   border-bottom: 0.0625rem solid #DFDFDF;
   padding-bottom: 1rem;
 }
-.md-doc small {
+.md-doc p.small {
   font-size: 0.875rem;
 }
 
@@ -153,21 +153,24 @@ p + p {
 }
 
 .md-doc p,
-.ui .p-large {
+.ui p.large {
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.md-doc small,
+.md-doc p.small,
 .md-compact p,
 .ui p {
   font-size: 0.875rem;
   line-height: 1.428571429;
 }
 
-.md-compact small,
-.ui small {
+.md-compact p.small,
+.md-compact span.small,
+.ui p.small,
+.ui span.small {
   font-size: 0.75rem;
+  line-height: 1.333333333;
 }
 
 .ui span {
@@ -175,10 +178,6 @@ p + p {
   line-height: 1.142857143;
   margin-top: 1rem;
   display: block;
-}
-.ui .small {
-  font-size: 0.75rem;
-  line-height: 1.333333333;
 }
 
 .md-doc h3,
@@ -292,13 +291,13 @@ p + p {
     line-height: 1.500234412;
   }
 
-  .md-doc small,
+  .md-doc p.small,
 .md-compact p {
     font-size: 1rem;
     line-height: 1.5;
   }
 
-  .md-compact small {
+  .md-compact p.small {
     font-size: 0.875rem;
   }
 

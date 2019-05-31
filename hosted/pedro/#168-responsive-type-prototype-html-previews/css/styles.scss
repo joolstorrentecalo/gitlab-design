@@ -100,6 +100,11 @@ p + p { margin-top: 1rem; }
   line-height: 1.157323689;
 }
 
+.ui {
+  .h-display,
+  h1 { margin-bottom: 1rem; }
+}
+
 .md-doc h2,
 .ui h1 {
   font-size: 1.44rem;

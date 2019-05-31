@@ -146,6 +146,11 @@ p + p {
   line-height: 1.157323689;
 }
 
+.ui .h-display,
+.ui h1 {
+  margin-bottom: 1rem;
+}
+
 .md-doc h2,
 .ui h1 {
   font-size: 1.44rem;

@@ -234,7 +234,8 @@ p + p {
     line-height: 1.12;
   }
 
-  .md-doc h3 .md-compact h1,
+  .md-doc h3,
+.md-compact h1,
 .ui h2 {
     font-size: 1.25rem;
     line-height: 1.2;
@@ -253,7 +254,8 @@ p + p {
     line-height: 1.125571579;
   }
 
-  .md-doc h3 .md-compact h1,
+  .md-doc h3,
+.md-compact h1,
 .ui h2 {
     font-size: 1.333rem;
     line-height: 1.125175809;
@@ -272,7 +274,8 @@ p + p {
     line-height: 1.125351672;
   }
 
-  .md-doc h3 .md-compact h1,
+  .md-doc h3,
+.md-compact h1,
 .ui h2 {
     font-size: 1.414rem;
     line-height: 1.237842617;

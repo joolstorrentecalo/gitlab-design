@@ -33,14 +33,14 @@
 Make sure these are completed before closing the issue,
 with a link to the relevant commit, if applicable.
 
-1. [ ] Read our [contribution guidelines](/CONTRIBUTING.md), especially the [For GitLabbers](/CONTRIBUTING.md#for-gitlabbers-) section.
+1. [ ] Read our [contribution guidelines](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md), especially the [For GitLabbers](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#for-gitlabbers-) section.
 1. [ ] Create a Sketch file in your progress folder just for this pattern and make sure that:
    1. [ ] You have not created a duplicate of an existing pattern, symbol, layer style, or text style.
    1. [ ] You have used the proper method for creating the pattern depending on the complexity. Atoms and molecules are symbols, organisms are groups.
    1. [ ] Typography uses text styles. When applicable, colors use shared styles.
 1. [ ] Ask a UXer to review your Sketch file, linking them to your latest commit so they know where to find it. If they have the capacity, they should assign themselves to this issue.
 1. [ ] QA of your Sketch file by the reviewer.
-1. [ ] Add your changes to the [pattern library](/gitlab-pattern-library.sketch). When copying things over, watch out for duplicated symbols, layer styles, and text styles. Some of our [recommended plugins](/CONTRIBUTING.md#plugins) can help you find and remove duplicates.
+1. [ ] Add your changes to the [pattern library](https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch). When copying things over, watch out for duplicated symbols, layer styles, and text styles. Some of our [recommended plugins](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#plugins) can help you find and remove duplicates.
 1. [ ] QA of pattern library by the reviewer.
 1. [ ] [Create an issue in the Design System](https://gitlab.com/gitlab-org/design.gitlab.com/issues/new) to add the pattern documentation. Mark it as related to this issue.
 1. [ ] Add an agenda item to the next [UX weekly call](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit?usp=sharing) to inform everyone (if it's a new pattern, not yet used in the application).

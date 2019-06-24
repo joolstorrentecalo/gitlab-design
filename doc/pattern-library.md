@@ -26,6 +26,15 @@
 Before getting started with the pattern library, install the
 [recommended plugins](/CONTRIBUTING.md#plugins).
 
+## Sketch workflow
+
+There are a few things when working in Sketch that will make the process of maintaining and updating the file easier for everyone.
+
+- Ensure all layers have the correct name.
+- Arrange artboards and layers to match reading flow — left to right and top to bottom.
+- Use groups to organize related layers.
+- After you’re done editing a group, make sure the `Select group’s contents on click` checkbox in the right Inspector panel is unchecked. This will help others identify nesting and structure easier.
+
 ## Structure
 
 We use the [atomic design methodology](http://bradfrost.com/blog/post/atomic-web-design/)

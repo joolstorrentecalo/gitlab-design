@@ -276,10 +276,14 @@ easy design handoffs. You can [thank us later](https://about.gitlab.com/handbook
 To use these awesome _superpowers_:
 
 1. Create a folder with your first name in the [`hosted` directory][hosted-folder] in lowercase (e.g. `jane`). This way we can re-organize the repository without breaking any external links
-1. Place your deliverable folder inside of your personal `hosted` directory
-   - Sketch specs created with the [Sketch Measure Plugin][sketch-measure]: append `-spec-previews` to the name of the export folder
    - Framer prototypes: if you intend to share them, just move the `*.framer` folder to your personal `hosted` directory
-   - Static HTML pages: append `-html-previews` to the name of the folder and name the main page `index.html`
+   - Static HTML pages: Create a new folder in your named folder that ends in `-html-previews` and inside, name the main page `index.html`
+1. Export Specs from the [Sketch Measure Plugin][sketch-measure]:
+   - In Sketch, select the artboard(s) you'd like to create spec previews of.
+   - In the Sketch Measure plugin menu, select `Spec Export`
+   - Click `Export`
+   - Select the folder with your first name (the one you created at the beginning) and click `Export`.
+   - Check the folder that was exported to make sure it ends in `spec-previews`
 1. Commit and push your changes to GitLab
 1. View your [commit’s pipeline on GitLab](https://gitlab.com/gitlab-org/gitlab-design/pipelines) and wait for it to pass
 1. [Browse our index of hosted prototypes and spec-previews][design-pages]

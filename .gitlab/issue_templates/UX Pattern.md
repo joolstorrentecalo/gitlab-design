@@ -42,7 +42,7 @@ with a link to the relevant commit, if applicable.
 1. [ ] QA of your Sketch file by the reviewer.
 1. [ ] Add your changes to the [pattern library](https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch). When copying things over, watch out for duplicated symbols, layer styles, and text styles. Some of our [recommended plugins](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#plugins) can help you find and remove duplicates.
 1. [ ] QA of pattern library by the reviewer.
-1. [ ] [Create an issue in the Design System](https://gitlab.com/gitlab-org/design.gitlab.com/issues/new) to add the pattern documentation. Mark it as related to this issue.
+1. [ ] [Create an issue in the Design System](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues/new) to add the pattern documentation. Mark it as related to this issue.
 1. [ ] Add an agenda item to the next [UX weekly call](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit?usp=sharing) to inform everyone (if it's a new pattern, not yet used in the application).
 
 /label ~"UX" ~"pattern library" ~Pajamas

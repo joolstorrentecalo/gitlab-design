@@ -19,7 +19,7 @@ First, you are likely to want to know where your place is in the company structu
 
 If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/#ux-design-buddy)), (FILL IN WITH @ UX MANAGER HANDLE) (your UX Manager), or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
 
-You'll have a weekly 1:1 call with your UX buddy until your onboarding is complete! Fridays are great for these to talk through questions and set expectations for the next week. You onboarding doesn't have a scheduled end date, just focus on learning and getting comfortable with GitLab and the UX department.
+You'll have a weekly 1:1 call with your UX buddy until your onboarding is complete! Fridays are great for these to talk through questions and set expectations for the next week. Your onboarding doesn't have a scheduled end date, just focus on learning and getting comfortable with GitLab and the UX department.
 
 ## Company :earth\_africa:
 
@@ -49,7 +49,7 @@ You can [open up an issue at the design repository](https://gitlab.com/gitlab-or
 
 ## Staying informed :mega:
 
-There is a lot of information flowing around, but to stay on top of the most important things you should be a part of [#general](https://gitlab.slack.com/messages/C0259241C), [#handbook](https://gitlab.slack.com/messages/C81PT2ALD), [#ux](https://gitlab.slack.com/messages/C03MSG8B7), and [#design-system](https://gitlab.slack.com/messages/CDNNDD1T3) channels in Slack. You are likely to have received an invite for the `Company call` (every day but Friday), but don't feel bad if you can't attend it. Just checking the [Company call agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) should be enough to keep you on top of the most important events.
+There is a lot of information flowing around, but to stay on top of the most important things you should be a part of [#company-announcements](https://gitlab.slack.com/messages/C0259241C), [#handbook](https://gitlab.slack.com/messages/C81PT2ALD), [#ux](https://gitlab.slack.com/messages/C03MSG8B7), and [#design-system](https://gitlab.slack.com/messages/CDNNDD1T3) channels in Slack. You are likely to have received an invite for the `Company call` (every day but Friday), but don't feel bad if you can't attend it. Just checking the [Company call agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) should be enough to keep you on top of the most important events.
 
 As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please make sure you are invited. Note, that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh, and did I mention there are [recordings available](https://drive.google.com/drive/folders/1pvtIfMFOj8Bf1pM3Ac-gYuG6pqtnNu7O?usp=sharing)? :slight\_smile: 
 

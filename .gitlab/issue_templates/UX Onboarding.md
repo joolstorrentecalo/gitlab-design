@@ -25,6 +25,7 @@ You'll have a weekly 1:1 call with your UX buddy until your onboarding is comple
 
 Most of the information you will ever need is listed in your general onboarding document. However, there is a lot of things to digest in there so let's highlight a few items that you should focus on.
 
+- [ ] [GitLab University](https://docs.gitlab.com/ee/university/) is a great place to start when learning about version control with Git and GitLab, as well as other GitLab features.
 - [ ] The [handbook](https://about.gitlab.com/handbook/) is a great resource for all things GitLab. Understanding the [Values](https://about.gitlab.com/handbook/values/) is really important as that sets the tone for all interactions that you will have in the company. If anything is unclear about it, feel free to ask a question in this issue or in your next 1:1 with your UX buddy or UX manager.
 - [ ] [Learn how we communicate as a company](https://about.gitlab.com/handbook/communication/). We use asynchronous communication as a start and are as open as we can be by communicating through public issues, chat channels, and placing an emphasis on ensuring that conclusions of offline conversations are written down. 
 - [ ] Sooner or later you will have some money related questions, so be sure to check out the [spending company money page](https://about.gitlab.com/handbook/spending-company-money/).

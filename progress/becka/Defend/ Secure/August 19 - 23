@@ -1,0 +1,15 @@
+Current Issues:
+(in order of priority/ milestone)
+- UX Discovery: WAF interface improvements (https://gitlab.com/gitlab-org/gitlab-ee/issues/13555 (Milestone: 12.4)
+    Concerns: I don't know how or where to get started on either of these! I sent Andy some Slack messages about my questions/ concerns/ potential strategies on Tues so I'll wait to see what he says. But the technical side of things is wildly intimidating at the moment.
+
+- Defend Product Foundations Document (https://gitlab.com/gitlab-org/gitlab-design/issues/547)
+    which will influence: Defend UX Page (https://gitlab.com/gitlab-org/gitlab-design/issues/548)
+
+Issues to keep on my radar:
+- Add configuration section to Security and Compliance nav (https://gitlab.com/gitlab-org/gitlab-ee/issues/13646#note_205928144). This will apply to Defend as it will also need a configuration section that matches this one.
+- Improve day 1 and setup UX for Secure features (https://gitlab.com/gitlab-org/gitlab-ee/issues/13638)
+- Discuss Secure approach to dashboards strategy and frameworks (https://gitlab.com/gitlab-org/gitlab-ee/issues/13642#note_205199185)
+
+Notes:
+- Consider talking to Sam (in the future, as Defend ramps up) about how we'd like to work and cadence of meetings/ syncs re: https://gitlab.com/gitlab-org/gitlab-design/issues/551

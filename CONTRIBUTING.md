@@ -28,19 +28,23 @@ _This notice should stay as the first item in the CONTRIBUTING.md file._
       - [Editing Sketch files](#editing-sketch-files)
     - [Prototyping software](#prototyping-software)
 - [For GitLabbers 🦊](#for-gitlabbers-)
+  - [Work on personal files](#work-on-personal-files)
+  - [Update Sketch UI Kit](#update-sketch-ui-kit)
 - [Organization](#organization)
   - [Naming](#naming)
   - [Files and folders](#files-and-folders)
 - [Sketch 🔶](#sketch-)
   - [Plugins](#plugins)
-  - [Pattern library](#pattern-library)
+  - [GitLab Sketch UI Kit](#gitlab-sketch-ui-kit)
   - [Pages and artboards](#pages-and-artboards)
-  - [Updating](#updating)
+  - [Exporting](#exporting)
+  - [Updating the app](#updating-the-app)
 - [Framer 🦋](#framer-)
   - [Templates](#templates)
 - [Commits](#commits)
 - [Superpowers 🌠](#superpowers-)
 - [Git](#git)
+  - [Git LFS](#git-lfs)
 - [Code of conduct](#code-of-conduct)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -55,38 +59,55 @@ Before contributing, get started by following the steps in the [README](/README.
 
 ## For wider community contributors 🍓
 
-Everyone can contribute to GitLab. In this project, we only accept contributions
-from wider community members to our [pattern library][pattern-library-file]
-because merging binary files (such as Sketch files) is a manual process that can
-be very time-consuming. However, we do encourage design contributions/improvements
-to the [GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab-ce) and
-[Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee) projects. Feel
-free to create an issue on those project's issue trackers with your ideas.
+Everyone can contribute to GitLab. In this project, we only accept
+contributions from wider community members to the [GitLab Sketch
+UI Kit][sketch-ui-kit-doc], because merging binary files (such as Sketch
+files) is a manual process that can be very time-consuming. However, we do
+encourage design contributions/improvements to GitLab itself — use its
+[issue tracker](https://gitlab.com/gitlab-org/gitlab/issues) to add your ideas
+to an existing or new issue.
 
-If you want to contribute text changes to the [pattern library][pattern-library-file],
-please [create an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new)
-with your changes and mention _only one_ of the [designers who manage this project][contacts].
+If you want to contribute text changes to our [Sketch
+UI Kit][sketch-ui-kit-doc], please [create an
+issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) with your
+changes and mention _only one_ of the [designers who manage this
+project][contacts].
 
-For all other kinds of changes to the [pattern library][pattern-library-file]:
+For all other kinds of changes to the [Sketch UI Kit][sketch-ui-kit-doc]:
 
 1. [Fork this project][fork-link] to your personal namespace.
-1. Navigate to the _Repository_ section of your fork and create a branch by clicking on the <kbd>+</kbd> button above the file explorer.
-1. Read the [pattern library documentation][pattern-library-doc] for information on fonts, file structure, and how to use symbols.
-1. Download the [pattern library file][pattern-library-file].
-1. Locally, make your changes to that file while following the [Sketch](#sketch-) and [naming](#naming) guidelines.
-1. Back in GitLab, replace the pattern library file in your fork with the changed version from your computer. Make sure you select the branch you created before.
-1. Create a merge request from your fork, selecting the appropriate source branch and this project's `master` branch as the target.
-   - Be very descriptive of the changes you've made. The reviewer will have to manually merge them, which means they have to be aware of even the smallest changes as they could be easy to miss.
-   - Mention _only one_ of the [designers who manage this project][contacts] to review.
-   - It's normal to have merge conflicts because we're dealing with binary files, please ignore.
-   - The merge request will ultimately be closed as the changes need to be merged manually, instead of using Git.
-1. High-five yourself and go brew some coffee while you wait for the review. Thanks! 🙌
+1. Navigate to the _Repository_ section of your fork and create a branch by
+   clicking on the <kbd>+</kbd> button above the file explorer.
+1. Read the [Sketch UI Kit documentation][sketch-ui-kit-doc] for information
+   on updating files, structure, fonts, and symbols.
+1. Download the [pattern library][pattern-library-file] and [instance
+   sheet][instance-sheet] (the files that make up our Sketch UI Kit).
+1. Locally, make your changes while following the [Sketch](#sketch-) and
+   [naming](#naming) guidelines.
+1. Back in GitLab, replace the file in your fork with the changed version from
+   your computer. Make sure you select the branch you created before.
+1. Create a merge request from your fork, selecting the appropriate source
+   branch and this project's `master` branch as the target.
+   - Be very descriptive of the changes you've made. The reviewer will have to
+     manually merge them, which means they have to be aware of even the
+     smallest changes as they could be easy to miss.
+   - Mention _only one_ of the [designers who manage this project][contacts] to
+     review.
+   - It's normal to have merge conflicts because we're dealing with binary
+     files, please ignore.
+   - The merge request will ultimately be closed as the changes need to be
+     merged manually, instead of using Git.
+1. High-five yourself and go brew some coffee while you wait for the review.
+   Thanks! 🙌
 
 ### Software
 
 #### Sketch
 
-We use [Sketch](https://sketchapp.com/) for user interface design, but you can use any design software that's available to you. Just make sure to include editable exports (SVG, PDF, EPS) along with your source files.
+We use [Sketch](https://sketchapp.com/) for user interface design (see [Sketch
+guidelines](#sketch-)), but you can use any design software that's available to
+you. Just make sure to include editable exports (SVG, PDF, EPS) along with your
+source files.
 
 If you do not have Sketch, here are some software suggestions:
 
@@ -109,7 +130,9 @@ We use [Framer](https://framer.com/) for more complicated designs that require a
 
 ## For GitLabbers 🦊
 
-If you’re working on your personal files:
+### Work on personal files
+
+For working on your personal files:
 
 1. In the [`progress`][progress-folder] folder, create your personal folder named after your first name in lowercase (e.g. `pedro`).
 1. In your personal folder, create folders and files according to our [organization guidelines](#organization).
@@ -118,17 +141,16 @@ If you’re working on your personal files:
    - If you’re having a hard time with this whole Git thing, read our [small help section](#git).
 1. Commit and push your changes, following our [commit guidelines](#commits).
 
-If you’re updating the [pattern library][pattern-library-file]:
+### Update Sketch UI Kit
 
-1. Read the [pattern library documentation][pattern-library-doc] for information on fonts, file structure, and how to use symbols.
-1. Before pulling or making any changes, check if the [pattern library file][pattern-library-file] is unlocked (in the top right corner, the button should read “Lock”). If it is locked by someone else (button reads “Unlock”), you must wait until they push their changes and unlock it. Reach out to them if it's taking too long (hover over the button to find out who locked it).
-1. [Lock the file](https://docs.gitlab.com/ee/user/project/file_lock.html#locking-a-file-or-a-directory) to prevent others from overwriting it while you add your changes.
-1. Close the pattern library file if you have it open in Sketch (or else the next step won't have any effect while you have it open).
-1. Pull the latest changes from the repository.
-1. Open the pattern library file in Sketch and add your changes.
-1. Commit and push your changes, following our [commit guidelines](#commits). Do this often so you have a backup of your work.
-1. [Unlock the file](https://docs.gitlab.com/ee/user/project/file_lock.html#unlocking-a-file-or-a-directory) so others can work on it.
-1. Kick off your shoes and lean back, you did great! 💪
+To update the [Sketch UI Kit][sketch-ui-kit-doc] (pattern library or
+instance sheet, the files that make up our Sketch UI Kit):
+1. For icons, [create a **New Icon**
+   issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=New%20Icon)
+   and follow its checklist.
+1. For everything else, [create a **UX Pattern**
+   issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern)
+   and follow its checklist.
 
 ## Organization
 
@@ -161,29 +183,38 @@ layers and styles in Sketch:
                   - asset.svg
 - templates/
   - framer/
+- gitlab-instance-sheet.sketch
+- gitlab-pattern-library.sketch
 ```
 
 
-1. [`doc/`](/doc): Contains documentation files related to the build out of our [pattern library file][pattern-library-file].
+1. [`doc/`](/doc): Contains documentation files related to using and updating
+   the [Sketch UI Kit][pattern-library-file].
 1. [`hooks/`](/hooks): Contains custom [Git hooks][git-hooks] to trigger actions at certain points in git’s execution. Currently, the only one there automates adding issue/merge request/epic IDs to commit messages ([how to install it](#commits)).
 1. [`hosted/`][hosted-folder]: Contains deliverables that are hosted online and are publicly accessible. Be very careful changing the structure of this folder as it might break external links. For more information, refer to the [Superpowers](#superpowers-) section.
 1. [`progress/`][progress-folder]: Contains personal work-in-progress files. It’s assumed that [everything has a related issue][everything-starts-with-an-issue].
-   - Personal folders are organized around our [workflow labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#workflow-labels)
-      - The 1st-level folders are named after the [Group label)](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#team-labels-cicd-discussion-edge-platform-etc) (also called team label) assigned to the issue/merge request (the green one; except [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=UX))
-      - The 2nd-level folders are named after [subject labels](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#subject-labels-wiki-container-registry-ldap-api-etc) assigned to the issue/merge request (the blue ones). If there are multiple Subject labels assigned, the folder is named after all labels, in alphabetical order, separated by a dash (e.g. `settings-wiki`).
-   - Sketch files are named after their related issue/merge request:
+   - Personal folders are organized around our [workflow labels](https://gitlab.com/gitlab-org/gitlab/blob/master/CONTRIBUTING.md#workflow-labels)
+      - The 1st-level folders are named after the [Group label)](https://gitlab.com/gitlab-org/gitlab/blob/master/CONTRIBUTING.md#team-labels-cicd-discussion-edge-platform-etc) (also called team label) assigned to the issue/merge request (the green one; except [UX](https://gitlab.com/gitlab-org/gitlab/issues?label_name=UX))
+      - The 2nd-level folders are named after [subject labels](https://gitlab.com/gitlab-org/gitlab/blob/master/CONTRIBUTING.md#subject-labels-wiki-container-registry-ldap-api-etc) assigned to the issue/merge request (the blue ones). If there are multiple Subject labels assigned, the folder is named after all labels, in alphabetical order, separated by a dash (e.g. `settings-wiki`).
+   - Sketch files are named after their related issue/merge request/epic:
       - The basic naming pattern is: `projecthandle#issueID-title.sketch`:
-         - Starts with the project handle (found in the project URL). Use the compact versions `ce` or `ee` for the Community Edition and Enterprise Edition, respectively. All other projects should have their full project handle (e.g. `ux-research` for the [UX Research project](https://gitlab.com/gitlab-org/ux-research))
+         - Starts with the project handle (found in the project URL). You don't need to use a project handle for issues in the Design project. All other projects should have their full project handle (e.g. `gitlab` for the [GitLab project](https://gitlab.com/gitlab-org/gitlab) or `ux-research` for the [UX Research project](https://gitlab.com/gitlab-org/ux-research))
          - The project handle is followed by `#<ID>` for issues or `!<ID>` for merge requests (e.g. `#1337` or `!1337`)
-         - The rest of the name should be a “compact” version of the issue/merge request title
-         - For example, the Sketch file for the issue [#28481 Display time tracking totals on milestone page](https://gitlab.com/gitlab-org/gitlab-ce/issues/28481) on the Community Edition (CE) issue tracker could be named `ce#28481-time-tracking-totals.sketch`
+         - Epics from the GitLab.org group don't need the group handle prefix, just the epic ID as `&<ID>` (e.g. `&1337`)
+         - The rest of the name should be a “compact” version of the issue/merge request/epic title
+         - For example, the Sketch file for the GitLab issue [#5419 Create issue from epic](https://gitlab.com/gitlab-org/gitlab/issues/5419) could be named `gitlab#5419-create-issue-epic.sketch`
       - The Git hook that automates adding issue/merge request/epic numbers to commit messages depends on using this naming pattern, so please follow it so that everything is nicely referenced (see [how to install it](#commits))
-      - If the work is related to multiple issues and/or merge requests, just duplicate the prefix and separate with a dash (e.g. `ce#1234-ee#5678-awesome-design.sketch`). In the Sketch file, each page can be named after an issue/merge request (see the [Sketch](#sketch-) section).
-      - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue/merge request, following the same pattern as described before (e.g. `ce#1234-awesome-design`).
-      - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `ce#1234-awesome-design--anonymous.sketch` and `ce#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
+      - If the work is related to multiple issues and/or merge requests, just duplicate the prefix and separate with a dash (e.g. `gitlab#1234-ux-research#5678-awesome-design.sketch`). In the Sketch file, each page can be named after an issue/merge request (see the [Sketch](#sketch-) section).
+      - If you have assets or other files related to the main Sketch file, consider creating an “umbrella” folder to keep everything together. The folder should be named after the issue/merge request, following the same pattern as described before (e.g. `gitlab#1234-awesome-design`).
+      - If you think the Sketch file is becoming too complex, consider breaking it down into separate files, suffixing the file names with a double dash modifier (e.g. `gitlab#1234-awesome-design--anonymous.sketch` and `gitlab#1234-awesome-design--logged-in.sketch`). Then, create an “umbrella” folder, as described in the previous point. Alternatively, you can organize the Sketch file internally to deal with this complexity (see the [Sketch](#sketch-) section).
    - For more information, refer to the [wider community contributors](#for-wider-community-contributors-) section or [GitLabbers](#for-gitlabbers-) section
 1. [`templates/`][templates-folder]: Contains ready-made templates for tools other than Sketch, meant to kickstart anyone's designs. It's assumed that some form of documentation is provided along with or inside of the template.
    - Each tool should have it's own sub folder named after that tool.
+1. [`gitlab-instance-sheet.sketch`][instance-sheet] and
+   [`gitlab-pattern-library.sketch`][pattern-library-file]: Sketch files that
+   make up our Sketch UI Kit. Read the [Sketch UI Kit
+   documentation][sketch-ui-kit-doc] for information on using and updating
+   them.
 
 ## Sketch 🔶
 
@@ -210,32 +241,33 @@ properly. If you’d like to recommend a plugin, please [create an issue](https:
 | [Relabel Button](https://github.com/kenmoore/sketch-relabel-button) | Prompts for a button’s new label, applies the text, resizes the button background, and repositions any other interior elements while maintaining the existing padding. It’s essentially awesome voodoo magic. |
 | [Stark](http://www.getstark.co/) | Check designs against the 8 different types of colorblindness and color pair contrast against WCAG 2.0 standards. |
 | [SVGO Compressor](https://github.com/bohemiancoding/svgo-compressor) | Compresses SVG assets using SVGO, right when you export them as usual from Sketch. Useful when exporting icons and illustrations for [GitLab SVG's](https://gitlab.com/gitlab-org/gitlab-svgs). |
-| [Shared Style Finder](https://github.com/sonburn/shared-style-finder) | Find instances of a shared layer or text style. Useful to find deprecated styles that should be removed from the [pattern library][pattern-library-doc]. |
-| [Symbol Instance Locator](https://github.com/sonburn/symbol-instance-locator) | Find instances of a selected symbol or symbol instance, even when it's being used as an override. Useful to find duplicated or deprecated symbols that should be removed from the [pattern library][pattern-library-doc]. |
-| [Symbol Swapper](https://github.com/sonburn/symbol-swapper) | Swap the selected symbols and/or symbol instances to a master of the same name in a library. Useful when removing duplicated symbols from the [pattern library][pattern-library-doc]. |
-| [Unused Style Remover](https://github.com/sonburn/unused-style-remover) | Lists unused layer or text styles and allows you to remove all of them or just the ones you want. Useful when removing duplicated or deprecated styles from the [pattern library][pattern-library-doc]. |
+| [Shared Style Finder](https://github.com/sonburn/shared-style-finder) | Find instances of a shared layer or text style. Useful to find deprecated styles that should be removed from the [Sketch UI Kit][sketch-ui-kit-doc]. |
+| [Symbol Instance Locator](https://github.com/sonburn/symbol-instance-locator) | Find instances of a selected symbol or symbol instance, even when it's being used as an override. Useful to find duplicated or deprecated symbols that should be removed from the [Sketch UI Kit][sketch-ui-kit-doc]. |
+| [Symbol Swapper](https://github.com/sonburn/symbol-swapper) | Swap the selected symbols and/or symbol instances to a master of the same name in a library. Useful when removing duplicated symbols from the [Sketch UI Kit][sketch-ui-kit-doc]. |
+| [Unused Style Remover](https://github.com/sonburn/unused-style-remover) | Lists unused layer or text styles and allows you to remove all of them or just the ones you want. Useful when removing duplicated or deprecated styles from the [Sketch UI Kit][sketch-ui-kit-doc]. |
 
-### Pattern library
+### GitLab Sketch UI Kit
 
-Read the [pattern library documentation][pattern-library-doc] before contributing to it.
+Read the [GitLab Sketch UI Kit documentation][sketch-ui-kit-doc] for information on using and updating it.
 
 ### Pages and artboards
 
 In terms of organization method, use the one that best suits you. However, if
-you think the file is becoming too complex, consider organizing it with different
-pages and/or artboards. For example, pages can be different issues and artboards can be
-different states. Remember to follow the [naming guidelines](#naming).
+you think the file is becoming too complex, consider organizing it with
+different pages and/or artboards. For example, pages can be different issues
+and artboards can be different states. Remember to follow the [naming
+guidelines](#naming).
 
 See the [Files and folders](#files-and-folders) section for naming and
 organizing Sketch files.
 
 ### Exporting
 
-Mockups with transparent backgrounds can cause many problems when viewing them on 
-dark application themes. To prevent these issues, add a `Background color` to 
-your artboards and enable the option to `Include in export`.
+Mockups with transparent backgrounds can cause many problems when viewing them
+on dark application themes. To prevent these issues, add a `Background color`
+to your artboards and enable the option to `Include in export`.
 
-### Updating
+### Updating the app
 
 Sketch frequently releases major versions (e.g. **58**.0) with useful new
 features, but they might be unstable or break certain plugins at first. The most
@@ -258,7 +290,7 @@ We recommend making use of the Framer templates provided in the [templates direc
 - Be a good contributor and write a [good commit message](https://chris.beams.io/posts/git-commit/)
 - Install the [Git hook][git-hooks] that automates adding issue/merge request/epic IDs to commit messages:
    - At the root of the repository, run `ln -s ../../hooks/prepare-commit-msg .git/hooks/prepare-commit-msg`. This will keep your local Git hook up-to-date.
-   - Once installed, every time you commit, the hook will add the issues, merge requests, and epic IDs found on the staged files (and their folders) to the commit message body (e.g. `gitlab-ce#1337` or `ux-research!1337` or `&123`)
+   - Once installed, every time you commit, the hook will add the issues, merge requests, and epic IDs found on the staged files (and their folders) to the commit message body (e.g. `gitlab#1337` or `ux-research!1337` or `&123`)
    - It only works if you follow the naming pattern described in the [Files and folders](#files-and-folders) section
    - These references automatically create a commit note in the corresponding issue/merge request, making it easy for other people to contribute and fork the design (especially important if someone is out-of-office)
 - Enforce fast forward as merge strategy locally by running `git config --local merge.ff only` in your local copy of this repository. This makes it so that we don't create uninformative merge commits.
@@ -355,4 +387,5 @@ version 1.1.0, available at [http://contributor-covenant.org/version/1/1/0/](htt
 [git-hooks]: https://git-scm.com/docs/githooks
 [contacts]: /README.md#contacts
 [pattern-library-file]: /gitlab-pattern-library.sketch
-[pattern-library-doc]: /doc/pattern-library.md
+[sketch-ui-kit-doc]: /doc/sketch-ui-kit.md
+[instance-sheet]: /gitlab-instance-sheet.sketch

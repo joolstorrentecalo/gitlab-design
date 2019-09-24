@@ -240,7 +240,7 @@ your artboards and enable the option to `Include in export`.
 Sketch frequently releases major versions (e.g. **58**.0) with useful new
 features, but they might be unstable or break certain plugins at first. The most
 [boring solution](https://about.gitlab.com/handbook/values/#efficiency) is to
-only update **one weeks** after the [major version release](https://www.sketchapp.com/updates/).
+only update **one week** after the [major version release](https://www.sketchapp.com/updates/).
 This allows time for the Sketch and plugin developers to fix any bugs. After the
 waiting period is over, updating to minor versions (e.g. 58.**1**) on release is
 ok and encouraged, as they are usually intended to fix bugs.

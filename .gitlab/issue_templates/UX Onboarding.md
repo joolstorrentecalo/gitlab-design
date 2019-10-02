@@ -68,15 +68,15 @@ You can [open up an issue at the design repository](https://gitlab.com/gitlab-or
 - [ ] Start collaborating with your assigned UX Buddy. You should both arrange a day to have a regular 1:1 call (at least once a week). They have prepared a [Google Doc](FILL WITH GOOGLE DOC URL) to guide your sessions, feel free to add discussion points to the agenda.
 
 <!--
-Below are the extra info might help to understand our product better, feel free to remove or edit
+Below is extra inforomation to help you understand our product better. Feel free to remove or revise.
 -->
 
-## Understand gitlab users - how people use our product  :pencil2:
-- [ ] Read about user [persona](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#roles-vs-personas)
+## Understand GitLab users - how people use our product  :pencil2:
+- [ ] Read about user [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#roles-vs-personas)
 - [ ] Who (Persona) does what using which feature: This is [a living document](https://docs.google.com/spreadsheets/d/1rfdzLqRZtdSlAy99-Zf4nabiIBoDd2u6_gwuRgvL0w8/edit#gid=0). It contains all stages we have and their product goal. It also list out who are the target users for each stage and what are their main tasks. You can use it as a reading documents, or reference to other documents (most tabs contain hyper links to handbook). You can also add links/extra info which you think will be helpful, such as link baseline study, ux version page to the corresponding    area.
-- [ ] User experience baseline studies: [what is baseline study](https://about.gitlab.com/handbook/engineering/ux/experience-baseline-recommendations/),  [epic link](https://gitlab.com/groups/gitlab-org/-/epics?label_name=UX+experience+baseline)
+- [ ] User experience baseline and recommendations: [what are they?](https://about.gitlab.com/handbook/engineering/ux/experience-baseline-recommendations/),  [epic link](https://gitlab.com/groups/gitlab-org/-/epics?label_name=UX+experience+baseline)
 
-## Some tech knowledge might help you to know the product better :computer:
+## Tech knowledge to know :computer:
 - [ ] What is DevOps: [video](https://youtu.be/_Gpe1Zn-1fE )
 - [ ] What is CI(continuous integration)/CD(continuous delivery/deployment): [video](https://www.youtube.com/watch?v=AlrImm1T8Wg)
 - [ ] What is Docker: [video](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
@@ -90,7 +90,7 @@ Below are the extra info might help to understand our product better, feel free 
 
 <!--
 
-Feel free to add more info and links that may help your new team mate
+Feel free to add more info and links that may help your new teammate
 better understand the product stage, if necessary.
 
 -->

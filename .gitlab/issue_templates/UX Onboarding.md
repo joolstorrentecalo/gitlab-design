@@ -115,7 +115,7 @@ To share some new found knowledge, the rest of the UX department would love to h
 
 Taking in a lot of information can quickly feel overwhelming. This is normal and you are encouraged to ask questions any time. Embrace knowing nothing and you'll take it in as you go. Take your time to work through your onboarding tasks, you are not expected to be at 100% productivity right away! And remember: if you are here, it's because you are the best person we have found in the world (literally) to do this job :smile:
 
-Working remotely comes with great power and great responsibility. [Here are a few tips on being efficient and productive](https://about.gitlab.com/2018/05/17/eliminating-distractions-and-getting-things-done/). 
+Working remotely comes with great power and great responsibility. [Here are a few tips on being efficient and productive](https://about.gitlab.com/2018/05/17/eliminating-distractions-and-getting-things-done/). If you need inspiration on how to set up a routine that will empower you doing your best work, discover [how other GitLabbers structure their workday](https://gitlab.com/gl-retrospectives/configure/issues/17).
 
 ### Remember to practice self-care
 

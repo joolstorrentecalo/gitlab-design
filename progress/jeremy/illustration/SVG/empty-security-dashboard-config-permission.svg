@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="226" viewBox="0 0 318 226">
+  <defs>
+    <rect id="a" width="20" height="4" x="0" y="0" rx="2"/>
+    <rect id="b" width="92" height="4" x="28" y="0" rx="2"/>
+    <rect id="c" width="36" height="4" x="16" y="8" rx="2"/>
+    <rect id="d" width="92" height="4" x="60" y="8" rx="2"/>
+    <rect id="e" width="44" height="24" x="34" y="42" rx="12"/>
+    <rect id="f" width="44" height="24" x="34" y="74" rx="12"/>
+    <path id="g" d="M40,9 L72,9 C73.1045695,9 74,9.8954305 74,11 C74,12.1045695 73.1045695,13 72,13 L40,13 C38.8954305,13 38,12.1045695 38,11 C38,9.8954305 38.8954305,9 40,9 Z"/>
+    <path id="h" d="M39,9 L71,9 C72.1045695,9 73,9.8954305 73,11 C73,12.1045695 72.1045695,13 71,13 L39,13 C37.8954305,13 37,12.1045695 37,11 C37,9.8954305 37.8954305,9 39,9 Z"/>
+    <rect id="i" width="49" height="4" x="28" y="52" rx="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="rotate(180 117.5 113)">
+      <use fill="#6E49CB" xlink:href="#a"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#a"/>
+      <use fill="#6E49CB" xlink:href="#b"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#b"/>
+      <use fill="#6E49CB" xlink:href="#c"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#c"/>
+      <use fill="#6E49CB" xlink:href="#d"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#d"/>
+    </g>
+    <g transform="translate(206 66)">
+      <rect width="108" height="118" x="2" y="2" fill="#FFFFFF" stroke="#DFDFDF" stroke-width="4" rx="4"/>
+      <use fill="#FC6D26" xlink:href="#e"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#e"/>
+      <g stroke="#F4C6AC" transform="translate(54 42)">
+        <circle cx="12" cy="12" r="10" fill="#FCF0EA" stroke-width="4"/>
+        <path stroke-linecap="round" stroke-width="2" d="M9,9 L15,15"/>
+        <path stroke-linecap="round" stroke-width="2" d="M9,9 L15,15" transform="matrix(-1 0 0 1 24 0)"/>
+      </g>
+      <use fill="#FC6D26" xlink:href="#f"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#f"/>
+      <g stroke="#F4C6AC" transform="translate(54 74)">
+        <circle cx="12" cy="12" r="10" fill="#FCF0EA" stroke-width="4"/>
+        <path stroke-linecap="round" stroke-width="2" d="M9,9 L15,15"/>
+        <path stroke-linecap="round" stroke-width="2" d="M9,9 L15,15" transform="matrix(-1 0 0 1 24 0)"/>
+      </g>
+      <use fill="#6E49CB" xlink:href="#g"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#g"/>
+      <path stroke="#DFDFDF" stroke-linecap="square" stroke-width="2" d="M26,19.6503906 L106.999455,19.3477342"/>
+    </g>
+    <g transform="translate(0 76)">
+      <rect width="108" height="108" x="2" y="2" fill="#FFFFFF" stroke="#DFDFDF" stroke-width="4" rx="4"/>
+      <path stroke="#DFDFDF" stroke-linecap="round" stroke-width="4" d="M23,41 L23,98"/>
+      <use fill="#6E49CB" xlink:href="#h"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#h"/>
+      <path stroke="#DFDFDF" stroke-linecap="round" stroke-width="4" d="M13,88 L96,88"/>
+      <path stroke="#DFDFDF" stroke-linecap="square" stroke-width="2" d="M5,19.6503906 L85.9994548,19.3477342"/>
+      <path fill="#A7A7A7" d="M8,12 L8,8 C8,3.581722 11.581722,0 16,0 C20.418278,0 24,3.581722 24,8 L24,12 L28,12 L28,32 L4,32 L4,12 L8,12 Z M12,12 L20,12 L20,8 C20,5.790861 18.209139,4 16,4 C13.790861,4 12,5.790861 12,8 L12,12 Z M8,16 L8,28 L24,28 L24,16 L8,16 Z M14,20 L18,20 L18,24 L14,24 L14,20 Z" transform="translate(39 38)"/>
+    </g>
+    <g transform="translate(87 19)">
+      <rect width="140" height="181" x="2" y="2" fill="#EFEDF8" stroke="#6E49CB" stroke-width="4" rx="8"/>
+      <rect width="82" height="10" x="31" y="10" fill="#FC6D26" stroke="#FFFFFF" stroke-width="2" rx="4"/>
+      <path fill="#FFFFFF" stroke="#FC6D26" stroke-width="4" d="M122.971961,100 C122.99064,99.4288037 123,98.856291 123,98.2826087 C123,70.6312203 101.237327,48.0949333 74.0000148,47.0387126 L74,100 L122.971961,100 Z"/>
+      <path fill="#FFFFFF" stroke="#C2B7E6" stroke-width="2" d="M67,61.0116712 C44.2660032,61.5428541 26,80.1383002 26,103 C26,126.195959 44.8040405,145 68,145 C89.7444592,145 107.790687,128.419145 109.81211,107 L67,107 L67,61.0116712 Z"/>
+      <path stroke="#C2B7E6" stroke-linecap="square" stroke-width="2" d="M5,26.6509179 L139,26.3490821"/>
+      <path fill="#FC6D26" d="M93.99992,84 C96.20904,84 98,85.7908 98,88 C98,90.2092 96.20916,92 94,92 C91.79088,92 90,90.2092 90,88 C90,85.7908 91.7908,84 93.99992,84 Z M94.0000191,64 C96.7902971,64 98.7216702,66.89968 97.741932,69.61796 L94.0000191,84 L90.2580678,69.61796 C89.2783295,66.89968 91.2097026,64 94.0000191,64 Z"/>
+      <path stroke="#C2B7E6" stroke-linecap="round" stroke-width="4" d="M110 130L129 130M25 51L60 51"/>
+      <path stroke="#FFFFFF" stroke-linecap="round" stroke-width="4" d="M25 159L119 159M25 168L103 168"/>
+      <path stroke="#C2B7E6" stroke-linecap="round" stroke-width="4" d="M110,138 L121,138"/>
+    </g>
+    <g transform="translate(173 2)">
+      <use fill="#6E49CB" xlink:href="#i"/>
+      <use fill="#FFFFFF" fill-opacity=".8" xlink:href="#i"/>
+      <path stroke="#C2B7E6" stroke-linecap="round" stroke-width="4" d="M87.1801758,54 L109,54 C123.911688,54 136,41.9116882 136,27 C136,12.0883118 123.911688,0 109,0 C94.0883118,0 82,12.0883118 82,27 C82,34.0379537 84.6928046,40.4469692 89.104319,45.2529519"/>
+      <path stroke="#C2B7E6" stroke-linecap="round" stroke-width="4" d="M20,54 C8.954305,54 0,62.954305 0,74" transform="matrix(0 1 1 0 -54 54)"/>
+      <path fill="#6E49CB" d="M13.54416,1.367544 C13.81638,0.55086 14.58066,0 15.44152,0 L16.55848,0 C17.41934,0 18.18362,0.55086 18.45584,1.367544 L19.50684,4.52052 C20.25,4.74726 20.9624,5.04416 21.6366,5.40354 L24.6102,3.9168 C25.3802,3.5318 26.31,3.68272 26.9188,4.29144 L27.7086,5.08124 C28.3174,5.68996 28.4682,6.6199 28.0832,7.38988 L26.5966,10.3634 C26.9558,11.03756 27.2528,11.75006 27.4794,12.49316 L30.6324,13.54416 C31.4492,13.81638 32,14.58066 32,15.44152 L32,16.55848 C32,17.41934 31.4492,18.18362 30.6324,18.45584 L27.4794,19.50684 C27.2528,20.25 26.9558,20.9624 26.5966,21.6366 L28.0832,24.6102 C28.4682,25.38 28.3174,26.31 27.7086,26.9188 L26.9188,27.7086 C26.31,28.3172 25.3802,28.4682 24.6102,28.0832 L21.6366,26.5964 C20.9624,26.9558 20.25,27.2528 19.50684,27.4794 L18.45584,30.6324 C18.18362,31.4492 17.41934,32 16.55848,32 L15.44152,32 C14.58066,32 13.81638,31.4492 13.54416,30.6324 L12.49316,27.4794 C11.75006,27.2528 11.03758,26.9558 10.36344,26.5966 L7.38982,28.0834 C6.61984,28.4684 5.6899,28.3174 5.08118,27.7086 L4.29136,26.9188 C3.68264,26.3102 3.53174,25.3802 3.91672,24.6102 L5.40352,21.6366 C5.04416,20.9624 4.74726,20.25 4.52052,19.50684 L1.367544,18.45584 C0.55086,18.18362 0,17.41934 0,16.55848 L0,15.44152 C0,14.58066 0.55086,13.81638 1.367544,13.54416 L4.52052,12.49316 C4.74726,11.75004 5.04416,11.03752 5.40352,10.36334 L3.91674,7.38976 C3.53174,6.61978 3.68266,5.68984 4.29138,5.08112 L5.08118,4.2913 C5.6899,3.68258 6.61986,3.53168 7.38982,3.91666 L10.36344,5.40348 C11.0376,5.04414 11.75008,4.74724 12.49316,4.52052 L13.54416,1.367544 Z M16,24 C20.4182,24 24,20.4182 24,16 C24,11.58172 20.4182,8 16,8 C11.58172,8 8,11.58172 8,16 C8,20.4182 11.58172,24 16,24 Z" transform="translate(93 11)"/>
+    </g>
+  </g>
+</svg>

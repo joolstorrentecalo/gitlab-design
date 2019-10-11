@@ -1,7 +1,7 @@
 # GitLab Design
 
 :information_source: **This project is primarily used by [GitLab’s UX Design team][ux-handbook]
-to host design files and hand them off for implementation. Before raising an
+to [host design files](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#superpowers-) and hand them off for implementation. Before raising an
 issue to any of GitLab’s issue trackers, please see [Getting help for GitLab](https://about.gitlab.com/getting-help/) on our
 website to determine the best place to post. Thank you for helping to make GitLab a better product.**
 
@@ -17,9 +17,11 @@ website to determine the best place to post. Thank you for helping to make GitLa
 
 
 - [About](#about)
-  - [Goals](#goals)
+- [Goals](#goals)
 - [Getting started](#getting-started)
 - [Contributing](#contributing)
+    - [For wider community contributors 🍓](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#for-wider-community-contributors-)
+    - [For GitLabbers 🦊](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#work-on-personal-files)
 - [Contacts](#contacts)
 - [Links](#links)
 - [License](#license)
@@ -69,7 +71,10 @@ was created on July 8, 2017.
 ## Contributing
 
 GitLab is an open source project and we are very happy to accept community
-contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
+contributions. Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md) for details, ideas, tips and guidelines on how to contribute.
+
+- [Contribution guidelines for wider community contributors 🍓](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#for-wider-community-contributors-)
+- [Contribution guidelines for GitLabbers 🦊](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md#work-on-personal-files)
 
 ## Contacts
 

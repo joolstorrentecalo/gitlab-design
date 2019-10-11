@@ -307,21 +307,23 @@ easy design handoffs. You can [thank us later](https://about.gitlab.com/handbook
 
 To use these awesome _superpowers_:
 
-1. Create a folder with your first name in the [`hosted` directory][hosted-folder] in lowercase (e.g. `jane`). This way we can re-organize the repository without breaking any external links
+1. Create a folder with your first name / GitLab username in the [`hosted` directory][hosted-folder] in lowercase (e.g. `jane`). This way we can re-organize the repository without breaking any external links
    - Framer prototypes: if you intend to share them, just move the `*.framer` folder to your personal `hosted` directory
-   - Static HTML pages: Create a new folder in your named folder that ends in `-spec-previews` and inside, name the main page `index.html`
+   - Static HTML pages: Create a new folder in your named folder and inside, name the main page `index.html`
 1. Export Specs from the [Sketch Measure Plugin][sketch-measure]:
    - In Sketch, select the artboard(s) you'd like to create spec previews of.
    - In the Sketch Measure plugin menu, select `Spec Export`
    - Click `Export`
-   - Select the folder with your first name (the one you created at the beginning) and click `Export`.
-   - Check the folder that was exported to make sure it ends in `-spec-previews`
+   - Select the folder within your GitLab Design local repo (the one you created at the beginning) and click `Export`.
 1. Commit and push your changes to GitLab
 1. View your [commit’s pipeline on GitLab](https://gitlab.com/gitlab-org/gitlab-design/pipelines) and wait for it to pass
-1. [Browse our index of hosted prototypes and spec-previews][design-pages]
+1. [Browse our index of hosted pages][design-pages]
    - Search by the name of your folder using <kbd>CMD/CTRL + F</kbd>
 1. Share and rejoice! :open_hands:
 
+**TL/DR:** You can create a folder in the [`hosted` directory][hosted-folder] with your first name / GitLab username and any static webpage (specs, prototype, etc)that you put there will be published and become available for public sharing. Make sure that the main page is called `index.html` and to have it inside another folder named after the spec, prototype, documentation, page or random html artifact you want to share.
+
+You can find all hosted pages here: [Index of Hosted Pages][design-pages]. To find your pages simply search by the name of your folder using <kbd>CMD/CTRL + F</kbd> 🥳
 
 ## Git
 

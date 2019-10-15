@@ -96,6 +96,13 @@ better understand the product stage, if necessary.
 
 -->
 
+## System access request :cloud:
+
+If required for your Stage work you can request access to GitLab projects, like GCP and AWS. 
+
+- [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to GCP projects & QA Tunnel Server (this is used for running Auto DevOps locally). For reference see the [example issue](https://gitlab.com/gitlab-com/access-requests/issues/1066) (the example template is outdated)
+- [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to AWS. See the [example issue](https://gitlab.com/gitlab-com/access-requests/issues/657) (the example template is outdated)
+
 In and around your third week you'll be asked by your UX buddy to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with your product stage. You will serve as a second opinion and be included in meetings.
 
 ## Awesome flows :runner:

@@ -6,8 +6,8 @@
 
 ## UX Scorecard Checklist
 
-[Link to handbook page](https://about.gitlab.com/handbook/engineering/ux/experience-baseline-recommendations/) page about UX Scorecard.
-1. [ ] Mention which [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/) might be performing the job. Keeping personas in mind allows us to use the correct language and make the best decisions to address their specific problems and pain points when writing [recommendations](https://about.gitlab.com/handbook/engineering/ux/experience-baseline-recommendations/#part-2-experience-recommendations).
+[Link to handbook page](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/) page about UX Scorecard.
+1. [ ] Mention which [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/) might be performing the job. Keeping personas in mind allows us to use the correct language and make the best decisions to address their specific problems and pain points when writing [recommendations](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/#part-2-experience-recommendations).
 1. [ ]  If your JTBD spans more than one stage group, that’s great! Review your JTBD with a designer from that stage group for accuracy.
 1. [ ]  Review the current experience, noting where you expect a user's high and low points to be. Capture the screens and jot down observations.
 1. [ ]  It's also advised that you ask another person (internal or external) relatively new to the worfklow to accomplish the JTBD. Record this session, and document their experience of the JTBD. Note that an additional user isn't currently required, but can provide valuable insights that you might not have thought of. Depending on how complex the JTBD is, and how familiar the task is to you, you can invite additional participants so you can get a broad view of the JTBD. If you approach this as a usability study and follow a process approved by a UX Researcher, you may apply an appropriate research label.

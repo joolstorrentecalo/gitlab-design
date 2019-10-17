@@ -1,13 +1,13 @@
 <!--
-# This is a template for Part 2 of XP Baselines. 
-# The issue title should be: Part 2: Experience Baseline Recommendations for [STAGE GROUP] - [JTBD]] 
+# This is a template for Part 2 of UX Scorecards. 
+# The issue title should be: Part 2: Experience Recommendations for [STAGE GROUP] - [JTBD]] 
 
 -->
 
-## Experience Baseline Recommendations Checklist
+## Experience Recommendations Checklist
 
 [Link to handbook page](https://about.gitlab.com/handbook/engineering/ux/experience-baseline-recommendations/)
-1. [ ] After completing the Experience Baseline for a JTBD, create a “{{YYYY}}{{Quarter}} Recommendations for…” issue for each JTBD and include them in the **Part 2: Experience Recommendations** sub-epic.
+1. [ ] After completing the UX Scorecard for a JTBD, create a “{{YYYY}}{{Quarter}} Recommendations for…” issue for each JTBD and include them in the **Part 2: Experience Recommendations** sub-epic.
 1. [ ] Brainstorm opportunities to fix or improve areas of the experience.
 
    Use the findings from the Emotional Grading scale to determine areas of immediate focus. For example, if parts of the experience received a “Negative” Emotional Grade, consider addressing those first. 

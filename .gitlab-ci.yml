@@ -55,9 +55,14 @@ pages:
       - public
     expire_in: 1 week
 
-  # Only run this job when commits are pushed to the `master` branch. [10]
+  # Only run this job when commits are pushed to the `master` branch and changes
+  # are made to any of the files and subdirectories in the `hosted/` folder. [10]
   only:
-    - master
+    refs:
+      - master
+    changes:
+      - hosted/**/*
+
 
 # [1]: https://docs.gitlab.com/ee/ci/docker/using_docker_images.html
 # [2]: https://docs.gitlab.com/ee/ci/yaml/README.html#git-strategy
@@ -68,4 +73,4 @@ pages:
 # [7]: https://docs.gitlab.com/ee/ci/yaml/README.html#pages
 # [8]: https://docs.gitlab.com/ee/ci/variables/README.html#predefined-variables-environment-variables
 # [9]: https://docs.gitlab.com/ee/ci/yaml/README.html#artifacts
-# [10]: https://docs.gitlab.com/ee/ci/yaml/README.html#only-and-except-simplified
+# [10]: https://docs.gitlab.com/ee/ci/yaml/README.html#onlyexcept-basic

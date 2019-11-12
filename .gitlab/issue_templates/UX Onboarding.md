@@ -75,7 +75,7 @@ Below is extra inforomation to help you understand our product better. Feel free
 ## Understand GitLab users - how people use our product  :pencil2:
 - [ ] Read about user [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#roles-vs-personas)
 - [ ] Who (Persona) does what using which feature: This is [a living document](https://docs.google.com/spreadsheets/d/1rfdzLqRZtdSlAy99-Zf4nabiIBoDd2u6_gwuRgvL0w8/edit#gid=0). It contains all stages we have and their product goal. It also list out who are the target users for each stage and what are their main tasks. You can use it as a reading documents, or reference to other documents (most tabs contain hyper links to handbook). You can also add links/extra info which you think will be helpful, such as link baseline study, ux version page to the corresponding    area.
-- [ ] User experience baseline and recommendations: [what are they?](https://about.gitlab.com/handbook/engineering/ux/experience-baseline-recommendations/),  [epic link](https://gitlab.com/groups/gitlab-org/-/epics?label_name=UX+experience+baseline)
+- [ ] User experience baseline and recommendations: [what are they?](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/),  [epic link](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20scorecard)
 
 ## Tech knowledge to know :computer:
 - [ ] What is DevOps: [video](https://youtu.be/_Gpe1Zn-1fE )

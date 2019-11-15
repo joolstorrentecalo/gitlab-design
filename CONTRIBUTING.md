@@ -134,23 +134,24 @@ We use [Framer](https://framer.com/) for more complicated designs that require a
 
 For working on your personal files:
 
+1. No need to create a separate branch for your changes. In this project, everything (including personal files) lives on the `master` branch. This is because design files are binary files and do not benefit from the merge request process.
 1. In the [`progress`][progress-folder] folder, create your personal folder named after your first name in lowercase (e.g. `pedro`).
 1. In your personal folder, create folders and files according to our [organization guidelines](#organization).
 1. Make changes while following the [Sketch](#sketch-) and [naming](#naming) guidelines. If you’re working with Sketch specs created with the [Sketch Measure Plugin][sketch-measure], [Framer prototypes][framer], or static HTML pages, please refer to the [Superpowers](#superpowers-) section.
 1. Review the files you are about to commit (with `git status -sb`).
    - If you’re having a hard time with this whole Git thing, read our [small help section](#git).
-1. Commit and push your changes, following our [commit guidelines](#commits).
+1. Commit and push your changes to `master`, following our [commit guidelines](#commits).
 
 ### Update Sketch UI Kit
 
-To update the [Sketch UI Kit][sketch-ui-kit-doc] (pattern library or
-instance sheet, the files that make up our Sketch UI Kit):
-1. For icons, [create a **New Icon**
-   issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=New%20Icon)
-   and follow its checklist.
-1. For everything else, [create a **UX Pattern**
-   issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern)
-   and follow its checklist.
+Updating the [Sketch UI Kit][sketch-ui-kit-doc] (pattern library or instance sheet) is part of the **Create** stage of the [Pajamas component lifecycle](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/blob/master/doc/component-lifecycle.md).
+
+If it’s a small change to an existing element and you understand its impact, it doesn’t require review and approval. You can just make the changes directly. But first, it’s very important that you get familiar with the [Sketch UI Kit documentation][sketch-ui-kit-doc] and follow this [step-by-step process](https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-ui-kit.md#when-changes-are-approved) to update it.
+
+For all other kinds of changes (new components, large changes, etc.), or if you’re unsure about their impact:
+
+1. For icons, [create a **New Icon** issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=New%20Icon) and follow its checklist.
+1. For everything else, [create a **UX Pattern** issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Pattern) and follow its checklist.
 
 ## Organization
 

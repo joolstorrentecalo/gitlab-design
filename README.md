@@ -55,9 +55,10 @@ ever. Instead, ask the UX designer for the specs of the designs you’re working
 1. The UX Design team primarily uses [Sketch](https://www.sketchapp.com/). See [Software](/CONTRIBUTING.md#software) for information on using alternatives.
 1. If you're a wider community member, unfortunately, we can only accept contributions to our [Sketch UI Kit](/doc/sketch-ui-kit.md). Please follow the [contribution guidelines](/CONTRIBUTING.md#for-wider-community-contributors-) in order to do so. If you want to share Sketch files you have created for certain issues, we invite you to share them inside of the issue as a comment attachment.
 1. If you're a GitLabber or you just want to clone for local inspection:
-    1. Install and enable [Git Large File System (LFS)](https://about.gitlab.com/2017/01/30/getting-started-with-git-lfs-tutorial/):
+    1. Install and enable [Git Large File System (LFS)](https://about.gitlab.com/2017/01/30/getting-started-with-git-lfs-tutorial/) through the command line:
         1. Install with [Homebrew](https://github.com/Homebrew/brew) via `brew install git-lfs` or [MacPorts](https://www.macports.org/) via `port install git-lfs`
         1. Enable with `git lfs install` (If you use a [Git GUI client](https://git-scm.com/download/gui/mac) (e.g. Tower) instead of the command line, look in the docs/manual of your app to see how you can install/enable Git LFS)
+        1. Check that it’s installed with `git lfs --version`. The output should mention your installed version (e.g. `git-lfs/2.9.0`).
     1. To access the contents inside of this repository you have two options:
         1. Clone this repository locally with `git clone --depth 1 https://gitlab.com/gitlab-org/gitlab-design.git`. Remove `--depth 1` if you want to clone the repository including all history. 
         2. Browse and upload to the repository through the web UI. Please read the [contribution guidelines for community contributors](/CONTRIBUTING.md#for-wider-community-contributors-) for more information.

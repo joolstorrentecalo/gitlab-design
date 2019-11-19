@@ -60,5 +60,5 @@ which has information on updating files, structure, fonts, and symbols.
    call](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit?usp=sharing)
    to inform everyone of these changes, linking to this issue.
 
-/label ~"UX" ~"pattern library" ~Pajamas ~"pajamas::create"
+/label ~"UX" ~"Sketch UI Kit" ~Pajamas ~"pajamas::create"
 /cc @gitlab-com/gitlab-ux

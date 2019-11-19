@@ -77,16 +77,20 @@ process of maintaining and updating the files easier for everyone.
 Once the changes to be applied to the Sketch UI Kit have been reviewed and
 approved, as a GitLab Product Designer, you should:
 
-1. Check the [repository](/) to see if the pattern library and instance sheet
-   files are locked (🔒 icon next to the file name). If someone else locked the
-   files (hover the icon to see who), you must wait until they push their
-   changes and unlock it. Reach out to them if they are taking too long.
+1. Check the [repository](https://gitlab.com/gitlab-org/gitlab-design/tree/master)
+   to see if the pattern library and instance sheet files are locked (🔒 icon
+   next to the file name). If someone else locked the files (hover the icon to
+   see who), you must wait until they push their changes and unlock it. Reach
+   out to them if they are taking too long.
 1. [Lock the
    files](https://docs.gitlab.com/ee/user/project/file_lock.html#locking-a-file-or-a-directory)
    to prevent others from overwriting them while you add your changes.
 1. In Sketch, close the pattern library or instance sheet files if you have
    them open (or else the next step won't have any effect).
 1. Pull the latest changes from the repository to your computer.
+1. No need to create a separate branch for your changes. We lock the files and
+   commit changes directly to `master` because merging binary files
+   (such as Sketch files) is a manual, time-consuming, and error-prone process.
 1. Open the files in Sketch and add your changes.
    1. First update [icons](#icons), symbols, layer styles, and text styles in
       the pattern library.
@@ -102,7 +106,7 @@ approved, as a GitLab Product Designer, you should:
       there are local symbols which aren't linked to the pattern library. Some
       of our [recommended plugins][plugins] can help you find and remove
       duplicates.
-1. Commit and push your changes, following our [commit
+1. Commit and push your changes to `master`, following our [commit
    guidelines](/CONTRIBUTING.md#commits). Do this often so you have a backup of
    your work.
 1. [Unlock the

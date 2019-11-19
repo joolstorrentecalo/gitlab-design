@@ -41,6 +41,6 @@ guidelines](https://gitlab.com/gitlab-org/gitlab-design/blob/master/doc/sketch-u
 
 <!-- Add external links and references if necessary -->
 
-/label ~"UX" ~"pattern library" ~"Pajamas" ~"icon"
+/label ~"UX" ~"Sketch UI Kit" ~"Pajamas" ~"icon"
 
 /cc @gitlab-com/gitlab-ux

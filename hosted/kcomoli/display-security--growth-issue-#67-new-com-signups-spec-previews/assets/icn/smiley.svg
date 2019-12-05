@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>icn/smiley</title>
+    <desc>Created with Sketch.</desc>
+    <g id="paid-modules-page-empty-states" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1.Group-&gt;-Security-&gt;-emptyStates-slideshow--feedback2.3--hover" transform="translate(-1383.000000, -709.000000)" fill="#1F78D1">
+            <g id="Group" transform="translate(1187.000000, 700.000000)">
+                <g id="global-components/buttons/icon/default" transform="translate(189.000000, 2.000000)">
+                    <g id="icn/smiley" transform="translate(7.000000, 7.000000)">
+                        <path d="M9,0 C13.9705875,0 18,4.029435 18,9 C18,13.9705875 13.9705875,18 9,18 C4.029435,18 0,13.9705875 0,9 C0,4.029435 4.029435,0 9,0 Z M9,2.25 C5.27207625,2.25 2.25,5.27207625 2.25,9 C2.25,12.7279125 5.27207625,15.75 9,15.75 C12.7279125,15.75 15.75,12.7279125 15.75,9 C15.75,5.27207625 12.7279125,2.25 9,2.25 Z M12.375,10.125 C12.375,11.9890125 10.8639563,13.5 9,13.5 C7.20261362,13.5 5.73338184,12.0950129 5.6307293,10.323312 L5.625,10.125 L12.375,10.125 Z M6.75,5.625 C7.371315,5.625 7.875,6.128685 7.875,6.75 C7.875,7.371315 7.371315,7.875 6.75,7.875 C6.128685,7.875 5.625,7.371315 5.625,6.75 C5.625,6.128685 6.128685,5.625 6.75,5.625 Z M11.25,5.625 C11.8713375,5.625 12.375,6.128685 12.375,6.75 C12.375,7.371315 11.8713375,7.875 11.25,7.875 C10.6286738,7.875 10.125,7.371315 10.125,6.75 C10.125,6.128685 10.6286738,5.625 11.25,5.625 Z" id="icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

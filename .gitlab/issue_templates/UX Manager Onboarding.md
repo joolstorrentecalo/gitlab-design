@@ -79,8 +79,8 @@ When onboarding Product Designers, you’ll follow the same process to help them
 * [ ] There are over 1000 Slack channels at GitLab. You can join as many as you like! However, you may find the following channels most useful at first: `#git-help`, `#peopleops`, `#product`, `#questions`, and `#ux`. Each stage group also has a Slack channel. Each stage group channel normally starts with the letter 'g'. For example, the Secure stage group channel is `#g_secure`. Join `#managers` for manager-related topics and announcements.
 * [ ] You should have now received an invite for the `Company call` (every day except Friday). If you can't attend the call, don't worry, just check the [company call agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) to stay on top of the most important events.
 * [ ] There is usually a [group conversation](https://about.gitlab.com/handbook/people-operations/group-conversations/) before each company call. Group Conversations are a way for departments and stage groups to keep the wider business informed about what they are currently working on.
-* [ ] We have a weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Tuesday.
-* [ ] We have a weekly [UX Ladership meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Tuesday, too.
+* [ ] We have a [UX Weekly Meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Tuesday.
+* [ ] We have a weekly [UX Leadership meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Monday, too.
 * [ ] We have an early/late `UX Hangout` call twice a week. This is where members of the UX Department can meet informally to talk about anything they want.
 * [ ] There is a monthly call between UX and the Frontend Department.
 * [ ] We also have an early/late [Group Design Review](https://docs.google.com/document/d/1-t7qcGk24ev8P6_Ktpyfsx_cNgnve6YnryQiL49407Q/edit?usp=sharing) twice a week. This is a session where designers can share what they are working on with their colleagues and get feedback on their designs. Managers should try to make this a priority.
@@ -88,6 +88,17 @@ When onboarding Product Designers, you’ll follow the same process to help them
 * [ ] Christie is here to support you! If you need a 1:1 chat at any time, book some time on her calendar. You can also DM her on Slack via `@clenneville`.
 * [ ] You are not obligated to attend any of the meetings that you are invited to. However, please notify others of your absence by responding to Google calendar invites. If you do not attend a meeting, please read the agenda items and go through the notes of the meeting. Also, check whether there is a recording available.
 * [ ] Recordings can be found on [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), [GitLab Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), and [Google Drive](https://drive.google.com/drive/folders/1FLKOVDqiD7lMn11gvaVE8P4wWPf3FwFM). The meetings in Google Drive are organized in folders by meeting name.
+
+##### 2019 Engagement Survey Next Steps
+GitLab runs regular [Employee Engagement Surveys](https://about.gitlab.com/handbook/people-group/engagement/) to reduce attrition, improve productivity and efficiency, enhance company values, and increase job satisfaction. After the survey results are shared, each department determines Next Steps based on feedback.
+
+As part of your regular workflow, please remember to include the Next Steps from the 2019 survey while managing your team:
+
+* Use the #thanks channel frequently in Slack to acknowledge great work. Encourage your team to do the same.
+* Encourage your team to use the UX Weekly Call as a Knowledge Sharing opportunity. For example, if they have an area of particular expertise or if they learn comething new and interesting, ask them to add it to an upcoming agenda.
+* Make sure that everyone on your team has an [Individual Growth Plan](https://docs.google.com/document/d/1ZjdIuK5mNpljiHnFMK4dvqfTOzV9iSJj66OtoYbniFM/edit?usp=sharing) (IGP) that includes personal development items. Check in on the IGP monthly to help support your team's growth.
+* Make time in your schedule for your own personal growth, and share your efforts with your team. This is a great way to show the importance of these activities.
+* Make sure your team knows about our [conference budget](https://about.gitlab.com/handbook/spending-company-money/#work-related-online-courses-and-professional-development-certifications) and how to take advantage of it.
 
 ##### Your onboarding experience
 This issue is confidential by default, meaning this is a safe space to ask any questions and to describe any experiences you might have had. It's a tool to help **you** succeed!

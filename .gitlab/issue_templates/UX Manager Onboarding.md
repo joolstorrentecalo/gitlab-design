@@ -95,7 +95,7 @@ GitLab runs regular [Employee Engagement Surveys](https://about.gitlab.com/handb
 As part of your regular workflow, please remember to include the Next Steps from the 2019 survey while managing your team:
 
 * Use the #thanks channel frequently in Slack to acknowledge great work. Encourage your team to do the same.
-* Encourage your team to use the UX Weekly Call as a Knowledge Sharing opportunity. For example, if they have an area of particular expertise or if they learn comething new and interesting, ask them to add it to an upcoming agenda.
+* Encourage your team to use the UX Weekly Call as a Knowledge Sharing opportunity. For example, if they have an area of particular expertise or if they learn something new and interesting, ask them to add it to an upcoming agenda.
 * Make sure that everyone on your team has an [Individual Growth Plan](https://docs.google.com/document/d/1ZjdIuK5mNpljiHnFMK4dvqfTOzV9iSJj66OtoYbniFM/edit?usp=sharing) (IGP) that includes personal development items. Check in on the IGP monthly to help support your team's growth.
 * Make time in your schedule for your own personal growth, and share your efforts with your team. This is a great way to show the importance of these activities.
 * Make sure your team knows about our [conference budget](https://about.gitlab.com/handbook/spending-company-money/#work-related-online-courses-and-professional-development-certifications) and how to take advantage of it.

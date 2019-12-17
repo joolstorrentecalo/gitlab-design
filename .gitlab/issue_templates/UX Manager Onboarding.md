@@ -80,7 +80,7 @@ When onboarding Product Designers, you’ll follow the same process to help them
 * [ ] You should have now received an invite for the `Company call` (every day except Friday). If you can't attend the call, don't worry, just check the [company call agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) to stay on top of the most important events.
 * [ ] There is usually a [group conversation](https://about.gitlab.com/handbook/people-operations/group-conversations/) before each company call. Group Conversations are a way for departments and stage groups to keep the wider business informed about what they are currently working on.
 * [ ] We have a [UX Weekly Meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Tuesday.
-* [ ] We have a weekly [UX Leadership meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Monday, too.
+* [ ] We have a weekly [UX Leadership meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Monday.
 * [ ] We have an early/late `UX Hangout` call twice a week. This is where members of the UX Department can meet informally to talk about anything they want.
 * [ ] There is a monthly call between UX and the Frontend Department.
 * [ ] We also have an early/late [Group Design Review](https://docs.google.com/document/d/1-t7qcGk24ev8P6_Ktpyfsx_cNgnve6YnryQiL49407Q/edit?usp=sharing) twice a week. This is a session where designers can share what they are working on with their colleagues and get feedback on their designs. Managers should try to make this a priority.

@@ -1,5 +1,6 @@
-<!-->Add a short description of the component. If it’s helpful, add a checklist of variations and states to the description so that a reviewer can be sure to cross reference everything that has been completed.<-->
+<!--Add a short description of the component. If it’s helpful, add a checklist of variations and states to the description so that a reviewer can be sure to cross reference everything that has been completed.-->
 
+<!--Make sure that “anyone with the link” can view.-->
 [View component in Figma →](ADD LINK TO FIGMA FRAME)
 
 ### Checklist

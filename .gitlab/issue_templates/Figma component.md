@@ -11,7 +11,10 @@ In Figma:
 and states to the description so that a reviewer can be sure to cross reference everything
 that has been completed.-->
 
-<!--Make sure that “anyone with the link” can view.-->
+<!--Use the Figma share feature and make sure that “anyone with the link” can view. Then, 
+specifically invite the reviewer with “edit” permissions selected. Anyone can duplicate the 
+file to their own drafts and edit from there, but the reviewer can directly edit and 
+collaborate on the file. This will help maintain the integrity of the initial draft.-->
 [View component in Figma →](ADD LINK TO FIGMA FRAME)
 
 ### Checklist

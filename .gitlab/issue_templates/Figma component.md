@@ -35,6 +35,8 @@ issue description. Check off the component when complete.
 the component in the Assets panel to ensure it aligns with what’s outlined in the
 [Figma structure for library](https://gitlab.com/gitlab-org/gitlab-design/issues/791) issue.
 1. [ ] **Assignee**: Publish the library changes along with a clear commit message.
+1. [ ] **Assignee**: Update component link in the issue.
+1. [ ] **Assignee**: Move your draft file to the **Component archive** Figma project.
 
 ---
 

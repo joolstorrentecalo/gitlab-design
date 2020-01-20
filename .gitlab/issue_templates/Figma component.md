@@ -15,6 +15,7 @@ that has been completed.-->
 specifically invite the reviewer with “edit” permissions selected. Anyone can duplicate the 
 file to their own drafts and edit from there, but the reviewer can directly edit and 
 collaborate on the file. This will help maintain the integrity of the initial draft.-->
+
 [View component in Figma →](ADD LINK TO FIGMA FRAME)
 
 ### Checklist
@@ -37,7 +38,5 @@ the component in the Assets panel to ensure it aligns with what’s outlined in 
 1. [ ] **Assignee**: Publish the library changes along with a clear commit message.
 1. [ ] **Assignee**: Update component link in the issue.
 1. [ ] **Assignee**: Move your draft file to the **Component archive** Figma project.
-
----
 
 /label ~"UX" ~"Figma"

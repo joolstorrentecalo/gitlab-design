@@ -13,6 +13,7 @@ If this UX Scorecard is related to an OKR, append ~OKR to the /label quick actio
 - **Previous score and scorecard**: {{if applicable, add previous benchmark score and link to scorecard issue}}
 - **Benchmark score**: {{add benchmark score}}
 - **Walkthrough video**: {{add link to YouTube video}}
+- **Recommendations**: {{add link to your recommendation issue/s}}
 
 ## UX Scorecard Checklist
 

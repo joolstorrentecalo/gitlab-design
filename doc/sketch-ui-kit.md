@@ -71,6 +71,7 @@ process of maintaining and updating the files easier for everyone.
 1. Use _text styles_ for type, and _layer styles_ for fills, borders, and
    shadows.
 1. Follow the [baseline grid](https://design.gitlab.com/layout/grid#baseline-grid) guidelines and [spacing measures](https://design.gitlab.com/layout/spacing).
+  1. Sketch supports a regular (square grid). Set the `grid block size` to `8px`. [See Sketch's official docs](https://www.sketch.com/docs/the-interface/#how-to-create-grids)
 
 ### When changes are approved
 

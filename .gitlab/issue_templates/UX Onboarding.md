@@ -116,7 +116,7 @@ Aside from adjusting towards the async workflow of GitLab please try to see if y
 - [ ] Create your `progress` folder in the [design project](https://gitlab.com/gitlab-org/gitlab-design) and commit your first design file.
 - [ ] The [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) allows you to install GitLab's development environment on your computer. This will enable you to test certain features that aren't available in production. It is highly recommended that you install the GDK and try checking out a branch to see how it looks running locally. Your UX buddy can help you with this and the #gdk Slack channel is there for you if you need help.
 - [ ] Create your first [UX scorecard](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/) documenting the current UX state of one your group features/tools. Make sure to discuss this with your UX buddy beforehand. They can give you ideas and point to particular product areas that haven't been evaluated yet.
-- [ ] Create an issue with your UX buddy in the [GitLab Design](https://gitlab.com/gitlab-org/gitlab-design/issues) repo to help improve this onboarding experience for future GitLabbers. 
+- [ ] Collaborate with your UX buddy and make a change to this [onboarding template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/UX%20Onboarding.md) to improve the onboarding experience for future GitLabbers.
 <!--
 
 Feel free to add specific product stage flows, if necessary.

@@ -76,6 +76,7 @@ Below is extra inforomation to help you understand our product better. Feel free
 - [ ] Read about user [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#roles-vs-personas)
 - [ ] Who (Persona) does what using which feature: This is [a living document](https://docs.google.com/spreadsheets/d/1rfdzLqRZtdSlAy99-Zf4nabiIBoDd2u6_gwuRgvL0w8/edit#gid=0). It contains all stages we have and their product goal. It also list out who are the target users for each stage and what are their main tasks. You can use it as a reading documents, or reference to other documents (most tabs contain hyper links to handbook). You can also add links/extra info which you think will be helpful, such as link baseline study, ux version page to the corresponding    area.
 - [ ] UX scorecards: [what are they?](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/),  [epic link](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20scorecard)
+- [ ] UX Research Shadowing: Read about the [UX Research shadowing process](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/research-shadowing). You can kick off the process when you meet with the UX Researcher for your group. Product Designers should go through research shadowing before executing UX research on their own.
 
 ## Tech knowledge to know :computer:
 - [ ] What is DevOps: [video](https://youtu.be/_Gpe1Zn-1fE )
@@ -116,6 +117,7 @@ Aside from adjusting towards the async workflow of GitLab please try to see if y
 - [ ] Create your `progress` folder in the [design project](https://gitlab.com/gitlab-org/gitlab-design) and commit your first design file.
 - [ ] The [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) allows you to install GitLab's development environment on your computer. This will enable you to test certain features that aren't available in production. It is highly recommended that you install the GDK and try checking out a branch to see how it looks running locally. Your UX buddy can help you with this and the #gdk Slack channel is there for you if you need help.
 - [ ] Create your first [UX scorecard](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/) documenting the current UX state of one your group features/tools. Make sure to discuss this with your UX buddy beforehand. They can give you ideas and point to particular product areas that haven't been evaluated yet.
+- [ ] Collaborate with your UX buddy and make a change to this [onboarding template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/UX%20Onboarding.md) to improve the onboarding experience for future GitLabbers.
 <!--
 
 Feel free to add specific product stage flows, if necessary.

@@ -107,7 +107,7 @@ Please share your newfound knowledge! The rest of the UX Department would love t
 
 Within this issue, please let us know how we can improve the onboarding experience. Please keep notes on what went well, what didn't go well, or what you feel could be improved. We'll use your feedback to improve the onboarding experience for future people who join the team.
 
-If your Manager hasn't done so on your behalf, please add yourself to the next [UX weekly meeting agenda](UX weekly meeting agenda) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
+* [ ] If your Manager hasn't done so on your behalf, please add yourself to the next [UX weekly meeting agenda](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit?usp=sharing) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
 
 #### Closing thoughts
 Taking in a lot of information can quickly feel overwhelming. This is normal and you are encouraged to ask questions at any time. Embrace knowing nothing and you'll take it in as you go. Take your time to work through your onboarding tasks; you are not expected to be at 100% productivity right away! And remember: if you are here, it's because you are the best person we have found in the world (literally) to do this job.

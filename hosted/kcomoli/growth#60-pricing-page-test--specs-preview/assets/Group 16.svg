@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="58px" viewBox="0 0 62 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pricing-page--Post-Test-Export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.SaaS-or-Self-hosted-modal--spacing" transform="translate(-816.000000, -317.000000)">
+            <g id="Group-18" transform="translate(463.000000, 153.000000)">
+                <g id="Group-17" transform="translate(309.000000, 118.000000)">
+                    <g id="Group-16" transform="translate(45.000000, 47.000000)">
+                        <g id="Group-14" transform="translate(0.416667, 0.500000)">
+                            <g id="Group">
+                                <rect id="Rectangle" stroke="#6E49CB" stroke-width="2" fill="#EFEDF8" x="0" y="0" width="59" height="16.308559" rx="6"></rect>
+                                <rect id="Rectangle-Copy" fill="#6E49CB" transform="translate(13.322581, 8.154280) scale(1, -1) translate(-13.322581, -8.154280) " x="7.61290323" y="6.89977498" width="11.4193548" height="2.50900908" rx="1.25450454"></rect>
+                            </g>
+                            <g id="Group-Copy" transform="translate(0.000000, 19.414951)">
+                                <rect id="Rectangle" stroke="#6E49CB" stroke-width="2" fill="#EFEDF8" x="0" y="0" width="59" height="16.308559" rx="6"></rect>
+                                <rect id="Rectangle-Copy" fill="#6E49CB" transform="translate(13.322581, 8.154280) scale(1, -1) translate(-13.322581, -8.154280) " x="7.61290323" y="6.89977498" width="11.4193548" height="2.50900908" rx="1.25450454"></rect>
+                            </g>
+                            <g id="Group-Copy-2" transform="translate(0.000000, 38.829902)">
+                                <rect id="Rectangle" stroke="#6E49CB" stroke-width="2" fill="#EFEDF8" x="0" y="0" width="59" height="16.308559" rx="6"></rect>
+                                <rect id="Rectangle-Copy" fill="#6E49CB" transform="translate(13.322581, 8.154280) scale(1, -1) translate(-13.322581, -8.154280) " x="7.61290323" y="6.89977498" width="11.4193548" height="2.50900908" rx="1.25450454"></rect>
+                            </g>
+                        </g>
+                        <g id="illustrations_gitlab_logo--small-copy" transform="translate(14.416667, 14.500000)" fill-rule="nonzero">
+                            <path d="M30.7863762,16.1775303 L29.0604797,10.8880132 L25.6400004,0.404523806 C25.464062,-0.134813828 24.6977676,-0.134813828 24.5217459,0.404523806 L21.1011827,10.8880132 L9.74286663,10.8880132 L6.32222016,0.404523806 C6.14628232,-0.134813828 5.37998737,-0.134813828 5.20396562,0.404523806 L1.78348636,10.8880132 L0.0576737778,16.1775303 C-0.0998105434,16.6599905 0.0727040808,17.1885177 0.484784889,17.4867088 L15.4219833,28.2940003 L30.3592651,17.4867088 C30.7713459,17.1885177 30.9437766,16.6599905 30.7863762,16.1775303" id="Path" fill="#FC6D26"></path>
+                            <polygon id="Path" fill="#E24329" points="15.4220165 28.2940003 21.1012165 10.8880132 9.74281653 10.8880132"></polygon>
+                            <polygon id="Path" fill="#FC6D26" points="15.4220165 28.2939666 9.74281653 10.8880631 1.78351956 10.8880631"></polygon>
+                            <path d="M1.78351956,10.8880382 L0.0576236768,16.1775552 C-0.0997771636,16.6600154 0.0726539798,17.1885426 0.484818081,17.4866501 L15.4220165,28.2939417 L1.78351956,10.8880382 Z" id="Path" fill="#FCA326"></path>
+                            <path d="M1.78351956,10.888055 L9.74281653,10.888055 L6.32225398,0.404565591 C6.14623222,-0.134854989 5.37993727,-0.134854989 5.20399943,0.404565591 L1.78351956,10.888055 Z" id="Path" fill="#E24329"></path>
+                            <polygon id="Path" fill="#FC6D26" points="15.4220165 28.2939666 21.1012165 10.8880631 29.0605129 10.8880631"></polygon>
+                            <path d="M29.0605047,10.8880382 L30.7864012,16.1775552 C30.9438017,16.6600154 30.7713709,17.1885426 30.3592062,17.4866501 L15.4220084,28.2939417 L29.0605047,10.8880382 Z" id="Path" fill="#FCA326"></path>
+                            <path d="M29.0605047,10.888055 L21.1012078,10.888055 L24.5217709,0.404565591 C24.6977921,-0.134854989 25.464087,-0.134854989 25.6400255,0.404565591 L29.0605047,10.888055 Z" id="Path" fill="#E24329"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

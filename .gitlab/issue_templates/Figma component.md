@@ -25,18 +25,22 @@ Make sure the following are completed before closing the issue:
 1. [ ] **Assignee**: Create component in your own draft file in Figma using the
 [component template](https://www.figma.com/file/OmvFfWkqEsdGhXAND133ou/%5BComponent%5D),
 including all variations and states.
-1. [ ] **Assignee**: Ask another Figma Pilot Designer to review your component (make sure they have edit permissions).
+1. [ ] **Assignee**: Ask another Figma Pilot Designer to review your component
+(make sure they have edit permissions).
 1. [ ] **Reviewer**: Review and approve assignee’s addition. Ensure that component
 matches Sketch specs, includes all current variations and states, and (if applicable)
 is responsive.
 1. [ ] **Assignee**: Add notes about the component construction to the 
 [Figma component build notes](https://gitlab.com/gitlab-org/gitlab-design/issues/778)
 issue description. Check off the component when complete.
-1. [ ] **Assignee**: Add the component to the **Globals - beta** file, and view
+1. [ ] **Assignee**: Add the component to the **Pajamas UI Kit** file, and view
 the component in the Assets panel to ensure it aligns with what’s outlined in the
 [document and asset library structure](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/CONTRIBUTING-Figma.md#document-and-asset-library-structure) documentation.
 1. [ ] **Assignee**: Publish the library changes along with a clear commit message.
 1. [ ] **Assignee**: Update component link in the issue.
 1. [ ] **Assignee**: Move your draft file to the **Component archive** Figma project.
+1. [ ] **Assignee**: Add a link to the Figma file in the component’s page of Pajamas.
+Use `View design in Pajamas UI Kit →` for the link text. This replaces any link to
+Sketch Measure specs. Anyone with the link should be able to view the file.
 
 /label ~"UX" ~"Figma"

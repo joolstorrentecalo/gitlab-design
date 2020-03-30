@@ -17,7 +17,7 @@ To get you up to speed so you can start contributing to the team efforts and imp
 
 First, you are likely to want to know where your place is in the company structure. For this, you would want to check out the [team chart](https://about.gitlab.com/team/chart/).
 
-If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/#ux-design-buddy)), (FILL IN WITH @ UX MANAGER HANDLE) (your UX Manager), or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
+If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/#ux-design-buddy)), (FILL IN WITH @ UX MANAGER HANDLE) (your UX Manager), (FILL IN WITH @ TEAM GITLAB HANDLE) (your UX team) or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
 
 You'll have a weekly 1:1 call with your UX buddy until your onboarding is complete! Fridays are great for these to talk through questions and set expectations for the next week. Your onboarding doesn't have a scheduled end date, just focus on learning and getting comfortable with GitLab and the UX department.
 

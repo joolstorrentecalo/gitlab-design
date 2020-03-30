@@ -121,13 +121,17 @@ Buttons are an example of something more complex, not because of the component, 
 
 Some components are built from *base* components. Base components provide foundational configuration, structure, or other settings for components to be built from. They are not published to the library. A change to a base component should propagate to any components built from it. In other systems you may see them called primitives, or master components. We chose “base” to indicate a starting place.
 
+#### Elements
+
+With a nod to [atomic design](https://bradfrost.com/blog/post/atomic-web-design/), an *element* is something that cannot be broken down any further, and is primarily used in the construction of other components. In other words, it’s rarely used alone. Since elements can be used and swapped in other components, they’re published to the library. A good example of an element is a checkbox, which could be used in forms with a label, or as part of a multiselect dropdown.
+
 #### Variants
 
 A *variant* is the most common form of a component. It is available to use as-is from the asset library, and does not require style overrides, although they may be available. In most cases, the content can be overridden for the context. Variants are often built from a [base component](#base-components), but this isn’t required.
 
 #### Using Constraints
 
-Elements within a component will use constraints when they need to maintain their position relative to the component bounds, or content within. Complex, responsive components can be created by combining frames and layout grids. A tooltip is a good candidate for constraints, so that directional tips can always be placed correctly in relation to the component bounds as the content grows.
+Objects within a component will use constraints when they need to maintain their position relative to the component bounds, or content within. Complex, responsive components can be created by combining frames and layout grids. A tooltip is a good candidate for constraints, so that directional tips can always be placed correctly in relation to the component bounds as the content grows.
 
 [Using constraints →][figma-docs-constraints]
 [Using layout grids →][figma-article-layout-grid]

@@ -3,7 +3,7 @@
 Title should be: Category Maturity Scorecard - {{Stage Group}} FY{{YY}}-Q{{quarter number}} - {{Title or Description of the Evaluated Workflow / JTBD}}
 (e.g. “Category Maturity Scorecard - Create:Source Code FY21-Q1 - Obtaining screenshots from testing artifacts)
 
-This template is meant to document results from Category Maturity Scorecard user sessions. See the handbook page (linked below) for more information on how to conduct those sessions.
+This template is meant to document results from Category Maturity Scorecard user interview sessions.
 
 If this CM Scorecard is related to an OKR, append ~OKR to the /label quick action below to automatically add the 'OKR' label.
 

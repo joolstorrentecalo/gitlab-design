@@ -20,7 +20,7 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
 [Learn more about Category Maturity Scorecards](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/)
 1. [ ] Review the Category Maturity Scorecard handbook page and follow the process as described. Reach out to the [UX Researcher for your stage](https://about.gitlab.com/handbook/product/categories/) if you have questions.
-1. [ ] Document the results of each participant's session using the template below
+1. [ ] Document the results of each participant's session using the CM Scorecard Results Template
 1. [ ] Add Zoom links for each participants' session. 
 1. [ ] If the participant has not granted permission to share the recording publicly, ensure the sharing settings are set to GitLab-only.
 1. [ ] Summarize the results and give the final grade using this template.

@@ -9,7 +9,7 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
 -->
 
-/label ~"Category maturity scorecard" 
+/label ~"CM scorecard" 
 
 - **Research issue**: {{add link to research issue for the CM Scorecard research process}}
 - **Previous score and scorecard**: {{if applicable, add CM Scorecard score and link to scorecard issue}}

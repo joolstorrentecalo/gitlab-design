@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icn/bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icn/bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,9.2634 L12,12.5967 L12,2 L4,2 L4,12.5967 L8,9.2634 Z M8,11.8668 L12.3598,15.7617 C13.0111,16.3045 14,15.8413 14,14.9935 L14,2 C14,0.895431 13.1046,0 12,0 L4.00001,0 C2.895444,0 2,0.895431 2,2 L2,14.9935 C2,15.8413 2.988856,16.3045 3.64018,15.7617 L8,11.8668 Z" id="Bookmark" fill="#000000"></path>
+    </g>
+</svg>

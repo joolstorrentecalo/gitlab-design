@@ -13,7 +13,7 @@ Title should be: CM Scorecard Recommendations - {{Stage Group}} FY{{YY}}-Q{{quar
 [Learn more about CM Scorecards](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/)
 
 1. [ ] Add this issue to the stage group epic for the corresponding quarter's category maturity scorecards.
-1. [ ] Brainstorm opportunities to fix or improve areas of the experience.
+1. [ ] Brainstorm opportunities to fix or improve areas of the experience with your PM and any relevant counterparts.
 1. [ ] Create an issue for each recommendation. Alternatively, you can create a separate epic to hold all your recommendations. Link to the epic or issues here.
 1. [ ] Think iteratively, and create dependencies where appropriate, remembering that sometimes the order of what we release is just as important as what we release.
    - If you need to break recommendations into phases or over multiple milestones, create multiple epics and use the [Category Maturity Definitions](https://about.gitlab.com/direction/maturity/) in the title of each epic: **Minimal, Viable, Complete, or Lovable**.

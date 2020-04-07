@@ -5,7 +5,7 @@ Title should be: CM Scorecard Recommendations - {{Stage Group}} FY{{YY}}-Q{{quar
 
 -->
 
-- **CM Scorecard Part 1**: {{add link to CM scorecard issue}}
+- **CM Scorecard**: {{add link to CM scorecard issue}}
 - **Resulting Recommendations**: {{when ready, add a link to your recommendations epic}}
 
 ## Experience Recommendations Checklist

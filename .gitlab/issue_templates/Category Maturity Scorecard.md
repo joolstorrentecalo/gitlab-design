@@ -44,7 +44,7 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 * Ease of completion (post-task): 
 * Task completion confidence: 
 * Meaningful clicks: 
-* Scenario completed (heuristic evaluation): 
+* Heuristic evaluation (How well did the participant complete the scenario?): 
 
 #### Other notes
 {{Add any additional notes that came from freeform discussion or elsewhere}}

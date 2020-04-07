@@ -24,7 +24,8 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 1. [ ] Add Zoom links for each participants' session recordings. These can be found in the *Recordings* section of the Zoom web UI.
 1. [ ] If the participant has not granted permission to share the recording publicly, ensure the sharing settings are set to GitLab-only.
 1. [ ] Summarize the results and give the final grade using this template.
-1. [ ] [Create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for these sessionsand add it to the same stage group epic as this issue.
+1. [ ] [Create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for these sessions.
+
 # CM Scorecard Results Template
 ### Jobs to be done
 {{add JTBD here}}

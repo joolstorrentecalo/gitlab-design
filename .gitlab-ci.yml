@@ -1,10 +1,6 @@
 # https://docs.gitlab.com/ee/ci/yaml/README.html
 # Links for more info at end of file
 
-# Run CI in an environment (a Docker image [1]) with Ruby, the language needed
-# to run specscript.rb (more info on this file below).
-image: ruby:alpine
-
 variables:
 
   # Disable the default Git behavior [2]. We want to define our own Git commands
@@ -19,6 +15,18 @@ variables:
   # (see .gitattributes file), so we set this to temporarily skip those LFS
   # files. This gives us faster parallel batch download [6].
   GIT_LFS_SKIP_SMUDGE: "1"
+
+default:
+  # Run CI in an environment (a Docker image [1]) with Ruby, the language needed
+  # to run specscript.rb (more info on this file below).
+  image: ruby:alpine
+  tags:
+    - gitlab-org
+
+workflow:
+  rules:
+    # For `master` branch, create a pipeline (this includes on schedules, pushes, merges, etc.).
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
 
 # This is a special job name that tells CI to pass the output to GitLab Pages
 # so it can be used to serve your website. If we use another name, GitLab
@@ -55,13 +63,11 @@ pages:
       - public
     expire_in: 1 week
 
-  # Only run this job when commits are pushed to the `master` branch and changes
-  # are made to any of the files and subdirectories in the `hosted/` folder. [10]
-  only:
-    refs:
-      - master
-    changes:
-      - hosted/**/*
+  # Only run this job when changes are made to files or subdirectories in the
+  # `hosted/` folder. [10]
+  rules:
+    - changes:
+        - hosted/**/*
 
 
 # [1]: https://docs.gitlab.com/ee/ci/docker/using_docker_images.html

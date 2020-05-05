@@ -68,13 +68,6 @@ Each department has its own handbook section, and UX is no exception:
 * [ ] Almost everything we do is within GitLab and it can sometimes be a challenge keeping up with everything. We use the [UX Management Board](https://gitlab.com/gitlab-org/gitlab-design/-/boards/1077469?label_name[]=UX%20Management) in the GitLab Design project as a helpful tool when collaborating with other UX Managers, tracking quarterly OKR progress, or proposing changes that may impact the entire UX department.
 * [ ] You also have a ["To Do" list](https://gitlab.com/dashboard/todos?nav_source=navbar). Issues you are assigned to or mentioned on will show up here until you mark them as done.
 
-###### Getting access to Sketch and Mural
-Product Designers use a variety of design tools, but Sketch and Mural are ones Managers need as well.
-* [ ] Obtain a Sketch seat by going to [Sketch](https://www.sketch.com/support/license-manager/) and use `ux@gitlab.com` in the form. An email will be sent to this email address. If you don't yet have access to that inbox, Christie will forward you the email. Copy the license key, using one of the available seats. If there aren’t any available, work with @sarahod to purchase additional.
-* [ ] Obtain a Mural seat by requesting it from @clenneville.
-
-When onboarding Product Designers, you’ll follow the same process to help them obtain their seats.
-
 ###### Staying informed
 * [ ] There are over 1000 Slack channels at GitLab. You can join as many as you like! However, you may find the following channels most useful at first: `#git-help`, `#peopleops`, `#product`, `#questions`, and `#ux`. Each stage group also has a Slack channel. Each stage group channel normally starts with the letter 'g'. For example, the Secure stage group channel is `#g_secure`. Join `#managers` for manager-related topics and announcements.
 * [ ] You should have now received an invite for the `Company call` (every day except Friday). If you can't attend the call, don't worry, just check the [company call agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) to stay on top of the most important events.

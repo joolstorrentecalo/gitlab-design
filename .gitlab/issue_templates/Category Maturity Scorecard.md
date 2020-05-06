@@ -16,40 +16,70 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 - **Walkthrough**: {{add link to YouTube video or walkthrough document}}
 - **Recommendations**: {{add link to your recommendation issue/s}}
 
-## Category Maturity Scorecard Checklist
+# Category Maturity Scorecard Checklist
 
 [Learn more about Category Maturity Scorecards](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/)
 1. [ ] Review the Category Maturity Scorecard handbook page and follow the process as described. Reach out to the [UX Researcher for your stage](https://about.gitlab.com/handbook/product/categories/) if you have questions.
-1. [ ] Document the results of each participant's session using the CM Scorecard Results Template
-1. [ ] Add Zoom links for each participants' session recordings. These can be found in the *Recordings* section of the Zoom web UI.
+1. [ ] Document the results of each JTBD scenario using this template
+1. [ ] Add links for each participants' session recordings. Consider downloading the session videos from Zoom, and uploading them to the shared Google UX Research folder in the appropriate section/stage/project folder.
 1. [ ] If the participant has not granted permission to share the recording publicly, ensure the sharing settings are set to GitLab-only.
-1. [ ] Summarize the results and give the final grade using this template.
-1. [ ] [Create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for these sessions.
+1. [ ] If needed, [create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for these sessions.
 
 # CM Scorecard Results Template
-### Jobs to be done
+### Job to be done A
 {{add JTBD here}}
 
 ### Scenarios
-#### Scenario N
-{{add scenario prompt here}}
+##### Scenario 1 
+* Prompt - {{add scenario prompt here}}
+* Average UMUX Lite score for capabilities - {{score}}
+* Average UMUX Lite score for ease of use - {{score}}
+* How many participants were successful at the task - {{number of successful participants/out of total participants}}
+* How many participants failed the task - {{number of participants who failed/out of total participants}}
+* Total number of errors each participant encountered while attempting to complete the task/scenario - {{number of errors}}
 
-### Participant N
-#### Background
-{{Summarize the participant's role, day-to-day responsibilities, and previous GitLab usage}}
+| Participant Number | Successful  | Failed  | Number of Errors Encountered  |
+|:-:|---|---|---|
+| P1  |   |   |   |
+| P2  |   |   |   |
+| P3  |   |   |   |
+| P4  |   |   |   |
+| P5  |   |   |   |
 
-{{add link to session video}}
 
-#### Scenario N
-* Ease of completion (pre-task): 
-* Ease of completion (post-task): 
-* Task completion confidence: 
-* Meaningful clicks: 
-* Heuristic evaluation (How well did the participant complete the scenario?): 
+##### Scenario 2
+* Prompt - {{add scenario prompt here}}
+* Average UMUX Lite score for capabilities - {{score}}
+* Average UMUX Lite score for ease of use - {{score}}
+* How many participants were successful at the task - {{number of successful participants/out of total participants}}
+* How many participants failed the task - {{number of participants who failed/out of total participants}}
+* Total number of errors each participant encountered while attempting to complete the task/scenario - {{number of errors}}
+
+| Participant Number | Successful  | Failed  | Number of Errors Encountered  |
+|:-:|---|---|---|
+| P1  |   |   |   |
+| P2  |   |   |   |
+| P3  |   |   |   |
+| P4  |   |   |   |
+| P5  |   |   |   |
+
+{{continue with as many scenarios as you used}}
+
+### Participants 
+##### Participant 1
+ * {{Role}}
+ * {{Top 3 tasks/responsibilities}}
+ * {{Previous/current GitLab usage}}
+ * {{add link to session video}}
+
+##### Participant 2
+ * {{Role}}
+ * {{Top 3 tasks/responsibilities}}
+ * {{Previous/current GitLab usage}}
+ * {{add link to session video}}
+
+ {{continue with as many participants as you had in the study}}
+
 
 #### Other notes
 {{Add any additional notes that came from freeform discussion or elsewhere}}
-
-### Overall Grade: X
-
-This grade represents the average of the ratings for all participants based on the [grading rubric](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/#grading)

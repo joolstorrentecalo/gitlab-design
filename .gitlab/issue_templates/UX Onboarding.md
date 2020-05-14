@@ -43,11 +43,11 @@ Each department has it's own handbook section, and UX is no exception:
 
 To highlight some other important places:
 
-- [ ] Check out the [UX department workflow](https://about.gitlab.com/handbook/engineering/ux/ux-department-workflow) which is important to get to know which dates matter and to align yourself to our development rhythm.
-- [ ] Check out the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md). Verify that you have access to the tools listed (for now mainly Sketch). And ask about any other tools you might need.
-- [ ] Become familiar with our [design system](http://design.gitlab.com) which is the place where we document all product design decisions and things to help us make those decisions, like [personas](https://design.gitlab.com/research/personas).
+- [ ] Read the [UX department workflow](https://about.gitlab.com/handbook/engineering/ux/ux-department-workflow) which is important to get to know which dates matter and to align yourself to our development rhythm.
+- [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md). Verify that you have access to Figma. And ask about any other tools you might need.
+- [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://design.gitlab.com/research/personas).
 
-You can [open up an issue at the design repository](https://gitlab.com/gitlab-org/gitlab-design/issues) to start a discussion for any design related matters. For more product related matters the [GitLab Community Edition issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) would be the correct place!
+You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) in the repository to start a discussion on design related matters. For new component design or existing component updates, [open and issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new) in the Pajamas repository. For product related matters, the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/new) is the correct place.
 
 ## Staying informed :mega:
 

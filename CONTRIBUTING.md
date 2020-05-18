@@ -39,9 +39,37 @@ to contribute to GitLab in a way that is efficient for everyone.
 
 We’ve been drawn to Figma because it aligns with our *everyone can contribute* mantra. Figma’s free version is full-featured (outside of what you may get from Team or Organization accounts), and you can use it on nearly any platform/device. File management and sharing is a breeze without the need for a repository. Commenting and sharing is seamless and does not require additional tools or paid accounts to participate. All of these capabilities make it easier for anyone to contribute.
 
-### Library structure
+### Working with Projects in Figma
 
-TODO: Add how Figma is structured and utilized for stage teams
+1. Group files and assets under a design team, project, or common theme.
+1. Use a single project for each stage and follow this naming structure: `Stage • [stageName] • [groupName]`
+1. Use the [Templates](https://www.figma.com/files/project/5846042/Templates) and [Resources](https://www.figma.com/files/project/4507772/Resources) projects for files that are beneficial to all designers.
+1. Add a description to a project that clarifies its purpose and use.
+1. Mark a project as a “favorite” to have it appear in the sidebar. Drag projects in the sidebar to reorder them to your preference.
+1. Use the [Share option](https://help.figma.com/hc/en-us/articles/360040531773-Share-Files-with-anyone-using-Link-Sharing) to change [permissions](https://help.figma.com/hc/en-us/articles/360039970673) at a project level.
+
+Personal projects can be created as needed, but to support our [collaboration](https://about.gitlab.com/handbook/values/#collaboration) and [transparency](https://about.gitlab.com/handbook/values/#transparency) values, as well as discoverability, it’s recommended to work in an open project.
+
+TODO: Add visual examples for project organization
+
+### Working with team libraries
+
+A team library contains **components** and **styles** that can be used and synced across files. A team library can speed up design time, and increase consistency across designs.
+
+By default, files created under the GitLab team in Figma will have the **Pajamas UI Kit** library enabled.
+
+1. Access the libraries modal under the **Assets** tab with the **Team Library** button.
+1. In the list of available libraries, if the current file is published, it will be separate from libraries that can be enabled.
+1. Once a library has been enabled, you can use components under the **Assets** tab. They will be grouped locally, and then by library. Drag an asset from the panel to use it in your design.
+1. Styles are available in the right Properties panel after selecting an object.
+
+[Learn more about Team Libraries](https://help.figma.com/hc/en-us/articles/360041051154-Getting-Started-with-Team-Library)
+
+TODO: Add visual examples for team libraries
+
+### Collaboration using Figma and GitLab
+
+TODO: Add recommendations on when to use Figma comments vs. GitLab Design tab
 
 ## Code of conduct
 

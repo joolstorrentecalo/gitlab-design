@@ -75,12 +75,12 @@ There are three primary ways within Figma to add descriptive, helper content for
    * Audience: designers and users of the design file
    * Use text layers for headings to categorize variants and instances.
    * Use the Utility/Sticky component to add a visible note in relation to the design. There are plugins that do similar, but we don’t want to rely on them staying up-to-date. Notes like these should be temporary in nature, and not need to persist.
-2. Comment
+1. Comment
    * Audience: everyone
    * Use comments to engage with others in a conversation about the design. These conversations can be resolved and will persist as part of the history of the design file.
    * Use comments for annotations on instances, where descriptions are not possible.
    * Use comments when the intended audience may not have edit permissions, since component descriptions are limited to editors at the point of use. This would be beneficial for developer handoff.
-3. Component description
+1. Component description
    * Audience: designers who are referencing or using final components in new designs
    * Use descriptions to identify the purpose and intended use of the component.
    * Consider using keywords in the description as meta for search. e.g., “Keywords: wrench, tool, admin” used for a wrench icon that is used to represent admin in the product.

@@ -67,9 +67,44 @@ By default, files created under the GitLab team in Figma will have the **Pajamas
 
 TODO: Add visual examples for team libraries
 
+### Adding descriptions, notes, and annotations
+
+There are three primary ways within Figma to add descriptive, helper content for components and design assets.
+
+1. Layer
+   * Audience: designers and users of the design file
+   * Use text layers for headings to categorize variants and instances.
+   * Use the Utility/Sticky component to add a visible note in relation to the design. There are plugins that do similar, but we don’t want to rely on them staying up-to-date. Notes like these should be temporary in nature, and not need to persist.
+2. Comment
+   * Audience: everyone
+   * Use comments to engage with others in a conversation about the design. These conversations can be resolved and will persist as part of the history of the design file.
+   * Use comments for annotations on instances, where descriptions are not possible.
+   * Use comments when the intended audience may not have edit permissions, since component descriptions are limited to editors at the point of use. This would be beneficial for developer handoff.
+3. Component description
+   * Audience: designers who are referencing or using final components in new designs
+   * Use descriptions to identify the purpose and intended use of the component.
+   * Consider using keywords in the description as meta for search. e.g., “Keywords: wrench, tool, admin” used for a wrench icon that is used to represent admin in the product.
+   * Consider mentioning where the component is used in the product, or for what purpose.
+   * Include usage notes that are applicable at the point of use.
+   * Keep descriptions short, when possible.
+
 ### Collaboration using Figma and GitLab
 
-TODO: Add recommendations on when to use Figma comments vs. GitLab Design tab
+We use our own product, and that means [dogfooding](https://about.gitlab.com/handbook/values/#dogfooding) features, like [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html). As can be inferred from the previous section, much of the conversation around a design happens within the context of that design. So the question now is when to use GitLab’s Design Management, and when to use Figma.
+
+In this table, you’ll find a few common scenarios along with the recommended tool. Mileage may vary, so use this as a starting point, and when in doubt make the best decision that moves the design forward with visibility that supports the needs of the team. Design Management is currently an alpha feature, so keep in mind that it is subject to change without notice, but the more we use and contribute to it, the more it will progress.
+
+| **Scenario** | **Figma** | **Design Management** |
+| ------ | ------ | ------ |
+| Co-designing within a shared file | √ |   |
+| Providing, or seeking feedback while a design is still in progress, and not ready for MVC | √ |   |
+| Seeking feedback on a design with a larger audience, where that feedback directly impacts an issue |   | √ |
+| Presenting design options or variations so the team can choose a direction |   | √ |
+| Sharing a prototype | √ |   |
+| Adding a to-do for a designer as it relates to in-progress design | √ |   |
+| Adding a to-do for a designer as it relates to an issue |   | √ |
+| Identifying visual regressions |   | √ |
+| Detailed redlines or specs | √ |   |
 
 ## Code of conduct
 

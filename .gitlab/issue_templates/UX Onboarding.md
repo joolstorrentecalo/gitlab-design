@@ -51,8 +51,24 @@ You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) 
 
 ## Staying informed :mega:
 
-- [ ] There is a lot of information flowing around, but to stay on top of the most important things you should be a part of [#company-announcements](https://gitlab.slack.com/messages/C0259241C), [#handbook](https://gitlab.slack.com/messages/C81PT2ALD), [#ux](https://gitlab.slack.com/messages/C03MSG8B7), [#eng-week-in-review](https://gitlab.slack.com/messages/CJWA4E9UG) and [#design-system](https://gitlab.slack.com/messages/CDNNDD1T3) channels in Slack. You are likely to have received an invite for the `Company call` (every day but Friday), but don't feel bad if you can't attend it. Just checking the [Company call agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) should be enough to keep you on top of the most important events.
+- [ ] Consider joining these Slack channels to stay on top of the most important things
+    -  UX Department
+        - [#ux](https://gitlab.slack.com/messages/C03MSG8B7)
+        - [#ux-coworking](https://gitlab.slack.com/messages/CLW71KM96)
+        - [#ux-research](https://gitlab.slack.com/messages/CMEERUCE4)
+        - [#design-system](https://gitlab.slack.com/messages/CDNNDD1T3)
+        - [#ux-bookclub](https://gitlab.slack.com/messages/CRCQ1RYUU)
+        - [#figma](https://gitlab.slack.com/messages/CCNDGX396C)
+        - There are also UX slack channels for each stage
+    - Company
+        - [#whats-happening-at-gitlab](https://gitlab.slack.com/messages/C0259241C)
+        - [#company-fyi](https://gitlab.slack.com/messages/C010XFJFTHN)
+        - [#is-this-known](https://gitlab.slack.com/messages/CETG54GQ0)
+        - [#product](https://gitlab.slack.com/messages/C0NFPSFA8)
+        - [#eng-week-in-review](https://gitlab.slack.com/messages/CJWA4E9UG)
+        - [#handbook](https://gitlab.slack.com/messages/C81PT2ALD)
 - [ ] As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please check your calendar and let your manager know if you don't see an invite. Note that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh, and did I mention there are [recordings available](https://drive.google.com/drive/folders/1pvtIfMFOj8Bf1pM3Ac-gYuG6pqtnNu7O?usp=sharing)? :slight\_smile: 
+- [ ] There is a fortnightly [UX Showcase](https://about.gitlab.com/handbook/engineering/ux/ux-department-workflow/ux-showcase/) to learn what designers at different stage groups are working on with walk throughs of various research findings and design solutions. It is also an opportunity for designers to learn different approaches and processes from one another.
 - [ ] Once you are added to the UX Calendar on Google, attend one of our `UX Hangouts` calls. We meet once a week at a rotating time to hang out with other UX members and talk about anything we want.
 - [ ] Lastly, every department and stage group host so-called [group conversations](https://about.gitlab.com/handbook/people-operations/group-conversations/) to keep everyone informed about their efforts. This is a great way to learn about the company and what different teams are up to. Please make sure you have access to the `GitLab Team Meetings` calendar to be able to join any one of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
 

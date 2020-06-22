@@ -39,6 +39,8 @@ to contribute to GitLab in a way that is efficient for everyone.
 
 We’ve been drawn to Figma because it aligns with our *everyone can contribute* mantra. Figma’s free version is full-featured (outside of what you may get from Team or Organization accounts), and you can use it on nearly any platform/device. File management and sharing is a breeze without the need for a repository. Commenting and sharing is seamless and does not require additional tools or paid accounts to participate. All of these capabilities make it easier for anyone to contribute.
 
+To familiarize yourself with how GitLab uses Figma, view the [**Figma for GitLab**](https://www.figma.com/proto/73OcYdBfOaK2xlChC3tbNX/GitLab-Figma?node-id=0%3A5&scaling=scale-down) deck, or continue reading below.
+
 ### Working with Projects in Figma
 
 1. Group files and assets under a design team, project, or common theme.

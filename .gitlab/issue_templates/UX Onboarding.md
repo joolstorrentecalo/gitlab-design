@@ -127,7 +127,7 @@ In and around your third week you'll be asked by your UX buddy to shadow them fo
 As part of your onboarding and to be best prepared for future responsibilities, it is recommended to walk through a few flows inside of the product, ask any questions you have (for example in this issue), and also document your steps as you go in a journal. This will give you a chance to reflect back on your onboarding and address/pinpoint issues that may have come up with a new sense of understanding.
 
 Aside from adjusting towards the async workflow of GitLab please try to see if you can complete the following flows:
-- [ ] Creating a project and launching a simple website on GitLab pages.
+- [ ] [Creating a project and launching a simple website on GitLab pages](https://docs.gitlab.com/ee/user/project/pages/getting_started/pages_new_project_template.html).
 - [ ] Suggesting a change and opening a merge request towards any project.
 - [ ] See how you receive notifications on issues. You get both emails as well as todos. (It's up to you to decide which one to use — this is a good conversation to have with your UX buddy).
 - [ ] Create your `progress` folder in the [design project](https://gitlab.com/gitlab-org/gitlab-design) and commit your first design file.

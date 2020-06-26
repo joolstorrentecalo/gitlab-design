@@ -95,16 +95,23 @@ Below is extra inforomation to help you understand our product better. Feel free
 - [ ] UX Research Shadowing: Prior to performing UX research on your own, you should participate in research shadowing. You can kick off the process when you meet with the [UX Researcher for your group](https://about.gitlab.com/handbook/product/categories/#devops-stages) and learn more about the [UX Research shadowing process](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/research-shadowing). 
 
 ## Tech knowledge to know :computer:
+
+As a designer at GitLab, you will come into contact with a lot of complex, technical concepts. If you already want to dive deeper into some of these, you can have a look at the following videos.
+
+**Required**
+
 - [ ] What is DevOps: [video](https://youtu.be/_Gpe1Zn-1fE )
 - [ ] What is CI(continuous integration)/CD(continuous delivery/deployment): [video](https://www.youtube.com/watch?v=AlrImm1T8Wg)
-- [ ] What is Docker: [video](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
-- [ ] What is Kubernetes: [video](https://www.youtube.com/watch?v=2vMEQ5zs1kov)
 - [ ] What is YAML file: [video](https://www.youtube.com/watch?v=o9pT9cWzbnI)
-- [ ] What is AWS EKS/ECS/Fargate: [video](https://www.youtube.com/watch?v=UT88Ojx-TLk)
-- [ ] What is the differences between Countinous Delivery VS Countinous Deployment: [video](https://www.youtube.com/watch?v=93raARQl8PE)
-- [ ] What is value stream: [video](https://www.youtube.com/watch?v=Ze-ypsG2fzw)
-- [ ] What is Helm: [video](https://www.youtube.com/watch?v=9cwjtN3gkD4)
+- [ ] What is value stream: [direction page](https://about.gitlab.com/solutions/value-stream-management/)
 
+**Optional**
+
+- What is Docker: [video](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
+- What is Kubernetes: [video](https://www.youtube.com/watch?v=2vMEQ5zs1kov)
+- What is AWS EKS/ECS/Fargate: [video](https://www.youtube.com/watch?v=UT88Ojx-TLk)
+- What is the differences between Countinous Delivery VS Countinous Deployment: [video](https://www.youtube.com/watch?v=93raARQl8PE)
+- What is Helm: [video](https://www.youtube.com/watch?v=9cwjtN3gkD4)
 
 <!--
 

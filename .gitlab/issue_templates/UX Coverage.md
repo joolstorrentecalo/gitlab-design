@@ -12,6 +12,16 @@ Responsibilities include reviewing merge requests, responding to UX related ques
 | ----------------- | -------------------- | ------------------ | ----------- | --------- |
 | `HIGH/MEDIUM/LOW` | `e.g. Reviewing merge requests` | `ADD LINK` | `@assignee` | `@assignee` | 
 
+<!--- 
+
+Optionally, you can use the following priority badges:
+
+- HIGH: [![Priority badge](https://img.shields.io/badge/Priority-High-red.svg)](https://shields.io/)
+- MEDIUM: [![Priority badge](https://img.shields.io/badge/Priority-Medium-orange.svg)](https://shields.io/)
+- LOW: [![Priority badge](https://img.shields.io/badge/Priority-Low-green.svg)](https://shields.io/)
+
+--->
+
 ## :muscle: Coverage Tasks
 
 Include specific issue links for tasks to be completed.

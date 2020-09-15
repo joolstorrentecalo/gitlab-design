@@ -92,21 +92,7 @@ There are three primary ways within Figma to add descriptive, helper content for
 
 ### Collaboration using Figma and GitLab
 
-We use our own product, and that means [dogfooding](https://about.gitlab.com/handbook/values/#dogfooding) features, like [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html). As can be inferred from the previous section, much of the conversation around a design happens within the context of that design. So the question now is when to use GitLab’s Design Management, and when to use Figma.
-
-In this table, you’ll find a few common scenarios along with the recommended tool. Mileage may vary, so use this as a starting point, and when in doubt make the best decision that moves the design forward with visibility that supports the needs of the team. Design Management is currently an alpha feature, so keep in mind that it is subject to change without notice, but the more we use and contribute to it, the more it will progress.
-
-| **Scenario** | **Figma** | **Design Management** |
-| ------ | ------ | ------ |
-| Co-designing within a shared file | √ |   |
-| Providing, or seeking feedback while a design is still in progress, and not ready for MVC | √ |   |
-| Seeking feedback on a design with a larger audience, where that feedback directly impacts an issue |   | √ |
-| Presenting design options or variations so the team can choose a direction |   | √ |
-| Sharing a prototype | √ |   |
-| Adding a to-do for a designer as it relates to in-progress design | √ |   |
-| Adding a to-do for a designer as it relates to an issue |   | √ |
-| Identifying visual regressions |   | √ |
-| Detailed redlines or specs | √ |   |
+We use our own product, and that means [dogfooding](https://about.gitlab.com/handbook/values/#dogfooding) features, like [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html). As can be inferred from the previous section, much of the conversation around a design happens within the context of that design. So the question now is, [when do I use GitLab’s Design Management, and when do I use Figma](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#deliver)?
 
 ## Code of conduct
 

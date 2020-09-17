@@ -78,7 +78,7 @@ Each department has its own handbook section, and UX is no exception:
 * [ ] We have an early/late `UX Hangout` call once every two weeks. This is where members of the UX Department can meet informally to talk about anything they want.
 * [ ] There is a monthly call between UX and the Frontend Department.
 * [ ] You will have a weekly 1:1 meeting with Valerie. This meeting is for you! Please take a moment before your 1:1s to add items to the agenda. This can be anything from an update on what you are working on to questions and concerns about the team, company, etc. This is also where you'll review progress on issues assigned in the [UX Management Board](https://gitlab.com/groups/gitlab-org/-/boards/1853653?label_name[]=UX%20Management).
-* [ ] Christie is here to support you! If you need a 1:1 chat at any time, book some time on her calendar. You can also DM her on Slack via `@valerie`.
+* [ ] Valerie is here to support you! If you need a 1:1 chat at any time, book some time on her calendar. You can also DM her on Slack via `@valerie`.
 * [ ] You are not obligated to attend any of the meetings that you are invited to. However, please notify others of your absence by responding to Google calendar invites. If you do not attend a meeting, please read the agenda items and go through the notes of the meeting. Also, check whether there is a recording available.
 * [ ] Recordings can be found on [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), [GitLab Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), and [Google Drive](https://drive.google.com/drive/folders/1FLKOVDqiD7lMn11gvaVE8P4wWPf3FwFM). The meetings in Google Drive are organized in folders by meeting name.
 

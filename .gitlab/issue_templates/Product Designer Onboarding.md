@@ -90,7 +90,6 @@ Below is extra inforomation to help you understand our product better. Feel free
 
 ## Understand GitLab users - how people use our product  :pencil2:
 - [ ] Read about user [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#roles-vs-personas)
-- [ ] Who (Persona) does what using which feature: This is [a living document](https://docs.google.com/spreadsheets/d/1rfdzLqRZtdSlAy99-Zf4nabiIBoDd2u6_gwuRgvL0w8/edit#gid=0). It contains all stages we have and their product goal. along with the target users and their main tasks. You can use it as a reading documents, or reference to other documents (most tabs contain hyper links to handbook). You can also add links or information you think will be helpful.
 - [ ] UX Scorecards: [what are they?](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/), [epic link](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20scorecard)
 - [ ] UX Research Shadowing: Prior to performing UX research on your own, you should participate in research shadowing. You can kick off the process when you meet with the [UX Researcher for your group](https://about.gitlab.com/handbook/product/categories/#devops-stages) and learn more about the [UX Research shadowing process](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/research-shadowing). 
 

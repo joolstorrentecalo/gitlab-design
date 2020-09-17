@@ -55,6 +55,7 @@ Each department has its own handbook section, and UX is no exception:
 * [ ] Read about [Pajamas](https://design.gitlab.com/), our design system.
 * [ ] [Compa Group Worksheets](https://drive.google.com/drive/folders/1w7M4QaCMvOkn3vPxaOi4xEZ6RaSjW6__) are how an employee's performance is mapped to their job description. It's helpful to get familiar with these.
 
+
 ##### Getting to know people
 * [ ] Schedule weekly 1:1s with your direct reports. Most of your directs will have an existing agenda in Google docs that they used with their previous manager. Request access to this document and attach it to the 1:1 invite. The agenda is a great place for each of you to add items for discussion and to take notes on any decisions or action items.
 * [ ] Schedule coffee chats with other members of the UX department to get to know who you work with. Talk about everyday things. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment.
@@ -63,7 +64,7 @@ Each department has its own handbook section, and UX is no exception:
 * [ ] If you want to bring something to the attention of all UX Department members, you can ping `@uxers` on Slack, email: `ux-department@gitlab.com` or mention `@gitlab\-com/gitlab\-ux` within GitLab (please use all forms sparingly unless it's something important).
 
 #### Sharing a little about yourself
-* [ ] GitLabbers use README.md files to share information about themselves. It’s another way to get to know someone, how they work, and what they enjoy. Create your own personal README.md. It’s up to you what you wish to share. For inspiration, take a look at the [UX Team's README's](https://about.gitlab.com/handbook/engineering/ux/#about-our-team).
+* [ ] GitLab team members use README.md files to share information about themselves. It’s another way to get to know someone, how they work, and what they enjoy. Create your own personal README.md. It’s up to you what you wish to share. For inspiration, take a look at the [UX Team's README's](https://about.gitlab.com/handbook/engineering/ux/#about-our-team).
 
 ##### Keeping track of everything
 * [ ] Almost everything we do is within GitLab and it can sometimes be a challenge keeping up with everything. We use the [UX Management Board](https://gitlab.com/groups/gitlab-org/-/boards/1853653?label_name[]=UX%20Management) in the GitLab.org project as a helpful tool when collaborating with other UX Managers, tracking quarterly OKR progress, or proposing changes that may impact the entire UX department.
@@ -82,16 +83,7 @@ Each department has its own handbook section, and UX is no exception:
 * [ ] You are not obligated to attend any of the meetings that you are invited to. However, please notify others of your absence by responding to Google calendar invites. If you do not attend a meeting, please read the agenda items and go through the notes of the meeting. Also, check whether there is a recording available.
 * [ ] Recordings can be found on [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), [GitLab Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), and [Google Drive](https://drive.google.com/drive/folders/1FLKOVDqiD7lMn11gvaVE8P4wWPf3FwFM). The meetings in Google Drive are organized in folders by meeting name.
 
-##### 2019 Engagement Survey Next Steps
-GitLab runs regular [Employee Engagement Surveys](https://about.gitlab.com/handbook/people-group/engagement/) to reduce attrition, improve productivity and efficiency, enhance company values, and increase job satisfaction. After the survey results are shared, each department determines Next Steps based on feedback.
 
-As part of your regular workflow, please remember to include the Next Steps from the 2019 survey while managing your team:
-
-* Use the #thanks channel frequently in Slack to acknowledge great work. Encourage your team to do the same.
-* Encourage your team to use the UX Weekly Call as a knowledge sharing opportunity. For example, if they have an area of particular expertise or if they learn something new and interesting, ask them to add it to an upcoming agenda.
-* Make sure that everyone on your team has an [Individual Growth Plan](https://docs.google.com/document/d/1ZjdIuK5mNpljiHnFMK4dvqfTOzV9iSJj66OtoYbniFM/edit?usp=sharing) (IGP) that includes personal development items. Check in on the IGP monthly to help support your team's growth.
-* Make time in your schedule for your own personal growth, and share your efforts with your team. This is a great way to show the importance of these activities.
-* Make sure your team knows about our [conference budget](https://about.gitlab.com/handbook/spending-company-money/#work-related-online-courses-and-professional-development-certifications) and how to take advantage of it.
 
 ##### Your onboarding experience
 This issue is confidential by default, meaning this is a safe space to ask any questions and to describe any experiences you might have had. It's a tool to help **you** succeed!

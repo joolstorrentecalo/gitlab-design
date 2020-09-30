@@ -123,7 +123,7 @@ better understand the product stage, if necessary.
 
 If required for your Stage work you can request access to cloud providers, such as GCP and AWS. 
 
-- [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to GCP projects & QA Tunnel Server (this is used for running Auto DevOps locally).
+- [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to GCP projects.
 - [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to AWS.
 
 In and around your third week you'll be asked by your UX buddy to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with your product stage. You will serve as a second opinion and be included in meetings.

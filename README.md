@@ -24,7 +24,7 @@ website to determine the best place to post. Thank you for helping to make GitLa
 This project is primarily used by [GitLab’s UX Design department][ux-handbook] to 
 facilitate cross stage design collaboration. To learn about how we use Figma,
 our UI design tool, read the [contribution guidelines](/CONTRIBUTING.md). For
-more information about the UX Design department, read the [Links](#links)
+more information about the UX department, read the [Links](#links)
 section.
 
 ### Goals
@@ -50,10 +50,10 @@ Filter by the **UX** department on our [team page](https://about.gitlab.com/comp
 ## Links
 
 - [UX Handbook][ux-handbook]
-- [UX Designer Onboarding](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/)
+- [Product Designer Onboarding](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/)
 - [Pajamas Design System](https://design.gitlab.com)
 - [Pajamas Design System Project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
-- [Gitlab Research Project](https://gitlab.com/gitlab-org/ux-research)
+- [GitLab Research Project](https://gitlab.com/gitlab-org/ux-research)
 - [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/index.html)
 - [GitLab Dribbble](https://dribbble.com/gitlab)
 - [UX Guide **(deprecated)**](https://docs.gitlab.com/ce/development/ux_guide/)

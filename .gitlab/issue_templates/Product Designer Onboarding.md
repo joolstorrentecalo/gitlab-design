@@ -128,6 +128,11 @@ If required for your Stage work you can request access to cloud providers, such 
 
 In and around your third week you'll be asked by your UX buddy to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with your product stage. You will serve as a second opinion and be included in meetings.
 
+## Other access required for your role
+- [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to Qualtrics.
+- [ ]  On the [#figma](https://gitlab.slack.com/messages/CCNDGX396C) slack channel, request for an invitation to join GitLab team on Figma.
+- [ ]  On the [#ux-research](https://gitlab.slack.com/messages/CMEERUCE4) slack channel, request for an invitation to join GitLab workspace on Dovetail.
+
 ## Awesome flows :runner:
 
 As part of your onboarding and to be best prepared for future responsibilities, it is recommended to walk through a few flows inside of the product, ask any questions you have (for example in this issue), and also document your steps as you go in a journal. This will give you a chance to reflect back on your onboarding and address/pinpoint issues that may have come up with a new sense of understanding.
@@ -139,6 +144,7 @@ Aside from adjusting towards the async workflow of GitLab please try to see if y
 - [ ] Create your `progress` folder in the [design project](https://gitlab.com/gitlab-org/gitlab-design) and commit your first design file.
 - [ ] The [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) allows you to install GitLab's development environment on your computer. This will enable you to test certain features that aren't available in production. It is highly recommended that you install the GDK and try checking out a branch to see how it looks running locally. Your UX buddy can help you with this and the #gdk Slack channel is there for you if you need help.
 - [ ] Create your first [UX Scorecard](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/) documenting the current experience of a common job. Make sure to discuss this with your UX buddy beforehand. They can give you ideas and point to particular product areas that haven't been evaluated yet.
+- [ ] Walk through stage specific workflows with your UX buddy to make sure you are aligned and up to date.
 - [ ] Collaborate with your UX buddy and make a change to this [onboarding template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/UX%20Onboarding.md) to improve the onboarding experience for future GitLab team members.
 <!--
 

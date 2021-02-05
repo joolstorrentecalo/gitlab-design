@@ -186,5 +186,6 @@ Make sure you take breaks if you feel overwhelmed or tired, especially if this i
 - [ ] Add new team member to the product stage weekly and monthly meetings. `*`
 - [ ] Invite new team member to a 1:1 on their second week and repeating once a week.
 - [ ] Create a Google Doc for 1:1 agenda items ([template](https://docs.google.com/document/d/1sg4EtHBGTugxu-u2NSoH9LfE4zXT1ru1-Z3EiIXlohY)), share it with the new team member, attach it to the 1:1 event, and update the link in the [Your product stage](#your-product-stage-fox) section of this issue.
+- [ ] Create a [custom Slack emoji](https://gitlab.slack.com/customize/emoji) for the new team member using their profile image and upload it to Slack with the new team member's GitLab handle (for example `:johndoe:`). You can use [makeemoji.com](https://makeemoji.com/) to help you create the emoji with the correct image dimensions. (optional) 
 
 `*` Check with your Product Design Manager or PeopleOps if you need permission to add the new team member.

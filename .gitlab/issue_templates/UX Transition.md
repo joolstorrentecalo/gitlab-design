@@ -3,7 +3,7 @@
 
 This issue is dedicated to the seamless transition of UX and Design responsibilities for `_ STAGE GROUP, GROUP, OR CATEGORY_` from `_YOUR HANDLE_` to `_NEWLY ASSIGNED DESIGNER HANDLE_`.
 
-The designer currently assigned to the stage group is responsible for providing the relevant content for the newly assigned designer. However, it is encouraged to partner closely with Product Management, Design leadership, and stage group counterparts to provide the necessary information for a seamless handoff.
+The designer currently assigned to the stage group is responsible for providing the relevant content for the newly assigned designer. However, it is encouraged to partner closely with Product Management, Design leadership, and stage group counterparts to provide the necessary information for a seamless transition.
 
 <!-- Add any additional high-level context you think would be helpful here. -->
 
@@ -23,7 +23,7 @@ The below tasks should be completed before finalizing the transition and closing
 
 <!-- Add any information here that would be helpful to understand **why** this transition is happening. Make sure to link to any relevant issues, MRs, or discussions for context. -->
 
-#### Timeline for the handoff
+#### Timeline for the transition
 
 | Milestone | Description |
 | --- | --- |
@@ -42,7 +42,7 @@ The below tasks should be completed before finalizing the transition and closing
 
 ## :construction_worker: Current and upcoming initiatives
 
-<!-- List the current priorities and design needs for the work being handed off. Include relevant links such as Figma files, Dovetail insights, and any other resources. --> 
+<!-- List the current priorities and design needs for the work being transitioned. Include relevant links such as Figma files, Dovetail insights, and any other resources. --> 
 
 | Priority | Milestone | Current status | Issue/MR link | Design resource |
 |---------- | ----------------- | -------------------- | ------------------ | ----------- |

@@ -86,6 +86,8 @@ You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) 
 - [ ] Watch product [demos](https://about.gitlab.com/handbook/marketing/product-marketing/demo/) 
 - [ ] Start collaborating with your assigned UX Buddy. You should both arrange a day to have a regular 1:1 call (at least once a week). They have prepared a [Google Doc](FILL WITH GOOGLE DOC URL) to guide your sessions, feel free to add discussion points to the agenda.
 
+In and around your third week you'll be asked by your UX buddy to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with your product stage. You will serve as a second opinion and be included in meetings.
+
 <!--
 Below is extra inforomation to help you understand our product better. Feel free to remove or revise.
 -->
@@ -127,8 +129,6 @@ If required for your Stage work you can request access to cloud providers, such 
 
 - [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to GCP projects.
 - [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to AWS.
-
-In and around your third week you'll be asked by your UX buddy to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with your product stage. You will serve as a second opinion and be included in meetings.
 
 ## Awesome flows :runner:
 

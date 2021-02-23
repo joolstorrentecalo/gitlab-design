@@ -40,7 +40,7 @@ Each department has it's own handbook section, and UX is no exception:
 - [ ] Read through the whole [UX handbook](https://about.gitlab.com/handbook/engineering/ux/) section, please!
    - Consider this your first team task, understanding the Mission, Vision and how work is executed within the department. If you find any typo's or items that could be made clearer, please consider [editing that page](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/source/handbook/engineering/ux/index.html.md) by submitting a merge request. 
 - [ ] Join the `#random-coffees-ux-dept` Slack channel to automatically be paired with someone from the UX department for a [coffee chat](https://about.gitlab.com/company/culture/all-remote/#coffee-chats). Pairings occur once every two weeks. Coffee chats help get to know others you work with and talk about everyday things. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment. 
-
+In and around your third week you'll be asked by your UX buddy to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with product designer workflows. You will serve as a second opinion and be included in meetings.
 To highlight some other important places:
 
 - [ ] Read the [UX department workflow](https://about.gitlab.com/handbook/engineering/ux/ux-department-workflow) which is important to get to know which dates matter and to align yourself to our development rhythm.

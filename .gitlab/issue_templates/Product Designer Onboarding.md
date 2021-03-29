@@ -81,7 +81,7 @@ You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) 
 - [ ] Understand our [product hierarchy](https://about.gitlab.com/handbook/product/categories/#hierarchy).
 - [ ] Get to know your [stage's teammates](https://about.gitlab.com/handbook/product/categories/#devops-stages).
 - [ ] Read its [vision](FILL WITH PRODUCT STAGE VISION PAGE URL).
-- [ ] See where it stands in terms of [category maturity](https://about.gitlab.com/handbook/product/categories/maturity/).
+- [ ] See where it stands in terms of [category maturity](https://about.gitlab.com/direction/maturity/).
 - [ ] Explore its [features](FILL WITH PRODUCT STAGE FEATURE URL) and [roadmap](FILL WITH PRODUCT STAGE ROADMAP URL) 
 - [ ] Watch product [demos](https://about.gitlab.com/handbook/marketing/product-marketing/demo/) 
 - [ ] Start collaborating with your assigned UX Buddy. You should both arrange a day to have a regular 1:1 call (at least once a week). They have prepared a [Google Doc](FILL WITH GOOGLE DOC URL) to guide your sessions, feel free to add discussion points to the agenda.

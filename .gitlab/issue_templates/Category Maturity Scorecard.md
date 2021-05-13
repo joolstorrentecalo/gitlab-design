@@ -12,6 +12,7 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 /label ~"CM scorecard" 
 
 - **Research issue**: {{add link to research issue for the CM Scorecard research process}}
+- **Dovetail project**: {{add link to Dovetail project}}
 - **Previous score and scorecard**: {{if applicable, add CM Scorecard score and link to scorecard issue}}
 - **Walkthrough**: {{add link to YouTube video or walkthrough document}}
 - **Recommendations**: {{add link to your recommendation issue/s}}
@@ -20,8 +21,9 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
 [Learn more about Category Maturity Scorecards](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/)
 1. [ ] Review the Category Maturity Scorecard handbook page and follow the process as described. Reach out to the [UX Researcher for your stage](https://about.gitlab.com/handbook/product/categories/) if you have questions.
-1. [ ] Document the results of each JTBD scenario using this template
-1. [ ] Add links for each participants' session recordings. Consider downloading the session videos from Zoom, and uploading them to the shared Google UX Research folder in the appropriate section/stage/project folder.
+1. [ ] [Document the research data and insights in a Dovetail project](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/documenting-research-findings/) using the Category Maturity Scorecard Dovetail project template.
+1. [ ] Link the Dovetail project in this issue.
+1. [ ] Document the results of each JTBD scenario using this issue template.
 1. [ ] If the participant has not granted permission to share the recording publicly, ensure the sharing settings are set to GitLab-only.
 1. [ ] If needed, [create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for these sessions.
 

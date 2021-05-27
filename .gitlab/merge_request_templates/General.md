@@ -9,5 +9,3 @@
 ### Checklist
 
 1. [ ] QA check by another UX'r
-
-/cc @gitlab-com/gitlab-ux

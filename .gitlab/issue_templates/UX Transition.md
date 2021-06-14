@@ -1,4 +1,3 @@
-
 ## Context
 
 This issue is dedicated to the seamless transition of UX and Design responsibilities for `_ STAGE GROUP, GROUP, OR CATEGORY_` from `_YOUR HANDLE_` to `_NEWLY ASSIGNED DESIGNER HANDLE_`.
@@ -11,12 +10,14 @@ The designer currently assigned to the stage group is responsible for providing 
 
 The below tasks should be completed before finalizing the transition and closing this issue.
 
-* [ ] Update the title of the issue to: `UX Transition for _ STAGE GROUP, GROUP, OR CATEGORY_`.
-* [ ] Assign the transition issue to yourself and your Product Design Manager. 
+* [ ] Update the title of this issue to: `UX Transition for _ STAGE GROUP, GROUP, CATEGORY OR FEATURE_`.
+* [ ] Assign the transition issue to yourself and your Product Design Manager.
+    * [ ] Optionally, add a link to the MR confirming the transition [ADD LINK]()
 * [ ] Fill out the sections below with the relevant content for the stage, group, or category.
-* [ ] Inform relevant Product Managers (PMs) and Engineering Managers (EMs) of the transition
-* [ ] Communicate the change with the larger team on Slack.
-* [ ] When the content is ready, assign the new designer to the issue, and `@mention` relevant PM, EM, and Product Design Manager.
+* [ ] Inform relevant Product Managers and Engineering Managers of the UX transition by pinging them in this issue.
+    * [ ] Optionally, chedule a sync meeting with the newly assigned Product Designer, Product Design Manager, and Product Manager. You can also opt for recording a walkthrough video to share with the relevant team.
+* [ ] If a category or feature is being moved, [transfer the JTBDs](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/#update-jtbd-data-file) to the relevant team by updating them in the handbook.
+* [ ] Communicate the change with the stage groups on Slack by sharing a link to this issue.
 * [ ] **Newly Assigned Designer**: When you feel comfortable, unassign the previous designer and close this issue.
 
 ## :hourglass: History and timeline
@@ -36,6 +37,7 @@ The below tasks should be completed before finalizing the transition and closing
 * Jobs to be Done (JTBD) handbook page: [ADD LINK]()
 * Stage or Category Vision: [ADD LINK]()
 * Section UX Strategy: [ADD LINK]()
+* List the Category or Feature labels associated to this transition: `~LABEL` `~LABEL`
 
 * Additional resources: 
   * Add resource: [ADD LINK]()
@@ -58,4 +60,3 @@ The below tasks should be completed before finalizing the transition and closing
 <!-- List out the relevant meetings, rituals, or slackbots the new designer should be added to. Then add the person who can add them to the ritual. -->
 
 - [ ] [Event name](ADD LINK) - `@mention`
-

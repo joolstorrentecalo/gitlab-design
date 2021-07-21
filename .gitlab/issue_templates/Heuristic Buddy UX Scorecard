@@ -5,9 +5,11 @@ Title should be: UX Scorecard - {{Stage Group}} FY{{YY}}-Q{{quarter number}} - {
 
 If this UX Scorecard is related to an OKR, append ~OKR to the /label quick action below to automatically add the 'OKR' label.
 
+If this UX Scorecard is related to SUS, append the ~"SUS" to the /label quick action below to automatically add the 'SUS' label.
+
 -->
 
-/label ~"UX scorecard" 
+/label ~"UX scorecard-rec" 
 
 - **Personas**: {{add links to related personas}}
 - **Previous score and scorecard**: {{if applicable, add previous benchmark score and link to scorecard issue}}

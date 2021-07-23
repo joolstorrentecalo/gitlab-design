@@ -26,7 +26,7 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 1. [ ] Document the results of each JTBD scenario using this issue template.
 1. [ ] If the participant has not granted permission to share the recording publicly, ensure the sharing settings are set to GitLab-only.
 1. [ ] If needed, [create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for these sessions.
-1. [ ] Once the research has concluded, update the issue description `Outcome` section with the maturity level. The outcome can be a downgrade, remain, or increase to x-maturity. For example, `The CM Scorecard research has concluded and we have increased the maturity for Dependency Scanning to Complete.`
+1. [ ] Once the research has concluded, update the issue description `Outcome` section with the maturity level. The outcome can be a downgrade, remain, or increase in x-maturity. For example, `The CM Scorecard research has concluded and we have increased the maturity for Dependency Scanning to Complete.`
 
 # CM Scorecard Results Template
 ### Job to be done A

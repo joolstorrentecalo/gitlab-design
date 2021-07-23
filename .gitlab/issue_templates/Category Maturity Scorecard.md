@@ -26,6 +26,7 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 1. [ ] Document the results of each JTBD scenario using this issue template.
 1. [ ] If the participant has not granted permission to share the recording publicly, ensure the sharing settings are set to GitLab-only.
 1. [ ] If needed, [create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for these sessions.
+1. [ ] Once the research has been concluded, update the newly evaluated maturity for the stage-group in the description of this issue under the `Outcome` section 
 
 # CM Scorecard Results Template
 ### Job to be done A
@@ -82,6 +83,7 @@ If this CM Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
  {{continue with as many participants as you had in the study}}
 
+### Outcome
 
 #### Other notes
 {{Add any additional notes that came from freeform discussion or elsewhere}}

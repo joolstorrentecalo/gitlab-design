@@ -1,7 +1,7 @@
 <!--
 
 Title should be: Tracking Issue: UX OKRs for {{Group}} - FY{{YY}}-Q{{quarter number}}
-(e.g. “Tracking Issu: UX OKRs for CI/CD - FY22-Q1”)
+(e.g. “Tracking Issue: UX OKRs for CI/CD - FY22-Q1”)
 
 See example issues: 
 

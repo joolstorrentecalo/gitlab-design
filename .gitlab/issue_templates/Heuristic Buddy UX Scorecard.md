@@ -25,7 +25,8 @@ The Heuristic Buddy UX Scorecards are a twist on our UX Scorecard process. These
 
 The initial preparation is completed by the Group Product Designer. When the preparation has been completed they will hand it over to the Heuristic Buddy to complete the evaluation who will hand it back to the Group Product Designer when completed to add any recommendations. Read through the steps below for details.
 
-Group Product Designer (Expert)
+### Group Product Designer (Expert)
+
 1. [ ] Add this issue to the stage group epic for the corresponding UX scorecards. Verify that the "UX scorecard" label is applied.
 1. [ ] After working with your PM to identify a top job, write it using the Job to be Done (JTBD) format: `When [situation], I want to [motivation], so I can [expected outcome]`. Review with your manager to ensure your JTBD is written at the appropriate level. Remember, a JTBD is not a user story, it should not directly reference a solution and should be tool agnostic.
 1. [ ] Make note of which [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/) might be performing the job, and link to them from this issue's description. Keeping personas in mind allows us to make the best decisions to address specific problems and pain points. Note: Do not include a persona in your JTBD format, as multiple types of users may complete the same job.
@@ -33,7 +34,8 @@ Group Product Designer (Expert)
 1. [ ] Consider whether you need to include additional scenarios related to onboarding.
 1. [ ] Ping your Heuristic Buddy and let them know it's ready for them to conduct the evaluation.
 
-Heuristic Buddy (Evaluator)
+### Heuristic Buddy (Evaluator)
+
 1. [ ] Review the current experience, noting where you expect a user's high and low points to be based on our [UX Heuristics](https://about.gitlab.com/handbook/engineering/ux/heuristics/). Using an experience map, such as the one found in [this template](https://app.mural.co/template/6b2c082d-d81a-4a3b-9fff-37525ac9e173/dcdc71d4-1fce-4fe1-ae98-81267bd232ea), capture the screens and jot down observations. Ideally, use our [scoring template](https://docs.google.com/spreadsheets/d/1Z_70fDg578wu8j_kta3vSLOHWv-BEJ1zuqniyBQUTeI/edit#gid=0).
     1. During the evaluation strive to wear the hat of the persona relevant to the JTBD and while doing so try to see the UI from their perspective as if they were a new user. 
     1. As you progress through your evaluation this will be easy to forget so it's recommended to put a reminder somewhere in your view, such as a post-it stuck on your monitor that says "You're a new user!"
@@ -49,6 +51,7 @@ Heuristic Buddy (Evaluator)
 1. [ ] Link to your video in the [Engineering Week in Review](https://docs.google.com/document/d/1EkfzI85aqw8chYDBf2GLRvjKEa3s0FWHMI3u0DIr-xg/edit).
 1. [ ] Once the evaluation has been completed ping the Stage Group Product Designer in this issue letting them know it's ready for their review.
 
-Group Product Designer (Expert)
+### Group Product Designer (Expert)
+
 1. [ ] [Create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for this JTBD and add it to the same stage group epic as this issue.  
    1. Add a link to your recommendation issue(s) to this issue.

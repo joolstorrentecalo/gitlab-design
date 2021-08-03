@@ -33,6 +33,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
 1. [ ] If your JTBD spans more than one stage group, that’s great! Review your JTBD with a designer from that stage group for accuracy. Note: This stage group's designer cannot be your Heuristic Buddy.
 1. [ ] Consider whether you need to include additional scenarios related to onboarding.
 1. [ ] Ping your Heuristic Buddy and let them know it's ready for them to conduct the evaluation.
+1. [ ] Work with your Heuristic Buddy to ensure they'll be evaluating GitLab in the correct environment setup that is appropriate to a new user attempting to complete the JTBD that you've selected.
 
 ### Heuristic Buddy (Evaluator)
 

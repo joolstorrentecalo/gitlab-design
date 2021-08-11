@@ -23,7 +23,7 @@ If this UX Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
 1. [ ] Add this issue to the stage group epic for the corresponding UX scorecards. Verify that the "UX scorecard" label is applied.
 1. [ ] After working with your PM to identify a top job, write it using the Job to Be Done (JTBD) format: When [situation], I want to [motivation], so I can [expected outcome]. Review with your manager to ensure your JTBD is written at the appropriate level. Remember, a JTBD is not a user story, it should not directly reference a solution and should be tool agnostic.
-1. Create script scenarios based on your selected Job. The number of scenarios used per job statement often depends on the complexity of the features tested.
+1. [ ] Create script scenarios based on your selected Job. The number of scenarios used per job statement often depends on the complexity of the features tested.
 1. [ ] Make note of which [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/) might be performing the job, and link to them from this issue's description. Keeping personas in mind allows us to make the best decisions to address specific problems and pain points. Note: Do not include a persona in your JTBD format, as multiple types of users may complete the same job.
 1. [ ] If your JTBD spans more than one stage group, that’s great! Review your JTBD with a designer from that stage group for accuracy.
 1. [ ] Consider whether you need to include additional scenarios related to onboarding.

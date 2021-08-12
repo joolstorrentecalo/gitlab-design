@@ -27,13 +27,16 @@ The initial preparation is completed by the Group Product Designer. When the pre
 
 ### Group Product Designer (Expert)
 
-1. [ ] Add this issue to the stage group epic for the corresponding UX scorecards. Verify that the "UX scorecard" label is applied.
+1. [ ] Add this issue to the stage group epic for the corresponding UX Scorecards. Verify that the "UX scorecard" label is applied.
 1. [ ] After working with your PM to identify a top job, write it using the Job to be Done (JTBD) format: `When [situation], I want to [motivation], so I can [expected outcome]`. Review with your manager to ensure your JTBD is written at the appropriate level. Remember, a JTBD is not a user story, it should not directly reference a solution and should be tool agnostic.
+1. [ ] Create script scenario(s) based on your JTBD. The number of scenarios used per job statement often depends on the complexity of the features tested.
+   1. Tip 1: You might find job statements to be too broad to serve as guidance for writing script scenarios. If that is the case, consider breaking the job statements down into user stories as an intermediary step. Then go back to draft your script scenario. 
+   1. Tip 2: Keep in mind your buddy may be missing the subject matter knowledge needed to understand the script scenario. If needed, offer a brief, high-level overview of the job to give them context. Avoid going into details about how to perform tasks within GitLab.
 1. [ ] Make note of which [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/) might be performing the job, and link to them from this issue's description. Keeping personas in mind allows us to make the best decisions to address specific problems and pain points. Note: Do not include a persona in your JTBD format, as multiple types of users may complete the same job.
+    1. [ ] Describe the characteristics this persona may impart if they were a new user for this job and the GitLab environment they will be joining. Consider that it most likely is not an empty group/project but instead could be an active team with multiple groups and repositories.
 1. [ ] If your JTBD spans more than one stage group, that’s great! Review your JTBD with a designer from that stage group for accuracy. Note: This stage group's designer cannot be your Heuristic Buddy.
-1. [ ] Consider whether you need to include additional scenarios related to onboarding.
 1. [ ] Ping your Heuristic Buddy and let them know it's ready for them to conduct the evaluation.
-1. [ ] Work with your Heuristic Buddy to ensure they'll be evaluating GitLab in the correct environment setup that is appropriate to a new user attempting to complete the JTBD that you've selected.
+1. [ ] Work with your Heuristic Buddy to ensure they'll be evaluating GitLab in the correct environment setup that is appropriate to a new user attempting to complete the JTBD that you've selected. This environment should attempt to replicate the most realistic scenario that's appropriate for your persona in a "new user" state. This may not be a brand new/empty project.
 
 ### Heuristic Buddy (Evaluator)
 

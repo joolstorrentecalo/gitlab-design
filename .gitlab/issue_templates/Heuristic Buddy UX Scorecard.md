@@ -56,5 +56,10 @@ The initial preparation is completed by the Group Product Designer. When the pre
 
 ### Group Product Designer (Expert)
 
-1. [ ] [Create a recommendation issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new?issuable_template=UX%20Scorecard%20Part%202) for this JTBD and add it to the same stage group epic as this issue.  
-   1. Add a link to your recommendation issue(s) to this issue.
+1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed.  
+1. [ ] Add a `UX scorecard-rec` label to every issue for traceability
+1. [ ] Link your recommendation issues to your main UX Scorecard issue
+1. Tip 1: Brainstorm opportunities to fix or improve areas of the experience.
+    - Use the findings from the Emotional Grading scale to determine areas of immediate focus. For example, if parts of the experience received a “Negative” Emotional Grade, consider addressing those first.
+1. Tip 2: Think iteratively, and create dependencies where appropriate, remembering that sometimes the order of what we release is just as important as what we release.
+    - If you need to break recommendations into phases or over multiple milestones, create multiple epics and use the [Category Maturity Definitions](https://about.gitlab.com/direction/maturity/) in the title of each epic: **Minimal, Viable, Complete, or Lovable**.

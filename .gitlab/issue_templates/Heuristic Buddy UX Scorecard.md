@@ -16,7 +16,6 @@ If this UX Scorecard is related to SUS, append the ~"SUS" to the /label quick ac
 - **Benchmark score**: {{add benchmark score}}
 - **Walkthrough video**: {{add link to YouTube video}}
 - **Walkthrough deck**: {{add link to deck used in Youtube video if applicable. This step is optional and we encourage you to skip this unless it helps you to communicate your findings}}
-- **Scoring Notes**: {{add link to [UX Scorecard Scoring template](https://docs.google.com/spreadsheets/d/1Z_70fDg578wu8j_kta3vSLOHWv-BEJ1zuqniyBQUTeI/edit#gid=0), if used}}
 - **Recommendations**: {{add link to your recommendation issue/s}}
 
 ## Heuristic Buddy UX Scorecard Checklist

@@ -40,10 +40,10 @@ The initial preparation is completed by the Group Product Designer. When the pre
 
 ### Heuristic Buddy (Evaluator)
 
-1. [ ] Review the current experience, noting where you expect a user's high and low points to be based on our [UX Heuristics](https://about.gitlab.com/handbook/engineering/ux/heuristics/). Using an experience map, such as the one found in [this template](https://app.mural.co/template/6b2c082d-d81a-4a3b-9fff-37525ac9e173/dcdc71d4-1fce-4fe1-ae98-81267bd232ea), capture the screens and jot down observations. Ideally, use our [scoring template](https://docs.google.com/spreadsheets/d/1Z_70fDg578wu8j_kta3vSLOHWv-BEJ1zuqniyBQUTeI/edit#gid=0).
+1. [ ] Review the current experience, noting where you expect a user's high and low points to be based on our [UX Heuristics](https://about.gitlab.com/handbook/engineering/ux/heuristics/). Using an experience map, such as the one found in [this template](https://app.mural.co/template/6b2c082d-d81a-4a3b-9fff-37525ac9e173/dcdc71d4-1fce-4fe1-ae98-81267bd232ea), capture the screens and jot down observations.
     1. During the evaluation strive to wear the hat of the persona relevant to the JTBD and while doing so try to see the UI from their perspective as if they were a new user. 
     1. As you progress through your evaluation this will be easy to forget so it's recommended to put a reminder somewhere in your view, such as a post-it stuck on your monitor that says "You're a new user!"
-1. [ ] Use the [**Grading Rubric**](https://about.gitlab.com/handbook/engineering/ux/heuristics/#scoring) to provide an overall measurement that becomes the **Benchmark score** for the experience (one grade per JTBD), and add it to this issue's description. Document the score in the [UX Scorecard Spreadsheet](https://drive.google.com/drive/u/0/search?lfhs=2&q=ux%20scorecard%20scoring%20template).
+1. [ ] Use the [**Grading Rubric**](https://about.gitlab.com/handbook/engineering/ux/heuristics/#scoring) to provide an overall measurement that becomes the **Benchmark score** for the experience (one grade per JTBD), and add it to this issue's description. Document the score in the [UX Scorecard Spreadsheet](https://drive.google.com/drive/u/0/search?lfhs=2&q=JTBD%20UX%20Scorecards).
 1. [ ] Once testing is complete, create a walkthrough video that documents what you experienced when completing the job in GitLab. Begin the video with a contextual introduction including: 
     1. Your role, stage group
     1. Specify how you conducted the heuristic evaluation

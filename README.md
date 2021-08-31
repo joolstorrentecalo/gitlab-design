@@ -55,7 +55,6 @@ Filter by the **UX** department on our [team page](https://about.gitlab.com/comp
 - [Pajamas Design System Project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
 - [GitLab Research Project](https://gitlab.com/gitlab-org/ux-research)
 - [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/index.html)
-- [GitLab Dribbble](https://dribbble.com/gitlab)
 - [UX Guide **(deprecated)**](https://docs.gitlab.com/ce/development/ux_guide/)
 
 [ux-handbook]: https://about.gitlab.com/handbook/engineering/ux/

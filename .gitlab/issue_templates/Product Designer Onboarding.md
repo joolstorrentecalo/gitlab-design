@@ -46,8 +46,6 @@ To highlight some other important places:
 - [ ] Read the [UX department workflow](https://about.gitlab.com/handbook/engineering/ux/ux-department-workflow) which is important to get to know which dates matter and to align yourself to our development rhythm.
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md). Verify that you have access to Figma. And ask about any other tools you might need.
 - [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/).
-- [ ] For future research engagements, [request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to Qualtrics.
-- [ ] On the [#ux-research](https://gitlab.slack.com/messages/CMEERUCE4) slack channel, request for an invitation to join GitLab workspace on Dovetail and mention @asmolinski.
 
 You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) in the repository to start a discussion on design-related matters. For new component design or existing component updates, [open an issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new) in the Pajamas repository. For product-related matters, the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/new) is the correct place.
 
@@ -69,7 +67,7 @@ You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) 
         - [#product](https://gitlab.slack.com/messages/C0NFPSFA8)
         - [#eng-week-in-review](https://gitlab.slack.com/messages/CJWA4E9UG)
         - [#handbook](https://gitlab.slack.com/messages/C81PT2ALD)
-- [ ] As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please check your calendar and let your manager know if you don't see an invite. Note that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh, and did I mention there are [recordings available](https://drive.google.com/drive/folders/1pvtIfMFOj8Bf1pM3Ac-gYuG6pqtnNu7O?usp=sharing)? :slight\_smile: 
+- [ ] As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please check your calendar and let your manager know if you don't see an invite. Note that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh, and did I mention there are [recordings available](https://drive.google.com/drive/u/0/folders/1VIki1Z3bp8KEoZFq7ABKeKLy9KhHeEgO)? :slight\_smile: 
 - [ ] There is a fortnightly [UX Showcase](https://about.gitlab.com/handbook/engineering/ux/ux-department-workflow/ux-showcase/) to learn what designers at different stage groups are working on with walk throughs of various research findings and design solutions. It is also an opportunity for designers to learn different approaches and processes from one another.
 - [ ] Once you are added to the UX Calendar on Google, attend one of our `UX Hangouts` calls. We meet once every two weeks at a rotating time to hang out with other UX members and talk about anything we want.
 - [ ] Lastly, every department and stage group host [group conversations](https://about.gitlab.com/handbook/group-conversations/) to keep everyone informed about their efforts. This is a great way to learn about the company and what different teams are up to. Please make sure you have access to the `GitLab Team Meetings` calendar to be able to join any one of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
@@ -122,12 +120,21 @@ better understand the product stage, if necessary.
 
 -->
 
-## Cloud provider access requests :cloud:
+## Access requests :guardsman:
 
-If required for your Stage work you can request access to cloud providers, such as GCP and AWS. 
+_Note: you can bundle your requests into one [access request issue](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request)_
 
-- [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to GCP projects.
-- [ ] [Request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to AWS.
+**UX reserch**<br>
+- [ ] Open a an access request issue to the following UX research systems:
+    - [ ] `Dovetail` for UX research insights.
+    - [ ] `Respondent.io` for UX research recruitment.
+    - [ ] `Qualtrics` for for future research engagements.
+
+**Cloud provider access requests**<br>
+If required for your Stage work you can [request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to cloud providers: 
+- [ ] GCP projects.
+- [ ] AWS.
+
 
 ## Awesome flows :runner:
 
@@ -142,6 +149,7 @@ Aside from adjusting towards the async workflow of GitLab please try to see if y
 - [ ] If you are not used to maintaining a local development environment like the one mentioned above, you can also use the GDK in [Gitpod](https://gitpod.io). This allows you to make/review changes exclusively in the browser. If you prefer this, read the [instructions on how to use the Gitpod GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md) and watch this video that walks you through [how to review merge requests both locally as well as in Gitpod](https://www.youtube.com/watch?v=M7b19Dq-1tw&t=12s). The #gitpod-gdk Slack channel is here for you if you need help or have any feedback.
 - [ ] Create your first [UX Scorecard](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/) documenting the current experience of a common job. Make sure to discuss this with your UX buddy beforehand. They can give you ideas and point to particular product areas that haven't been evaluated yet.
 - [ ] Collaborate with your UX buddy and make a change to this [onboarding template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/UX%20Onboarding.md) to improve the onboarding experience for future GitLab team members.
+
 <!--
 
 Feel free to add specific product stage flows, if necessary.

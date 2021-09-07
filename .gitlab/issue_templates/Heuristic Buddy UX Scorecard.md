@@ -9,7 +9,7 @@ If this UX Scorecard is related to SUS, append the ~"SUS" to the /label quick ac
 
 -->
 
-/label ~"UX scorecard-rec" 
+/label ~"UX scorecard" 
 
 - **Personas**: {{add links to related personas}}
 - **Previous score and scorecard**: {{if applicable, add previous benchmark score and link to scorecard issue}}

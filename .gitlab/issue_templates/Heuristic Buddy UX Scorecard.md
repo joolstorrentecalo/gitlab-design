@@ -54,10 +54,11 @@ The initial preparation is completed by the Group Product Designer. When the pre
 1. [ ] Link to your video in the [Engineering Week in Review](https://docs.google.com/document/d/1GQbnOP_lr9KVMVaBQx19WwKITCmh7H3YlgO-XqVwv0M/edit).
 1. [ ] Once the evaluation has been completed ping the Stage Group Product Designer in this issue letting them know it's ready for their review.
 
-### Group Product Designer (Expert)
+### Group Product Designer (Expert) - Recommendation Creation
 
 1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed.  
-1. [ ] Add a `UX scorecard-rec` label to every issue for traceability
+1. [ ] Add a `UX scorecard-rec` label on every issue for traceability
+1. [ ] Add [Severity labels](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity) to every issue for prioritization
 1. [ ] Link your recommendation issues to your main UX Scorecard issue
 1. Tip 1: Brainstorm opportunities to fix or improve areas of the experience.
     - Use the findings from the Emotional Grading scale to determine areas of immediate focus. For example, if parts of the experience received a “Negative” Emotional Grade, consider addressing those first.

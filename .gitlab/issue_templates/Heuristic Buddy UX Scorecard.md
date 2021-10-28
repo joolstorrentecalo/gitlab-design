@@ -9,7 +9,7 @@ If this UX Scorecard is related to SUS, append the ~"SUS" to the /label quick ac
 
 -->
 
-/label ~"UX scorecard" 
+/label ~"UX scorecard" ~"OKR"
 
 - **Personas**: {{add links to related personas}}
 - **Previous score and scorecard**: {{if applicable, add previous benchmark score and link to scorecard issue}}
@@ -26,7 +26,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
 
 ### Group Product Designer (Expert)
 
-1. [ ] Add this issue to the stage group epic for the corresponding UX Scorecards. Verify that the "UX scorecard" label is applied.
+1. [ ] Add this issue to the stage group epic for the corresponding UX Scorecards. Verify that the `UX scorecard` and `OKR` labels are applied, then apply your `section` and `group` labels as well.
 1. [ ] After working with your PM to identify a top job, write it using the Job to be Done (JTBD) format: `When [situation], I want to [motivation], so I can [expected outcome]`. Review with your manager to ensure your JTBD is written at the appropriate level. Remember, a JTBD is not a user story, it should not directly reference a solution and should be tool agnostic.
 1. [ ] Create script scenario(s) based on your JTBD. The number of scenarios used per job statement often depends on the complexity of the features tested.
    1. Tip 1: You might find job statements to be too broad to serve as guidance for writing script scenarios. If that is the case, consider breaking the job statements down into user stories as an intermediary step. Then go back to draft your script scenario. 
@@ -43,7 +43,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
     1. During the evaluation strive to wear the hat of the persona relevant to the JTBD and while doing so try to see the UI from their perspective as if they were a new user. 
     1. As you progress through your evaluation this will be easy to forget so it's recommended to put a reminder somewhere in your view, such as a post-it stuck on your monitor that says "You're a new user!"
 1. [ ] Use the [**Grading Rubric**](https://about.gitlab.com/handbook/engineering/ux/heuristics/#scoring) to provide an overall measurement that becomes the **Benchmark score** for the experience (one grade per JTBD), and add it to this issue's description. Document the score in the [UX Scorecard Spreadsheet](https://docs.google.com/spreadsheets/d/1iw5oj12QdLHOADV8P6ICE3P1U32eKMstpkIR4sPJRTo/edit#gid=457126498).
-1. [ ] Once testing is complete, create a walkthrough video that documents what you experienced when completing the job in GitLab. Begin the video with a contextual introduction including: 
+1. [ ] Once you've completed your evaluation, create a walkthrough video that documents what you experienced when completing the job in GitLab. Begin the video with a contextual introduction including: 
     1. Your role, stage group
     1. Specify how you conducted the heuristic evaluation
     1. Add a short introduction describing the JTBD and the purpose of the UX scorecard (i.e. you're performing the evaluation in partnership with {stage group} and {product designer}. 
@@ -52,12 +52,12 @@ The initial preparation is completed by the Group Product Designer. When the pre
    - The walkthrough video shouldn't take you long to create. Don't worry about it being polished or perfect, it's more important to be informative.
 1. [ ] Post your video to the [GitLab Unfiltered YouTube](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) channel, and link to it from this issue's description.
 1. [ ] Link to your video in the [Engineering Week in Review](https://docs.google.com/document/d/1GQbnOP_lr9KVMVaBQx19WwKITCmh7H3YlgO-XqVwv0M/edit).
-1. [ ] Once the evaluation has been completed ping the Stage Group Product Designer in this issue letting them know it's ready for their review.
+1. [ ] Once the evaluation has been completed ping the Stage Group Product Designer in this issue letting them know it's ready for their review and recommendation creation.
 
 ### Group Product Designer (Expert) - Recommendation Creation
 
-1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed.  
-1. [ ] Add a `UX scorecard-rec` label on every issue for traceability
+1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed 
+1. [ ] Add a `UX scorecard-rec` and `OKR` label on every issue for traceability, then apply your `section` and `group` labels as well.
 1. [ ] Add [Severity labels](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity) to every issue for prioritization
 1. [ ] Link your recommendation issues to your main UX Scorecard issue
 1. Tip 1: Brainstorm opportunities to fix or improve areas of the experience.

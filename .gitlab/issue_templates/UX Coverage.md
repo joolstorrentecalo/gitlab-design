@@ -54,4 +54,5 @@ Here are some references for how I and my group generally works:
 
 <!-- Do not remove the items below -->
 
+/label ~"UX Coverage Issue" 
 [time-off]: https://about.gitlab.com/handbook/engineering/ux/how-we-work/#time-off

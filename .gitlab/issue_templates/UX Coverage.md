@@ -1,36 +1,26 @@
 ## Intent
 
-This issue describes how broader group and team members are facilitating a Product Designer to take meaningful time away from work. The intent is that the designer isn't required to "catch-up" before and after [taking a well-deserved vacation][time-off]. 
+This issue describes how broader group and team members are facilitating a members of the UX Department to take meaningful time away from work. The intent is that the folks aren't required to "catch-up" before and after [taking a well-deserved vacation][time-off]. 
 
 ## :handshake: Responsibilities
 
-List the priorities that the responsible backups need to cover. Backups can be another product designer, your design manager, or product manager.
+List the priorities that the responsible backups need to cover. Backups can be a peer, your manager, or a peer/manager in a different department (e.g. product manager).
 
-Responsibilities include reviewing merge requests, responding to UX related questions or providing feedback related to inflight development work, responding to Slack inquiries. [See all responsibilities in the Handbook][responsibilities]
+Responsibilities include reviewing merge requests, responding to UX related questions, providing feedback related to inflight development work, or responding to Slack inquiries.
 
-| Priority | Responsibility | Context Link | Primary backup DRI | Secondary backup DRI |
+| Priority | Responsibility | Link | Primary backup DRI | Secondary backup DRI |
 | ----------------- | -------------------- | ------------------ | ----------- | --------- |
 | `HIGH/MEDIUM/LOW` | `e.g. Reviewing merge requests` | `ADD LINK` | `@assignee` | `@assignee` | 
 
-<!--- 
-
-Optionally, you can use the following priority badges:
-
-- HIGH: [![Priority badge](https://img.shields.io/badge/Priority-High-red.svg)](https://shields.io/)
-- MEDIUM: [![Priority badge](https://img.shields.io/badge/Priority-Medium-orange.svg)](https://shields.io/)
-- LOW: [![Priority badge](https://img.shields.io/badge/Priority-Low-green.svg)](https://shields.io/)
-
---->
-
 ## :muscle: Coverage Tasks
 
-Include specific issue links for tasks to be completed.
+Include specific issue links for tasks to be completed by your backups.
 
 - [ ] `Item` - `Link` - `@assignee`
 
 ## 🚙 Parked tasks
 
-Larger design responsibilities that aren't moving forward until I return, such as creating a prototype or planning/conducting research.
+List the larger responsibilities that aren't moving forward until I return, such as creating a prototype or planning/conducting research.
 
 - [ ] `Item` - `Link`
 
@@ -64,5 +54,4 @@ Here are some references for how I and my group generally works:
 
 <!-- Do not remove the items below -->
 
-[responsibilities]: https://about.gitlab.com/job-families/engineering/product-designer/
 [time-off]: https://about.gitlab.com/handbook/engineering/ux/how-we-work/#time-off

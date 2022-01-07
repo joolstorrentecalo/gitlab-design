@@ -58,6 +58,8 @@ You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) 
         - [#ux-research](https://gitlab.slack.com/messages/CMEERUCE4)
         - [#design-system](https://gitlab.slack.com/messages/CDNNDD1T3)
         - [#ux-bookclub](https://gitlab.slack.com/messages/CRCQ1RYUU)
+        - [#ux-social](https://gitlab.slack.com/messages/C01SDUDAGDR)
+        - [#ux-community-contributions](https://gitlab.slack.com/messages/C01QPJGU14P)
         - [#figma](https://gitlab.slack.com/messages/CCNDGX396C)
         - There are also UX slack channels for each stage
     - Company

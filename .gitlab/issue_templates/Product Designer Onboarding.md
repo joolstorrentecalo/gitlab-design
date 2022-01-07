@@ -126,7 +126,7 @@ better understand the product stage, if necessary.
 
 _Note: you can bundle your requests into one [access request issue](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request)_
 
-**UX reserch**<br>
+**UX research**<br>
 - [ ] Open a an access request issue to the following UX research systems:
     - [ ] `Dovetail` for UX research insights.
     - [ ] `Respondent.io` for UX research recruitment.

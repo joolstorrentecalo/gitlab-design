@@ -40,7 +40,7 @@ GitLab is an open source project and we are very happy to accept community
 contributions.
 
 If you want to contribute to our [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771)
-in Figma, please follow the [contribution guidelines](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/master/doc/pajamas-ui-kit.md)
+in Figma, please follow the [contribution guidelines](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md)
 for that library.
 
 ## Contacts

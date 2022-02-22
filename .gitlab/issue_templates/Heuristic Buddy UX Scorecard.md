@@ -37,6 +37,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
 1. [ ] Setup the environment your Heuristic Buddy will need to use to complete their evaluation. Depending on your needs this may take several hours to setup, test and get right. Please plan accordingly.
     * This environment should attempt to replicate the most realistic scenario that's appropriate for your persona in a "new user" state. This may not be a brand new/empty project.
     * Think about your selected persona and what knowledge they might already bring to the table. Is there anything that you'd expect them to know about this space and environment that your Heuristic Buddy may not know? If so, write that out for them so they'll know what to do should they encounter that situation.
+1. [ ] Create a new [Dovetail project using the UX scorecard template](https://dovetailapp.com/projects/new) and fill in the readme details. Your heuristic buddy will use this to document any observations or findings that come out of this scorecard. Add a link to the project in your issue description.
 1. [ ] Ping your Heuristic Buddy and let them know it's ready for them to conduct the evaluation.
 1. [ ] Work with your Heuristic Buddy to ensure they'll be evaluating GitLab in the correct environment setup that is appropriate to a new user attempting to complete the JTBD that you've selected. 
     * Be prepared to collaborate with your buddy should something come up unexpectadly.
@@ -57,11 +58,13 @@ The initial preparation is completed by the Group Product Designer. When the pre
    - The walkthrough video shouldn't take you long to create. Don't worry about it being polished or perfect, it's more important to be informative.
 1. [ ] Post your video to the [GitLab Unfiltered YouTube](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) channel, and link to it from this issue's description.
 1. [ ] Link to your video in the [Engineering Week in Review](https://docs.google.com/document/d/1GQbnOP_lr9KVMVaBQx19WwKITCmh7H3YlgO-XqVwv0M/edit).
+1. [ ] In the Dovetail project that your heuristic buddy created, use Insights to document any observations or findings that came out of this scorecard. You can use your experience map or video summary to help you curate those. It is important to add insights into Dovetail so they can be shared and accessed by all groups, and used to document cross-stage findings. You can also add any supporting material in Data, such as an exported Mural experience map, but it is not required. Example [here](https://dovetailapp.com/projects/6NgpbSMFEDtQIBLPP71F5F/readme).
 1. [ ] Once the evaluation has been completed ping the Stage Group Product Designer in this issue letting them know it's ready for their review and recommendation creation.
 
 ### Group Product Designer (Expert) - Recommendation Creation
 
-1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed 
+1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed. Create these using one of the [Actionable Insight templates](https://gitlab.com/gitlab-org/gitlab-design/master/handbook/engineering/ux/ux-research-training/research-insights#how-to-document-actionable-insights) in the GitLab project, depending on if it relates to a [product change](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Product%20change.md) or [needs more exploration](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Exploration%20needed.md). 
+    - Recommendations do not need to be documented in your Dovetail project.
 1. [ ] Add a `UX scorecard-rec` and `OKR` label on every issue for traceability, then apply your `section` and `group` labels as well.
 1. [ ] Add [Severity labels](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity) to every issue for prioritization
 1. [ ] Link your recommendation issues to your main UX Scorecard issue

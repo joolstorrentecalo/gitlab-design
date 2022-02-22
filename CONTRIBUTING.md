@@ -19,11 +19,13 @@ _This notice should stay as the first item in the CONTRIBUTING.md file._
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Contribute to GitLab](#contribute-to-gitlab)
 - [Figma for GitLab](#figma-for-gitlab)
   - [Why Figma?](#why-figma)
-  - [Library structure](#library-structure)
+  - [Working with Projects in Figma](#working-with-projects-in-figma)
+  - [Working with team libraries](#working-with-team-libraries)
+  - [Adding descriptions, notes, and annotations](#adding-descriptions-notes-and-annotations)
+  - [Collaboration using Figma and GitLab](#collaboration-using-figma-and-gitlab)
 - [Code of conduct](#code-of-conduct)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -92,7 +94,7 @@ There are three primary ways within Figma to add descriptive, helper content for
 
 ### Collaboration using Figma and GitLab
 
-We use our own product, and that means [dogfooding](https://about.gitlab.com/handbook/values/#dogfooding) features, like [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html). As can be inferred from the previous section, much of the conversation around a design happens within the context of that design. So the question now is, [when do I use GitLab’s Design Management, and when do I use Figma](https://about.gitlab.com/handbook/engineering/ux/ux-designer/#deliver)?
+We use our own product, and that means [dogfooding](https://about.gitlab.com/handbook/values/#dogfooding) features, like [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html). As can be inferred from the previous section, much of the conversation around a design happens within the context of that design. So the question now is, [when do I use GitLab’s Design Management, and when do I use Figma](https://about.gitlab.com/handbook/engineering/ux/product-designer/#deliver)?
 
 ## Code of conduct
 

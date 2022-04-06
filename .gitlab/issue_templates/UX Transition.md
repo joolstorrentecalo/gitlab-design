@@ -15,7 +15,7 @@ The below tasks should be completed before finalizing the transition and closing
     * [ ] Optionally, add a link to the MR confirming the transition [ADD LINK]()
 * [ ] Fill out the sections below with the relevant content for the stage, group, or category.
 * [ ] Inform relevant Product Managers and Engineering Managers of the UX transition by pinging them in this issue.
-    * [ ] Optionally, chedule a sync meeting with the newly assigned Product Designer, Product Design Manager, and Product Manager. You can also opt for recording a walkthrough video to share with the relevant team.
+    * [ ] Optionally, schedule a sync meeting with the newly assigned Product Designer, Product Design Manager, and Product Manager. You can also opt for recording a walkthrough video to share with the relevant team.
 * [ ] If a category or feature is being moved, [transfer the JTBDs](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/#update-jtbd-data-file) to the relevant team by updating them in the handbook.
 * [ ] Communicate the change with the stage groups on Slack by sharing a link to this issue.
 * [ ] **Newly Assigned Designer**: When you feel comfortable, unassign the previous designer and close this issue.

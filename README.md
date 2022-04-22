@@ -50,7 +50,7 @@ Filter by the **UX** department on our [team page](https://about.gitlab.com/comp
 ## Links
 
 - [UX Handbook][ux-handbook]
-- [Product Designer Onboarding](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/)
+- [Product Designer Onboarding](https://about.gitlab.com/handbook/engineering/ux/product-designer-onboarding/)
 - [Pajamas Design System](https://design.gitlab.com)
 - [Pajamas Design System Project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
 - [GitLab Research Project](https://gitlab.com/gitlab-org/ux-research)

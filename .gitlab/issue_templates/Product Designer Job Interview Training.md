@@ -37,7 +37,7 @@ STAR questions are the key part of a job interview. It is possible to decline ca
 
 _How should a candidate respond to a STAR question?_ :thinking: 
 
-The candidate's answer needs to be _concrete_. These questions usually start with "Tell me about a time when you..." So they're asking for specific examples. If the candidate gives you an answer that goes something like: "Well, I generally do..." you need to follow-up with: "Ok, can you give me a recent example?"
+The candidate's answer needs to be a concrete example. These questions usually start with "Tell me about a time when you..." So they're asking for specific examples. If the candidate gives you an answer that goes something like: "Well, I generally do..." you need to follow-up with: "Ok, can you give me a recent example?"
 
 If they're not giving a specific example, the likelihood is that they don't have experience with what you're asking them about. So they try to come up with a satisfactory generic answer. But only specific and concrete examples count. If the candidate fails to provide one, they failed on this question.
 

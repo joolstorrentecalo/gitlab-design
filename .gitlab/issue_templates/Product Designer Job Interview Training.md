@@ -39,19 +39,19 @@ _How should a candidate respond to a STAR question?_ :thinking:
 
 The candidate's answer needs to be a concrete example. These questions usually start with "Tell me about a time when you..." So they're asking for specific examples. If the candidate gives you an answer that goes something like: "Well, I generally do..." you need to follow-up with: "Ok, can you give me a recent example?"
 
-If they're not giving a specific example, the likelihood is that they don't have experience with what you're asking them about. So they try to come up with a satisfactory generic answer. But only specific and concrete examples count. If the candidate fails to provide one, they failed on this question.
+If they're not giving a specific example, the likelihood is that they don't have experience with what you're asking them about. So they try to come up with a satisfactory generic answer. But only specific and concrete examples count. If the candidate fails to provide one, they are not successful on this question.
 
 ### Criteria for evaluating candidates :chart_with_upwards_trend: 
 
 * Portfolio
-  * How strong are their case studies? How many do they have?
+  * How strong are their case studies?
   * Are you able to understand the work they did just by reading through the case studies?
 * Resumé
-  * Are they a potential job hopper (do they have many tenures that are shorter than one year)?
+  * Are they a potential job hopper (do they have many tenures that are shorter than two years)?
   * Are they fully transparent about their past tenures?
 * Cover letter
   * Is there one?
-  * Is it written specifically for GitLab, do they explain why they’re applying? 
+  * Is it written specifically for GitLab and do they explain why they’re applying? 
   * Are they linking relevant case studies that you should review?
 * Soft skills
   * Communication — how well can they explain their work? How easy is it to discuss it with them?

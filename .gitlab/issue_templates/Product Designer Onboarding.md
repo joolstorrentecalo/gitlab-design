@@ -113,6 +113,19 @@ As a designer at GitLab, you will come into contact with a lot of complex, techn
 - What is the differences between Countinous Delivery VS Countinous Deployment: [video](https://www.youtube.com/watch?v=93raARQl8PE)
 - What is Helm: [video](https://www.youtube.com/watch?v=9cwjtN3gkD4)
 
+## GitLab Product: Benefits and Demos :technologist:
+
+If you'd like to learn more about the product outside your stage, the Sales org has created a series of excellent overviews around who uses GitLab and how they benefit from it. Learning about the product from the perspective of benefits will help you understand JBTD. Feel free to bookmark these and dive deeper after you feel more comfortable.
+
+- Introduction to GitLab: [video](https://www.youtube.com/watch?v=oGedmbCBCp4)
+- Learn about competitors: [video] (https://www.youtube.com/watch?v=B5xhw5pPWlk)
+- Create and Plan stages: [video] (https://www.youtube.com/watch?v=C0yrlj9_6Z8)
+- Verify and Security stages: [video] (https://www.youtube.com/watch?v=YXCu71UwurI)
+- Package, Configure and Release stages: [video] (https://www.youtube.com/watch?v=fU9ljmeniBY)
+- Manage, Monitor and Protect stages: [video] (https://www.youtube.com/watch?v=wmdei63TCVM)
+- GitLab Workshop 1 (basic demo of GitLab): [video](https://www.youtube.com/watch?v=5mTwIoSS0UU)
+- GitLab Workshop 2 (more advanced demo of GitLab): [video](https://www.youtube.com/watch?v=sly0Xe5912g)
+
 <!--
 
 Feel free to add more info and links that may help your new teammate

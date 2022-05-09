@@ -63,6 +63,19 @@ Each department has its own handbook section, and UX is no exception:
 * [ ] Schedule regular coffee chats with your Product Manager and Engineering Manager partners. Introduce yourself and get to know each other, since they will be some of your key contacts.
 * [ ] If you want to bring something to the attention of all UX Department members, you can ping `@uxers` on Slack, email: `ux-department@gitlab.com` or mention `@gitlab\-com/gitlab\-ux` within GitLab (please use all forms sparingly unless it's something important).
 
+##### Getting to know the product
+Optional: If you'd like to learn more about the product outside your stage, the Sales org has created a series of excellent overviews around who uses GitLab and how they benefit from it. Learning about the product from the perspective of benefits will help you understand JBTD. Feel free to bookmark these and dive deeper after you feel more comfortable.
+
+- Introduction to GitLab: [video](https://www.youtube.com/watch?v=oGedmbCBCp4)
+- Learn about competitors: [video] (https://www.youtube.com/watch?v=B5xhw5pPWlk)
+- Create and Plan stages: [video] (https://www.youtube.com/watch?v=C0yrlj9_6Z8)
+- Verify and Security stages: [video] (https://www.youtube.com/watch?v=YXCu71UwurI)
+- Package, Configure and Release stages: [video] (https://www.youtube.com/watch?v=fU9ljmeniBY)
+- Manage, Monitor and Protect stages: [video] (https://www.youtube.com/watch?v=wmdei63TCVM)
+- GitLab Workshop 1 (basic demo of GitLab): [video](https://www.youtube.com/watch?v=5mTwIoSS0UU)
+- GitLab Workshop 2 (more advanced demo of GitLab): [video](https://www.youtube.com/watch?v=sly0Xe5912g)
+
+
 #### Sharing a little about yourself
 * [ ] GitLab team members use README.md files to share information about themselves. It’s another way to get to know someone, how they work, and what they enjoy. Create your own personal README.md. It’s up to you what you wish to share. For inspiration, take a look at the [UX Team's README's](https://about.gitlab.com/handbook/engineering/ux/#about-our-team).
 

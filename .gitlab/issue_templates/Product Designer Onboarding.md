@@ -115,7 +115,7 @@ As a designer at GitLab, you will come into contact with a lot of complex, techn
 
 ## GitLab Product: Benefits and Demos :technologist:
 
-Optional: If you'd like to learn more about the product outside your stage, the Sales org has created a series of excellent overviews around who uses GitLab and how they benefit from it. Learning about the product from the perspective of benefits will help you understand JBTD. Feel free to bookmark these and dive deeper after you feel more comfortable.
+Optional: If you'd like to learn more about the product outside your stage, the Sales org has created a series of excellent overviews around who uses GitLab and how they benefit from it. Learning about the product from the perspective of benefits will help you understand JTBD too. Feel free to bookmark these and dive deeper after you feel more comfortable.
 
 - Introduction to GitLab: [video](https://www.youtube.com/watch?v=oGedmbCBCp4)
 - Learn about competitors: [video](https://www.youtube.com/watch?v=B5xhw5pPWlk)

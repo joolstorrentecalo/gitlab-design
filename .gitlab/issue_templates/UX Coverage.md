@@ -10,7 +10,7 @@ Responsibilities include reviewing merge requests, responding to UX related ques
 
 | Priority | Responsibility | Link | Primary backup DRI | Secondary backup DRI |
 | ----------------- | -------------------- | ------------------ | ----------- | --------- |
-| `HIGH/MEDIUM/LOW` | `e.g. Reviewing merge requests` | `ADD LINK` | `@assignee` | `@assignee` | 
+| `HIGH/MEDIUM/LOW` | `e.g. Reviewing Community Contribution merge requests` | `ADD LINK` | `@assignee` | `@assignee` | 
 
 ## :muscle: Coverage Tasks
 

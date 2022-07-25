@@ -8,22 +8,28 @@
 
 ### General tips and guidance :bulb: 
 
-* Create a template for your list of questions, refine it as you go
-* Check candidate's portfolio, resumé, and cover letter before the interview. Take notes, adapt your list of questions based on what you see
-* Focus on team fit, but also dig into hard skills (Aim for a 60/40 split)
-* If you're on the fence about a candidate, think about these:
+#### Before the interview:
+* Review the questions you'll ask during the interview (Greenhouse)
+* Review the goals and needs of the Group the candidate is being interviewed for by reviewing the kickoff issue or reaching out to the Group's Product Design Manager
+* Be familiar with the answers we're looking for in each question:
+    *  (Senior Product Designer[Google doc](https://docs.google.com/document/d/1OqEZbzb9s5ose_cEmVKBeVg27vElCPNAZ360T0rBq30/edit?usp=sharing))
+    *  (Intermediate Product Designer[Google doc](https://docs.google.com/document/d/1OqEZbzb9s5ose_cEmVKBeVg27vElCPNAZ360T0rBq30/edit?usp=sharing))
+* We want to ask the same questions to every candidate
+* Check candidate's portfolio, resumé, and cover letter
+
+#### During the interview:
+* Be warm, chatty and nice. Explain how the interviews work at GitLab.
+* Start off with warmup questions to get the candidate talking (provided in Greenhouse)
+* If you can, start discussions with the candidate based on their answers instead of just going from one question to another. This way, you'll get answers with deeper insights. Ask follow-up questions if needed.
+    * However, this should be balanced with our goal of getting through each of the provided questions in Greenhouse, in the order they're listed, for consistency.
+
+#### After the interview:
+* Fill out the scorecard in Greenhouse. Be sure to use the [rubric](https://docs.google.com/document/d/1OqEZbzb9s5ose_cEmVKBeVg27vElCPNAZ360T0rBq30/edit?usp=sharing) and [overall scoring definitions](https://about.gitlab.com/handbook/hiring/conducting-a-gitlab-interview/#engineering-division)
+If you're on the fence about a candidate, think about these:
   * Would this candidate fit the team? Are they humble, enthusiastic, collaborative?
   * How interested are they in the role at GitLab? How well did they research the company? Read the handbook? What GitLab value resonates with them?
   * Does the candidate bring something new to the team? A new skill or unique experience that is relevant?
   * Is there a basic alignment with the open position? Are more technical skills required, for example?
-* Tips for running interviews
-  * Be warm, chatty and nice. Explain how the interviews work at GitLab.
-  * Start off with warmup questions to get the candidate talking
-  * Transition into hard skills questions, focus on their design process
-  * Transition into soft skill questions, focus on how they work with others
-  * Have at least one STAR question (more advice on these below :point_down: )
-  * Have one question that catches the candidate off-guard. This pushes them further out of their comfort zone, surprises them and consequently makes them more sincere. 
-  * If you can, start discussions with the candidate based on their answers instead of just going from one question to another. This way, you'll get answers with deeper insights. Ask follow-up questions if needed.
 
 ### STAR questions :star: 
 

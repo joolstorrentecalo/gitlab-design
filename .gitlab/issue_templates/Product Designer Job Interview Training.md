@@ -12,8 +12,9 @@
 * Review the questions you'll ask during the interview (Greenhouse)
 * Review the goals and needs of the Group the candidate is being interviewed for by reviewing the kickoff issue or reaching out to the Group's Product Design Manager
 * Be familiar with the answers we're looking for in each question:
-    *  (Senior Product Designer[Google doc](https://docs.google.com/document/d/1OqEZbzb9s5ose_cEmVKBeVg27vElCPNAZ360T0rBq30/edit?usp=sharing))
-    *  (Intermediate Product Designer[Google doc](https://docs.google.com/document/d/1OqEZbzb9s5ose_cEmVKBeVg27vElCPNAZ360T0rBq30/edit?usp=sharing))
+    *  Senior Product Designer - [Google doc](https://docs.google.com/document/d/1LLWyEmegVh1m78r4UMTdgGpgB1fpCCqQ6dB6WASBNAw/edit?usp=sharing)
+    *  Intermediate Product Designer - [Google doc](https://docs.google.com/document/d/1EjD-G1KUADLeoGpPEOs2e19_oNeDnL8jC95UMSUo864/edit?usp=sharing)
+    * Recommended to have the appropriate (i.e. Senior or Intermediate) google doc rubric open when filling in the Greenhouse scorecard as a reference to assist with overall candidate scoring
 * We want to ask the same questions to every candidate
 * Check candidate's portfolio, resumé, and cover letter
 

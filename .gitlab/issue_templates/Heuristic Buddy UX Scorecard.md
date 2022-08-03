@@ -60,6 +60,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
 1. [ ] Link to your video in the [Engineering Week in Review](https://docs.google.com/document/d/1GQbnOP_lr9KVMVaBQx19WwKITCmh7H3YlgO-XqVwv0M/edit).
 1. [ ] In the Dovetail project that your heuristic buddy created, use Insights to document any observations or findings that came out of this scorecard. You can use your experience map or video summary to help you curate those. It is important to add insights into Dovetail so they can be shared and accessed by all groups, and used to document cross-stage findings. You can also add any supporting material in Data, such as an exported Mural experience map, but it is not required. Example [here](https://dovetailapp.com/projects/6NgpbSMFEDtQIBLPP71F5F/readme).
 1. [ ] Once the evaluation has been completed ping the Stage Group Product Designer in this issue letting them know it's ready for their review and recommendation creation.
+1. [ ] _Optional_ – If you’d like to follow along and contribute to solution development, consider turning on notifications for each recommendation issue. 
 
 ### Group Product Designer (Expert) - Recommendation Creation
 

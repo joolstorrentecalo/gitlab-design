@@ -9,24 +9,26 @@
 ### General tips and guidance :bulb: 
 
 #### Before the interview:
-* Review the questions you'll ask during the interview (Greenhouse)
+* Review the handbook page on [how to conduct an interview at GitLab](https://about.gitlab.com/handbook/hiring/conducting-a-gitlab-interview)
+* Review the [Greenhouse interview kit](https://about.gitlab.com/handbook/hiring/greenhouse/#feedback-and-interview-kits), which includes a standard set of questions to ask each candidate
+    * We ask the same questions to every candidate in an effort to fairly and consistently assess candidates
 * Review the goals and needs of the Group the candidate is being interviewed for by reviewing the kickoff issue or reaching out to the Group's Product Design Manager
 * Be familiar with the answers we're looking for in each question:
-    *  Senior Product Designer - [Google doc](https://docs.google.com/document/d/1LLWyEmegVh1m78r4UMTdgGpgB1fpCCqQ6dB6WASBNAw/edit?usp=sharing)
-    *  Intermediate Product Designer - [Google doc](https://docs.google.com/document/d/1EjD-G1KUADLeoGpPEOs2e19_oNeDnL8jC95UMSUo864/edit?usp=sharing)
-    * Recommended to have the appropriate (i.e. Senior or Intermediate) google doc rubric open when filling in the Greenhouse scorecard as a reference to assist with overall candidate scoring
-* We want to ask the same questions to every candidate
+    * Senior Product Designer - [Google doc](https://docs.google.com/document/d/1LLWyEmegVh1m78r4UMTdgGpgB1fpCCqQ6dB6WASBNAw/edit?usp=sharing)
+    * Intermediate Product Designer - [Google doc](https://docs.google.com/document/d/1EjD-G1KUADLeoGpPEOs2e19_oNeDnL8jC95UMSUo864/edit?usp=sharing)
 * Check candidate's portfolio, resumé, and cover letter
 
 #### During the interview:
-* Be warm, chatty and nice. Explain how the interviews work at GitLab.
-* Start off with warmup questions to get the candidate talking (provided in Greenhouse)
-* If you can, start discussions with the candidate based on their answers instead of just going from one question to another. This way, you'll get answers with deeper insights. Ask follow-up questions if needed.
-    * However, this should be balanced with our goal of getting through each of the provided questions in Greenhouse, in the order they're listed, for consistency.
+* Build rapport by being friendly and approachable. Explain how the interviews work at GitLab.
+* Follow the interview questions found in Greenhouse.
+* Ask follow up questions where appropriate.
 
 #### After the interview:
-* Fill out the scorecard in Greenhouse. Be sure to use the [rubric](https://docs.google.com/document/d/1OqEZbzb9s5ose_cEmVKBeVg27vElCPNAZ360T0rBq30/edit?usp=sharing) and [overall scoring definitions](https://about.gitlab.com/handbook/hiring/conducting-a-gitlab-interview/#engineering-division)
-If you're on the fence about a candidate, think about these:
+* Open the appropriate google doc rubric (for example, [Senior](ttps://docs.google.com/document/d/1LLWyEmegVh1m78r4UMTdgGpgB1fpCCqQ6dB6WASBNAw/edit?usp=sharing) or [Intermediate](https://docs.google.com/document/d/1EjD-G1KUADLeoGpPEOs2e19_oNeDnL8jC95UMSUo864/edit?usp=sharing)) as a reference to assist with overall candidate scoring.
+* Fill out the scorecard in Greenhouse. Be sure to review the [rubric](https://docs.google.com/document/d/1OqEZbzb9s5ose_cEmVKBeVg27vElCPNAZ360T0rBq30/edit?usp=sharing) and [overall scoring definitions](https://about.gitlab.com/handbook/hiring/conducting-a-gitlab-interview/#engineering-division) to come to a conclusion.
+
+Some questions to consider are:
+
   * Would this candidate fit the team? Are they humble, enthusiastic, collaborative?
   * How interested are they in the role at GitLab? How well did they research the company? Read the handbook? What GitLab value resonates with them?
   * Does the candidate bring something new to the team? A new skill or unique experience that is relevant?
@@ -34,40 +36,21 @@ If you're on the fence about a candidate, think about these:
 
 ### STAR questions :star: 
 
-STAR questions are the key part of a job interview. It is possible to decline candidates who performed ok on other questions but didn’t perform at all on the STAR questions. Here's why:
+STAR questions are a key aspect of interviewing because they:
 
-* STAR questions ask about their past behaviour which is an indicator of how the candidate will behave in similar future situations
-* they are a very good indicator whether the candidate has the relevant experience that you're asking them about
-* they may reveal a lot about the candidate's personality
-* it reduces the need to rely on your gut feeling
-* we have a wide range to pick from so they should cover any concerns you might have about the candidate
+* Ask about past behaviour and are an indicator of how the candidate will behave in similar future situations
+* Help inform whether the candidate has the relevant experience
+* May reveal the candidate's value alignment
+* Reduce the need to rely on your gut feeling
 
 _How should a candidate respond to a STAR question?_ :thinking: 
 
 The candidate's answer needs to be a concrete example. These questions usually start with "Tell me about a time when you..." So they're asking for specific examples. If the candidate gives you an answer that goes something like: "Well, I generally do..." you need to follow-up with: "Ok, can you give me a recent example?"
 
-If they're not giving a specific example, the likelihood is that they don't have experience with what you're asking them about. So they try to come up with a satisfactory generic answer. But only specific and concrete examples count. If the candidate fails to provide one, they are not successful on this question.
+If they're not giving a specific example, they may not have experience with what you're asking them about. Be gracious, yet persistent, in asking for a specific example. If they are not able to do so, make note of this in your scorecard.
 
-### Criteria for evaluating candidates :chart_with_upwards_trend: 
+### Criteria for evaluating candidates :chart_with_upwards_trend:
 
-* Portfolio
-  * How strong are their case studies?
-  * Are you able to understand the work they did just by reading through the case studies?
-* Resumé
-  * Are they a potential job hopper (do they have many tenures that are shorter than two years)?
-  * Are they fully transparent about their past tenures?
-* Cover letter
-  * Is there one?
-  * Is it written specifically for GitLab and do they explain why they’re applying? 
-  * Are they linking relevant case studies that you should review?
-* Soft skills
-  * Communication — how well can they explain their work? How easy is it to discuss it with them?
-  * What is the candidate like as a person? Would they fit the team and GitLab’s culture?
-* Hard skills
-  * Product design skills
-  * Visual design
-  * UX research
-  * Design systems experience
-  * Relevant role-specific experience
-  * Are they capable of thinking big but shipping small?
-* What questions do they ask you? Just two basic questions or 4-5 elaborate and interesting ones? The questions they ask can also be a good indicator of their level of interest in GitLab and the job opportunity.
+* Review the scoring rubric to understand what we are looking for from each question asked
+* Evaluate the candidate against the key criteria Attributes found in the scorecard
+* Use the [scoring definitions for Engineering](https://about.gitlab.com/handbook/hiring/conducting-a-gitlab-interview/#engineering-division) to determine which most appropriately fits your experience with the candidate based on the scoring rubric and key criteria Attributes

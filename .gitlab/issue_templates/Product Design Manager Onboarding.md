@@ -25,7 +25,7 @@ GitLab is a special place with a unique culture. We document everything. Most of
 
 ###### Company structure
 * [ ] First, it's likely that you want to know where your place is in the company structure. For this, you can check out the [GitLab org chart](https://about.gitlab.com/team/chart/). This is a good page to bookmark.
-* [ ] The company uses [OKRs](https://about.gitlab.com/company/okrs/) to set goals and track progress. UX OKRs are listed under **UX Director**.
+* [ ] The company uses [OKRs](https://about.gitlab.com/company/okrs/) to set goals and track progress.
 
 ###### Getting started
 * [ ] Understanding GitLab's [values](https://about.gitlab.com/handbook/values/) is really important. Our values describe the type of behavior that we expect from the people that we hire. They help us to know how to behave in the organization and what to expect from others. Values are a framework for distributed decision making, they allow you to determine what to do without asking your manager.
@@ -34,15 +34,14 @@ GitLab is a special place with a unique culture. We document everything. Most of
 * [ ] Finally, the [general guidelines](https://about.gitlab.com/handbook/general-guidelines/) will help you understand how we get things done.
 
 ###### Vacation
-We have a "[no ask, must tell" policy](https://about.gitlab.com/handbook/paid-time-off/). You do not need to ask permission to take time off, unless you want to have more than 25 consecutive calendar days off. The 25-day no ask limit is per vacation, not per year.
+[Time away from work](https://about.gitlab.com/handbook/paid-time-off/) is important and helpful for maintaining a healthy work/life balance. As a leader, you set an example for taking appropriate time away and ensuring your direct reports do the same.
+
 If you are planning to be on vacation for a day or longer, please communicate your time off by:
-* Updating [PTO Ninja](https://about.gitlab.com/handbook/paid-time-off/#pto-ninja) in Slack and changing your Slack status.
+* Updating [PTO by Roots](https://about.gitlab.com/handbook/paid-time-off/#pto-by-roots) in Slack and changing your Slack status.
 * Updating your [status](https://docs.gitlab.com/ee/user/profile/#current-status) in GitLab.
 * Updating the [UX calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 * Updating your personal calendar. If you use Google's `Out of Office` event feature, any meetings that are scheduled for when you are out of office will be auto-declined.
 * Notifying Valerie in your 1:1 meeting.
-
-If you need any help with PTO Ninja you can post to [this issue](https://gitlab.com/gitlab-com/people-ops/General/issues/285#note_185466444).
 
 You should communicate your time off for public holidays (since they differ depending on where you are in the world!).
 You don't need to worry about taking an hour or two off to go to the gym, take a nap, go grocery shopping, do household chores, etc.
@@ -51,9 +50,9 @@ The same applies to your direct reports. They should use the above methods when 
 
 #### UX Department
 Each department has its own handbook section, and UX is no exception:
-* [ ] Read through the whole [UX handbook](https://about.gitlab.com/handbook/engineering/ux/) section, please! Consider this your first team task, understanding the Mission, Vision, and how work is executed within the department. If you find any typos or items that could be made clearer, please consider [editing that page](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/source/handbook/engineering/ux/index.html.md) by submitting a merge request.
+* [ ] Read through the whole [UX handbook](https://about.gitlab.com/handbook/engineering/ux/) section, please! Consider this your first team task, understanding the Mission, Vision, and how work is executed within the department. If you find any typos or items that could be made clearer, please consider submitting a merge request.
 * [ ] Read about [Pajamas](https://design.gitlab.com/), our design system.
-* [ ] [Compa Group Worksheets](https://drive.google.com/drive/folders/1w7M4QaCMvOkn3vPxaOi4xEZ6RaSjW6__) are how an employee's performance is mapped to their job description. It's helpful to get familiar with these.
+* [ ] Become familiar with the role responsibilities for each level within Product Design - [Product Designer](https://about.gitlab.com/job-families/engineering/product-designer/#product-designer), [Senior Product Designer](https://about.gitlab.com/job-families/engineering/product-designer/#senior-product-designer), [Staff Designer](https://about.gitlab.com/job-families/engineering/product-designer/#staff-product-designer), [Principal Product Designer](https://about.gitlab.com/job-families/engineering/product-designer/#principal-product-designer), and your role, [Product Design Manager](https://about.gitlab.com/job-families/engineering/product-design-management/#product-design-manager).
 
 
 ##### Getting to know people

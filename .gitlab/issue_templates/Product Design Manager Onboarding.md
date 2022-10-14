@@ -50,9 +50,9 @@ The same applies to your direct reports. They should use the above methods when 
 
 #### UX Department
 Each department has its own handbook section, and UX is no exception:
-* [ ] Read through the whole [UX handbook](https://about.gitlab.com/handbook/engineering/ux/) section, please! Consider this your first team task, understanding the Mission, Vision, and how work is executed within the department. If you find any typos or items that could be made clearer, please consider submitting a merge request.
+* [ ] Read through the whole [UX handbook](https://about.gitlab.com/handbook/product/ux/) section, please! Consider this your first team task, understanding the Mission, Vision, and how work is executed within the department. If you find any typos or items that could be made clearer, please consider submitting a merge request.
 * [ ] Read about [Pajamas](https://design.gitlab.com/), our design system.
-* [ ] Become familiar with the role responsibilities for each level within Product Design - [Product Designer](https://about.gitlab.com/job-families/engineering/product-designer/#product-designer), [Senior Product Designer](https://about.gitlab.com/job-families/engineering/product-designer/#senior-product-designer), [Staff Designer](https://about.gitlab.com/job-families/engineering/product-designer/#staff-product-designer), [Principal Product Designer](https://about.gitlab.com/job-families/engineering/product-designer/#principal-product-designer), and your role, [Product Design Manager](https://about.gitlab.com/job-families/engineering/product-design-management/#product-design-manager).
+* [ ] Become familiar with the role responsibilities for each level within Product Design - [Product Designer](https://about.gitlab.com/job-families/product/product-designer/#product-designer), [Senior Product Designer](https://about.gitlab.com/job-families/product/product-designer/#senior-product-designer), [Staff Designer](https://about.gitlab.com/job-families/product/product-designer/#staff-product-designer), [Principal Product Designer](https://about.gitlab.com/job-families/product/product-designer/#principal-product-designer), and your role, [Product Design Manager](https://about.gitlab.com/job-families/product/product-design-management/#product-design-manager).
 
 
 ##### Getting to know people
@@ -76,7 +76,7 @@ Optional: If you'd like to learn more about the product outside your stage, the 
 
 
 #### Sharing a little about yourself
-* [ ] GitLab team members use README.md files to share information about themselves. It’s another way to get to know someone, how they work, and what they enjoy. Create your own personal README.md. It’s up to you what you wish to share. For inspiration, take a look at the [UX Team's README's](https://about.gitlab.com/handbook/engineering/ux/#about-our-team).
+* [ ] GitLab team members use README.md files to share information about themselves. It’s another way to get to know someone, how they work, and what they enjoy. Create your own personal README.md. It’s up to you what you wish to share. For inspiration, take a look at the [UX Team's README's](https://about.gitlab.com/handbook/product/ux/#about-our-team).
 
 ##### Keeping track of everything
 * [ ] Almost everything we do is within GitLab and it can sometimes be a challenge keeping up with everything. We use the [UX Management Board](https://gitlab.com/groups/gitlab-org/-/boards/1853653?label_name[]=UX%20Management) in the GitLab.org project as a helpful tool when collaborating with other UX Managers, tracking quarterly OKR progress, or proposing changes that may impact the entire UX department.

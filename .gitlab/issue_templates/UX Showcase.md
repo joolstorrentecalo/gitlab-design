@@ -1,6 +1,6 @@
 <!--
-Title should be: UX Showcase {{Stage Group}} {{DATE}}
-(e.g. "UX Showcase CI/CD - March 2nd, 2022")
+Title should be: UX Showcase {{DATE}}
+(e.g. "UX Showcase - March 2nd, 2022")
 -->
 Hi team :wave:!
 

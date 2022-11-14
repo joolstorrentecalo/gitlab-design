@@ -23,7 +23,7 @@ You'll have a weekly 1:1 call with your UX buddy until your onboarding is comple
 
 ## Company :earth\_africa:
 
-Most of the information you will ever need is listed in your general onboarding document. However, there is a lot of things to digest in there so let's highlight a few items that you should focus on.
+Most of the information you will ever need is listed in your general onboarding document. However, there are a lot of things to digest in there so let's highlight a few items that you should focus on.
 
 - [ ] The [handbook](https://about.gitlab.com/handbook/) is a great resource for all things GitLab. Understanding the [Values](https://about.gitlab.com/handbook/values/) is really important as that sets the tone for all interactions that you will have in the company. If anything is unclear about it, feel free to ask a question in this issue or in your next 1:1 with your UX buddy or Product Design Manager.
 - [ ] [Learn how we communicate as a company](https://about.gitlab.com/handbook/communication/). We use [asynchronous communication](https://about.gitlab.com/company/culture/all-remote/asynchronous/) as a start and are as open as we can be by communicating through public issues, chat channels, and placing an emphasis on ensuring that conclusions of offline conversations are written down. 
@@ -34,13 +34,13 @@ Of course, it would be great to go through the whole handbook but that is going 
 
 ## UX Department :raised\_hands:
 
-Each department has it's own handbook section, and UX is no exception:
+Each department has its own handbook section, and UX is no exception:
 - [ ] Read through the whole [UX handbook](https://about.gitlab.com/handbook/product/ux/) section, please!
-   - Consider this your first team task, understanding the Mission, Vision and how work is executed within the department. If you find any typo's or items that could be made clearer, please consider [editing that page](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/product/ux/index.html.md.erb) by submitting a merge request. 
+   - Consider this your first team task, understanding the Mission, Vision and how work is executed within the department. If you find any typos or items that could be made clearer, please consider [editing that page](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/product/ux/index.html.md.erb) by submitting a merge request. 
 - [ ] Join the `#random-coffees-ux-dept` Slack channel to automatically be paired with someone from the UX department for a [coffee chat](https://about.gitlab.com/company/culture/all-remote/#coffee-chats). Pairings occur once every two weeks. Coffee chats help get to know others you work with and talk about everyday things. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment. 
-In and around your third week you'll be asked by your UX buddy to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with product designer workflows. You will serve as a second opinion and be included in meetings.
-To highlight some other important places:
+In and around your third week, your UX buddy asks you to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with product designer workflows. You will serve as a second opinion and be included in meetings.
 
+To highlight some other important places:
 - [ ] Read the [UX department workflow](https://about.gitlab.com/handbook/product/ux/ux-department-workflow/) which is important to get to know which dates matter and to align yourself to our development rhythm.
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md). Verify that you have access to Figma. Request access to [Mural](https://app.mural.co/) from your Product Design Manager and ask about any other tools you might need.
 - [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/).
@@ -76,7 +76,7 @@ The UX department is supported by Product Operations:
 - [ ] As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please check your calendar and let your manager know if you don't see an invite. Note that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh, and did I mention there are [recordings available](https://drive.google.com/drive/u/0/folders/1VIki1Z3bp8KEoZFq7ABKeKLy9KhHeEgO)? :slight\_smile: 
 - [ ] There is a fortnightly [UX Showcase](https://about.gitlab.com/handbook/product/ux/ux-department-workflow/ux-showcase/) to learn what designers at different stage groups are working on with walk throughs of various research findings and design solutions. It is also an opportunity for designers to learn different approaches and processes from one another.
 - [ ] Once you are added to the UX Calendar on Google, attend one of our `UX Hangouts` calls. We meet once every two weeks at a rotating time to hang out with other UX members and talk about anything we want.
-- [ ] Lastly, every department and stage group host [group conversations](https://about.gitlab.com/handbook/group-conversations/) to keep everyone informed about their efforts. This is a great way to learn about the company and what different teams are up to. Please make sure you have access to the `GitLab Team Meetings` calendar to be able to join any one of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
+- [ ] Lastly, every department and stage group host [group conversations](https://about.gitlab.com/handbook/group-conversations/) to keep everyone informed about their efforts. This is a great way to learn about the company and what different teams are up to. Please make sure you have access to the `GitLab Team Meetings` calendar to join any of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
 
 ## Your product stage :fox:
 
@@ -119,7 +119,7 @@ As a designer at GitLab, you will come into contact with a lot of complex, techn
 - What is the differences between Countinous Delivery VS Countinous Deployment: [video](https://www.youtube.com/watch?v=93raARQl8PE)
 - What is Helm: [video](https://www.youtube.com/watch?v=9cwjtN3gkD4)
 
-## GitLab Product: Benefits and Demos :technologist:
+## GitLab Product: Benefits and Demos :tv:
 
 Optional: If you'd like to learn more about the product outside your stage, the Sales org has created a series of excellent overviews around who uses GitLab and how they benefit from it. Learning about the product from the perspective of benefits will help you understand JTBD too. Feel free to bookmark these and dive deeper after you feel more comfortable.
 

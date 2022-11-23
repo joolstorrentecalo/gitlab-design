@@ -7,7 +7,7 @@ If this UX Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
 -->
 
-/label ~"UX scorecard"
+/label ~"UX scorecard" ~"type::ignore"
 
 - **Personas**: {{add links to related personas}}
 - **Previous score and scorecard**: {{if applicable, add previous benchmark score and link to scorecard issue}}

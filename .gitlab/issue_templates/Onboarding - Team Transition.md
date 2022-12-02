@@ -88,7 +88,7 @@ Make sure the new team member is added to the following meetings/calendars:
 
 Schedule coffee chats with your new team members and peers! Besides introducing yourself, during these calls you ask them how they collaborate with UX in their role, what's been working well, what can be improved, and how they would like to stay in touch. This will help you get a better idea about the team and set the expectation for how to collaborate with them. Here’s a list of people you’d like to say hello to:
 
-- [ ] `ADD LIST OF PEOPLE (FIRST NAME, LAST NAME, ROLE`
+- [ ] `ADD LIST OF PEOPLE (FIRST NAME, LAST NAME, ROLE)`
 
 ##### Your product stage
 

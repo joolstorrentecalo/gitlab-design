@@ -42,8 +42,7 @@ In and around your third week, your UX buddy asks you to shadow them for their d
 
 To highlight some other important places:
 - [ ] Read the [UX department workflow](https://about.gitlab.com/handbook/product/ux/ux-department-workflow/) which is important to get to know which dates matter and to align yourself to our development rhythm.
-- [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md). Verify that you have access to Figma. Request access to [Mural](https://app.mural.co/) from your Product Design Manager and ask about any other tools you might need.
-- [ ] Ask your Product Design Manager to make you an editor for the Figma team of your stage.
+- [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md).
 - [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/).
 
 You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) in the repository to start a discussion on design-related matters. For new component design or existing component updates, [open an issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new) in the Pajamas repository. For product-related matters, the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/new) is the correct place.

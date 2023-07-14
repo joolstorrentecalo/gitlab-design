@@ -41,7 +41,6 @@ Here are some references for how I and my group generally works:
 - [ ] Add any relevant references including direction pages, handbook pages, and so on
 - [ ] Fill in the Responsibilities table with broad based responsibilities
 - [ ] Fill in the specific Coverage Tasks with distinct items to complete and assignees
-- [ ] [Manager](https://about.gitlab.com/handbook/paid-time-off/#communicating-your-time-off): Delegate expense approval to your back up team member
 - [ ] Assign this issue to anyone with a specific task or responsibility assigned to them
 - [ ] Share this issue in your section, stage, and group Slack channels, and with your manager
 - [ ] Ensure your PTO Ninja auto-responder points team members to this issue

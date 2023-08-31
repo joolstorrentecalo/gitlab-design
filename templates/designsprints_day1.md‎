@@ -1,0 +1,110 @@
+<!-- This issue template can be used for Day 1 of the Remote Design Sprint. You'll want to name this issue <Team Name: Design Sprint - Day 1>.
+
+In addition to filling out this issue, you'll also want to create two threads in the comments. One for Q&A and one for Marking activities as complete:
+
+Example of Q&A Thread:
+
+## Q&A Thread ⁉
+
+Have a question about something you watched in the Kickoff? Or Design Sprints in general?
+Leave it in this thread and we'll get you some answers.
+
+Example of Completed Activity Thread:
+
+## React to this comment with a :white_check_mark: when you have completed the Lightning Talk Note Taking and HMW Activity
+
+-->
+
+# Welcome to the Day 1 
+
+In the Understand phase, you will create a shared knowledge base across all participants.
+Using the Lightning Talk method, knowledge experts across the business are invited to articulate the problem space from business, user, competitor, and technological angles.
+The other activities will be used to define goals, identify hurdles and customer needs, and seek opportunities.
+
+A walkthrough of Day 1 Tasks can be found in [this video](video link) or within the [Slide Deck](slide deck link).
+
+## Day 1 Homework (Approximately 1.5 Hours)
+
+Have any questions about any of the Homework, you can leave it in [this thread](thread link) or [the Slack Channel](slack channel link). 
+
+### Lightning Talks (1 Hour)
+
+Lightning talks are a core design sprint method and powerful opportunity to build ownership in the Design Sprint Challenge. Lightning talks level the playing field by giving everyone on the team a baseline knowledge of all facets of the product. Subjects vary depending on the sprint, but they help get everyone in the room on the same page. 
+
+**Each talk is pre-recorded for you to watch during the async design sprint time over the next day:**
+
+- Talk 1 - [Presentor Name](Google Drive Link)
+- Talk 2 - [Presentor Name](Google Drive Link)
+- Talk 3 - [Presentor Name](Google Drive Link)
+
+<!-- Add as many talks as needed for the sprint. -->
+
+**Instructions:**
+
+ Take time to watch each talk and go through some of the additional reading links. While watching each talk, take notes of insights and pain points that you hear, look for:
+
+- Weaknesses
+     - Points of failure.
+     - When are needs least satisfied? 
+- Barriers to consumption
+     - What are the missing skills and information needed to use your product?
+- Gaps
+     - Find where no support is offered.
+- Redundancies
+     - Seek to uncover duplication of efforts.
+- Competitors 
+     - When do other solutions provide more satisfying experiences?
+
+If available use post-it notes for this or create post-its by cutting A4/Letter sized papers into 4 pieces. Otherwise, just use a plain notepad (even though it doesn't feel the same :smile: ). If it's more comfortable, you can also capture notes in a google doc, or any other writing program.
+
+### How Might We (20 Minutes)
+
+The “How Might We” or HMW method is an essential Design Sprint methodology. This method allows your team to take the insights and pain points they heard into opportunities.
+
+How Might We's can be hard to craft, so we've put together this HMW Activity Video to help walk through the exercise, with some HMW examples and tips on writing. 
+
+**Instructions:**
+	
+- Watch the [HMW Walkthrough](video link).
+- Take a look at your notes and transform what you’ve written into a few HMW statements.
+- Type up your HMWs individually in any writing program. 
+- Make sure your HMWs are not too narrow or not too broad.
+- Be succinct. 
+
+### Affinity Mapping Prep (10 Minutes):
+
+Affinity Mapping is a Design Sprint method that is used to categorize HMW sticky notes into themes. This is a way to share the  opportunities the team has identified thus far in the Sprint. Affinity Mapping allows the team to identify major themes within everyone’s HMWs and surfaces major problems to solve. It gives a chance for everyone to give input into what problems the Sprint Team should look to solve within this Sprint.
+
+**Instructions:**
+
+- Copy and paste your HMWs into [the FigJam](FigJam File) in the section labeled How Might We. For now these don't need to be in any particular order.
+
+#### Day 1 Async Tasks are due by `Add Date and Time`. When you’ve completed these steps, please mark this [issue comment](issue comment link) with a green check. ✅
+
+Refer to this chart to see due dates in specific timezones. :point_down: 
+
+<!-- Add Visual of Timezones from https://www.timeanddate.com/worldclock/converter.html for each sprint participant -->
+
+## Day 1 Sync Activities (Approximately 1.5 Hours)
+
+### Icebreaker (10 Minutes)
+
+Let's get to know each-other.
+
+### Affinity Mapping (30 Minutes)
+
+Affinity Mapping is a Design Sprint method that is used to categorize HMW sticky notes into themes. This is a way to share the  opportunities the team has identified thus far in the Sprint. Affinity Mapping allows the team to identify major themes within everyone’s HMWs and surfaces major problems to solve. It gives a chance for everyone to give input into what problems the Sprint Team should look to solve within this Sprint.
+
+### Sprint Goal (15 Minutes)
+
+The sprint goal is a way for the team to look into the future of your product or service in the best case scenario. It lets everyone think optimistically but also gives them a chance to suggest where the product or service should end up.				 					
+
+### Hurdles (15 Minutes) 
+
+Hurdles gets the team to think about all the things that could go wrong. Doing so will flush out all the worries that the team has and surface any major roadblocks that need to be addressed.			 					
+
+### Squiggle Birds (5 Minutes)
+
+Our minds are great at recognizing patterns
+
+Because we are only sketching to convey an idea, they don’t have to be super detailed, good looking or accurate. All it needs is a pattern of shapes to convey your idea. Stick people are all good!

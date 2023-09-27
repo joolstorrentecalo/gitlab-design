@@ -17,7 +17,7 @@ To get you up to speed so you can start contributing to the team efforts and imp
 
 First, you are likely to want to know where your place is in the company structure. For this, you would want to check out the [team chart](https://about.gitlab.com/team/chart/).
 
-If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/engineering/ux/uxdesigner-onboarding/#ux-design-buddy)), (FILL IN WITH @ PRODUCT DESIGN MANAGER HANDLE) (your Product Design Manager), (FILL IN WITH @ TEAM GITLAB HANDLE) (your UX team) or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
+If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/product/ux/product-designer-onboarding/#ux-buddy)), (FILL IN WITH @ PRODUCT DESIGN MANAGER HANDLE) (your Product Design Manager), (FILL IN WITH @ TEAM GITLAB HANDLE) (your UX team) or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
 
 You'll have a weekly 1:1 call with your UX buddy until your onboarding is complete! Fridays are great for these to talk through questions and set expectations for the next week. Your onboarding doesn't have a scheduled end date, just focus on learning and getting comfortable with GitLab and the UX department.
 
@@ -43,14 +43,14 @@ In and around your third week, your UX buddy asks you to shadow them for their d
 To highlight some other important places:
 - [ ] Read the [UX department workflow](https://about.gitlab.com/handbook/product/ux/ux-department-workflow/) which is important to get to know which dates matter and to align yourself to our development rhythm.
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md).
-- [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/).
+- [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/product/personas/).
 
 You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) in the repository to start a discussion on design-related matters. For new component design or existing component updates, [open an issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new) in the Pajamas repository. For product-related matters, the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/new) is the correct place.
 
 The UX department is supported by Product Operations:
 - [ ] Review [product operations in the product handbook](https://about.gitlab.com/handbook/product/product-operations/) and set up a coffee chat with with Product Operations `@fseifoddini`
 - [ ] Ask questions in the #product-operations or #product Slack channels to get clarification on things you are uncertain about
-- [ ] *Optional* Attend [PM Meeting bi-weekly and Product Operations bi-weekly meetings](https://about.gitlab.com/handbook/product/product-processes/#team-meetings) (they alternate and are on the company calendar)
+- [ ] *Optional* Attend [PM Meeting bi-weekly and Product Operations bi-weekly meetings](https://about.gitlab.com/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#team-meetings) (they alternate and are on the company calendar)
 
 
 ## Staying informed :mega:
@@ -76,7 +76,7 @@ The UX department is supported by Product Operations:
 - [ ] As for the weekly [UX meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) (every Tuesday), please check your calendar and let your manager know if you don't see an invite. Note that you are not obligated to be part of any of the meetings that you are invited to. However, please note your absence by responding to invites in time. Not attending the meeting is no excuse for not reading the agenda items or going through the notes of the meeting. Oh, and did I mention there are [recordings available](https://drive.google.com/drive/u/0/folders/1VIki1Z3bp8KEoZFq7ABKeKLy9KhHeEgO)? :slight\_smile: 
 - [ ] There is a fortnightly [UX Showcase](https://about.gitlab.com/handbook/product/ux/ux-department-workflow/ux-showcase/) to learn what designers at different stage groups are working on with walk throughs of various research findings and design solutions. It is also an opportunity for designers to learn different approaches and processes from one another.
 - [ ] Once you are added to the UX Calendar on Google, attend one of our `UX Hangouts` calls. We meet once every two weeks at a rotating time to hang out with other UX members and talk about anything we want.
-- [ ] Lastly, every department and stage group host [group conversations](https://about.gitlab.com/handbook/group-conversations/) to keep everyone informed about their efforts. This is a great way to learn about the company and what different teams are up to. Please make sure you have access to the `GitLab Team Meetings` calendar to join any of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
+- [ ] Lastly, every department and stage group host [group conversations](https://handbook.gitlab.com/handbook/group-conversations/) to keep everyone informed about their efforts. This is a great way to learn about the company and what different teams are up to. Please make sure you have access to the `GitLab Team Meetings` calendar to join any of those. They are called conversations for a reason, meaning you are able to ask questions and join the discussion!
 
 ## Your product stage :fox:
 
@@ -96,9 +96,9 @@ Below is extra inforomation to help you understand our product better. Feel free
 -->
 
 ## Understand GitLab users - how people use our product  :pencil2:
-- [ ] Read about user [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#roles-vs-personas)
+- [ ] Read about user [personas](https://about.gitlab.com/handbook/product/personas/)
 - [ ] UX Scorecards: [what are they?](https://about.gitlab.com/handbook/product/ux/ux-scorecards/), [epic link](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20scorecard)
-- [ ] UX Research Shadowing: Prior to performing UX research on your own, you should participate in research shadowing. You can kick off the process when you meet with the [UX Researcher for your group](https://about.gitlab.com/handbook/product/categories/#devops-stages) and learn more about the [UX Research shadowing process](https://about.gitlab.com/handbook/product/ux/ux-research-training/research-shadowing/). 
+- [ ] UX Research Shadowing: Prior to performing UX research on your own, you should participate in research shadowing. You can kick off the process when you meet with the [UX Researcher for your group](https://about.gitlab.com/handbook/product/categories/#devops-stages) and learn more about the [UX Research shadowing process](https://about.gitlab.com/handbook/product/ux/ux-research/research-shadowing/). 
 
 ## Tech knowledge to know :computer:
 
@@ -141,7 +141,7 @@ better understand the product stage, if necessary.
 
 ## Access requests :guardsman:
 
-_Note: you can bundle your requests into one [access request issue](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request)_
+_Note: you can bundle your requests into one [access request issue](https://about.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request)_
 
 **UX research**<br>
 - [ ] Open a an access request issue to the following UX research systems:
@@ -150,7 +150,7 @@ _Note: you can bundle your requests into one [access request issue](https://abou
     - [ ] `Qualtrics` for for future research engagements.
 
 **Cloud provider access requests**<br>
-If required for your Stage work you can [request access](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#single-person-access-request) to cloud providers: 
+If required for your Stage work you can [request access](https://about.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to cloud providers: 
 - [ ] GCP projects.
 - [ ] AWS.
 

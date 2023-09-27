@@ -20,7 +20,7 @@ If this UX Scorecard is related to SUS, append the ~"SUS" to the /label quick ac
 
 ## Heuristic Buddy UX Scorecard Checklist
 
-The Heuristic Buddy UX Scorecards are a twist on our UX Scorecard process. These are specifically designed to help identify areas of usability and learnability improvements. They are to be completed by a designer who does not work within the same product area(s) the job can be completed in. [Learn more about UX Scorecards](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/)
+The Heuristic Buddy UX Scorecards are a twist on our UX Scorecard process. These are specifically designed to help identify areas of usability and learnability improvements. They are to be completed by a designer who does not work within the same product area(s) the job can be completed in. [Learn more about UX Scorecards](https://about.gitlab.com/handbook/product/ux/ux-scorecards/)
 
 The initial preparation is completed by the Group Product Designer. When the preparation has been completed they will hand it over to the Heuristic Buddy to complete the evaluation who will hand it back to the Group Product Designer when completed to add any recommendations. Read through the steps below for details.
 
@@ -31,7 +31,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
 1. [ ] Create script scenario(s) based on your JTBD. The number of scenarios used per job statement often depends on the complexity of the features tested.
    1. Tip 1: You might find job statements to be too broad to serve as guidance for writing script scenarios. If that is the case, consider breaking the job statements down into user stories as an intermediary step. Then go back to draft your script scenario. 
    1. Tip 2: Keep in mind your buddy may be missing the subject matter knowledge needed to understand the script scenario. If needed, offer a brief, high-level overview of the job to give them context. Avoid going into details about how to perform tasks within GitLab.
-1. [ ] Make note of which [personas](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/) might be performing the job, and link to them from this issue's description. Keeping personas in mind allows us to make the best decisions to address specific problems and pain points. Note: Do not include a persona in your JTBD format, as multiple types of users may complete the same job.
+1. [ ] Make note of which [personas](https://about.gitlab.com/handbook/product/personas/) might be performing the job, and link to them from this issue's description. Keeping personas in mind allows us to make the best decisions to address specific problems and pain points. Note: Do not include a persona in your JTBD format, as multiple types of users may complete the same job.
     1. [ ] Describe the characteristics this persona may impart if they were a new user for this job and the GitLab environment they will be joining. Consider that it most likely is not an empty group/project but instead could be an active team with multiple groups and repositories.
 1. [ ] If your JTBD spans more than one stage group, that’s great! Review your JTBD with a designer from that stage group for accuracy. Note: This stage group's designer cannot be your Heuristic Buddy.
 1. [ ] Setup the environment your Heuristic Buddy will need to use to complete their evaluation. Depending on your needs this may take several hours to setup, test and get right. Please plan accordingly.
@@ -44,11 +44,11 @@ The initial preparation is completed by the Group Product Designer. When the pre
 
 ### Heuristic Buddy (Evaluator)
 
-1. [ ] Review the current experience, noting where you expect a user's high and low points to be based on our [UX Heuristics](https://about.gitlab.com/handbook/engineering/ux/heuristics/). Using an experience map, such as the one found in [this template](https://app.mural.co/template/6b2c082d-d81a-4a3b-9fff-37525ac9e173/dcdc71d4-1fce-4fe1-ae98-81267bd232ea), capture the screens and jot down observations.
+1. [ ] Review the current experience, noting where you expect a user's high and low points to be based on our [UX Heuristics](https://about.gitlab.com/handbook/product/ux/heuristics/). Using an experience map, such as the one found in [this template](https://app.mural.co/template/6b2c082d-d81a-4a3b-9fff-37525ac9e173/dcdc71d4-1fce-4fe1-ae98-81267bd232ea), capture the screens and jot down observations.
     1. During the evaluation strive to wear the hat of the persona relevant to the JTBD and while doing so try to see the UI from their perspective as if they were a new user. 
     * If you should come across a problem with the environment or you simply get stuck, please reach out to your Group Product buddy to wokr together to figure out how to move forward.
     1. As you progress through your evaluation this will be easy to forget so it's recommended to put a reminder somewhere in your view, such as a post-it stuck on your monitor that says "You're a new user!"
-1. [ ] Use the [**Grading Rubric**](https://about.gitlab.com/handbook/engineering/ux/heuristics/#scoring) to provide an overall measurement that becomes the **Benchmark score** for the experience (one grade per JTBD), and add it to this issue's description. Document the score in the [UX Scorecard Spreadsheet](https://docs.google.com/spreadsheets/d/1iw5oj12QdLHOADV8P6ICE3P1U32eKMstpkIR4sPJRTo/edit#gid=457126498).
+1. [ ] Use the [**Grading Rubric**](https://about.gitlab.com/handbook/product/ux/heuristics/#scoring) to provide an overall measurement that becomes the **Benchmark score** for the experience (one grade per JTBD), and add it to this issue's description. Document the score in the [UX Scorecard Spreadsheet](https://docs.google.com/spreadsheets/d/1iw5oj12QdLHOADV8P6ICE3P1U32eKMstpkIR4sPJRTo/edit#gid=457126498).
 1. [ ] Once you've completed your evaluation, create a walkthrough video that documents what you experienced when completing the job in GitLab. Begin the video with a contextual introduction including: 
     1. Your role, stage group
     1. Specify how you conducted the heuristic evaluation
@@ -64,7 +64,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
 
 ### Group Product Designer (Expert) - Recommendation Creation
 
-1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed. Create these using one of the [Actionable Insight templates](https://gitlab.com/gitlab-org/gitlab-design/master/handbook/engineering/ux/ux-research-training/research-insights#how-to-document-actionable-insights) in the GitLab project, depending on if it relates to a [product change](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Product%20change.md) or [needs more exploration](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Exploration%20needed.md). 
+1. [ ] Collaborate with your Heuristic Buddy to create recommendation issues as needed. Create these using one of the [Actionable Insight templates](https://about.gitlab.com/handbook/product/ux/ux-research/research-insights/#how-to-document-actionable-insights) in the GitLab project, depending on if it relates to a [product change](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Product%20change.md) or [needs more exploration](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Exploration%20needed.md). 
     - Recommendations do not need to be documented in your Dovetail project.
 1. [ ] Add a `UX scorecard-rec` and `OKR` label on every issue for traceability, then apply your `section` and `group` labels as well.
 1. [ ] Add [Severity labels](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity) to every issue for prioritization

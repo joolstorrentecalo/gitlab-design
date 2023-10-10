@@ -47,12 +47,6 @@ To highlight some other important places:
 
 You can [open an issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) in the repository to start a discussion on design-related matters. For new component design or existing component updates, [open an issue](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new) in the Pajamas repository. For product-related matters, the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/new) is the correct place.
 
-The UX department is supported by Product Operations:
-- [ ] Review [product operations in the product handbook](https://about.gitlab.com/handbook/product/product-operations/) and set up a coffee chat with with Product Operations `@fseifoddini`
-- [ ] Ask questions in the #product-operations or #product Slack channels to get clarification on things you are uncertain about
-- [ ] *Optional* Attend [PM Meeting bi-weekly and Product Operations bi-weekly meetings](https://about.gitlab.com/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#team-meetings) (they alternate and are on the company calendar)
-
-
 ## Staying informed :mega:
 
 - [ ] Consider joining these Slack channels to stay on top of the most important things

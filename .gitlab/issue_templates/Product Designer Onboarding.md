@@ -186,7 +186,7 @@ To share some new found knowledge, the rest of the UX department would love to h
    - start a separate issue for a broader discussion,
    - or start a merge request to change something, anything!
 1. How can we improve the Product Designer onboarding experience? Please keep notes on what went well, what did not go well, or could be improved. With that information, we'll iteratively improve our onboarding experience.
-1. Before closing this issue, please add yourself to the next [UX weekly meeting agenda](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
+1. Before closing this issue, please add yourself to the next [UX weekly meeting agenda](https://docs.google.com/document/d/1Y_t6Oq4vqwA2eHPaXx0H6HkZiZ4um_lWHsqJIDstnEE/edit?usp=sharing) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
 
 ## Closing thoughts :pray:
 

@@ -17,7 +17,7 @@ To get you up to speed so you can start contributing to the team efforts and imp
 
 First, you are likely to want to know where your place is in the company structure. For this, you would want to check out the [team chart](https://about.gitlab.com/team/chart/).
 
-If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your [UX buddy](https://about.gitlab.com/handbook/product/ux/product-designer-onboarding/#ux-buddy)), (FILL IN WITH @ PRODUCT DESIGN MANAGER HANDLE) (your Product Design Manager), (FILL IN WITH @ TEAM GITLAB HANDLE) (your UX team) or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
+If you have questions, don't hesitate to mention (FILL IN WITH @ UX BUDDY HANDLE) (your UX buddy), (FILL IN WITH @ PRODUCT DESIGN MANAGER HANDLE) (your Product Design Manager), (FILL IN WITH @ TEAM GITLAB HANDLE) (your UX team) or the whole UX department by using `@gitlab\-com/gitlab\-ux` (use the latter sparingly unless it's something important). You can also reach out to people in the [#ux Slack channel](https://gitlab.slack.com/messages/C03MSG8B7/).
 
 You'll have a weekly 1:1 call with your UX buddy until your onboarding is complete! Fridays are great for these to talk through questions and set expectations for the next week. Your onboarding doesn't have a scheduled end date, just focus on learning and getting comfortable with GitLab and the UX department.
 
@@ -41,7 +41,7 @@ Each department has its own handbook section, and UX is no exception:
 In and around your third week, your UX buddy asks you to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with product designer workflows. You will serve as a second opinion and be included in meetings.
 
 To highlight some other important places:
-- [ ] Read the [UX department workflow](https://about.gitlab.com/handbook/product/ux/ux-department-workflow/) which is important to get to know which dates matter and to align yourself to our development rhythm.
+- [ ] Read the [Product Design workflow](https://about.gitlab.com/handbook/product/ux/product-design/#product-design-workflow) which is important to get to know.
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md).
 - [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/product/personas/).
 

@@ -36,9 +36,18 @@ Of course, it would be great to go through the whole handbook but that is going 
 
 Each department has its own handbook section, and UX is no exception:
 - [ ] Read through the whole [UX handbook](https://about.gitlab.com/handbook/product/ux/) section, please!
-   - Consider this your first team task, understanding the Mission, Vision and how work is executed within the department. If you find any typos or items that could be made clearer, please consider [editing that page](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/product/ux/index.html.md.erb) by submitting a merge request. 
+   - Consider this your first team task, understanding how we work. If you find any typos or items that could be made clearer, please consider [editing that page](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/product/ux/index.html.md.erb) by submitting a merge request. 
 - [ ] Join the `#random-coffees-ux-dept` Slack channel to automatically be paired with someone from the UX department for a [coffee chat](https://about.gitlab.com/company/culture/all-remote/#coffee-chats). Pairings occur once every two weeks. Coffee chats help get to know others you work with and talk about everyday things. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment. 
 In and around your third week, your UX buddy asks you to shadow them for their daily UX activities. This is a good primer and a way to get more familiar with product designer workflows. You will serve as a second opinion and be included in meetings.
+- [ ] Add the [UX Calendar](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_9psh26fha3e4mvhlrefusb619k@group.calendar.google.com) so you can see when we meet synchronously. 
+- [ ] Sync Time Off by Deel (the PTO Slack app) with the UX Calendar by following these steps:
+    1. In Google Calendar, click on the gear icon in the upper right corner to navigate to Settings.
+    1. Click on the calendar you want to sync with, and scroll down to find the Calendar ID.
+    1. Within Slack, navigate to the Time Off by Deel application.
+    1. On the home tab, click the dropdown and select Calendar sync.
+    1. Under Additional calendars to include? click on Add calendar.
+    1. In the modal, paste the Calendar ID you copied from Google Calendar and hit Submit.
+    1. Your PTO dates should now automatically sync with that calendar.
 
 To highlight some other important places:
 - [ ] Read the [Product Design workflow](https://about.gitlab.com/handbook/product/ux/product-design/#product-design-workflow) which is important to get to know.

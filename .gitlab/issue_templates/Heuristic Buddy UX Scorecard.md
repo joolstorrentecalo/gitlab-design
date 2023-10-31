@@ -44,7 +44,7 @@ The initial preparation is completed by the Group Product Designer. When the pre
 
 ### Heuristic Buddy (Evaluator)
 
-1. [ ] Review the current experience, noting where you expect a user's high and low points to be based on our [UX Heuristics](https://about.gitlab.com/handbook/product/ux/heuristics/). Using an experience map, such as the one found in [this template](https://app.mural.co/template/6b2c082d-d81a-4a3b-9fff-37525ac9e173/dcdc71d4-1fce-4fe1-ae98-81267bd232ea), capture the screens and jot down observations.
+1. [ ] Review the current experience, noting where you expect a user's high and low points to be based on our [UX Heuristics](https://about.gitlab.com/handbook/product/ux/heuristics/). Using an experience map, such as the one found in this Figjam [UX Scorecard journey map template](https://www.figma.com/file/A2gorh1XtmbNMDCU8PgVP4/UX-Scorecard-journey-map-template?type=whiteboard&node-id=0%3A1&t=WROsYJvbq5UlvLIf-1), capture the screens and jot down observations.
     1. During the evaluation strive to wear the hat of the persona relevant to the JTBD and while doing so try to see the UI from their perspective as if they were a new user. 
     * If you should come across a problem with the environment or you simply get stuck, please reach out to your Group Product buddy to wokr together to figure out how to move forward.
     1. As you progress through your evaluation this will be easy to forget so it's recommended to put a reminder somewhere in your view, such as a post-it stuck on your monitor that says "You're a new user!"

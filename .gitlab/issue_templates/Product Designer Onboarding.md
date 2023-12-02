@@ -89,7 +89,7 @@ To start off with, let's learn about and connect with the UX team here at GitLab
         - [ ] [`#ux-bookclub`](https://gitlab.slack.com/messages/CRCQ1RYUU)
         - [ ] [`#ux-social`](https://gitlab.slack.com/messages/C01SDUDAGDR)
         - [ ] [`#ux-community-contributions`](https://gitlab.slack.com/messages/C01QPJGU14P)
-        - [ ] [`#figma`](https://gitlab.slack.com/messages/CCNDGX396C)
+        - [ ] [`#figma`](https://gitlab.slack.com/archives/CNDGX396C )
         - [ ] Ask your UX Buddy and/or manager about UX slack channels for your stage
     - If you haven't already, consider joining these company-wide channels:
         - [ ] [`#whats-happening-at-gitlab`](https://gitlab.slack.com/messages/C0259241C)
@@ -237,7 +237,16 @@ If you have some new-found knowledge to share, the rest of the UX department wou
     - Use [the design project](https://gitlab.com/gitlab-org/gitlab-design/issues/new) to start a discussion on design-related matters.
     - Use [the Pajamas repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/new) to propose new component designs or existing component updates.
     - Use the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/new) to find existing and propose new product-related features.
-- In Figma, click the ⭑ button to add a project to your favorites for easy access (for example, your stage group project).
+- In Figma:
+    - Click the ⭑ button to add a project to your favorites for easy access (for example, your stage group project).
+    - Consider starring the [Brand Illustration and Iconography](https://www.figma.com/files/972612628770206748/project/53327133), [Resources](https://www.figma.com/files/972612628770206748/project/4507772), and [Templates](https://www.figma.com/files/972612628770206748/project/5846042) projects for later use.
+    - All users in the organization already have access to the Pajamas library and GitLab fonts so don't worry about configuring or installing locally. 
+    - To keep files organized within a project, consider [setting the thumbnail](https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files#:~:text=Right%2Dclick%20on%20the%20frame%20in%20the%20FigJam%20board.,as%20thumbnail%20from%20the%20options.) to the Pajamas [cover template](https://www.figma.com/file/J7pUGJjhpcS5na8vckEjLa/Cover?type=design&node-id=0%3A1&mode=design&t=cy0SMOhdQKwpkcUt-1).
+- Pajamas lives in three places: 
+    - [design.gitlab.com](https://design.gitlab.com/)
+    - [Storybook UI Kit](https://gitlab-org.gitlab.io/gitlab-ui/) (an isolated playground used for previewing live components via props)
+    - [Figma Pajama UI Kit](https://www.figma.com/files/972612628770206748/project/3802635)
+- If you're editing a markdown file with [GitLab's Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/) (a VS Code fork), you can quickly preview the result with the `⇧⌘V` [shortcut](https://code.visualstudio.com/docs/languages/markdown#:~:text=Markdown%20preview,-VS%20Code%20supports&text=To%20switch%20between%20views%2C%20press,real%2Dtime%20as%20you%20edit.).
 - Working remotely comes with great power and great responsibility. [Here are a few tips on being efficient and productive](https://about.gitlab.com/2018/05/17/eliminating-distractions-and-getting-things-done/).
 
 ---

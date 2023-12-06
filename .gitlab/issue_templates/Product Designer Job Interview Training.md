@@ -54,3 +54,5 @@ If they're not giving a specific example, they may not have experience with what
 * Review the scoring rubric to understand what we are looking for from each question asked
 * Evaluate the candidate against the key criteria Attributes found in the scorecard
 * Use the [scoring definitions for Engineering](https://about.gitlab.com/handbook/hiring/conducting-a-gitlab-interview/#engineering-division) to determine which most appropriately fits your experience with the candidate based on the scoring rubric and key criteria Attributes
+
+/confidential

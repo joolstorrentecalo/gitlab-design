@@ -89,7 +89,7 @@ To start off with, let's learn about and connect with the UX team here at GitLab
         - [ ] [`#ux-bookclub`](https://gitlab.slack.com/messages/CRCQ1RYUU)
         - [ ] [`#ux-social`](https://gitlab.slack.com/messages/C01SDUDAGDR)
         - [ ] [`#ux-community-contributions`](https://gitlab.slack.com/messages/C01QPJGU14P)
-        - [ ] [`#figma`](https://gitlab.slack.com/archives/CNDGX396C )
+        - [ ] [`#figma`](https://gitlab.slack.com/archives/CNDGX396C)
         - [ ] Ask your UX Buddy and/or manager about UX slack channels for your stage
     - If you haven't already, consider joining these company-wide channels:
         - [ ] [`#whats-happening-at-gitlab`](https://gitlab.slack.com/messages/C0259241C)

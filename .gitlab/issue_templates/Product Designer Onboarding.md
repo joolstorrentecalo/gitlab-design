@@ -245,7 +245,7 @@ If you have some new-found knowledge to share, the rest of the UX department wou
 - Pajamas is comprised of the following:
     - [design.gitlab.com](https://design.gitlab.com/)
     - [Gitlab UI](https://gitlab-org.gitlab.io/gitlab-ui/) (an isolated playground used for previewing live components via props)
-    - [Figma Component library](https://www.figma.com/files/972612628770206748/project/3802635)
+    - [UI Kit (Figma)](https://www.figma.com/files/972612628770206748/project/3802635)
 - If you're editing a markdown file with [GitLab's Web IDE](https://docs.gitlab.com/ee/user/project/web_ide/) (a VS Code fork), you can quickly preview the result with the `⇧⌘V` [shortcut](https://code.visualstudio.com/docs/languages/markdown#:~:text=Markdown%20preview,-VS%20Code%20supports&text=To%20switch%20between%20views%2C%20press,real%2Dtime%20as%20you%20edit.).
 - Working remotely comes with great power and great responsibility. [Here are a few tips on being efficient and productive](https://about.gitlab.com/2018/05/17/eliminating-distractions-and-getting-things-done/).
 

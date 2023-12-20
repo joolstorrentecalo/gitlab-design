@@ -76,18 +76,6 @@ To start off with, let's learn about and connect with the UX team here at GitLab
 - [ ] Read the [Product Design workflow](https://about.gitlab.com/handbook/product/ux/product-design/#product-design-workflow) which is important to get to know
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md)
 - [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/product/personas/).
-## Shadow Other Designers
-
-When you are ready to get more hands on, talk to your UX buddy about starting to shadow them for their daily UX activities. This is a great way to see first hand how we work, and to get help with any areas you aren't clear on. It's also a more visual way to learn, and gives you a break from reading. If you need any help with shadowing, you can also talk with your manager.
-
-You can shadow your UX Buddy or any other designer. Sometimes your manager or buddy will suggest other designers to shadow, depending on your focus areas. As a shadow, you will serve as a second opinion and be included in meetings. You may shadow multiple activities and designers over the course of your onboarding.
-
-- [ ] Work with your UX buddy to set up shadow opportunities. Let them know what you are most interested in and where you need the most support. Your shadow sessions should cover these activities and you can add more, depending on your needs and interests:
-    - [ ] [Reviewing MRs](https://handbook.gitlab.com/handbook/product/ux/product-designer/mr-reviews/) and using GDK and Gitpod
-    - [ ] Creating MRs in Pajamas and/or the product
-    - [ ] Setup and workflow tips such as how you use GitLab, Figma or other core tools
-    - [ ] Meetings related to daily workflow such as planning, design reviews, and user research sessions
-    - [ ] Anything else in the [Product Designer Workflow](https://handbook.gitlab.com/handbook/product/ux/product-designer/) you want to see in action
 
 ## Staying informed :mega:
 
@@ -180,6 +168,18 @@ Discuss with your assigned group if access to these cloud providers is necessary
 - [ ] GCP projects
 - [ ] AWS
 
+## Shadow Other Designers
+
+When you are ready to get more hands on, talk to your UX buddy about starting to shadow them for their daily UX activities. This is a great way to see first hand how we work, and to get help with any areas you aren't clear on. It's also a more visual way to learn, and gives you a break from reading. If you need any help with shadowing, you can also talk with your manager.
+
+You can shadow your UX Buddy or any other designer. Sometimes your manager or buddy will suggest other designers to shadow, depending on your focus areas. As a shadow, you will serve as a second opinion and be included in meetings. You may shadow multiple activities and designers over the course of your onboarding.
+
+- [ ] Work with your UX buddy to set up shadow opportunities. Let them know what you are most interested in and where you need the most support. Your shadow sessions should cover these activities and you can add more, depending on your needs and interests:
+    - [ ] [Reviewing MRs](https://handbook.gitlab.com/handbook/product/ux/product-designer/mr-reviews/) and using GDK and Gitpod
+    - [ ] Creating MRs in Pajamas and/or the product
+    - [ ] Setup and workflow tips such as how you use GitLab, Figma or other core tools
+    - [ ] Meetings related to daily workflow such as planning, design reviews, and user research sessions
+    - [ ] Anything else in the [Product Designer Workflow](https://handbook.gitlab.com/handbook/product/ux/product-designer/) you want to see in action
 
 ## Awesome flows :runner:
 
@@ -273,7 +273,7 @@ The below sections are setup tasks to be completed by your UX Buddy and your man
 - [ ] Invite the new team member to a 1:1 on their second week and set the meeting to repeat once a week.
 - [ ] Create a Google Doc for 1:1 agenda items ([template](https://docs.google.com/document/d/1sg4EtHBGTugxu-u2NSoH9LfE4zXT1ru1-Z3EiIXlohY)), share it with the new team member, attach it to the 1:1 event, and update the link in the [Your product stage](#your-product-stage-fox) section of this issue by finding and replacing `UX_BUDDY_GOOGLE_DOC` in this issue description.
 - [ ] Create a [custom Slack emoji](https://gitlab.slack.com/customize/emoji) for the new team member using their profile image and upload it to Slack with the new team member's GitLab handle (for example `:johndoe:`). You can use [makeemoji.com](https://makeemoji.com/) to help you create the emoji with the correct image dimensions. (optional)
-- [ ] When the new team member is ready to begin shadow sessions, discuss what will be most useful for them to shadow, and begin adding them to shadow opportunities. You should plan for multiple shadow sessions over a few weeks/months, as the new team member works through their onboarding. You may also suggest additional designers to shadow, in cases the new team member is looking for help in an area you have less expertise in.
+- [ ] When the new team member is ready to begin [shadow sessions](#shadow-other-designers), discuss what will be most useful for them to shadow, and begin adding them to shadow opportunities. You should plan for multiple shadow sessions over a few weeks/months, as the new team member works through their onboarding. You may also suggest additional designers to shadow, in cases the new team member is looking for help in an area you have less expertise in.
 
 ## Product Design Manager tasks
 

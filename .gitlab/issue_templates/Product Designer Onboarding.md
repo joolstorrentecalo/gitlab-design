@@ -76,7 +76,6 @@ To start off with, let's learn about and connect with the UX team here at GitLab
 - [ ] Read the [Product Design workflow](https://about.gitlab.com/handbook/product/ux/product-design/#product-design-workflow) which is important to get to know
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md)
 - [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/product/personas/).
-
 ## Shadow Other Designers
 
 When you are ready to get more hands on, talk to your UX buddy about starting to shadow them for their daily UX activities. This is a great way to see first hand how we work, and to get help with any areas you aren't clear on. It's also a more visual way to learn, and gives you a break from reading. If you need any help with shadowing, you can also talk with your manager.
@@ -84,7 +83,7 @@ When you are ready to get more hands on, talk to your UX buddy about starting to
 You can shadow your UX Buddy or any other designer. Sometimes your manager or buddy will suggest other designers to shadow, depending on your focus areas. As a shadow, you will serve as a second opinion and be included in meetings. You may shadow multiple activities and designers over the course of your onboarding.
 
 - [ ] Work with your UX buddy to set up shadow opportunities. Let them know what you are most interested in and where you need the most support. Your shadow sessions should cover these activities and you can add more, depending on your needs and interests:
-    - [ ] Reviewing MRs and using GDK and Gitpod
+    - [ ] [Reviewing MRs](https://handbook.gitlab.com/handbook/product/ux/product-designer/mr-reviews/) and using GDK and Gitpod
     - [ ] Creating MRs in Pajamas and/or the product
     - [ ] Setup and workflow tips such as how you use GitLab, Figma or other core tools
     - [ ] Meetings related to daily workflow such as planning, design reviews, and user research sessions

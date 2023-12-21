@@ -170,7 +170,7 @@ Discuss with your assigned group if access to these cloud providers is necessary
 
 ## Shadow Other Designers
 
-When you are ready to get more hands on, you can consider start shadowing your UX Buddy on specific UX activities such as team rituals, issues, and merge requests. This is a great way to see first hand how product designers work, and to get help with any areas or processes you aren't clear on. It's also a more visual way to learn, and gives you a break from reading. Synchronous shadowing sessions can be beneficial for more complex activities, such as MR reviews, so troubleshooting can happen on the spot and quickly.
+When you are ready to get more hands on, you can start shadowing your UX Buddy on specific UX activities such as team rituals, issues, and merge requests. This is a great way to see first hand how product designers work, and to get help with any areas or processes you aren't clear on. It's also a more visual way to learn, and gives you a break from reading. Synchronous shadowing sessions can be beneficial for more complex activities, such as MR reviews, so troubleshooting can happen on the spot and quickly.
 
 You can shadow your UX Buddy or any other designer, depending on your focus areas. Work with your manager to determine if any additional shadowing is needed.
 

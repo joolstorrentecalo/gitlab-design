@@ -75,7 +75,11 @@ To start off with, let's learn about and connect with the UX team here at GitLab
     1. Your PTO dates should now automatically sync with that calendar.
 - [ ] Read the [Product Design workflow](https://about.gitlab.com/handbook/product/ux/product-design/#product-design-workflow) which is important to get to know
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md)
-- [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/product/personas/).  Another great way to interact with our design system is through [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-alert--docs)
+- [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions. Parts of the design system can be accessed through different platforms, with the aim to consolidate these further.
+   - [ ] [design.gitlab.com](https://design.gitlab.com) includes foundational design decisions and guidelines, component documentation and examples, and product design decisions and tools.
+   - [ ] [gitLab-ui](https://gitlab.com/gitlab-org/gitlab-ui) includes deeper information about component development and implementation, including a hosted [storybook](https://gitlab-org.gitlab.io/gitlab-ui/) instance.
+   - [ ] [gitlab-svgs](https://gitlab.com/gitlab-org/gitlab-svgs) includes our SVG Assets and the corresponding pipelines to create all of our SVG sprites for our icons, these can also be browsed using the [GitLab SVG Previewer](http://gitlab-org.gitlab.io/gitlab-svgs/).
+   - [ ] [Pajamas UI Kit](https://www.figma.com/files/project/3802635) includes Figma assets and styles for creating static design mocks. Updates match the company milestone cadence and are documented in the [release notes](https://design.gitlab.com/get-started/uik-release-notes). 
 - [ ] Around your third week, check in with you UX buddy about shadowing them for their daily UX activities. This is a good primer and a way to get more familiar with product designer workflows. You will serve as a second opinion and be included in meetings.
 
 ## Staying informed :mega:

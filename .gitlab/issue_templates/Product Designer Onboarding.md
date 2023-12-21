@@ -170,14 +170,14 @@ Discuss with your assigned group if access to these cloud providers is necessary
 
 ## Shadow Other Designers
 
-When you are ready to get more hands on, talk to your UX buddy about starting to shadow them for their daily UX activities. This is a great way to see first hand how we work, and to get help with any areas you aren't clear on. It's also a more visual way to learn, and gives you a break from reading. If you need any help with shadowing, you can also talk with your manager.
+When you are ready to get more hands on, you can consider start shadowing your UX Buddy on specific UX activities such as team rituals, issues, and merge requests. This is a great way to see first hand how product designers work, and to get help with any areas or processes you aren't clear on. It's also a more visual way to learn, and gives you a break from reading. Synchronous shadowing sessions can be beneficial for more complex activities, such as MR reviews, so troubleshooting can happen on the spot and quickly.
 
-You can shadow your UX Buddy or any other designer. Sometimes your manager or buddy will suggest other designers to shadow, depending on your focus areas. As a shadow, you will serve as a second opinion and be included in meetings. You may shadow multiple activities and designers over the course of your onboarding.
+You can shadow your UX Buddy or any other designer, depending on your focus areas. Work with your manager to determine if any additional shadowing is needed.
 
 - [ ] Work with your UX buddy to set up shadow opportunities. Let them know what you are most interested in and where you need the most support. Your shadow sessions should cover these activities and you can add more, depending on your needs and interests:
     - [ ] [Reviewing MRs](https://handbook.gitlab.com/handbook/product/ux/product-designer/mr-reviews/) and using GDK and Gitpod
     - [ ] Creating MRs in Pajamas and/or the product
-    - [ ] Setup and workflow tips such as how you use GitLab, Figma or other core tools
+    - [ ] Setup and workflow tips such as how you use GitLab, Figma or other core tools, and how to unblock yourself as you come across unfamiliar use-cases
     - [ ] Meetings related to daily workflow such as planning, design reviews, and user research sessions
     - [ ] Anything else in the [Product Designer Workflow](https://handbook.gitlab.com/handbook/product/ux/product-designer/) you want to see in action
 

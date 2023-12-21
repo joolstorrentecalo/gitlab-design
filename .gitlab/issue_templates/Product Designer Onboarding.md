@@ -75,7 +75,7 @@ To start off with, let's learn about and connect with the UX team here at GitLab
     1. Your PTO dates should now automatically sync with that calendar.
 - [ ] Read the [Product Design workflow](https://about.gitlab.com/handbook/product/ux/product-design/#product-design-workflow) which is important to get to know
 - [ ] Read the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md)
-- [ ] Become familiar with [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions. Parts of the design system can be accessed through different platforms, with the aim to consolidate these further.
+- [ ] Become familiar with [Pajamas](https://handbook.gitlab.com/handbook/product/ux/pajamas-design-system/), which is our design system where we document all product design decisions and things to help us make those decisions. Parts of the design system can be accessed through different platforms, with the aim to consolidate these further.
    - [ ] [design.gitlab.com](https://design.gitlab.com) includes foundational design decisions and guidelines, component documentation and examples, and product design decisions and tools.
    - [ ] [gitLab-ui](https://gitlab.com/gitlab-org/gitlab-ui) includes deeper information about component development and implementation, including a hosted [storybook](https://gitlab-org.gitlab.io/gitlab-ui/) instance.
    - [ ] [gitlab-svgs](https://gitlab.com/gitlab-org/gitlab-svgs) includes our SVG Assets and the corresponding pipelines to create all of our SVG sprites for our icons, these can also be browsed using the [GitLab SVG Previewer](http://gitlab-org.gitlab.io/gitlab-svgs/).

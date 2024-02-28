@@ -4,7 +4,7 @@ Title should be: UX Showcase {{DATE}}
 -->
 Hi team :wave:!
 
-We have a UX Showcasing coming up on `ADD_DATE`.
+We have a UX Showcase coming up on `ADD_DATE`.
 
 I'll be your host :microphone: `@ADD_HOST_HANDLE`! Please add the topic you'd like to showcase below  and add yourself to the [agenda](https://www.google.com/url?q=https://docs.google.com/document/d/1bJ2lQSFtXxpzNwKcepNlWyQaoyP6fz78gfLX-UfjA7s/edit?usp%3Dsharing&sa=D&source=calendar&ust=1659901033234141&usg=AOvVaw3uZ3GLnZkMeLjQuS1KBYN7) prior to the showcase.
 
@@ -14,7 +14,7 @@ Here's what you need to know:
   * Use your best judgment to determine what will most effectively convey the story: sharing handbook/issues, a few slides, a process diagram, a journey map, a series of mockups, a prototype, etc.
 * Please make sure you leave some time for audience questions.
 
-For more info, please refer to the [UX Showcase handbook page](https://about.gitlab.com/handbook/engineering/ux/ux-department-workflow/ux-showcase) and watch the [video recordings](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) of previous showcases.
+For more info, please refer to the [UX Showcase handbook page](https://handbook.gitlab.com/handbook/product/ux/ux-showcase/) and watch the [video recordings](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) of previous showcases.
 
 ## Presenters
 

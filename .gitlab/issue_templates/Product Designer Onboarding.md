@@ -13,7 +13,7 @@ UX_RESEARCHER       -> replace with the handle of the UX Researcher assigned to 
 TECH_WRITER         -> replace with the handle of the Technical Writer assigned to the team member's product are
 UX_TEAM             -> replace with the UX Team of the new team member
 STAGE_NAME          -> replace with the new team member's stage name
-STAGE_LABEL         -> replce with the lael for the new team member's stage
+STAGE_LABEL         -> replace with the label for the new team member's stage
 STAGE_VISION_URL    -> replace with the url for the new team member's stage's vision in the handbook
 STAGE_FEATURE_URL   -> replace with the url for the new team member's stage's features in the handbook
 STAGE_ROADMAP_URL   -> replace with the url for the new team member's stage's roadmap in the handbook
@@ -261,7 +261,7 @@ If you have some new-found knowledge to share, the rest of the UX department wou
    - start a separate issue for a broader discussion,
    - or start a merge request to change something, anything!
 - [ ] How can we improve the Product Designer onboarding experience? Please keep notes on what went well, what did not go well, or could be improved. With that information, we'll iteratively improve our onboarding experience.
-- [ ] Before closing this issue, please add yourself to the next [UX weekly meeting agenda](https://docs.google.com/document/d/1Y_t6Oq4vqwA2eHPaXx0H6HkZiZ4um_lWHsqJIDstnEE/edit?usp=sharing) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
+- [ ] Before closing this issue, please add yourself to the next [UX weekly meeting agenda](https://docs.google.com/document/d/1E7jndk0lFB9d2g8tGTcp8ENPn6DtdUs4Le_9fPZ3cjU/edit?usp=sharing) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
 
 </details>
 

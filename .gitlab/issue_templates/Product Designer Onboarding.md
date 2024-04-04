@@ -182,7 +182,7 @@ You can shadow your UX Buddy or any other designer, depending on your focus area
 
 - [ ] Intro to GitLab: [video](https://university.gitlab.com/courses/intro-to-gitlab)
 - [ ] GitLab 101: [video](https://university.gitlab.com/courses/gitlab101)
-- [ ] GitLab 201: [video](https://university.gitlab.com/courses/gitlab201)
+- [ ] GitLab 201: [video](https://university.gitlab.com/courses/gitlab-201-certification)
 - [ ] Product planning using GitLab epics and issues: [video](https://university.gitlab.com/courses/product-planning-using-gitlab-epics-and-issues)
 
 ### Understand GitLab users - how people use our product

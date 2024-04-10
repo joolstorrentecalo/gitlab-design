@@ -1,5 +1,6 @@
 ### Key steps :walking: 
 
+* [ ] `insert_trainee_username` complete [Level Up training](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/interviewer-training)
 * [ ] `insert_trainee_username` ask the person that will lead the first interview you’ll shadow to schedule an intro call with you.
 * [ ] After the 1st shadowed interview add a new discussion in this issue, titled `1st shadow thoughts and comments`. Both participants should add their thoughts and comments about the interview they did together. What did they observe, notice, and learn?
 * [ ] After the 2nd shadow add a new discussion in this issue, titled `2nd shadow thoughts and comments`. Again, add your comments and throughts.

@@ -85,6 +85,7 @@ If you need inspiration on how to set up a routine that will empower you doing y
 - [ ] Add the [GitLab Team Meetings calendar](https://handbook.gitlab.com/handbook/tools-and-tips/#gitlab-team-meetings-calendar) to stay informed of important company events.
 - [ ] Familiarize yourself with the [Product Design workflow](https://about.gitlab.com/handbook/product/ux/product-design/#product-design-workflow) which is important to get to know.
 - [ ] Familiarize yourself with the [design project and documentation](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md).
+- [ ] Familiarize yourself with the [Product Principles](https://handbook.gitlab.com/handbook/product/product-principles).
 - [ ] Explore [Pajamas](http://design.gitlab.com), which is our design system where we document all product design decisions and things to help us make those decisions, like [personas](https://about.gitlab.com/handbook/product/personas/).
 - [ ] Explore other [UX resources](https://handbook.gitlab.com/handbook/product/ux/ux-resources/) available.
 

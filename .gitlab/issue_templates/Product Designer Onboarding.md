@@ -123,9 +123,9 @@ If you need inspiration on how to set up a routine that will empower you doing y
     - Note that you are not obligated to be part of any of the meetings that you are invited to! At GitLab, everyone is a [manager of one](https://handbook.gitlab.com/handbook/leadership/#managers-of-one) responsible for deciding how best to use their own time. However, please communicate your attendance to the team by responding to invites in time.
     - Even if you are [unable to attend the sync meeting](https://about.gitlab.com/company/culture/all-remote/asynchronous/#examples-of-asynchronous-integration-on-gitlab-teams), read the agenda items and contribute asynchronously.
     - Most team meetings at GitLab are recorded. Consider bookmarking the playlists or google drive folder to access future recordings. Please check with your UX Buddy or manager if you are unable to find the recordings.
-- [ ] Ensure that you have been invited to the [UX Showcase](https://about.gitlab.com/handbook/product/ux/ux-department-workflow/ux-showcase/) that is held every two weeks.
+- [ ] Ensure that you have been invited to the [UX Forum](https://handbook.gitlab.com/handbook/product/ux/ux-forum/) that is held every two weeks.
     - This meeting is an opportunity to learn what designers in different stage groups are working on and frequently features walkthroughs of various research findings and design solutions. It is also an opportunity for designers to learn different approaches and processes from one another, as well as identify areas for [cross-stage collaboration](https://about.gitlab.com/handbook/product/ux/how-we-work/cross-stage-design-collaboration/).
-    - You will be [scheduled](https://handbook.gitlab.com/handbook/product/ux/ux-showcase/#schedule) to present at some point after your onboarding - please check with your manager.
+    - You will be [scheduled](https://handbook.gitlab.com/handbook/product/ux/ux-forum/#schedule) to present at some point after your onboarding - please check with your manager.
 
 <!--
 

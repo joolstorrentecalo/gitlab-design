@@ -93,7 +93,7 @@ Optional: If you'd like to learn more about the product outside your stage, the 
 * [ ] You will have a weekly 1:1 meeting with your manager. This meeting is for you! Please take a moment before your 1:1s to add items to the agenda. This can be anything from an update on what you are working on to questions and concerns about the team, company, etc.
 * [ ] Your manager is here to support you! If you need a 1:1 chat at any time, book some time on their calendar or DM on Slack.
 * [ ] You are not obligated to attend any of the meetings that you are invited to. However, please notify others of your absence by responding to Google calendar invites. If you do not attend a meeting, please read the agenda items and go through the notes of the meeting. Also, check whether there is a recording available.
-* [ ] Recordings can be found on [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), [GitLab Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), and [Google Drive](https://drive.google.com/drive/folders/1FLKOVDqiD7lMn11gvaVE8P4wWPf3FwFM). The meetings in Google Drive are organized in folders by meeting name.
+* [ ] Recordings can be found on [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) and [GitLab Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg).
 
 
 
@@ -104,7 +104,7 @@ Please share your newfound knowledge! The rest of the UX Department would love t
 
 Within this issue, please let us know how we can improve the onboarding experience. Please keep notes on what went well, what didn't go well, or what you feel could be improved. We'll use your feedback to improve the onboarding experience for future people who join the team.
 
-* [ ] If your Manager hasn't done so on your behalf, please add yourself to the next [UX weekly meeting agenda](https://docs.google.com/document/d/1Y_t6Oq4vqwA2eHPaXx0H6HkZiZ4um_lWHsqJIDstnEE/edit#heading=h.vzi4q225n0pu) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
+* [ ] If your Manager hasn't done so on your behalf, please add yourself to the next [UX Call agenda](https://docs.google.com/document/d/1E7jndk0lFB9d2g8tGTcp8ENPn6DtdUs4Le_9fPZ3cjU/edit) and spend 3-5 minutes max in total sharing a summary of your experience with the team.
 
 #### Closing thoughts
 Taking in a lot of information can quickly feel overwhelming. This is normal and you are encouraged to ask questions at any time. Embrace knowing nothing and you'll take it in as you go. Take your time to work through your onboarding tasks; you are not expected to be at 100% productivity right away! And remember: if you are here, it's because you are the best person we have found in the world (literally) to do this job.

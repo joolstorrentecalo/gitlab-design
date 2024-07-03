@@ -25,7 +25,7 @@ GitLab is a special place with a unique culture. We document everything. Most of
 
 ###### Company structure
 * [ ] First, it's likely that you want to know where your place is in the company structure. For this, you can check out the [GitLab org chart](https://about.gitlab.com/company/team/). This is a good page to bookmark.
-* [ ] The company uses [OKRs](https://about.gitlab.com/company/okrs/) to set goals and track progress.
+* [ ] The company uses [OKRs](https://handbook.gitlab.com/handbook/company/okrs/) to set goals and track progress.
 
 ###### Getting started
 * [ ] Understanding GitLab's [values](https://about.gitlab.com/handbook/values/) is really important. Our values describe the type of behavior that we expect from the people that we hire. They help us to know how to behave in the organization and what to expect from others. Values are a framework for distributed decision making, they allow you to determine what to do without asking your manager.

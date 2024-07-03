@@ -34,7 +34,7 @@ GitLab is a special place with a unique culture. We document everything. Most of
 * [ ] Finally, the [general guidelines](https://about.gitlab.com/handbook/general-guidelines/) will help you understand how we get things done.
 
 ###### Vacation
-[Time away from work](https://about.gitlab.com/handbook/paid-time-off/) is important and helpful for maintaining a healthy work/life balance. As a leader, you set an example for taking appropriate time away and ensuring your direct reports do the same.
+[Time away from work](https://handbook.gitlab.com/handbook/people-group/paid-time-off/) is important and helpful for maintaining a healthy work/life balance. As a leader, you set an example for taking appropriate time away and ensuring your direct reports do the same.
 
 If you are planning to be on vacation for a day or longer, please communicate your time off by:
 * Updating [PTO by Deel](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack and changing your Slack status.

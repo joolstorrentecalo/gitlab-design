@@ -85,7 +85,7 @@ Optional: If you'd like to learn more about the product outside your stage, the 
 
 ###### Staying informed
 * [ ] There are over 1000 Slack channels at GitLab. You can join as many as you like! However, you may find the following channels most useful at first: `#git-help`, `#peopleops`, `#product`, `#questions`, and `#ux`. Each stage group also has a Slack channel. Each stage group channel normally starts with the letter 'g'. For example, the Secure stage group channel is `#g_secure`. Join `#managers` for manager-related topics and announcements.
-* [ ] There is usually a [group conversation](https://about.gitlab.com/handbook/people-operations/group-conversations/) every Monday through Thursday. Group Conversations are a way for departments and stage groups to keep the wider business informed about what they are currently working on.
+* [ ] There is usually a [group conversation](https://handbook.gitlab.com/handbook/company/group-conversations/) every Monday through Thursday. Group Conversations are a way for departments and stage groups to keep the wider business informed about what they are currently working on.
 * [ ] We have a bi-weekly [UX Call](https://docs.google.com/document/d/1E7jndk0lFB9d2g8tGTcp8ENPn6DtdUs4Le_9fPZ3cjU/edit) every Tuesday.
 * [ ] We have a bi-weekly [UX Leadership meeting](https://docs.google.com/document/d/1dnpLz7NmUokDus-yYbLumN8dkpyrS2sqKGzxduNz_ak/edit) every Monday.
 * [ ] We have a bi-weekly [Product Design Managers meeting](https://docs.google.com/document/d/17Ex5XIMCYKax41G5k31nA68yWlP60WmXS2lEqW7TX44/edit)

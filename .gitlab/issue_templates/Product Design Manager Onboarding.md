@@ -38,7 +38,7 @@ GitLab is a special place with a unique culture. We document everything. Most of
 
 If you are planning to be on vacation for a day or longer, please communicate your time off by:
 * Updating [PTO by Deel](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack and changing your Slack status.
-* Updating your [status](https://docs.gitlab.com/ee/user/profile/#current-status) in GitLab.
+* Updating your [status](https://docs.gitlab.com/ee/user/profile/#set-your-current-status) in GitLab.
 * Updating the [UX calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV85cHNoMjZmaGEzZTRtdmhscmVmdXNiNjE5a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 * Updating your personal calendar. If you use Google's `Out of Office` event feature, any meetings that are scheduled for when you are out of office will be auto-declined.
 * Notifying your manager in your 1:1 meeting.

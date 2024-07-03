@@ -54,7 +54,6 @@ Each department has its own handbook section, and UX is no exception:
 * [ ] Read about [Pajamas](https://design.gitlab.com/), our design system.
 * [ ] Become familiar with the role responsibilities for each level within Product Design - [Product Designer](https://handbook.gitlab.com/job-families/product/product-designer/#product-designer), [Senior Product Designer](https://handbook.gitlab.com/job-families/product/product-designer/#senior-product-designer), [Staff Product Designer](https://handbook.gitlab.com/job-families/product/product-designer/#staff-product-designer), [Principal Product Designer](https://handbook.gitlab.com/job-families/product/product-designer/#principal-product-designer), and your role, [Product Design Manager](https://handbook.gitlab.com/job-families/product/product-design-management/#product-design-manager).
 * [ ] Review [product operations in the product handbook](https://handbook.gitlab.com/handbook/product/product-operations/) and ask questions in the #product-operations or #product Slack channels to get clarification on things you are uncertain about.
-* [ ] *Optional* Attend [PM Meeting bi-weekly and Product Operations bi-weekly meetings](https://about.gitlab.com/handbook/product/product-processes/#team-meetings) (they alternate and are on the company calendar)
 * [ ] Review and bookmark the [Product Design Manager Workflows handbook page](https://handbook.gitlab.com/handbook/product/ux/product-design/product-design-manager/).
 
 

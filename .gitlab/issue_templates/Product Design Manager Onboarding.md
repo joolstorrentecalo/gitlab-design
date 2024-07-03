@@ -28,7 +28,7 @@ GitLab is a special place with a unique culture. We document everything. Most of
 * [ ] The company uses [OKRs](https://handbook.gitlab.com/handbook/company/okrs/) to set goals and track progress.
 
 ###### Getting started
-* [ ] Understanding GitLab's [values](https://about.gitlab.com/handbook/values/) is really important. Our values describe the type of behavior that we expect from the people that we hire. They help us to know how to behave in the organization and what to expect from others. Values are a framework for distributed decision making, they allow you to determine what to do without asking your manager.
+* [ ] Understanding GitLab's [values](https://handbook.gitlab.com/handbook/values/) is really important. Our values describe the type of behavior that we expect from the people that we hire. They help us to know how to behave in the organization and what to expect from others. Values are a framework for distributed decision making, they allow you to determine what to do without asking your manager.
 * [ ] [Learn how we communicate as a company](https://about.gitlab.com/handbook/communication/). We use asynchronous communication as a start and are as open as we can be by communicating through public issues, chat channels, and placing an emphasis on ensuring that conclusions of offline conversations are written down.
 * [ ] When setting up your home office, get advice and guidance about what you might need and what you can expense by checking out the [spending company money page](https://about.gitlab.com/handbook/spending-company-money/).
 * [ ] Finally, the [general guidelines](https://about.gitlab.com/handbook/general-guidelines/) will help you understand how we get things done.

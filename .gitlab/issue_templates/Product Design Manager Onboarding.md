@@ -21,7 +21,7 @@ If you have questions, don't hesitate to @mention your UX buddy, `@tauriedavis o
 Your onboarding doesn't have a scheduled end date. Just focus on getting comfortable with GitLab and getting to know your colleagues.
 
 #### Company
-GitLab is a special place with a unique culture. We document everything. Most of the information you will ever need is available in the GitLab [handbook](https://about.gitlab.com/handbook/). We view it as our single source of truth (SSOT).
+GitLab is a special place with a unique culture. We document everything. Most of the information you will ever need is available in the GitLab [handbook](https://handbook.gitlab.com/). We view it as our single source of truth (SSOT).
 
 ###### Company structure
 * [ ] First, it's likely that you want to know where your place is in the company structure. For this, you can check out the [GitLab org chart](https://about.gitlab.com/company/team/). This is a good page to bookmark.

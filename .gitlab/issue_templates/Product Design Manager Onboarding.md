@@ -86,8 +86,9 @@ Optional: If you'd like to learn more about the product outside your stage, the 
 ###### Staying informed
 * [ ] There are over 1000 Slack channels at GitLab. You can join as many as you like! However, you may find the following channels most useful at first: `#git-help`, `#peopleops`, `#product`, `#questions`, and `#ux`. Each stage group also has a Slack channel. Each stage group channel normally starts with the letter 'g'. For example, the Secure stage group channel is `#g_secure`. Join `#managers` for manager-related topics and announcements.
 * [ ] There is usually a [group conversation](https://about.gitlab.com/handbook/people-operations/group-conversations/) every Monday through Thursday. Group Conversations are a way for departments and stage groups to keep the wider business informed about what they are currently working on.
-* [ ] We have a [UX Weekly Meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Tuesday.
-* [ ] We have a weekly [UX Leadership meeting](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) every Monday.
+* [ ] We have a bi-weekly [UX Call](https://docs.google.com/document/d/1E7jndk0lFB9d2g8tGTcp8ENPn6DtdUs4Le_9fPZ3cjU/edit) every Tuesday.
+* [ ] We have a bi-weekly [UX Leadership meeting](https://docs.google.com/document/d/1dnpLz7NmUokDus-yYbLumN8dkpyrS2sqKGzxduNz_ak/edit) every Monday.
+* [ ] We have a bi-weekly [Product Design Managers meeting](https://docs.google.com/document/d/17Ex5XIMCYKax41G5k31nA68yWlP60WmXS2lEqW7TX44/edit)
 * [ ] We have an early/late `UX Hangout` call once every two weeks. This is where members of the UX Department can meet informally to talk about anything they want.
 * [ ] You will have a weekly 1:1 meeting with your manager. This meeting is for you! Please take a moment before your 1:1s to add items to the agenda. This can be anything from an update on what you are working on to questions and concerns about the team, company, etc.
 * [ ] Your manager is here to support you! If you need a 1:1 chat at any time, book some time on their calendar or DM on Slack.

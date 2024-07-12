@@ -43,7 +43,7 @@ Here are some references for how I and my group generally works:
 - [ ] Fill in the specific Coverage Tasks with distinct items to complete and assignees
 - [ ] Assign this issue to anyone with a specific task or responsibility assigned to them
 - [ ] Share this issue in your section, stage, and group Slack channels, and with your manager
-- [ ] Ensure your PTO Ninja auto-responder points team members to this issue
+- [ ] Link to this issue in the "Role Description" section of the Time Off by Deel coverage for your out of office dates
 - [ ] Update your GitLab.com status with your out of office dates
 - [ ] (Optional) Add an issue comment for your retrospective titled: `:recycle: Retrospective Thread`
 

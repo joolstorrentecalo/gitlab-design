@@ -9,12 +9,16 @@ If this UX Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
 /label ~"UX scorecard" ~"type::ignore"
 
-- **Personas**: {{add links to related personas}}
+- **Job Performer**: {{list the Job Performer}}
+    - **Personas**: {{optional: add links to related personas}}
+- **Job**: {{what is the relevant [Job](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-types) to be scored}}
+- **Scenario**: {{what is the scenario you'll provide to participants or reference for evaluations}}
+- **FigJam canvas**: {{add link to FigJam}}
 - **Previous score and scorecard**: {{if applicable, add previous benchmark score and link to scorecard issue}}
 - **Benchmark score**: {{add benchmark score}}
 - **Walkthrough video**: {{add link to YouTube video}}
 - **Walkthrough deck**: {{add link to deck used in Youtube video if applicable. This step is optional and we encourage you to skip this unless it helps you to communicate your findings}}
-
+- **DoveTail project**: {{link to the DoveTail project used to capture interview recordings}}
 - **Recommendations**: {{add link to your recommendation issue/s}}
 
 ## UX Scorecard Checklist
@@ -22,10 +26,11 @@ If this UX Scorecard is related to an OKR, append ~OKR to the /label quick actio
 [Learn more about UX Scorecards](https://about.gitlab.com/handbook/product/ux/ux-scorecards/)
 
 1. [ ] Add this issue to the stage group epic for the corresponding UX scorecards. Verify that the "UX scorecard" label is applied.
-1. [ ] Work with your PM to identify a top [Job to be Done](https://about.gitlab.com/handbook/product/ux/jobs-to-be-done/) (JTBD). All GitLab JTBD can be found in the [jobs-to-be-done.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/jobs_to_be_done.yml). If creating a new job, write it using the JTBD format: When [situation], I want to [job], so I can [expected outcome]. Review with your manager to ensure your JTBD is written at the appropriate level. Remember, a JTBD is not a user story, it should not directly reference a solution and should be tool agnostic. 
-1. [ ] Make note of which [personas](https://about.gitlab.com/handbook/product/personas/) might be performing the job, and link to them from this issue's description. Keeping personas in mind allows us to make the best decisions to address specific problems and pain points. Note: Do not include a persona in your JTBD format, as multiple types of users may complete the same job.
+1. [ ] Work with your PM to identify a [Job](https://about.gitlab.com/handbook/product/ux/jobs-to-be-done/#main-job-where-do-you-want-to-innovate) (JTBD). All GitLab JTBD can be found in the [jtbd.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/jtbd.yml). If creating a new job, write it using the JTBD format: [verb] + [object] + [(optional) qualifiers/clarifier]. Review with your manager to ensure your JTBD is written at the appropriate level. Remember, a JTBD is not a user story, it should not directly reference a solution and should be tool agnostic. 
+1. [ ] Make note of which Job Performer is being measured to complete the job.
+1. [ ] Optional: Make note of which [persona(s)](https://about.gitlab.com/handbook/product/personas/) might be performing the job.
+1. [ ] Make note of which Main Job of the selected Job Performer is being measured.
 1. [ ] If your JTBD spans more than one stage group, that’s great! Review your JTBD with a designer from that stage group for accuracy.
-1. [ ] Add any new JTBD to the SSOT [jobs-to-be-done.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/jobs_to_be_done.yml)
 1. [ ] Consider whether you need to include additional scenarios related to onboarding.
 1. [ ] Select the [appropriate scorecard approach](https://about.gitlab.com/handbook/product/ux/ux-scorecards/#scorecard-approach) and evaluate the current experience. 
 1. [ ] Use the [**Grading Rubric**](https://about.gitlab.com/handbook/product/ux/ux-scorecards/#grading-rubric) to provide an overall measurement that becomes the **Benchmark score** for the experience (one grade per JTBD), and add it to this issue's description. Document the score in the [UX Scorecard Spreadsheet](https://docs.google.com/spreadsheets/d/1iw5oj12QdLHOADV8P6ICE3P1U32eKMstpkIR4sPJRTo/edit?usp=sharing).

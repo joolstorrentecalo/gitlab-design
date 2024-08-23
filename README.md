@@ -45,7 +45,7 @@ for that library.
 
 ## Contacts
 
-Filter by the **UX** department on our [team page](https://about.gitlab.com/company/team/?department=ux-department).
+Filter by the **UX** department on our [team page](https://about.gitlab.com/company/team/?department=product-design).
 
 ## Links
 

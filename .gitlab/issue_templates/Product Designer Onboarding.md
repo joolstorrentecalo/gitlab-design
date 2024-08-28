@@ -108,7 +108,7 @@ If you need inspiration on how to set up a routine that will empower you doing y
         - [ ] [`#ux-coworking`](https://gitlab.slack.com/messages/CLW71KM96)
         - [ ] [`#ux-research`](https://gitlab.slack.com/messages/CMEERUCE4)
         - [ ] [`#ux-community-contributions`](https://gitlab.slack.com/messages/C01QPJGU14P)
-        - [ ] [`#design-system`](https://gitlab.slack.com/messages/CDNNDD1T3)
+        - [ ] [`#g_pajamas-design-system`](https://gitlab.slack.com/messages/CDNNDD1T3)
         - [ ] [`#figma`](https://gitlab.slack.com/archives/CNDGX396C)
         - [ ] Ask your UX Buddy and/or manager about UX slack channels for your stage
     - Social UX channels
@@ -119,7 +119,7 @@ If you need inspiration on how to set up a routine that will empower you doing y
         - [ ] [`#is-this-known`](https://gitlab.slack.com/messages/CETG54GQ0)
         - [ ] [`#product`](https://gitlab.slack.com/messages/C0NFPSFA8)
         - [ ] [`#handbook`](https://gitlab.slack.com/messages/C81PT2ALD)
-- [ ] You should receive an invite to the [UX department call](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/edit) meeting (every other Tuesday). Please check your calendar and let your manager know if you don't see an invite.
+- [ ] You should receive an invite to the [UX department call](https://docs.google.com/document/d/1E7jndk0lFB9d2g8tGTcp8ENPn6DtdUs4Le_9fPZ3cjU/) meeting (every other Tuesday). Please check your calendar and let your manager know if you don't see an invite.
     - Note that you are not obligated to be part of any of the meetings that you are invited to! At GitLab, everyone is a [manager of one](https://handbook.gitlab.com/handbook/leadership/#managers-of-one) responsible for deciding how best to use their own time. However, please communicate your attendance to the team by responding to invites in time.
     - Even if you are [unable to attend the sync meeting](https://about.gitlab.com/company/culture/all-remote/asynchronous/#examples-of-asynchronous-integration-on-gitlab-teams), read the agenda items and contribute asynchronously.
     - Most team meetings at GitLab are recorded. Consider bookmarking the playlists or google drive folder to access future recordings. Please check with your UX Buddy or manager if you are unable to find the recordings.
@@ -144,7 +144,7 @@ Please make sure you take the time to:
 - [ ] Get to know your [stage's teammates](https://about.gitlab.com/handbook/product/categories/#devops-stages)
   - [ ] Set up coffee chats with your stage's teammates 
 - [ ] Read its [vision](STAGE_VISION_URL)
-- [ ] See where it stands in terms of [category maturity](https://about.gitlab.com/direction/maturity/)
+- [ ] See where it stands in terms of [category maturity](https://handbook.gitlab.com/handbook/product/categories/)
 - [ ] Explore its [features](STAGE_FEATURE_URL) and [roadmap](STAGE_ROADMAP_URL) 
 - [ ] Watch product demos and more on [GitLab Learn](https://about.gitlab.com/learn/) 
 - [ ] Start collaborating with your assigned UX Buddy. You should both arrange a day to have a regular 1:1 call (at least once a week). They have prepared a [Google Doc](UX_BUDDY_GOOGLE_DOC) to guide your sessions, feel free to add discussion points to the agenda.
@@ -162,7 +162,7 @@ Aside from adjusting towards the async workflow of GitLab, please discuss with y
 - [ ] The [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) allows you to install GitLab's development environment on your computer. This will enable you to test certain features that aren't available in production. It is highly recommended that you install the GDK and try checking out a branch to see how it looks running locally. Your UX Buddy can help you with this and the `#gdk` Slack channel is there for you if you need help.
     - [ ] If you are not used to maintaining a local development environment like the one mentioned above, you can also use the GDK in [Gitpod](https://gitpod.io). This allows you to make/review changes exclusively in the browser. If you prefer this, read the [instructions on how to use the Gitpod GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md) and watch this video that walks you through [how to review merge requests both locally as well as in Gitpod](https://www.youtube.com/watch?v=M7b19Dq-1tw&t=12s). The `#gitpod-gdk` Slack channel is here for you if you need help or have any feedback.
 - [ ] Create your first [UX Scorecard](https://about.gitlab.com/handbook/product/ux/ux-scorecards/) documenting the current experience of a common job. Make sure to discuss this with your UX Buddy beforehand. They can give you ideas and point to particular product areas that haven't been evaluated yet.
-- [ ] Collaborate with your UX Buddy and make a change to this [onboarding template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/UX%20Onboarding.md) to improve the onboarding experience for future GitLab team members.
+- [ ] Collaborate with your UX Buddy and make a change to this [onboarding template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Product%20Designer%20Onboarding.md) to improve the onboarding experience for future GitLab team members.
 
 ### Shadow your UX Buddy
 
@@ -182,8 +182,6 @@ You can shadow your UX Buddy or any other designer, depending on your focus area
 ### GitLab benefits and demos
 
 - [ ] Intro to GitLab: [video](https://university.gitlab.com/courses/intro-to-gitlab)
-- [ ] GitLab 101: [video](https://university.gitlab.com/courses/gitlab101)
-- [ ] GitLab 201: [video](https://university.gitlab.com/courses/gitlab-201-certification)
 - [ ] Product planning using GitLab epics and issues: [video](https://university.gitlab.com/courses/product-planning-using-gitlab-epics-and-issues)
 
 ### Understand GitLab users - how people use our product

@@ -7,12 +7,13 @@ If this UX Scorecard is related to an OKR, append ~OKR to the /label quick actio
 
 -->
 
-/label ~"UX scorecard"
+/label ~"UX scorecard"  ~"type::ignore"
 
 ### Details
 - **Job**: {{what is the relevant [Job](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-types) to be scored}}
 - **Job Performer**: {{list the Job Performer}}
 - **Scenario**: {{what is the scenario you'll provide to participants or reference for evaluations}}
+- **Related group(s)**: {{list the groups this job/scenario relate to}}
 
 ### Assets
 - **FigJam canvas**: {{optional: add link to FigJam}}
@@ -55,8 +56,8 @@ All scorecards for every stage group can be found under the [main scorecard epic
 1. [ ] Create actionable issues for each opportunity. Your recommendation issues should be actionable and specific. 
     - If you know what the solution or next step is, then describe that so another person could continue with it. If you can include designs and set the issue to "workflow::ready for development", even better! If the solution or next steps are not clear, then describe the work needed to make progress. For example, "Identify accessibility improvements needed for date picker" is better than "Fix accessibility issues".
     - You may use one of the [Actionable Insight templates](https://about.gitlab.com/handbook/product/ux/ux-research/research-insights/#how-to-document-actionable-insights) in the GitLab project, depending on if it relates to a [product change](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Product%20change.md) or [needs more exploration](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Actionable%20Insight%20-%20Exploration%20needed.md). 
-1. Label the issues appropriately. Add a `UX scorecard-rec` label for traceability. To help with prioritization, add a [severity label](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity) to communicate appropriate urgency and impact. 
-1. Add the recommendation issues to this issue as related items.
+1. [ ] Label the issues appropriately. Add a `UX scorecard-rec` label for traceability. To help with prioritization, add a [severity label](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity) to communicate appropriate urgency and impact. 
+1. [ ] Add the recommendation issues to this issue as related items.
    - Recommendations do not need to be documented in your Dovetail project.
 1. [ ] Think iteratively, and create dependencies where appropriate, remembering that sometimes the order of what we release is just as important as what we release.
    - If you need to break recommendations into phases or over multiple milestones, you can use an epic to organize the work. 
